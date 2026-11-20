@@ -27,7 +27,7 @@
       "recordUrl": "https://wger.de/exercise/{id}/view"
     }
   ],
-  "count": 1559,
+  "count": 1553,
   "exercises": [
     {
       "slug": "3_4_Sit-Up",
@@ -28643,7 +28643,9 @@
     {
       "slug": "Low_Cable_Crossover",
       "name": "Low Cable Crossover",
-      "aliases": [],
+      "aliases": [
+        "Low-Cable Cross-Over - NB"
+      ],
       "kind": "strength",
       "region": "chest",
       "muscles": {
@@ -28681,6 +28683,15 @@
             "yuhonas and contributors"
           ],
           "url": "https://github.com/yuhonas/free-exercise-db/tree/5197c055b356498944328bd00178b64a5e9f422c/exercises/Low_Cable_Crossover"
+        },
+        {
+          "dataset": "wger",
+          "id": "1296",
+          "license": "CC BY-SA 4.0",
+          "authors": [
+            "JackSparrow"
+          ],
+          "url": "https://wger.de/exercise/1296/view"
         }
       ],
       "provenance": {
@@ -28692,14 +28703,22 @@
         "instructions": "free-exercise-db",
         "region": "rule",
         "force": "free-exercise-db",
+        "aliases": "free-exercise-db",
         "tracking.measure": "rule",
         "tracking.laterality": "rule",
         "tracking.load": "rule",
         "level": "free-exercise-db",
         "mechanic": "free-exercise-db"
       },
-      "license": "Unlicense",
-      "credit": null
+      "license": "CC BY-SA 4.0",
+      "credit": {
+        "dataset": "wger",
+        "authors": [
+          "JackSparrow"
+        ],
+        "license": "CC BY-SA 4.0",
+        "url": "https://wger.de/exercise/1296/view"
+      }
     },
     {
       "slug": "Low_Cable_Triceps_Extension",
@@ -38073,7 +38092,9 @@
     {
       "slug": "Quad_Stretch",
       "name": "Quad Stretch",
-      "aliases": [],
+      "aliases": [
+        "Quadriceps Stretch"
+      ],
       "kind": "stretching",
       "region": "legs",
       "muscles": {
@@ -38107,6 +38128,15 @@
             "yuhonas and contributors"
           ],
           "url": "https://github.com/yuhonas/free-exercise-db/tree/5197c055b356498944328bd00178b64a5e9f422c/exercises/Quad_Stretch"
+        },
+        {
+          "dataset": "wger",
+          "id": "2687",
+          "license": "CC BY-SA 4.0",
+          "authors": [
+            "tobias08"
+          ],
+          "url": "https://wger.de/exercise/2687/view"
         }
       ],
       "provenance": {
@@ -38114,17 +38144,25 @@
         "kind": "free-exercise-db",
         "muscles.primary": "free-exercise-db",
         "muscles.secondary": "rule",
-        "equipment": "rule",
+        "equipment": "wger",
         "instructions": "free-exercise-db",
         "region": "rule",
         "force": "free-exercise-db",
+        "aliases": "free-exercise-db",
         "tracking.measure": "rule",
         "tracking.laterality": "rule",
         "tracking.load": "rule",
         "level": "free-exercise-db"
       },
-      "license": "Unlicense",
-      "credit": null
+      "license": "CC BY-SA 4.0",
+      "credit": {
+        "dataset": "wger",
+        "authors": [
+          "tobias08"
+        ],
+        "license": "CC BY-SA 4.0",
+        "url": "https://wger.de/exercise/2687/view"
+      }
     },
     {
       "slug": "Quadriceps-SMR",
@@ -44003,7 +44041,9 @@
     {
       "slug": "Shoulder_Stretch",
       "name": "Shoulder Stretch",
-      "aliases": [],
+      "aliases": [
+        "Delt Stretch"
+      ],
       "kind": "stretching",
       "region": "shoulders",
       "muscles": {
@@ -44036,6 +44076,15 @@
             "yuhonas and contributors"
           ],
           "url": "https://github.com/yuhonas/free-exercise-db/tree/5197c055b356498944328bd00178b64a5e9f422c/exercises/Shoulder_Stretch"
+        },
+        {
+          "dataset": "wger",
+          "id": "1536",
+          "license": "CC BY-SA 4.0",
+          "authors": [
+            "Expenses7000"
+          ],
+          "url": "https://wger.de/exercise/1536/view"
         }
       ],
       "provenance": {
@@ -44043,17 +44092,25 @@
         "kind": "free-exercise-db",
         "muscles.primary": "free-exercise-db",
         "muscles.secondary": "rule",
-        "equipment": "rule",
+        "equipment": "wger",
         "instructions": "free-exercise-db",
         "region": "rule",
         "force": "free-exercise-db",
+        "aliases": "free-exercise-db",
         "tracking.measure": "rule",
         "tracking.laterality": "rule",
         "tracking.load": "rule",
         "level": "free-exercise-db"
       },
-      "license": "Unlicense",
-      "credit": null
+      "license": "CC BY-SA 4.0",
+      "credit": {
+        "dataset": "wger",
+        "authors": [
+          "Expenses7000"
+        ],
+        "license": "CC BY-SA 4.0",
+        "url": "https://wger.de/exercise/1536/view"
+      }
     },
     {
       "slug": "Side-Lying_Floor_Stretch",
@@ -47026,6 +47083,7 @@
       "slug": "Smith_Machine_Incline_Bench_Press",
       "name": "Smith Machine Incline Bench Press",
       "aliases": [
+        "Incline Bench Press - MP",
         "Smith Machine Slight Incline Press"
       ],
       "kind": "strength",
@@ -47070,6 +47128,15 @@
         },
         {
           "dataset": "wger",
+          "id": "539",
+          "license": "CC BY-SA 3.0",
+          "authors": [
+            "wger.de"
+          ],
+          "url": "https://wger.de/exercise/539/view"
+        },
+        {
+          "dataset": "wger",
           "id": "925",
           "license": "CC BY-SA 4.0",
           "authors": [
@@ -47098,10 +47165,11 @@
       "credit": {
         "dataset": "wger",
         "authors": [
+          "wger.de",
           "novadani"
         ],
         "license": "CC BY-SA 4.0",
-        "url": "https://wger.de/exercise/925/view"
+        "url": "https://wger.de/exercise/539/view"
       }
     },
     {
@@ -48931,7 +48999,7 @@
     },
     {
       "slug": "Split_Squats",
-      "name": "Split Squats",
+      "name": "Jumping Split Squat",
       "aliases": [],
       "kind": "stretching",
       "region": "legs",
@@ -48973,7 +49041,7 @@
         }
       ],
       "provenance": {
-        "name": "free-exercise-db",
+        "name": "curated",
         "kind": "free-exercise-db",
         "muscles.primary": "free-exercise-db",
         "muscles.secondary": "free-exercise-db",
@@ -61807,8 +61875,8 @@
       }
     },
     {
-      "slug": "Low_Box_Squat_-_Wide_Stance",
-      "name": "Low Box Squat - Wide Stance",
+      "slug": "Wide-Stance_Low_Box_Squat",
+      "name": "Wide-Stance Low Box Squat",
       "aliases": [],
       "kind": "strength",
       "region": "legs",
@@ -61846,7 +61914,7 @@
         }
       ],
       "provenance": {
-        "name": "wger",
+        "name": "curated",
         "kind": "rule",
         "muscles.primary": "wger",
         "muscles.secondary": "rule",
@@ -62440,8 +62508,8 @@
       }
     },
     {
-      "slug": "Prone_Scapular_Retraction_-_Arms_At_Side",
-      "name": "Prone Scapular Retraction - Arms At Side",
+      "slug": "Prone_Scapular_Retraction_with_Arms_at_Side",
+      "name": "Prone Scapular Retraction with Arms at Side",
       "aliases": [],
       "kind": "strength",
       "region": "back",
@@ -63267,8 +63335,8 @@
       }
     },
     {
-      "slug": "Run_-_Interval_Training",
-      "name": "Run - Interval Training",
+      "slug": "Interval_Run",
+      "name": "Interval Run",
       "aliases": [],
       "kind": "cardio",
       "region": null,
@@ -63303,7 +63371,7 @@
         }
       ],
       "provenance": {
-        "name": "wger",
+        "name": "curated",
         "kind": "wger",
         "muscles.primary": "rule",
         "muscles.secondary": "rule",
@@ -63324,8 +63392,8 @@
       }
     },
     {
-      "slug": "Run_-_Treadmill",
-      "name": "Run - Treadmill",
+      "slug": "Treadmill_Run",
+      "name": "Treadmill Run",
       "aliases": [],
       "kind": "cardio",
       "region": null,
@@ -63358,7 +63426,7 @@
         }
       ],
       "provenance": {
-        "name": "wger",
+        "name": "curated",
         "kind": "wger",
         "muscles.primary": "rule",
         "muscles.secondary": "rule",
@@ -63375,64 +63443,6 @@
         ],
         "license": "CC BY-SA 3.0",
         "url": "https://wger.de/exercise/530/view"
-      }
-    },
-    {
-      "slug": "Incline_Bench_Press_-_MP",
-      "name": "Incline Bench Press - MP",
-      "aliases": [],
-      "kind": "strength",
-      "region": "chest",
-      "muscles": {
-        "primary": [
-          "chest"
-        ],
-        "secondary": [
-          "shoulders",
-          "triceps"
-        ]
-      },
-      "equipment": null,
-      "level": null,
-      "force": null,
-      "mechanic": null,
-      "instructions": [],
-      "tracking": {
-        "measure": "reps",
-        "laterality": "bilateral",
-        "load": "absolute"
-      },
-      "variationGroup": "f45f135e-4cd3-4023-a82a-83fca2078656",
-      "sources": [
-        {
-          "dataset": "wger",
-          "id": "539",
-          "license": "CC BY-SA 3.0",
-          "authors": [
-            "wger.de"
-          ],
-          "url": "https://wger.de/exercise/539/view"
-        }
-      ],
-      "provenance": {
-        "name": "wger",
-        "kind": "rule",
-        "muscles.primary": "wger",
-        "muscles.secondary": "wger",
-        "instructions": "rule",
-        "region": "rule",
-        "tracking.measure": "rule",
-        "tracking.laterality": "rule",
-        "tracking.load": "rule"
-      },
-      "license": "CC BY-SA 3.0",
-      "credit": {
-        "dataset": "wger",
-        "authors": [
-          "wger.de"
-        ],
-        "license": "CC BY-SA 3.0",
-        "url": "https://wger.de/exercise/539/view"
       }
     },
     {
@@ -63962,8 +63972,8 @@
       }
     },
     {
-      "slug": "Skipping_-_Standard",
-      "name": "Skipping - Standard",
+      "slug": "Skipping",
+      "name": "Skipping",
       "aliases": [],
       "kind": "cardio",
       "region": "legs",
@@ -63999,7 +64009,7 @@
         }
       ],
       "provenance": {
-        "name": "wger",
+        "name": "curated",
         "kind": "wger",
         "muscles.primary": "wger",
         "muscles.secondary": "rule",
@@ -64138,8 +64148,8 @@
       }
     },
     {
-      "slug": "Squat_Jumps",
-      "name": "Squat Jumps",
+      "slug": "Squat_Jack",
+      "name": "Squat Jack",
       "aliases": [],
       "kind": "strength",
       "region": "legs",
@@ -64174,7 +64184,7 @@
         }
       ],
       "provenance": {
-        "name": "wger",
+        "name": "curated",
         "kind": "rule",
         "muscles.primary": "wger",
         "muscles.secondary": "rule",
@@ -66388,69 +66398,6 @@
         ],
         "license": "CC BY-SA 4.0",
         "url": "https://wger.de/exercise/922/view"
-      }
-    },
-    {
-      "slug": "Lying_Dumbbell_Row_SS_Seated_Shrug",
-      "name": "Lying Dumbbell Row SS Seated Shrug",
-      "aliases": [],
-      "kind": "strength",
-      "region": "back",
-      "muscles": {
-        "primary": [
-          "lats",
-          "traps"
-        ],
-        "secondary": [
-          "biceps"
-        ]
-      },
-      "equipment": [
-        "dumbbell"
-      ],
-      "level": null,
-      "force": null,
-      "mechanic": null,
-      "instructions": [
-        "laying on the stomach on a bench with slight angle"
-      ],
-      "tracking": {
-        "measure": "reps",
-        "laterality": "bilateral",
-        "load": "absolute"
-      },
-      "variationGroup": null,
-      "sources": [
-        {
-          "dataset": "wger",
-          "id": "923",
-          "license": "CC BY-SA 4.0",
-          "authors": [
-            "novadani"
-          ],
-          "url": "https://wger.de/exercise/923/view"
-        }
-      ],
-      "provenance": {
-        "name": "wger",
-        "kind": "rule",
-        "muscles.primary": "wger",
-        "muscles.secondary": "wger",
-        "equipment": "wger",
-        "instructions": "wger",
-        "region": "rule",
-        "tracking.measure": "rule",
-        "tracking.laterality": "rule",
-        "tracking.load": "rule"
-      },
-      "license": "CC BY-SA 4.0",
-      "credit": {
-        "dataset": "wger",
-        "authors": [
-          "novadani"
-        ],
-        "license": "CC BY-SA 4.0",
-        "url": "https://wger.de/exercise/923/view"
       }
     },
     {
@@ -74376,70 +74323,8 @@
       }
     },
     {
-      "slug": "Low-Cable_Cross-Over_-_NB",
-      "name": "Low-Cable Cross-Over - NB",
-      "aliases": [],
-      "kind": "strength",
-      "region": "chest",
-      "muscles": {
-        "primary": [
-          "chest"
-        ],
-        "secondary": [
-          "shoulders"
-        ]
-      },
-      "equipment": [
-        "cable"
-      ],
-      "level": null,
-      "force": null,
-      "mechanic": null,
-      "instructions": [
-        "The low-cable cross-over is an isolation movement that uses a cable stack to target the upper portion of the pectoral muscles. It is common in upper-body and chest-focused muscle-building workouts, often in combination with presses or flyes from other angles to target all portions of the chest."
-      ],
-      "tracking": {
-        "measure": "reps",
-        "laterality": "bilateral",
-        "load": "absolute"
-      },
-      "variationGroup": null,
-      "sources": [
-        {
-          "dataset": "wger",
-          "id": "1296",
-          "license": "CC BY-SA 4.0",
-          "authors": [
-            "JackSparrow"
-          ],
-          "url": "https://wger.de/exercise/1296/view"
-        }
-      ],
-      "provenance": {
-        "name": "wger",
-        "kind": "rule",
-        "muscles.primary": "wger",
-        "muscles.secondary": "wger",
-        "equipment": "wger",
-        "instructions": "wger",
-        "region": "rule",
-        "tracking.measure": "rule",
-        "tracking.laterality": "rule",
-        "tracking.load": "rule"
-      },
-      "license": "CC BY-SA 4.0",
-      "credit": {
-        "dataset": "wger",
-        "authors": [
-          "JackSparrow"
-        ],
-        "license": "CC BY-SA 4.0",
-        "url": "https://wger.de/exercise/1296/view"
-      }
-    },
-    {
-      "slug": "High-Cable_Cross_Tricep_Extention_-_NB",
-      "name": "High-Cable Cross Tricep Extention - NB",
+      "slug": "High-Cable_Cross_Triceps_Extension",
+      "name": "High-Cable Cross Triceps Extension",
       "aliases": [],
       "kind": "strength",
       "region": "arms",
@@ -74476,7 +74361,7 @@
         }
       ],
       "provenance": {
-        "name": "wger",
+        "name": "curated",
         "kind": "rule",
         "muscles.primary": "wger",
         "muscles.secondary": "rule",
@@ -81394,66 +81279,6 @@
       }
     },
     {
-      "slug": "Delt_Stretch",
-      "name": "Delt Stretch",
-      "aliases": [],
-      "kind": "stretching",
-      "region": "shoulders",
-      "muscles": {
-        "primary": [
-          "shoulders"
-        ],
-        "secondary": []
-      },
-      "equipment": [
-        "bodyweight"
-      ],
-      "level": null,
-      "force": null,
-      "mechanic": null,
-      "instructions": [
-        "Stretch your deltoids for a certain period of time."
-      ],
-      "tracking": {
-        "measure": "time",
-        "laterality": "bilateral",
-        "load": "none"
-      },
-      "variationGroup": null,
-      "sources": [
-        {
-          "dataset": "wger",
-          "id": "1536",
-          "license": "CC BY-SA 4.0",
-          "authors": [
-            "Expenses7000"
-          ],
-          "url": "https://wger.de/exercise/1536/view"
-        }
-      ],
-      "provenance": {
-        "name": "wger",
-        "kind": "rule",
-        "muscles.primary": "wger",
-        "muscles.secondary": "rule",
-        "equipment": "wger",
-        "instructions": "wger",
-        "region": "rule",
-        "tracking.measure": "rule",
-        "tracking.laterality": "rule",
-        "tracking.load": "rule"
-      },
-      "license": "CC BY-SA 4.0",
-      "credit": {
-        "dataset": "wger",
-        "authors": [
-          "Expenses7000"
-        ],
-        "license": "CC BY-SA 4.0",
-        "url": "https://wger.de/exercise/1536/view"
-      }
-    },
-    {
       "slug": "Pull-up_Isometric_Hold",
       "name": "Pull-up Isometric Hold",
       "aliases": [],
@@ -84130,8 +83955,8 @@
       }
     },
     {
-      "slug": "Cable_Chest_Press_-_Decline",
-      "name": "Cable Chest Press - Decline",
+      "slug": "Decline_Cable_Chest_Press",
+      "name": "Decline Cable Chest Press",
       "aliases": [],
       "kind": "strength",
       "region": "chest",
@@ -84170,7 +83995,7 @@
         }
       ],
       "provenance": {
-        "name": "wger",
+        "name": "curated",
         "kind": "rule",
         "muscles.primary": "wger",
         "muscles.secondary": "wger",
@@ -84192,8 +84017,8 @@
       }
     },
     {
-      "slug": "Preacher_Curl_-_Internally_Rotated",
-      "name": "Preacher Curl - Internally Rotated",
+      "slug": "Internally_Rotated_Preacher_Curl",
+      "name": "Internally Rotated Preacher Curl",
       "aliases": [],
       "kind": "strength",
       "region": "arms",
@@ -84230,7 +84055,7 @@
         }
       ],
       "provenance": {
-        "name": "wger",
+        "name": "curated",
         "kind": "rule",
         "muscles.primary": "wger",
         "muscles.secondary": "rule",
@@ -84252,8 +84077,8 @@
       }
     },
     {
-      "slug": "Preacher_Curl_-_Externally_Rotated",
-      "name": "Preacher Curl - Externally Rotated",
+      "slug": "Externally_Rotated_Preacher_Curl",
+      "name": "Externally Rotated Preacher Curl",
       "aliases": [],
       "kind": "strength",
       "region": "arms",
@@ -84290,7 +84115,7 @@
         }
       ],
       "provenance": {
-        "name": "wger",
+        "name": "curated",
         "kind": "rule",
         "muscles.primary": "wger",
         "muscles.secondary": "rule",
@@ -84312,8 +84137,8 @@
       }
     },
     {
-      "slug": "Lat_Pulldown_-_Cross_Body_Single_Arm",
-      "name": "Lat Pulldown - Cross Body Single Arm",
+      "slug": "Single-Arm_Cross-Body_Lat_Pulldown",
+      "name": "Single-Arm Cross-Body Lat Pulldown",
       "aliases": [],
       "kind": "strength",
       "region": "back",
@@ -84350,7 +84175,7 @@
         }
       ],
       "provenance": {
-        "name": "wger",
+        "name": "curated",
         "kind": "rule",
         "muscles.primary": "wger",
         "muscles.secondary": "rule",
@@ -84432,8 +84257,8 @@
       }
     },
     {
-      "slug": "Cable_Tri_Extension_-_Internal_Rotation",
-      "name": "Cable Tri Extension - Internal Rotation",
+      "slug": "Internally_Rotated_Cable_Triceps_Extension",
+      "name": "Internally Rotated Cable Triceps Extension",
       "aliases": [],
       "kind": "strength",
       "region": "arms",
@@ -84470,7 +84295,7 @@
         }
       ],
       "provenance": {
-        "name": "wger",
+        "name": "curated",
         "kind": "rule",
         "muscles.primary": "wger",
         "muscles.secondary": "rule",
@@ -84492,8 +84317,8 @@
       }
     },
     {
-      "slug": "Curl_-_With_Shoulder_Elevated",
-      "name": "Curl - With Shoulder Elevated",
+      "slug": "Curl_with_Shoulder_Elevated",
+      "name": "Curl with Shoulder Elevated",
       "aliases": [],
       "kind": "strength",
       "region": "arms",
@@ -87188,66 +87013,6 @@
       }
     },
     {
-      "slug": "Side_Lateral_Raise_-_Back_Cable",
-      "name": "Side Lateral Raise - Back (Cable)",
-      "aliases": [],
-      "kind": "strength",
-      "region": "shoulders",
-      "muscles": {
-        "primary": [
-          "shoulders"
-        ],
-        "secondary": []
-      },
-      "equipment": [
-        "cable"
-      ],
-      "level": null,
-      "force": null,
-      "mechanic": null,
-      "instructions": [
-        "on a cable rack do a side lateral raise with the cable behind you. focus on tension in the front of the shoulder."
-      ],
-      "tracking": {
-        "measure": "reps",
-        "laterality": "bilateral",
-        "load": "absolute"
-      },
-      "variationGroup": "b40d438a-c545-4507-8447-10bbb5e30bdd",
-      "sources": [
-        {
-          "dataset": "wger",
-          "id": "1753",
-          "license": "CC BY-SA 4.0",
-          "authors": [
-            "wger contributors"
-          ],
-          "url": "https://wger.de/exercise/1753/view"
-        }
-      ],
-      "provenance": {
-        "name": "curated",
-        "kind": "rule",
-        "muscles.primary": "wger",
-        "muscles.secondary": "rule",
-        "equipment": "wger",
-        "instructions": "wger",
-        "region": "rule",
-        "tracking.measure": "rule",
-        "tracking.laterality": "rule",
-        "tracking.load": "rule"
-      },
-      "license": "CC BY-SA 4.0",
-      "credit": {
-        "dataset": "wger",
-        "authors": [
-          "wger contributors"
-        ],
-        "license": "CC BY-SA 4.0",
-        "url": "https://wger.de/exercise/1753/view"
-      }
-    },
-    {
       "slug": "45_Lateral_Raises",
       "name": "45° Lateral Raises",
       "aliases": [],
@@ -87926,7 +87691,9 @@
     {
       "slug": "Behind_The_Back_Cable_Lateral_Raise",
       "name": "Behind The Back Cable Lateral Raise",
-      "aliases": [],
+      "aliases": [
+        "Side lateral raise - Back (Cable)"
+      ],
       "kind": "strength",
       "region": "shoulders",
       "muscles": {
@@ -87961,6 +87728,15 @@
             "LEBRERO"
           ],
           "url": "https://wger.de/exercise/1807/view"
+        },
+        {
+          "dataset": "wger",
+          "id": "1753",
+          "license": "CC BY-SA 4.0",
+          "authors": [
+            "wger contributors"
+          ],
+          "url": "https://wger.de/exercise/1753/view"
         }
       ],
       "provenance": {
@@ -87971,6 +87747,7 @@
         "equipment": "wger",
         "instructions": "wger",
         "region": "rule",
+        "aliases": "wger",
         "tracking.measure": "rule",
         "tracking.laterality": "rule",
         "tracking.load": "rule"
@@ -87979,7 +87756,8 @@
       "credit": {
         "dataset": "wger",
         "authors": [
-          "LEBRERO"
+          "LEBRERO",
+          "wger contributors"
         ],
         "license": "CC BY-SA 4.0",
         "url": "https://wger.de/exercise/1807/view"
@@ -98176,67 +97954,6 @@
         ],
         "license": "CC BY-SA 4.0",
         "url": "https://wger.de/exercise/2686/view"
-      }
-    },
-    {
-      "slug": "Quadriceps_Stretch",
-      "name": "Quadriceps Stretch",
-      "aliases": [],
-      "kind": "stretching",
-      "region": "legs",
-      "muscles": {
-        "primary": [
-          "quadriceps"
-        ],
-        "secondary": []
-      },
-      "equipment": [
-        "bodyweight"
-      ],
-      "level": null,
-      "force": null,
-      "mechanic": null,
-      "instructions": [
-        "Stand on one leg (hold onto a wall if necessary). Use your hand to grasp the ankle of your other leg and gently pull your heel toward your buttocks. Make sure your knees stay close together and that you push your pelvis slightly forward (avoid arching your back)."
-      ],
-      "tracking": {
-        "measure": "time",
-        "laterality": "bilateral",
-        "load": "none"
-      },
-      "variationGroup": null,
-      "sources": [
-        {
-          "dataset": "wger",
-          "id": "2687",
-          "license": "CC BY-SA 4.0",
-          "authors": [
-            "tobias08"
-          ],
-          "url": "https://wger.de/exercise/2687/view"
-        }
-      ],
-      "provenance": {
-        "name": "wger",
-        "kind": "rule",
-        "muscles.primary": "wger",
-        "muscles.secondary": "rule",
-        "equipment": "wger",
-        "instructions": "wger",
-        "region": "rule",
-        "aliases": "wger",
-        "tracking.measure": "rule",
-        "tracking.laterality": "rule",
-        "tracking.load": "rule"
-      },
-      "license": "CC BY-SA 4.0",
-      "credit": {
-        "dataset": "wger",
-        "authors": [
-          "tobias08"
-        ],
-        "license": "CC BY-SA 4.0",
-        "url": "https://wger.de/exercise/2687/view"
       }
     },
     {

@@ -1410,7 +1410,8 @@
       "free-exercise-db:Looking_At_Ceiling"
     ],
     "Low_Cable_Crossover": [
-      "free-exercise-db:Low_Cable_Crossover"
+      "free-exercise-db:Low_Cable_Crossover",
+      "wger:1296"
     ],
     "Low_Cable_Triceps_Extension": [
       "free-exercise-db:Low_Cable_Triceps_Extension"
@@ -1871,7 +1872,8 @@
       "free-exercise-db:Pyramid"
     ],
     "Quad_Stretch": [
-      "free-exercise-db:Quad_Stretch"
+      "free-exercise-db:Quad_Stretch",
+      "wger:2687"
     ],
     "Quadriceps-SMR": [
       "free-exercise-db:Quadriceps-SMR"
@@ -2168,7 +2170,8 @@
       "free-exercise-db:Shoulder_Raise"
     ],
     "Shoulder_Stretch": [
-      "free-exercise-db:Shoulder_Stretch"
+      "free-exercise-db:Shoulder_Stretch",
+      "wger:1536"
     ],
     "Side-Lying_Floor_Stretch": [
       "free-exercise-db:Side-Lying_Floor_Stretch"
@@ -2319,6 +2322,7 @@
     ],
     "Smith_Machine_Incline_Bench_Press": [
       "free-exercise-db:Smith_Machine_Incline_Bench_Press",
+      "wger:539",
       "wger:925"
     ],
     "Smith_Machine_Leg_Press": [
@@ -3047,7 +3051,7 @@
     "Long-Pulley_Narrow": [
       "wger:395"
     ],
-    "Low_Box_Squat_-_Wide_Stance": [
+    "Wide-Stance_Low_Box_Squat": [
       "wger:397"
     ],
     "Lying_Rotator_Cuff_Exercise": [
@@ -3078,7 +3082,7 @@
       "wger:456",
       "wger:1020"
     ],
-    "Prone_Scapular_Retraction_-_Arms_At_Side": [
+    "Prone_Scapular_Retraction_with_Arms_at_Side": [
       "wger:468"
     ],
     "Pull_Ups_On_Machine": [
@@ -3120,14 +3124,11 @@
     "Run": [
       "wger:527"
     ],
-    "Run_-_Interval_Training": [
+    "Interval_Run": [
       "wger:529"
     ],
-    "Run_-_Treadmill": [
+    "Treadmill_Run": [
       "wger:530"
-    ],
-    "Incline_Bench_Press_-_MP": [
-      "wger:539"
     ],
     "Scissors": [
       "wger:545"
@@ -3156,7 +3157,7 @@
     "Single-arm_Preacher_Curl": [
       "wger:584"
     ],
-    "Skipping_-_Standard": [
+    "Skipping": [
       "wger:595"
     ],
     "Speed_Deadlift": [
@@ -3165,7 +3166,7 @@
     "Splinter_Sit-ups": [
       "wger:607"
     ],
-    "Squat_Jumps": [
+    "Squat_Jack": [
       "wger:614"
     ],
     "Squat_Thrust": [
@@ -3277,9 +3278,6 @@
     ],
     "Seated_Cable_Mid_Trap_Shrug": [
       "wger:922"
-    ],
-    "Lying_Dumbbell_Row_SS_Seated_Shrug": [
-      "wger:923"
     ],
     "Suspended_Crossess": [
       "wger:927"
@@ -3667,10 +3665,7 @@
     "Single-leg_Hamstring_Curl": [
       "wger:1294"
     ],
-    "Low-Cable_Cross-Over_-_NB": [
-      "wger:1296"
-    ],
-    "High-Cable_Cross_Tricep_Extention_-_NB": [
+    "High-Cable_Cross_Triceps_Extension": [
       "wger:1298"
     ],
     "Helms_Row": [
@@ -4004,9 +3999,6 @@
     "Toes_To_Bar": [
       "wger:1529"
     ],
-    "Delt_Stretch": [
-      "wger:1536"
-    ],
     "Pull-up_Isometric_Hold": [
       "wger:1537"
     ],
@@ -4135,25 +4127,25 @@
       "wger:1654",
       "wger:1744"
     ],
-    "Cable_Chest_Press_-_Decline": [
+    "Decline_Cable_Chest_Press": [
       "wger:1656"
     ],
-    "Preacher_Curl_-_Internally_Rotated": [
+    "Internally_Rotated_Preacher_Curl": [
       "wger:1657"
     ],
-    "Preacher_Curl_-_Externally_Rotated": [
+    "Externally_Rotated_Preacher_Curl": [
       "wger:1658"
     ],
-    "Lat_Pulldown_-_Cross_Body_Single_Arm": [
+    "Single-Arm_Cross-Body_Lat_Pulldown": [
       "wger:1659"
     ],
     "Cable_Triceps_Press": [
       "wger:1661"
     ],
-    "Cable_Tri_Extension_-_Internal_Rotation": [
+    "Internally_Rotated_Cable_Triceps_Extension": [
       "wger:1662"
     ],
-    "Curl_-_With_Shoulder_Elevated": [
+    "Curl_with_Shoulder_Elevated": [
       "wger:1666"
     ],
     "Leg_Swings_Front_Back": [
@@ -4281,9 +4273,6 @@
     "Windshield_Wipers": [
       "wger:1743"
     ],
-    "Side_Lateral_Raise_-_Back_Cable": [
-      "wger:1753"
-    ],
     "45_Lateral_Raises": [
       "wger:1754"
     ],
@@ -4318,7 +4307,8 @@
       "wger:1804"
     ],
     "Behind_The_Back_Cable_Lateral_Raise": [
-      "wger:1807"
+      "wger:1807",
+      "wger:1753"
     ],
     "Parallel_Bar_Hold": [
       "wger:1808",
@@ -4812,9 +4802,6 @@
     ],
     "Wrist_Stretch": [
       "wger:2686"
-    ],
-    "Quadriceps_Stretch": [
-      "wger:2687"
     ],
     "V-Up": [
       "wger:2689"
@@ -5374,6 +5361,11 @@
         "rule": "wger names the same movement with the same equipment and form words."
       }
     ],
+    "Smith_Machine_Incline_Bench_Press": [
+      {
+        "rule": "wger names the same movement with the same equipment and form words."
+      }
+    ],
     "Seated_Triceps_Press": [
       {
         "rule": "wger names the same movement with the same equipment and form words."
@@ -5509,11 +5501,6 @@
         "rule": "wger names the same movement with the same equipment and form words."
       }
     ],
-    "Smith_Machine_Incline_Bench_Press": [
-      {
-        "rule": "wger names the same movement with the same equipment and form words."
-      }
-    ],
     "Elliptical_Trainer": [
       {
         "rule": "wger names the same movement with the same equipment and form words."
@@ -5614,6 +5601,11 @@
         "rule": "wger names the same movement with the same equipment and form words."
       }
     ],
+    "Low_Cable_Crossover": [
+      {
+        "rule": "wger names the same movement with the same equipment and form words."
+      }
+    ],
     "JM_Press": [
       {
         "rule": "wger names the same movement with the same equipment and form words."
@@ -5695,6 +5687,11 @@
       }
     ],
     "Lying_Supine_Dumbbell_Curl": [
+      {
+        "rule": "wger names the same movement with the same equipment and form words."
+      }
+    ],
+    "Shoulder_Stretch": [
       {
         "rule": "wger names the same movement with the same equipment and form words."
       }
@@ -5880,6 +5877,11 @@
       }
     ],
     "Stomach_Vacuum": [
+      {
+        "rule": "wger names the same movement with the same equipment and form words."
+      }
+    ],
+    "Quad_Stretch": [
       {
         "rule": "wger names the same movement with the same equipment and form words."
       }
@@ -6226,7 +6228,7 @@
         "rule": "No free-exercise-db record is this exercise."
       }
     ],
-    "Low_Box_Squat_-_Wide_Stance": [
+    "Wide-Stance_Low_Box_Squat": [
       {
         "rule": "No free-exercise-db record is this exercise."
       }
@@ -6279,7 +6281,7 @@
         "rule": "wger has one record for each side, or a copy of the record. They name one exercise."
       }
     ],
-    "Prone_Scapular_Retraction_-_Arms_At_Side": [
+    "Prone_Scapular_Retraction_with_Arms_at_Side": [
       {
         "rule": "No free-exercise-db record is this exercise."
       }
@@ -6349,17 +6351,12 @@
         "rule": "No free-exercise-db record is this exercise."
       }
     ],
-    "Run_-_Interval_Training": [
+    "Interval_Run": [
       {
         "rule": "No free-exercise-db record is this exercise."
       }
     ],
-    "Run_-_Treadmill": [
-      {
-        "rule": "No free-exercise-db record is this exercise."
-      }
-    ],
-    "Incline_Bench_Press_-_MP": [
+    "Treadmill_Run": [
       {
         "rule": "No free-exercise-db record is this exercise."
       }
@@ -6409,7 +6406,7 @@
         "rule": "No free-exercise-db record is this exercise."
       }
     ],
-    "Skipping_-_Standard": [
+    "Skipping": [
       {
         "rule": "No free-exercise-db record is this exercise."
       }
@@ -6424,7 +6421,7 @@
         "rule": "No free-exercise-db record is this exercise."
       }
     ],
-    "Squat_Jumps": [
+    "Squat_Jack": [
       {
         "rule": "No free-exercise-db record is this exercise."
       }
@@ -6608,11 +6605,6 @@
       }
     ],
     "Seated_Cable_Mid_Trap_Shrug": [
-      {
-        "rule": "No free-exercise-db record is this exercise."
-      }
-    ],
-    "Lying_Dumbbell_Row_SS_Seated_Shrug": [
       {
         "rule": "No free-exercise-db record is this exercise."
       }
@@ -7271,12 +7263,7 @@
         "rule": "No free-exercise-db record is this exercise."
       }
     ],
-    "Low-Cable_Cross-Over_-_NB": [
-      {
-        "rule": "No free-exercise-db record is this exercise."
-      }
-    ],
-    "High-Cable_Cross_Tricep_Extention_-_NB": [
+    "High-Cable_Cross_Triceps_Extension": [
       {
         "rule": "No free-exercise-db record is this exercise."
       }
@@ -7834,11 +7821,6 @@
         "rule": "No free-exercise-db record is this exercise."
       }
     ],
-    "Delt_Stretch": [
-      {
-        "rule": "No free-exercise-db record is this exercise."
-      }
-    ],
     "Pull-up_Isometric_Hold": [
       {
         "rule": "No free-exercise-db record is this exercise."
@@ -8055,22 +8037,22 @@
         "rule": "wger has one record for each side, or a copy of the record. They name one exercise."
       }
     ],
-    "Cable_Chest_Press_-_Decline": [
+    "Decline_Cable_Chest_Press": [
       {
         "rule": "No free-exercise-db record is this exercise."
       }
     ],
-    "Preacher_Curl_-_Internally_Rotated": [
+    "Internally_Rotated_Preacher_Curl": [
       {
         "rule": "No free-exercise-db record is this exercise."
       }
     ],
-    "Preacher_Curl_-_Externally_Rotated": [
+    "Externally_Rotated_Preacher_Curl": [
       {
         "rule": "No free-exercise-db record is this exercise."
       }
     ],
-    "Lat_Pulldown_-_Cross_Body_Single_Arm": [
+    "Single-Arm_Cross-Body_Lat_Pulldown": [
       {
         "rule": "No free-exercise-db record is this exercise."
       }
@@ -8080,12 +8062,12 @@
         "rule": "No free-exercise-db record is this exercise."
       }
     ],
-    "Cable_Tri_Extension_-_Internal_Rotation": [
+    "Internally_Rotated_Cable_Triceps_Extension": [
       {
         "rule": "No free-exercise-db record is this exercise."
       }
     ],
-    "Curl_-_With_Shoulder_Elevated": [
+    "Curl_with_Shoulder_Elevated": [
       {
         "rule": "No free-exercise-db record is this exercise."
       }
@@ -8301,11 +8283,6 @@
         "rule": "No free-exercise-db record is this exercise."
       }
     ],
-    "Side_Lateral_Raise_-_Back_Cable": [
-      {
-        "rule": "No free-exercise-db record is this exercise."
-      }
-    ],
     "45_Lateral_Raises": [
       {
         "rule": "No free-exercise-db record is this exercise."
@@ -8364,6 +8341,9 @@
     "Behind_The_Back_Cable_Lateral_Raise": [
       {
         "rule": "No free-exercise-db record is this exercise."
+      },
+      {
+        "rule": "wger has one record for each side, or a copy of the record. They name one exercise."
       }
     ],
     "Parallel_Bar_Hold": [
@@ -9193,11 +9173,6 @@
         "rule": "No free-exercise-db record is this exercise."
       }
     ],
-    "Quadriceps_Stretch": [
-      {
-        "rule": "No free-exercise-db record is this exercise."
-      }
-    ],
     "V-Up": [
       {
         "rule": "No free-exercise-db record is this exercise."
@@ -9425,6 +9400,11 @@
     ]
   },
   "drops": {
+    "wger:923": [
+      {
+        "rule": "A superset of two exercises."
+      }
+    ],
     "wger:1114": [
       {
         "rule": "A rest between sets, not an exercise."

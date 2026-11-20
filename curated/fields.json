@@ -3284,6 +3284,16 @@
       ]
     }
   },
+  "Wide-Stance_Low_Box_Squat": {
+    "name": {
+      "value": "Wide-Stance Low Box Squat",
+      "evidence": [
+        {
+          "rule": "The wger name is not in English, is for one side, or does not say the form. The name says what the steps describe."
+        }
+      ]
+    }
+  },
   "EZ-Bar_Military_Press": {
     "name": {
       "value": "EZ-Bar Military Press",
@@ -3316,12 +3326,12 @@
       ]
     }
   },
-  "Prone_Scapular_Retraction_-_Arms_At_Side": {
+  "Prone_Scapular_Retraction_with_Arms_at_Side": {
     "name": {
-      "value": "Prone Scapular Retraction - Arms At Side",
+      "value": "Prone Scapular Retraction with Arms at Side",
       "evidence": [
         {
-          "rule": "The dataset writes a name in title case, with words in full."
+          "rule": "The wger name is not in English, is for one side, or does not say the form. The name says what the steps describe."
         }
       ]
     }
@@ -3380,6 +3390,26 @@
       ]
     }
   },
+  "Interval_Run": {
+    "name": {
+      "value": "Interval Run",
+      "evidence": [
+        {
+          "rule": "The wger name is not in English, is for one side, or does not say the form. The name says what the steps describe."
+        }
+      ]
+    }
+  },
+  "Treadmill_Run": {
+    "name": {
+      "value": "Treadmill Run",
+      "evidence": [
+        {
+          "rule": "The wger name is not in English, is for one side, or does not say the form. The name says what the steps describe."
+        }
+      ]
+    }
+  },
   "Side_Bends_On_Machine": {
     "name": {
       "value": "Side Bends On Machine",
@@ -3406,6 +3436,26 @@
       "evidence": [
         {
           "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Skipping": {
+    "name": {
+      "value": "Skipping",
+      "evidence": [
+        {
+          "rule": "The wger name is not in English, is for one side, or does not say the form. The name says what the steps describe."
+        }
+      ]
+    }
+  },
+  "Squat_Jack": {
+    "name": {
+      "value": "Squat Jack",
+      "evidence": [
+        {
+          "quote": "Jump wide, then close"
         }
       ]
     }
@@ -4534,6 +4584,16 @@
       ]
     }
   },
+  "High-Cable_Cross_Triceps_Extension": {
+    "name": {
+      "value": "High-Cable Cross Triceps Extension",
+      "evidence": [
+        {
+          "rule": "The wger name is not in English, is for one side, or does not say the form. The name says what the steps describe."
+        }
+      ]
+    }
+  },
   "High_Knee_Skips": {
     "name": {
       "value": "High Knee Skips",
@@ -5136,12 +5196,62 @@
       ]
     }
   },
-  "Curl_-_With_Shoulder_Elevated": {
+  "Decline_Cable_Chest_Press": {
     "name": {
-      "value": "Curl - With Shoulder Elevated",
+      "value": "Decline Cable Chest Press",
       "evidence": [
         {
-          "rule": "The dataset writes a name in title case, with words in full."
+          "rule": "The wger name is not in English, is for one side, or does not say the form. The name says what the steps describe."
+        }
+      ]
+    }
+  },
+  "Internally_Rotated_Preacher_Curl": {
+    "name": {
+      "value": "Internally Rotated Preacher Curl",
+      "evidence": [
+        {
+          "rule": "The wger name is not in English, is for one side, or does not say the form. The name says what the steps describe."
+        }
+      ]
+    }
+  },
+  "Externally_Rotated_Preacher_Curl": {
+    "name": {
+      "value": "Externally Rotated Preacher Curl",
+      "evidence": [
+        {
+          "rule": "The wger name is not in English, is for one side, or does not say the form. The name says what the steps describe."
+        }
+      ]
+    }
+  },
+  "Single-Arm_Cross-Body_Lat_Pulldown": {
+    "name": {
+      "value": "Single-Arm Cross-Body Lat Pulldown",
+      "evidence": [
+        {
+          "rule": "The wger name is not in English, is for one side, or does not say the form. The name says what the steps describe."
+        }
+      ]
+    }
+  },
+  "Internally_Rotated_Cable_Triceps_Extension": {
+    "name": {
+      "value": "Internally Rotated Cable Triceps Extension",
+      "evidence": [
+        {
+          "rule": "The wger name is not in English, is for one side, or does not say the form. The name says what the steps describe."
+        }
+      ]
+    }
+  },
+  "Curl_with_Shoulder_Elevated": {
+    "name": {
+      "value": "Curl with Shoulder Elevated",
+      "evidence": [
+        {
+          "rule": "The wger name is not in English, is for one side, or does not say the form. The name says what the steps describe."
         }
       ]
     }
@@ -5269,16 +5379,6 @@
   "Neutral-grip_Pull-ups_Or_TRX_Rows": {
     "name": {
       "value": "Neutral-grip Pull-ups Or TRX Rows",
-      "evidence": [
-        {
-          "rule": "The dataset writes a name in title case, with words in full."
-        }
-      ]
-    }
-  },
-  "Side_Lateral_Raise_-_Back_Cable": {
-    "name": {
-      "value": "Side Lateral Raise - Back (Cable)",
       "evidence": [
         {
           "rule": "The dataset writes a name in title case, with words in full."
@@ -6014,6 +6114,19 @@
       "evidence": [
         {
           "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Split_Squats": {
+    "name": {
+      "value": "Jumping Split Squat",
+      "evidence": [
+        {
+          "quote": "Jump into a split leg position, with one leg forward and one leg back, flexing the knees and lowering your hips slightly as you do so."
+        },
+        {
+          "rule": "The steps jump, so the name says so. The released slug stays."
         }
       ]
     }
