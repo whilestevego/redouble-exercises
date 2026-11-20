@@ -1,0 +1,350 @@
+{
+  "Pullups": [
+    {
+      "name": "Pull Up (Weighted)",
+      "evidence": [
+        {
+          "rule": "Strong's name for the weighted form. The app records the added weight on the set."
+        }
+      ]
+    },
+    {
+      "name": "Weighted Pull Up",
+      "evidence": [
+        {
+          "rule": "The weighted form is this exercise with added weight, which the app records on the set."
+        }
+      ]
+    },
+    {
+      "name": "Pull-Up",
+      "evidence": [
+        {
+          "rule": "Another spelling of the name."
+        }
+      ]
+    }
+  ],
+  "Chin-Up": [
+    {
+      "name": "Chin Up (Weighted)",
+      "evidence": [
+        {
+          "rule": "Strong's name for the weighted form. The app records the added weight on the set."
+        }
+      ]
+    }
+  ],
+  "Bench_Dips": [
+    {
+      "name": "Bench Dip (Weighted)",
+      "evidence": [
+        {
+          "rule": "Strong's name for the weighted form. The app records the added weight on the set."
+        }
+      ]
+    },
+    {
+      "name": "Weighted Bench Dip",
+      "evidence": [
+        {
+          "rule": "The weighted form is this exercise with added weight, which the app records on the set."
+        }
+      ]
+    }
+  ],
+  "Crunches": [
+    {
+      "name": "Crunch (Weighted)",
+      "evidence": [
+        {
+          "rule": "Strong's name for the weighted form. The app records the added weight on the set."
+        }
+      ]
+    },
+    {
+      "name": "Weighted Crunch",
+      "evidence": [
+        {
+          "rule": "The weighted form is this exercise with added weight, which the app records on the set."
+        }
+      ]
+    }
+  ],
+  "Freehand_Jump_Squat": [
+    {
+      "name": "Weighted Jump Squat",
+      "evidence": [
+        {
+          "rule": "The weighted form is this exercise with added weight, which the app records on the set."
+        }
+      ]
+    }
+  ],
+  "Farmers_Walk": [
+    {
+      "name": "Farmer's Carry",
+      "evidence": [
+        {
+          "rule": "A common name."
+        }
+      ]
+    },
+    {
+      "name": "Farmer Carry",
+      "evidence": [
+        {
+          "rule": "A common name."
+        }
+      ]
+    }
+  ],
+  "Barbell_Bench_Press_-_Medium_Grip": [
+    {
+      "name": "Bench Press (Barbell)",
+      "evidence": [
+        {
+          "rule": "Strong's name for this exercise."
+        }
+      ]
+    },
+    {
+      "name": "Flat Barbell Bench Press",
+      "evidence": [
+        {
+          "rule": "Flat is the default bench angle."
+        }
+      ]
+    }
+  ],
+  "Barbell_Incline_Bench_Press_-_Medium_Grip": [
+    {
+      "name": "Incline Bench Press (Barbell)",
+      "evidence": [
+        {
+          "rule": "Strong's name for this exercise."
+        }
+      ]
+    }
+  ],
+  "Triceps_Pushdown_-_Rope_Attachment": [
+    {
+      "name": "Triceps Rope Pushdown",
+      "evidence": [
+        {
+          "rule": "Another order of the same words."
+        }
+      ]
+    }
+  ],
+  "Lying_Triceps_Press": [
+    {
+      "name": "Skullcrusher",
+      "evidence": [
+        {
+          "rule": "A common name."
+        }
+      ]
+    },
+    {
+      "name": "Skull Crusher",
+      "evidence": [
+        {
+          "rule": "A common name."
+        }
+      ]
+    },
+    {
+      "name": "Lying Triceps Extension",
+      "evidence": [
+        {
+          "rule": "A common name."
+        }
+      ]
+    }
+  ],
+  "Face_Pull": [
+    {
+      "name": "Rear Delt Cable Pull",
+      "evidence": [
+        {
+          "rule": "A common name."
+        }
+      ]
+    }
+  ],
+  "Barbell_Deadlift": [
+    {
+      "name": "Deadlift (Barbell)",
+      "evidence": [
+        {
+          "rule": "Strong's name for this exercise."
+        }
+      ]
+    },
+    {
+      "name": "Conventional Deadlift",
+      "evidence": [
+        {
+          "rule": "Conventional is the default stance."
+        }
+      ]
+    }
+  ],
+  "Romanian_Deadlift": [
+    {
+      "name": "RDL",
+      "evidence": [
+        {
+          "rule": "The common abbreviation."
+        }
+      ]
+    }
+  ],
+  "Barbell_Squat": [
+    {
+      "name": "Back Squat",
+      "evidence": [
+        {
+          "rule": "The back is the default bar position."
+        }
+      ]
+    },
+    {
+      "name": "Squat (Barbell)",
+      "evidence": [
+        {
+          "rule": "Strong's name for this exercise."
+        }
+      ]
+    },
+    {
+      "name": "Barbell Back Squat",
+      "evidence": [
+        {
+          "rule": "The back is the default bar position."
+        }
+      ]
+    }
+  ],
+  "Front_Barbell_Squat": [
+    {
+      "name": "Front Squat",
+      "evidence": [
+        {
+          "rule": "The barbell is the default equipment of a front squat."
+        }
+      ]
+    }
+  ],
+  "Barbell_Hip_Thrust": [
+    {
+      "name": "Hip Thrust",
+      "evidence": [
+        {
+          "rule": "The barbell is the default equipment of a hip thrust."
+        }
+      ]
+    }
+  ],
+  "Good_Morning": [
+    {
+      "name": "Barbell Good Morning",
+      "evidence": [
+        {
+          "rule": "The name with its equipment word."
+        }
+      ]
+    }
+  ],
+  "Standing_Military_Press": [
+    {
+      "name": "Overhead Press",
+      "evidence": [
+        {
+          "rule": "A common name. Standing with a barbell is the default form."
+        }
+      ]
+    },
+    {
+      "name": "OHP",
+      "evidence": [
+        {
+          "rule": "The common abbreviation of Overhead Press."
+        }
+      ]
+    },
+    {
+      "name": "Strict Press",
+      "evidence": [
+        {
+          "rule": "A common name. \"Strict\" means no leg drive, as in the steps."
+        }
+      ]
+    },
+    {
+      "name": "Military Press",
+      "evidence": [
+        {
+          "rule": "A common name. Standing is the default form."
+        }
+      ]
+    }
+  ],
+  "Bent_Over_Barbell_Row": [
+    {
+      "name": "Barbell Row",
+      "evidence": [
+        {
+          "rule": "A common name. Bent over is the default form."
+        }
+      ]
+    },
+    {
+      "name": "Bent-Over Row",
+      "evidence": [
+        {
+          "rule": "A common name. The barbell is the default equipment."
+        }
+      ]
+    }
+  ],
+  "Wide-Grip_Lat_Pulldown": [
+    {
+      "name": "Lat Pulldown",
+      "evidence": [
+        {
+          "rule": "A common name. A wide grip is the default grip."
+        }
+      ]
+    }
+  ],
+  "Leg_Press": [
+    {
+      "name": "Machine Leg Press",
+      "evidence": [
+        {
+          "rule": "The name with its equipment word."
+        }
+      ]
+    }
+  ],
+  "Seated_Cable_Rows": [
+    {
+      "name": "Cable Row",
+      "evidence": [
+        {
+          "rule": "A common name. Seated is the default form."
+        }
+      ]
+    },
+    {
+      "name": "Seated Row",
+      "evidence": [
+        {
+          "rule": "A common name. The cable is the default equipment."
+        }
+      ]
+    }
+  ]
+}

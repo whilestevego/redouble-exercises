@@ -1,0 +1,115 @@
+{
+  "groups": [
+    {
+      "slug": "chest",
+      "label": "Chest"
+    },
+    {
+      "slug": "back",
+      "label": "Back"
+    },
+    {
+      "slug": "legs",
+      "label": "Legs"
+    },
+    {
+      "slug": "shoulders",
+      "label": "Shoulders"
+    },
+    {
+      "slug": "arms",
+      "label": "Arms"
+    },
+    {
+      "slug": "core",
+      "label": "Core"
+    }
+  ],
+  "muscles": [
+    {
+      "slug": "chest",
+      "label": "Chest",
+      "group": "chest"
+    },
+    {
+      "slug": "lats",
+      "label": "Lats",
+      "group": "back"
+    },
+    {
+      "slug": "middle back",
+      "label": "Mid Back",
+      "group": "back"
+    },
+    {
+      "slug": "lower back",
+      "label": "Lower Back",
+      "group": "back"
+    },
+    {
+      "slug": "traps",
+      "label": "Traps",
+      "group": "back"
+    },
+    {
+      "slug": "shoulders",
+      "label": "Delts",
+      "group": "shoulders"
+    },
+    {
+      "slug": "neck",
+      "label": "Neck",
+      "group": "shoulders"
+    },
+    {
+      "slug": "triceps",
+      "label": "Triceps",
+      "group": "arms"
+    },
+    {
+      "slug": "biceps",
+      "label": "Biceps",
+      "group": "arms"
+    },
+    {
+      "slug": "forearms",
+      "label": "Forearms",
+      "group": "arms"
+    },
+    {
+      "slug": "quadriceps",
+      "label": "Quads",
+      "group": "legs"
+    },
+    {
+      "slug": "hamstrings",
+      "label": "Hamstrings",
+      "group": "legs"
+    },
+    {
+      "slug": "glutes",
+      "label": "Glutes",
+      "group": "legs"
+    },
+    {
+      "slug": "calves",
+      "label": "Calves",
+      "group": "legs"
+    },
+    {
+      "slug": "adductors",
+      "label": "Adductors",
+      "group": "legs"
+    },
+    {
+      "slug": "abductors",
+      "label": "Abductors",
+      "group": "legs"
+    },
+    {
+      "slug": "abdominals",
+      "label": "Abs",
+      "group": "core"
+    }
+  ]
+}

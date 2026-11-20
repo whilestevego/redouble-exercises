@@ -1,0 +1,214 @@
+[
+  {
+    "slug": "barbell",
+    "label": "Barbell"
+  },
+  {
+    "slug": "dumbbell",
+    "label": "Dumbbell"
+  },
+  {
+    "slug": "bodyweight",
+    "label": "Bodyweight"
+  },
+  {
+    "slug": "machine",
+    "label": "Machine"
+  },
+  {
+    "slug": "cable",
+    "label": "Cable"
+  },
+  {
+    "slug": "kettlebell",
+    "label": "Kettlebell"
+  },
+  {
+    "slug": "bands",
+    "label": "Bands"
+  },
+  {
+    "slug": "ez bar",
+    "label": "EZ Bar"
+  },
+  {
+    "slug": "medicine ball",
+    "label": "Medicine Ball"
+  },
+  {
+    "slug": "exercise ball",
+    "label": "Exercise Ball"
+  },
+  {
+    "slug": "foam roller",
+    "label": "Foam Roller"
+  },
+  {
+    "slug": "bench",
+    "label": "Bench"
+  },
+  {
+    "slug": "pull-up bar",
+    "label": "Pull-Up Bar"
+  },
+  {
+    "slug": "dip bar",
+    "label": "Dip Bar"
+  },
+  {
+    "slug": "smith machine",
+    "label": "Smith Machine"
+  },
+  {
+    "slug": "plate",
+    "label": "Weight Plate"
+  },
+  {
+    "slug": "trap bar",
+    "label": "Trap Bar"
+  },
+  {
+    "slug": "landmine",
+    "label": "Landmine"
+  },
+  {
+    "slug": "box",
+    "label": "Plyo Box"
+  },
+  {
+    "slug": "rope",
+    "label": "Rope"
+  },
+  {
+    "slug": "ab wheel",
+    "label": "Ab Wheel"
+  },
+  {
+    "slug": "jump rope",
+    "label": "Jump Rope"
+  },
+  {
+    "slug": "rings",
+    "label": "Gymnastic Rings"
+  },
+  {
+    "slug": "suspension trainer",
+    "label": "Suspension Trainer"
+  },
+  {
+    "slug": "weight vest",
+    "label": "Weight Vest"
+  },
+  {
+    "slug": "dip belt",
+    "label": "Dip Belt"
+  },
+  {
+    "slug": "stretch strap",
+    "label": "Stretch Strap"
+  },
+  {
+    "slug": "bosu",
+    "label": "Bosu Ball"
+  },
+  {
+    "slug": "chains",
+    "label": "Chains"
+  },
+  {
+    "slug": "sled",
+    "label": "Sled"
+  },
+  {
+    "slug": "atlas stone",
+    "label": "Atlas Stone"
+  },
+  {
+    "slug": "farmers handles",
+    "label": "Farmer's Handles"
+  },
+  {
+    "slug": "yoke",
+    "label": "Yoke"
+  },
+  {
+    "slug": "log bar",
+    "label": "Log Bar"
+  },
+  {
+    "slug": "axle",
+    "label": "Axle Bar"
+  },
+  {
+    "slug": "tire",
+    "label": "Tire"
+  },
+  {
+    "slug": "sandbag",
+    "label": "Sandbag"
+  },
+  {
+    "slug": "keg",
+    "label": "Keg"
+  },
+  {
+    "slug": "battle ropes",
+    "label": "Battle Ropes"
+  },
+  {
+    "slug": "sledgehammer",
+    "label": "Sledgehammer"
+  },
+  {
+    "slug": "grip trainer",
+    "label": "Grip Trainer"
+  },
+  {
+    "slug": "wrist roller",
+    "label": "Wrist Roller"
+  },
+  {
+    "slug": "partner",
+    "label": "Partner"
+  },
+  {
+    "slug": "bike",
+    "label": "Bike"
+  },
+  {
+    "slug": "cone",
+    "label": "Cone"
+  },
+  {
+    "slug": "hurdle",
+    "label": "Hurdle"
+  },
+  {
+    "slug": "heavy bag",
+    "label": "Heavy Bag"
+  },
+  {
+    "slug": "balance board",
+    "label": "Balance Board"
+  },
+  {
+    "slug": "head harness",
+    "label": "Head Harness"
+  },
+  {
+    "slug": "chair",
+    "label": "Chair"
+  },
+  {
+    "slug": "rickshaw",
+    "label": "Rickshaw"
+  },
+  {
+    "slug": "conans wheel",
+    "label": "Conan's Wheel"
+  },
+  {
+    "slug": "deadlift frame",
+    "label": "Deadlift Frame"
+  }
+]

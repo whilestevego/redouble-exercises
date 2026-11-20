@@ -1,0 +1,3055 @@
+{
+  "Bicycling": {
+    "equipment": {
+      "value": [
+        "bike"
+      ],
+      "evidence": [
+        {
+          "quote": "To begin, seat yourself on the bike and adjust the seat to your height."
+        }
+      ]
+    }
+  },
+  "Prowler_Sprint": {
+    "equipment": {
+      "value": [
+        "sled"
+      ],
+      "evidence": [
+        {
+          "quote": "Place your sled on an appropriate surface, loaded to a suitable weight."
+        }
+      ]
+    }
+  },
+  "Rope_Jumping": {
+    "equipment": {
+      "value": [
+        "jump rope"
+      ],
+      "evidence": [
+        {
+          "quote": "Hold an end of the rope in each hand."
+        }
+      ]
+    }
+  },
+  "Skating": {
+    "equipment": {
+      "value": [
+        "bodyweight"
+      ],
+      "evidence": [
+        {
+          "rule": "Roller skates are not in the vocabulary. The body is the only load."
+        }
+      ]
+    }
+  },
+  "Trail_Running_Walking": {
+    "name": {
+      "value": "Trail Running / Walking",
+      "evidence": [
+        {
+          "rule": "The source name runs the two words together."
+        }
+      ]
+    },
+    "equipment": {
+      "value": [
+        "bodyweight"
+      ],
+      "evidence": [
+        {
+          "rule": "The steps use no equipment."
+        }
+      ]
+    }
+  },
+  "Alternate_Leg_Diagonal_Bound": {
+    "equipment": {
+      "value": [
+        "bodyweight"
+      ],
+      "evidence": [
+        {
+          "rule": "The steps use no equipment."
+        }
+      ]
+    }
+  },
+  "Bench_Sprint": {
+    "equipment": {
+      "value": [
+        "bench"
+      ],
+      "evidence": [
+        {
+          "quote": "Stand on the ground with one foot resting on a bench or box with your heel close to the edge."
+        }
+      ]
+    }
+  },
+  "Box_Jump_Multiple_Response": {
+    "equipment": {
+      "value": [
+        "box"
+      ],
+      "evidence": [
+        {
+          "quote": "Assume a relaxed stance facing the box or platform approximately an arm's length away."
+        }
+      ]
+    }
+  },
+  "Box_Skip": {
+    "equipment": {
+      "value": [
+        "box"
+      ],
+      "evidence": [
+        {
+          "quote": "You will need several boxes lined up about 8 feet apart."
+        }
+      ]
+    }
+  },
+  "Carioca_Quick_Step": {
+    "equipment": {
+      "value": [
+        "bodyweight"
+      ],
+      "evidence": [
+        {
+          "rule": "The steps use no equipment."
+        }
+      ]
+    }
+  },
+  "Depth_Jump_Leap": {
+    "equipment": {
+      "value": [
+        "box"
+      ],
+      "evidence": [
+        {
+          "quote": "For this drill you will need two boxes or benches, one 12 to 16 inches high and the other 22 to 26 inches high."
+        }
+      ]
+    }
+  },
+  "Drop_Push": {
+    "equipment": {
+      "value": [
+        "bodyweight",
+        "box"
+      ],
+      "evidence": [
+        {
+          "rule": "A push-up moves the body."
+        },
+        {
+          "quote": "Position low boxes or other platforms 2-3 feet apart."
+        }
+      ]
+    },
+    "tracking.load": {
+      "value": "added",
+      "evidence": [
+        {
+          "rule": "The body is the load. The user can add weight with a belt or a vest."
+        }
+      ]
+    },
+    "tracking.bodyweightFactor": {
+      "value": 0.68,
+      "evidence": [
+        {
+          "rule": "A push-up lifts about two thirds of the bodyweight. The feet carry the rest."
+        }
+      ]
+    }
+  },
+  "Front_Box_Jump": {
+    "equipment": {
+      "value": [
+        "box"
+      ],
+      "evidence": [
+        {
+          "quote": "Begin with a box of an appropriate height 1-2 feet in front of you."
+        }
+      ]
+    }
+  },
+  "Front_Cone_Hops_or_hurdle_hops": {
+    "name": {
+      "value": "Front Cone Hops",
+      "evidence": [
+        {
+          "rule": "The steps use cones. Hurdle_Hops is its own record."
+        }
+      ]
+    },
+    "equipment": {
+      "value": [
+        "cone"
+      ],
+      "evidence": [
+        {
+          "quote": "Set up a row of cones or other small barriers, placing them a few feet apart."
+        }
+      ]
+    }
+  },
+  "Heavy_Bag_Thrust": {
+    "equipment": {
+      "value": [
+        "heavy bag"
+      ],
+      "evidence": [
+        {
+          "quote": "Utilize a heavy bag for this exercise."
+        }
+      ]
+    }
+  },
+  "Hurdle_Hops": {
+    "equipment": {
+      "value": [
+        "hurdle"
+      ],
+      "evidence": [
+        {
+          "quote": "Set up a row of hurdles or other small barriers, placing them a few feet apart."
+        }
+      ]
+    }
+  },
+  "Incline_Push-Up_Depth_Jump": {
+    "equipment": {
+      "value": [
+        "box"
+      ],
+      "evidence": [
+        {
+          "quote": "For this drill you will need a box about 12 inches high, and two thick mats or aerobics steps."
+        }
+      ]
+    }
+  },
+  "Kneeling_Arm_Drill": {
+    "equipment": {
+      "value": [
+        "bodyweight"
+      ],
+      "evidence": [
+        {
+          "rule": "The steps use no equipment."
+        }
+      ]
+    }
+  },
+  "Lateral_Box_Jump": {
+    "equipment": {
+      "value": [
+        "box"
+      ],
+      "evidence": [
+        {
+          "quote": "Assume a comfortable standing position, with a short box positioned next to you."
+        }
+      ]
+    }
+  },
+  "Lateral_Cone_Hops": {
+    "equipment": {
+      "value": [
+        "cone"
+      ],
+      "evidence": [
+        {
+          "quote": "Position a number of cones in a row several feet apart."
+        }
+      ]
+    }
+  },
+  "Linear_3-Part_Start_Technique": {
+    "equipment": {
+      "value": [
+        "bodyweight"
+      ],
+      "evidence": [
+        {
+          "rule": "The steps use no equipment."
+        }
+      ]
+    }
+  },
+  "Linear_Acceleration_Wall_Drill": {
+    "equipment": {
+      "value": [
+        "bodyweight"
+      ],
+      "evidence": [
+        {
+          "rule": "The steps use no equipment."
+        }
+      ]
+    }
+  },
+  "Linear_Depth_Jump": {
+    "equipment": {
+      "value": [
+        "box"
+      ],
+      "evidence": [
+        {
+          "quote": "You will need two boxes or benches spaced a few feet away from each other."
+        }
+      ]
+    }
+  },
+  "Mountain_Climbers": {
+    "equipment": {
+      "value": [
+        "bodyweight"
+      ],
+      "evidence": [
+        {
+          "rule": "The steps use no equipment."
+        }
+      ]
+    }
+  },
+  "Moving_Claw_Series": {
+    "name": {
+      "value": "Claw Sprint Drill",
+      "evidence": [
+        {
+          "quote": "This move helps prepare your running form to help you excel at sprinting."
+        }
+      ]
+    },
+    "equipment": {
+      "value": [
+        "bodyweight"
+      ],
+      "evidence": [
+        {
+          "rule": "The steps use no equipment."
+        }
+      ]
+    }
+  },
+  "Quick_Leap": {
+    "equipment": {
+      "value": [
+        "box"
+      ],
+      "evidence": [
+        {
+          "quote": "You will need a box for this exerise."
+        }
+      ]
+    }
+  },
+  "Side_Hop-Sprint": {
+    "equipment": {
+      "value": [
+        "bodyweight"
+      ],
+      "evidence": [
+        {
+          "rule": "The steps use no equipment."
+        }
+      ]
+    }
+  },
+  "Side_Standing_Long_Jump": {
+    "equipment": {
+      "value": [
+        "bodyweight"
+      ],
+      "evidence": [
+        {
+          "rule": "The steps use no equipment."
+        }
+      ]
+    },
+    "tracking.measure": {
+      "value": "distance",
+      "evidence": [
+        {
+          "quote": "Block with the arms to lead the movement, jumping as far to your right as you can."
+        }
+      ]
+    },
+    "tracking.distanceM": {
+      "value": 2.0,
+      "evidence": [
+        {
+          "rule": "A default target for a new plan. The source gives none."
+        }
+      ]
+    }
+  },
+  "Side_to_Side_Box_Shuffle": {
+    "equipment": {
+      "value": [
+        "box"
+      ],
+      "evidence": [
+        {
+          "quote": "Stand to one side of the box with your left foot resting on the middle of it."
+        }
+      ]
+    }
+  },
+  "Single_Leg_Push-off": {
+    "equipment": {
+      "value": [
+        "box"
+      ],
+      "evidence": [
+        {
+          "quote": "Stand on the ground with one foot resting on the box, heel close to the edge."
+        }
+      ]
+    },
+    "tracking.laterality": {
+      "value": "unilateral",
+      "evidence": [
+        {
+          "quote": "Stand on the ground with one foot resting on the box, heel close to the edge."
+        }
+      ]
+    }
+  },
+  "Single-Cone_Sprint_Drill": {
+    "equipment": {
+      "value": [
+        "cone"
+      ],
+      "evidence": [
+        {
+          "quote": "You need a single cone."
+        }
+      ]
+    }
+  },
+  "Single-Leg_Hop_Progression": {
+    "equipment": {
+      "value": [
+        "bodyweight"
+      ],
+      "evidence": [
+        {
+          "rule": "The steps use no equipment."
+        }
+      ]
+    },
+    "tracking.laterality": {
+      "value": "unilateral",
+      "evidence": [
+        {
+          "quote": "Assume a relaxed standing position, balanced on one leg."
+        }
+      ]
+    }
+  },
+  "Single-Leg_Lateral_Hop": {
+    "equipment": {
+      "value": [
+        "bodyweight"
+      ],
+      "evidence": [
+        {
+          "rule": "The steps use no equipment."
+        }
+      ]
+    },
+    "tracking.laterality": {
+      "value": "unilateral",
+      "evidence": [
+        {
+          "quote": "To get into the start position, stand on one leg with your knee slightly bent."
+        }
+      ]
+    }
+  },
+  "Single-Leg_Stride_Jump": {
+    "equipment": {
+      "value": [
+        "box"
+      ],
+      "evidence": [
+        {
+          "quote": "Stand to the side of a box with your inside foot on top of it, close to the edge."
+        }
+      ]
+    },
+    "tracking.laterality": {
+      "value": "unilateral",
+      "evidence": [
+        {
+          "quote": "Stand to the side of a box with your inside foot on top of it, close to the edge."
+        }
+      ]
+    }
+  },
+  "Sledgehammer_Swings": {
+    "equipment": {
+      "value": [
+        "sledgehammer",
+        "tire"
+      ],
+      "evidence": [
+        {
+          "quote": "You will need a tire and a sledgehammer for this exercise."
+        }
+      ]
+    }
+  },
+  "Stride_Jump_Crossover": {
+    "equipment": {
+      "value": [
+        "box"
+      ],
+      "evidence": [
+        {
+          "quote": "Stand to the side of a box with your inside foot on top of it, close to the edge."
+        }
+      ]
+    }
+  },
+  "Standing_Long_Jump": {
+    "tracking.measure": {
+      "value": "distance",
+      "evidence": [
+        {
+          "quote": "Measure the distance from your landing point to the starting point and track results."
+        }
+      ]
+    },
+    "tracking.distanceM": {
+      "value": 2.0,
+      "evidence": [
+        {
+          "rule": "A default target for a new plan. The source gives none."
+        }
+      ]
+    }
+  },
+  "Chain_Handle_Extension": {
+    "equipment": {
+      "value": [
+        "chains"
+      ],
+      "evidence": [
+        {
+          "quote": "You will need two cable handle attachments and a flat bench, as well as chains, for this exercise."
+        }
+      ]
+    }
+  },
+  "Chain_Press": {
+    "equipment": {
+      "value": [
+        "chains",
+        "bench"
+      ],
+      "evidence": [
+        {
+          "quote": "Begin by connecting the chains to the cable handle attachments."
+        },
+        {
+          "quote": "Position yourself on the flat bench in the same position as for a dumbbell press."
+        }
+      ]
+    }
+  },
+  "Ab_Roller": {
+    "equipment": {
+      "value": [
+        "ab wheel"
+      ],
+      "evidence": [
+        {
+          "quote": "Hold the Ab Roller with both hands and kneel on the floor."
+        }
+      ]
+    }
+  },
+  "Balance_Board": {
+    "equipment": {
+      "value": [
+        "balance board"
+      ],
+      "evidence": [
+        {
+          "quote": "Place a balance board in front of you."
+        }
+      ]
+    }
+  },
+  "Band_Assisted_Pull-Up": {
+    "equipment": {
+      "value": [
+        "bands",
+        "pull-up bar"
+      ],
+      "evidence": [
+        {
+          "quote": "Choke the band around the center of the pullup bar."
+        }
+      ]
+    },
+    "tracking.load": {
+      "value": "added",
+      "evidence": [
+        {
+          "rule": "The body is the load. The user can add weight with a belt or a vest."
+        }
+      ]
+    }
+  },
+  "Battling_Ropes": {
+    "name": {
+      "value": "Battle Ropes",
+      "evidence": [
+        {
+          "rule": "Battle Ropes is the common name, and it matches the equipment."
+        }
+      ]
+    },
+    "equipment": {
+      "value": [
+        "battle ropes"
+      ],
+      "evidence": [
+        {
+          "quote": "For this exercise you will need a heavy rope anchored at its center 15-20 feet away."
+        }
+      ]
+    },
+    "tracking.measure": {
+      "value": "time",
+      "evidence": [
+        {
+          "rule": "The steps give no repetition count. A rope set is a timed interval."
+        }
+      ]
+    },
+    "tracking.durationSec": {
+      "value": 30,
+      "evidence": [
+        {
+          "rule": "A default target for a new plan. The source gives none."
+        }
+      ]
+    }
+  },
+  "Bodyweight_Mid_Row": {
+    "equipment": {
+      "value": [
+        "bodyweight"
+      ],
+      "evidence": [
+        {
+          "rule": "The steps use no equipment."
+        }
+      ]
+    },
+    "tracking.load": {
+      "value": "added",
+      "evidence": [
+        {
+          "rule": "The body is the load. The user can add weight with a belt or a vest."
+        }
+      ]
+    },
+    "tracking.bodyweightFactor": {
+      "value": 0.55,
+      "evidence": [
+        {
+          "rule": "The feet stay on the floor and carry part of the bodyweight."
+        }
+      ]
+    }
+  },
+  "Bodyweight_Walking_Lunge": {
+    "equipment": {
+      "value": [
+        "bodyweight"
+      ],
+      "evidence": [
+        {
+          "rule": "The steps use no equipment."
+        }
+      ]
+    }
+  },
+  "Decline_Push-Up": {
+    "equipment": {
+      "value": [
+        "bodyweight",
+        "bench"
+      ],
+      "evidence": [
+        {
+          "rule": "A push-up moves the body."
+        },
+        {
+          "quote": "Move your feet up to a box or bench."
+        }
+      ]
+    },
+    "tracking.load": {
+      "value": "added",
+      "evidence": [
+        {
+          "rule": "The body is the load. The user can add weight with a belt or a vest."
+        }
+      ]
+    },
+    "tracking.bodyweightFactor": {
+      "value": 0.75,
+      "evidence": [
+        {
+          "rule": "With the feet raised, the hands carry more of the bodyweight than in a push-up."
+        }
+      ]
+    }
+  },
+  "Dips_-_Chest_Version": {
+    "name": {
+      "value": "Chest Dip",
+      "evidence": [
+        {
+          "rule": "The source puts the form word after a dash. The name puts it first."
+        }
+      ]
+    },
+    "equipment": {
+      "value": [
+        "dip bar"
+      ],
+      "evidence": [
+        {
+          "quote": "For this exercise you will need access to parallel bars."
+        }
+      ]
+    },
+    "tracking.load": {
+      "value": "added",
+      "evidence": [
+        {
+          "rule": "The body is the load. The user can add weight with a belt or a vest."
+        }
+      ]
+    },
+    "tracking.bodyweightFactor": {
+      "value": 0.95,
+      "evidence": [
+        {
+          "rule": "The body hangs from the hands. Only the forearms stay still."
+        }
+      ]
+    }
+  },
+  "Dips_-_Triceps_Version": {
+    "name": {
+      "value": "Triceps Dip",
+      "evidence": [
+        {
+          "rule": "The source puts the form word after a dash. The name puts it first."
+        }
+      ]
+    },
+    "equipment": {
+      "value": [
+        "dip bar"
+      ],
+      "evidence": [
+        {
+          "quote": "To get into the starting position, hold your body at arm's length with your arms nearly locked above the bars."
+        }
+      ]
+    },
+    "tracking.load": {
+      "value": "added",
+      "evidence": [
+        {
+          "rule": "The body is the load. The user can add weight with a belt or a vest."
+        }
+      ]
+    },
+    "tracking.bodyweightFactor": {
+      "value": 0.95,
+      "evidence": [
+        {
+          "rule": "The body hangs from the hands. Only the forearms stay still."
+        }
+      ]
+    }
+  },
+  "Donkey_Calf_Raises": {
+    "equipment": {
+      "value": [
+        "machine"
+      ],
+      "evidence": [
+        {
+          "quote": "For this exercise you will need access to a donkey calf raise machine."
+        }
+      ]
+    }
+  },
+  "Floor_Glute-Ham_Raise": {
+    "equipment": {
+      "value": [
+        "bodyweight"
+      ],
+      "evidence": [
+        {
+          "rule": "The steps use no equipment."
+        }
+      ]
+    }
+  },
+  "Front_Plate_Raise": {
+    "equipment": {
+      "value": [
+        "plate"
+      ],
+      "evidence": [
+        {
+          "quote": "While standing straight, hold a barbell plate in both hands at the 3 and 9 o'clock positions."
+        }
+      ]
+    }
+  },
+  "Gironda_Sternum_Chins": {
+    "equipment": {
+      "value": [
+        "pull-up bar"
+      ],
+      "evidence": [
+        {
+          "quote": "Grasp the pull-up bar with a shoulder width underhand grip."
+        }
+      ]
+    },
+    "tracking.load": {
+      "value": "added",
+      "evidence": [
+        {
+          "rule": "The body is the load. The user can add weight with a belt or a vest."
+        }
+      ]
+    }
+  },
+  "Hyperextensions_Back_Extensions": {
+    "name": {
+      "value": "Back Extension",
+      "evidence": [
+        {
+          "rule": "The source gives two names. The dataset keeps the common one, in the singular."
+        }
+      ]
+    },
+    "equipment": {
+      "value": [
+        "machine"
+      ],
+      "evidence": [
+        {
+          "quote": "Lie face down on a hyperextension bench, tucking your ankles securely under the footpads."
+        }
+      ]
+    }
+  },
+  "Inverted_Row": {
+    "equipment": {
+      "value": [
+        "barbell"
+      ],
+      "evidence": [
+        {
+          "quote": "Position a bar in a rack to about waist height."
+        }
+      ]
+    },
+    "tracking.load": {
+      "value": "added",
+      "evidence": [
+        {
+          "rule": "The body is the load. The user can add weight with a belt or a vest."
+        }
+      ]
+    },
+    "tracking.bodyweightFactor": {
+      "value": 0.55,
+      "evidence": [
+        {
+          "rule": "The feet stay on the floor and carry part of the bodyweight."
+        }
+      ]
+    }
+  },
+  "Inverted_Row_with_Straps": {
+    "equipment": {
+      "value": [
+        "suspension trainer"
+      ],
+      "evidence": [
+        {
+          "quote": "Hang a rope or suspension straps from a rack or other stable object."
+        }
+      ]
+    },
+    "tracking.load": {
+      "value": "added",
+      "evidence": [
+        {
+          "rule": "The body is the load. The user can add weight with a belt or a vest."
+        }
+      ]
+    },
+    "tracking.bodyweightFactor": {
+      "value": 0.55,
+      "evidence": [
+        {
+          "rule": "The feet stay on the floor and carry part of the bodyweight."
+        }
+      ]
+    }
+  },
+  "Kipping_Muscle_Up": {
+    "equipment": {
+      "value": [
+        "rings"
+      ],
+      "evidence": [
+        {
+          "quote": "Grip the rings using a false grip, with the base of your palms on top of the rings."
+        }
+      ]
+    },
+    "tracking.load": {
+      "value": "added",
+      "evidence": [
+        {
+          "rule": "The body is the load. The user can add weight with a belt or a vest."
+        }
+      ]
+    }
+  },
+  "Knee_Hip_Raise_On_Parallel_Bars": {
+    "equipment": {
+      "value": [
+        "dip bar"
+      ],
+      "evidence": [
+        {
+          "quote": "Position your body on the vertical leg raise bench so that your forearms are resting on the pads next to the torso and holding on to the handles."
+        },
+        {
+          "rule": "A vertical leg raise bench is a dip station with pads for the back and the forearms."
+        }
+      ]
+    }
+  },
+  "London_Bridges": {
+    "equipment": {
+      "value": [
+        "rope",
+        "smith machine"
+      ],
+      "evidence": [
+        {
+          "quote": "Attach a climbing rope to a high beam or cross member."
+        },
+        {
+          "quote": "Below it, ensure that the smith machine bar is locked in place with the safeties and cannot move."
+        }
+      ]
+    }
+  },
+  "Lying_Face_Down_Plate_Neck_Resistance": {
+    "equipment": {
+      "value": [
+        "plate"
+      ],
+      "evidence": [
+        {
+          "quote": "Lie face down with your whole body straight on a flat bench while holding a weight plate behind your head."
+        }
+      ]
+    }
+  },
+  "Lying_Face_Up_Plate_Neck_Resistance": {
+    "equipment": {
+      "value": [
+        "plate"
+      ],
+      "evidence": [
+        {
+          "quote": "Lie face up with your whole body straight on a flat bench while holding a weight plate on top of your forehead."
+        }
+      ]
+    }
+  },
+  "Mixed_Grip_Chin": {
+    "equipment": {
+      "value": [
+        "pull-up bar"
+      ],
+      "evidence": [
+        {
+          "quote": "Using a spacing that is just about 1 inch wider than shoulder width, grab a pull-up bar with the palms of one hand facing forward and the palms of the other hand facing towards you."
+        }
+      ]
+    },
+    "tracking.load": {
+      "value": "added",
+      "evidence": [
+        {
+          "rule": "The body is the load. The user can add weight with a belt or a vest."
+        }
+      ]
+    }
+  },
+  "Muscle_Up": {
+    "equipment": {
+      "value": [
+        "rings"
+      ],
+      "evidence": [
+        {
+          "quote": "Grip the rings using a false grip, with the base of your palms on top of the rings."
+        }
+      ]
+    },
+    "tracking.load": {
+      "value": "added",
+      "evidence": [
+        {
+          "rule": "The body is the load. The user can add weight with a belt or a vest."
+        }
+      ]
+    }
+  },
+  "One_Arm_Chin-Up": {
+    "equipment": {
+      "value": [
+        "pull-up bar"
+      ],
+      "evidence": [
+        {
+          "quote": "For this exercise, start out by placing a towel around a chin up bar."
+        }
+      ]
+    },
+    "tracking.laterality": {
+      "value": "unilateral",
+      "evidence": [
+        {
+          "quote": "One hand will be grabbing the chin-up bar and the other will be grabbing the towel."
+        }
+      ]
+    },
+    "tracking.load": {
+      "value": "added",
+      "evidence": [
+        {
+          "rule": "The body is the load. The user can add weight with a belt or a vest."
+        }
+      ]
+    }
+  },
+  "Otis-Up": {
+    "name": {
+      "value": "Weighted Sit-Up (Overhead Plate)",
+      "evidence": [
+        {
+          "quote": "As you move up, press the weight up so that it is above your head at the top of the movement."
+        }
+      ]
+    },
+    "equipment": {
+      "value": [
+        "plate"
+      ],
+      "evidence": [
+        {
+          "quote": "Hold a weight with both hands to your chest."
+        },
+        {
+          "rule": "The Otis-Up is a sit-up with a plate pressed overhead."
+        }
+      ]
+    }
+  },
+  "Parallel_Bar_Dip": {
+    "equipment": {
+      "value": [
+        "dip bar"
+      ],
+      "evidence": [
+        {
+          "quote": "Stand between a set of parallel bars."
+        }
+      ]
+    },
+    "tracking.load": {
+      "value": "added",
+      "evidence": [
+        {
+          "rule": "The body is the load. The user can add weight with a belt or a vest."
+        }
+      ]
+    },
+    "tracking.bodyweightFactor": {
+      "value": 0.95,
+      "evidence": [
+        {
+          "rule": "The body hangs from the hands. Only the forearms stay still."
+        }
+      ]
+    }
+  },
+  "Plate_Pinch": {
+    "equipment": {
+      "value": [
+        "plate"
+      ],
+      "evidence": [
+        {
+          "quote": "Grab two wide-rimmed plates and put them together with the smooth sides facing outward"
+        }
+      ]
+    },
+    "tracking.measure": {
+      "value": "time",
+      "evidence": [
+        {
+          "quote": "Hold this position for as long as you can."
+        }
+      ]
+    },
+    "tracking.durationSec": {
+      "value": 30,
+      "evidence": [
+        {
+          "rule": "A default target for a new plan. The source gives none."
+        }
+      ]
+    }
+  },
+  "Plate_Twist": {
+    "equipment": {
+      "value": [
+        "plate"
+      ],
+      "evidence": [
+        {
+          "quote": "Grab the plate by its sides with both hands out in front of your abdominals with your arms slightly bent."
+        }
+      ]
+    }
+  },
+  "Platform_Hamstring_Slides": {
+    "equipment": {
+      "value": [
+        "bodyweight"
+      ],
+      "evidence": [
+        {
+          "rule": "The steps use no equipment."
+        }
+      ]
+    }
+  },
+  "Prone_Manual_Hamstring": {
+    "equipment": {
+      "value": [
+        "partner"
+      ],
+      "evidence": [
+        {
+          "quote": "You will need a partner for this exercise."
+        }
+      ]
+    },
+    "tracking.measure": {
+      "value": "reps",
+      "evidence": [
+        {
+          "quote": "To begin, flex the knee to curl your leg up."
+        },
+        {
+          "rule": "The source force is static, but the steps curl and lower the leg, so the set counts repetitions."
+        }
+      ]
+    }
+  },
+  "Reverse_Plate_Curls": {
+    "equipment": {
+      "value": [
+        "plate"
+      ],
+      "evidence": [
+        {
+          "quote": "Start by standing straight with a weighted plate held by both hands and arms fully extended."
+        }
+      ]
+    }
+  },
+  "Ring_Dips": {
+    "equipment": {
+      "value": [
+        "rings"
+      ],
+      "evidence": [
+        {
+          "quote": "Grip a ring in each hand, and then take a small jump to help you get into the starting position with your arms locked out."
+        }
+      ]
+    },
+    "tracking.load": {
+      "value": "added",
+      "evidence": [
+        {
+          "rule": "The body is the load. The user can add weight with a belt or a vest."
+        }
+      ]
+    },
+    "tracking.bodyweightFactor": {
+      "value": 0.95,
+      "evidence": [
+        {
+          "rule": "The body hangs from the hands. Only the forearms stay still."
+        }
+      ]
+    }
+  },
+  "Rocky_Pull-Ups_Pulldowns": {
+    "name": {
+      "value": "Rocky Pull-Up",
+      "evidence": [
+        {
+          "quote": "Grab the pull-up bar with the palms facing forward using a wide grip."
+        }
+      ]
+    },
+    "equipment": {
+      "value": [
+        "pull-up bar"
+      ],
+      "evidence": [
+        {
+          "quote": "Grab the pull-up bar with the palms facing forward using a wide grip."
+        }
+      ]
+    },
+    "tracking.load": {
+      "value": "added",
+      "evidence": [
+        {
+          "rule": "The body is the load. The user can add weight with a belt or a vest."
+        }
+      ]
+    }
+  },
+  "Rope_Climb": {
+    "equipment": {
+      "value": [
+        "rope"
+      ],
+      "evidence": [
+        {
+          "quote": "Grab the rope with both hands above your head."
+        }
+      ]
+    },
+    "tracking.load": {
+      "value": "added",
+      "evidence": [
+        {
+          "rule": "The body is the load. The user can add weight with a belt or a vest."
+        }
+      ]
+    }
+  },
+  "Scapular_Pull-Up": {
+    "equipment": {
+      "value": [
+        "pull-up bar"
+      ],
+      "evidence": [
+        {
+          "quote": "Take a pronated grip on a pull-up bar."
+        }
+      ]
+    },
+    "tracking.load": {
+      "value": "added",
+      "evidence": [
+        {
+          "rule": "The body is the load. The user can add weight with a belt or a vest."
+        }
+      ]
+    }
+  },
+  "Seated_Band_Hamstring_Curl": {
+    "equipment": {
+      "value": [
+        "bands"
+      ],
+      "evidence": [
+        {
+          "quote": "Secure a band close to the ground and place a bench a couple feet away from it."
+        }
+      ]
+    }
+  },
+  "Seated_Head_Harness_Neck_Resistance": {
+    "equipment": {
+      "value": [
+        "head harness"
+      ],
+      "evidence": [
+        {
+          "quote": "Place a neck strap on the floor at the end of a flat bench."
+        }
+      ]
+    }
+  },
+  "Side_To_Side_Chins": {
+    "equipment": {
+      "value": [
+        "pull-up bar"
+      ],
+      "evidence": [
+        {
+          "quote": "Grab the pull-up bar with the palms facing forward using a wide grip."
+        }
+      ]
+    },
+    "tracking.load": {
+      "value": "added",
+      "evidence": [
+        {
+          "rule": "The body is the load. The user can add weight with a belt or a vest."
+        }
+      ]
+    }
+  },
+  "Single-Leg_High_Box_Squat": {
+    "equipment": {
+      "value": [
+        "box"
+      ],
+      "evidence": [
+        {
+          "quote": "Position a box in a rack."
+        }
+      ]
+    },
+    "tracking.laterality": {
+      "value": "unilateral",
+      "evidence": [
+        {
+          "quote": "Standing in front of it, step onto the box to a full standing position, letting your other leg remain unsupported."
+        }
+      ]
+    }
+  },
+  "Sled_Overhead_Backward_Walk": {
+    "equipment": {
+      "value": [
+        "sled"
+      ],
+      "evidence": [
+        {
+          "quote": "Attach dual handles to a sled connected by a rope or chain."
+        }
+      ]
+    },
+    "tracking.measure": {
+      "value": "distance",
+      "evidence": [
+        {
+          "quote": "Walk backwards, keeping your arms raised above your head."
+        }
+      ]
+    },
+    "tracking.distanceM": {
+      "value": 20.0,
+      "evidence": [
+        {
+          "rule": "A default target for a new plan. The source gives none."
+        }
+      ]
+    }
+  },
+  "Sled_Overhead_Triceps_Extension": {
+    "equipment": {
+      "value": [
+        "sled"
+      ],
+      "evidence": [
+        {
+          "quote": "Attach dual handles to a sled using a chain or rope."
+        }
+      ]
+    }
+  },
+  "Sled_Reverse_Flye": {
+    "equipment": {
+      "value": [
+        "sled"
+      ],
+      "evidence": [
+        {
+          "quote": "Attach dual handles to a sled connected by a rope or chain."
+        }
+      ]
+    }
+  },
+  "Sled_Row": {
+    "equipment": {
+      "value": [
+        "sled"
+      ],
+      "evidence": [
+        {
+          "quote": "Attach dual handles to a sled connected by a rope or chain."
+        }
+      ]
+    }
+  },
+  "Standing_Olympic_Plate_Hand_Squeeze": {
+    "name": {
+      "value": "Plate Hand Squeeze",
+      "evidence": [
+        {
+          "rule": "Standing is the default form, and Olympic adds nothing that the plate does not say."
+        }
+      ]
+    },
+    "equipment": {
+      "value": [
+        "plate"
+      ],
+      "evidence": [
+        {
+          "quote": "To begin, stand straight while holding a weight plate by the ridge at arm's length in each hand using a neutral grip (palms facing in)."
+        }
+      ]
+    },
+    "tracking.measure": {
+      "value": "reps",
+      "evidence": [
+        {
+          "quote": "Repeat for the recommended amount of repetitions prescribed in your program."
+        }
+      ]
+    }
+  },
+  "Suspended_Fallout": {
+    "equipment": {
+      "value": [
+        "suspension trainer"
+      ],
+      "evidence": [
+        {
+          "quote": "Adjust the straps so the handles are at an appropriate height, below waist level."
+        }
+      ]
+    }
+  },
+  "Suspended_Push-Up": {
+    "equipment": {
+      "value": [
+        "suspension trainer"
+      ],
+      "evidence": [
+        {
+          "quote": "Anchor your suspension straps securely to the top of a rack or other object."
+        }
+      ]
+    },
+    "tracking.load": {
+      "value": "added",
+      "evidence": [
+        {
+          "rule": "The body is the load. The user can add weight with a belt or a vest."
+        }
+      ]
+    },
+    "tracking.bodyweightFactor": {
+      "value": 0.68,
+      "evidence": [
+        {
+          "rule": "A push-up lifts about two thirds of the bodyweight. The feet carry the rest."
+        }
+      ]
+    }
+  },
+  "Suspended_Reverse_Crunch": {
+    "equipment": {
+      "value": [
+        "suspension trainer"
+      ],
+      "evidence": [
+        {
+          "quote": "Secure a set of suspension straps with the handles hanging about a foot off of the ground."
+        }
+      ]
+    }
+  },
+  "Suspended_Row": {
+    "equipment": {
+      "value": [
+        "suspension trainer"
+      ],
+      "evidence": [
+        {
+          "quote": "Suspend your straps at around chest height."
+        }
+      ]
+    },
+    "tracking.load": {
+      "value": "added",
+      "evidence": [
+        {
+          "rule": "The body is the load. The user can add weight with a belt or a vest."
+        }
+      ]
+    },
+    "tracking.bodyweightFactor": {
+      "value": 0.55,
+      "evidence": [
+        {
+          "rule": "The feet stay on the floor and carry part of the bodyweight."
+        }
+      ]
+    }
+  },
+  "Suspended_Split_Squat": {
+    "equipment": {
+      "value": [
+        "suspension trainer"
+      ],
+      "evidence": [
+        {
+          "quote": "Suspend your straps so the handles are 18-30 inches from the floor."
+        }
+      ]
+    },
+    "tracking.laterality": {
+      "value": "unilateral",
+      "evidence": [
+        {
+          "quote": "Facing away from the setup, place your rear foot into the handle behind you."
+        }
+      ]
+    }
+  },
+  "Svend_Press": {
+    "equipment": {
+      "value": [
+        "plate"
+      ],
+      "evidence": [
+        {
+          "quote": "Press two lightweight plates together with your hands."
+        }
+      ]
+    }
+  },
+  "Trap_Bar_Deadlift": {
+    "equipment": {
+      "value": [
+        "trap bar"
+      ],
+      "evidence": [
+        {
+          "quote": "For this exercise load a trap bar, also known as a hex bar, to an appropriate weight resting on the ground."
+        }
+      ]
+    }
+  },
+  "Wrist_Roller": {
+    "equipment": {
+      "value": [
+        "wrist roller"
+      ],
+      "evidence": [
+        {
+          "quote": "To begin, stand straight up grabbing a wrist roller using a pronated grip (palms facing down)."
+        }
+      ]
+    }
+  },
+  "Weighted_Sit-Ups_-_With_Bands": {
+    "name": {
+      "value": "Banded Sit-Up",
+      "evidence": [
+        {
+          "quote": "Start out by strapping the bands around the base of the decline bench."
+        }
+      ]
+    },
+    "equipment": {
+      "value": [
+        "bands"
+      ],
+      "evidence": [
+        {
+          "quote": "Start out by strapping the bands around the base of the decline bench."
+        }
+      ]
+    }
+  },
+  "Weighted_Sissy_Squat": {
+    "name": {
+      "value": "Sissy Squat",
+      "evidence": [
+        {
+          "rule": "The app records added weight on the exercise, so the name drops \"Weighted\"."
+        }
+      ]
+    }
+  },
+  "Weighted_Ball_Hyperextension": {
+    "name": {
+      "value": "Exercise Ball Hyperextension",
+      "evidence": [
+        {
+          "rule": "The app records added weight on the exercise, so the name drops \"Weighted\"."
+        }
+      ]
+    }
+  },
+  "Weighted_Ball_Side_Bend": {
+    "name": {
+      "value": "Exercise Ball Side Bend",
+      "evidence": [
+        {
+          "rule": "The app records added weight on the exercise, so the name drops \"Weighted\"."
+        }
+      ]
+    }
+  },
+  "Pullups": {
+    "tracking.load": {
+      "value": "added",
+      "evidence": [
+        {
+          "rule": "The body is the load. The user can add weight with a belt or a vest."
+        }
+      ]
+    }
+  },
+  "Chin-Up": {
+    "tracking.load": {
+      "value": "added",
+      "evidence": [
+        {
+          "rule": "The body is the load. The user can add weight with a belt or a vest."
+        }
+      ]
+    }
+  },
+  "Pushups": {
+    "tracking.load": {
+      "value": "added",
+      "evidence": [
+        {
+          "rule": "The body is the load. The user can add weight with a belt or a vest."
+        }
+      ]
+    },
+    "tracking.bodyweightFactor": {
+      "value": 0.68,
+      "evidence": [
+        {
+          "rule": "A push-up lifts about two thirds of the bodyweight. The feet carry the rest."
+        }
+      ]
+    }
+  },
+  "Push-Ups_-_Close_Triceps_Position": {
+    "name": {
+      "value": "Close-Grip Push-Up",
+      "evidence": [
+        {
+          "quote": "Lie on the floor face down and place your hands closer than shoulder width for a close hand position."
+        }
+      ]
+    },
+    "tracking.load": {
+      "value": "added",
+      "evidence": [
+        {
+          "rule": "The body is the load. The user can add weight with a belt or a vest."
+        }
+      ]
+    },
+    "tracking.bodyweightFactor": {
+      "value": 0.68,
+      "evidence": [
+        {
+          "rule": "A push-up lifts about two thirds of the bodyweight. The feet carry the rest."
+        }
+      ]
+    }
+  },
+  "Push-Up_Wide": {
+    "tracking.load": {
+      "value": "added",
+      "evidence": [
+        {
+          "rule": "The body is the load. The user can add weight with a belt or a vest."
+        }
+      ]
+    },
+    "tracking.bodyweightFactor": {
+      "value": 0.68,
+      "evidence": [
+        {
+          "rule": "A push-up lifts about two thirds of the bodyweight. The feet carry the rest."
+        }
+      ]
+    }
+  },
+  "Push-Ups_With_Feet_Elevated": {
+    "tracking.load": {
+      "value": "added",
+      "evidence": [
+        {
+          "rule": "The body is the load. The user can add weight with a belt or a vest."
+        }
+      ]
+    },
+    "tracking.bodyweightFactor": {
+      "value": 0.75,
+      "evidence": [
+        {
+          "rule": "With the feet raised, the hands carry more of the bodyweight than in a push-up."
+        }
+      ]
+    }
+  },
+  "Incline_Push-Up": {
+    "tracking.load": {
+      "value": "added",
+      "evidence": [
+        {
+          "rule": "The body is the load. The user can add weight with a belt or a vest."
+        }
+      ]
+    },
+    "tracking.bodyweightFactor": {
+      "value": 0.55,
+      "evidence": [
+        {
+          "rule": "The feet stay on the floor and carry part of the bodyweight."
+        }
+      ]
+    }
+  },
+  "Bench_Dips": {
+    "tracking.load": {
+      "value": "added",
+      "evidence": [
+        {
+          "rule": "The body is the load. The user can add weight with a belt or a vest."
+        }
+      ]
+    },
+    "tracking.bodyweightFactor": {
+      "value": 0.45,
+      "evidence": [
+        {
+          "rule": "The feet on the floor or a bench carry about half of the bodyweight."
+        }
+      ]
+    }
+  },
+  "Plank": {
+    "tracking.measure": {
+      "value": "time",
+      "evidence": [
+        {
+          "quote": "Keep your body straight at all times, and hold this position as long as possible."
+        }
+      ]
+    },
+    "tracking.durationSec": {
+      "value": 45,
+      "evidence": [
+        {
+          "rule": "A default target for a new plan. The source gives none."
+        }
+      ]
+    },
+    "tracking.load": {
+      "value": "added",
+      "evidence": [
+        {
+          "rule": "The body is the load. The user can add weight with a belt or a vest."
+        }
+      ]
+    },
+    "tracking.bodyweightFactor": {
+      "value": 0.47,
+      "evidence": [
+        {
+          "rule": "The forearms carry about half of the bodyweight. The feet carry the rest."
+        }
+      ]
+    }
+  },
+  "Side_Bridge": {
+    "name": {
+      "value": "Side Plank",
+      "evidence": [
+        {
+          "rule": "Side Plank is the common name. The steps describe a side plank hold."
+        }
+      ]
+    },
+    "tracking.measure": {
+      "value": "time",
+      "evidence": [
+        {
+          "quote": "Hold for the target time, lower under control, and repeat on the other side for the same duration."
+        }
+      ]
+    },
+    "tracking.durationSec": {
+      "value": 30,
+      "evidence": [
+        {
+          "rule": "A default target for a new plan. The source gives none."
+        }
+      ]
+    },
+    "tracking.laterality": {
+      "value": "unilateral",
+      "evidence": [
+        {
+          "quote": "Hold for the target time, lower under control, and repeat on the other side for the same duration."
+        }
+      ]
+    },
+    "tracking.load": {
+      "value": "added",
+      "evidence": [
+        {
+          "rule": "The body is the load. The user can add weight with a belt or a vest."
+        }
+      ]
+    },
+    "tracking.bodyweightFactor": {
+      "value": 0.47,
+      "evidence": [
+        {
+          "rule": "The forearms carry about half of the bodyweight. The feet carry the rest."
+        }
+      ]
+    },
+    "instructions": {
+      "value": [
+        "Lie on one side with your legs straight and stacked, and prop your upper body up on the forearm of your bottom arm. Your elbow should be directly under your shoulder.",
+        "Brace your abs and lift your hips until your body forms a straight line from ankle to head. Do not let the hips sag or rotate forward.",
+        "Keep your neck neutral and breathe steadily — holding your breath spikes blood pressure and makes the brace harder to keep.",
+        "Hold for the target time, lower under control, and repeat on the other side for the same duration."
+      ],
+      "evidence": [
+        {
+          "rule": "The source has no steps for this record."
+        }
+      ]
+    }
+  },
+  "Freehand_Jump_Squat": {
+    "name": {
+      "value": "Jump Squat",
+      "evidence": [
+        {
+          "rule": "\"Freehand\" means no equipment, and the equipment field says that."
+        }
+      ]
+    }
+  },
+  "Iron_Cross": {
+    "instructions": {
+      "value": [
+        "Stand tall holding a light dumbbell in each hand at your sides, feet about hip-width apart.",
+        "Keeping a soft bend in the elbows, raise both arms out to the sides until they are level with your shoulders, forming a T.",
+        "Do not shrug or lean back to get the weights up — if you have to, the weight is too heavy. This is a control exercise, not a strength test.",
+        "Pause briefly at the top, then lower under control back to your sides.",
+        "Repeat for the recommended number of repetitions."
+      ],
+      "evidence": [
+        {
+          "rule": "The source has no steps for this record."
+        }
+      ]
+    }
+  },
+  "One-Arm_Kettlebell_Swings": {
+    "tracking.laterality": {
+      "value": "unilateral",
+      "evidence": [
+        {
+          "quote": "Complete the reps, then switch sides."
+        }
+      ]
+    },
+    "instructions": {
+      "value": [
+        "Set the kettlebell about a foot in front of you. Stand with feet a little wider than shoulder-width.",
+        "Hinge at the hips — push your backside back, keep your shins close to vertical and your spine neutral. This is a hinge, not a squat: if your knees are travelling forward and your chest is upright, you are squatting the weight up and will feel it in your lower back.",
+        "Grip the handle with one hand, tip the bell toward you, and hike it back between your legs above knee height.",
+        "Snap the hips forward hard and stand tall, squeezing glutes and abs. The bell floats up from hip drive — do not lift it with the arm or the shoulder.",
+        "Keep the working shoulder packed down and back so the bell does not yank the joint at the top, and keep your free arm relaxed.",
+        "Let the bell fall, absorb it by hinging again, and repeat. Stop the set the moment your back rounds.",
+        "Complete the reps, then switch sides."
+      ],
+      "evidence": [
+        {
+          "rule": "The source has no steps for this record."
+        }
+      ]
+    }
+  },
+  "Push_Press": {
+    "instructions": {
+      "value": [
+        "Take the barbell out of the rack onto the front of your shoulders, hands just outside shoulder-width, elbows slightly in front of the bar. Feet hip-width.",
+        "Brace your trunk hard before you move — a loose midsection is where the lower back takes the load instead of the legs.",
+        "Dip by bending the knees a few inches, keeping your torso vertical. A forward lean throws the bar out in front of you.",
+        "Reverse the dip explosively and drive the bar up, keeping its path over the mid-foot rather than looping around your face.",
+        "As the bar passes your head, push your head through and finish with the elbows locked and the bar over the middle of your feet.",
+        "Do not press out a rep that stalls — a grinding overhead press with a rounding back is not worth it. Reset instead.",
+        "Lower the bar back to the shoulders under control, absorbing it by bending the knees."
+      ],
+      "evidence": [
+        {
+          "rule": "The source has no steps for this record."
+        }
+      ]
+    }
+  },
+  "Side_Jackknife": {
+    "tracking.laterality": {
+      "value": "unilateral",
+      "evidence": [
+        {
+          "quote": "Complete the reps, then switch sides."
+        }
+      ]
+    },
+    "instructions": {
+      "value": [
+        "Lie on one side with your legs stacked and straight, bottom arm across your torso and top hand behind your head.",
+        "Exhale and crunch sideways, bringing your top elbow and top leg toward each other. The movement is a short side-bend, not a big swing.",
+        "Keep your neck relaxed — pull with your obliques, not with the hand behind your head.",
+        "Pause at the top, then lower slowly back to the start.",
+        "Complete the reps, then switch sides."
+      ],
+      "evidence": [
+        {
+          "rule": "The source has no steps for this record."
+        }
+      ]
+    }
+  },
+  "Adductor": {
+    "name": {
+      "value": "Adductor Stretch",
+      "evidence": [
+        {
+          "rule": "The source name does not say what the movement is. The record is a stretch, so the name ends in \"Stretch\"."
+        }
+      ]
+    }
+  },
+  "Adductor_Groin": {
+    "name": {
+      "value": "Adductor and Groin Stretch",
+      "evidence": [
+        {
+          "rule": "The source name does not say what the movement is. The record is a stretch, so the name ends in \"Stretch\"."
+        }
+      ]
+    }
+  },
+  "Lying_Glute": {
+    "name": {
+      "value": "Lying Glute Stretch",
+      "evidence": [
+        {
+          "rule": "The source name does not say what the movement is. The record is a stretch, so the name ends in \"Stretch\"."
+        }
+      ]
+    }
+  },
+  "Lying_Hamstring": {
+    "name": {
+      "value": "Lying Hamstring Stretch",
+      "evidence": [
+        {
+          "rule": "The source name does not say what the movement is. The record is a stretch, so the name ends in \"Stretch\"."
+        }
+      ]
+    }
+  },
+  "Seated_Hamstring": {
+    "name": {
+      "value": "Seated Hamstring Stretch",
+      "evidence": [
+        {
+          "rule": "The source name does not say what the movement is. The record is a stretch, so the name ends in \"Stretch\"."
+        }
+      ]
+    }
+  },
+  "Seated_Glute": {
+    "name": {
+      "value": "Seated Glute Stretch",
+      "evidence": [
+        {
+          "rule": "The source name does not say what the movement is. The record is a stretch, so the name ends in \"Stretch\"."
+        }
+      ]
+    }
+  },
+  "Seated_Biceps": {
+    "name": {
+      "value": "Seated Biceps Stretch",
+      "evidence": [
+        {
+          "rule": "The source name does not say what the movement is. The record is a stretch, so the name ends in \"Stretch\"."
+        }
+      ]
+    }
+  },
+  "Overhead_Lat": {
+    "name": {
+      "value": "Overhead Lat Stretch",
+      "evidence": [
+        {
+          "rule": "The source name does not say what the movement is. The record is a stretch, so the name ends in \"Stretch\"."
+        }
+      ]
+    }
+  },
+  "Overhead_Triceps": {
+    "name": {
+      "value": "Overhead Triceps Stretch",
+      "evidence": [
+        {
+          "rule": "The source name does not say what the movement is. The record is a stretch, so the name ends in \"Stretch\"."
+        }
+      ]
+    }
+  },
+  "Elbows_Back": {
+    "name": {
+      "value": "Elbows-Back Chest Stretch",
+      "evidence": [
+        {
+          "rule": "The source name does not say what the movement is. The record is a stretch, so the name ends in \"Stretch\"."
+        }
+      ]
+    }
+  },
+  "Looking_At_Ceiling": {
+    "name": {
+      "value": "Camel Stretch",
+      "evidence": [
+        {
+          "quote": "Lift your buttocks up and forward while bringing your head back to look up at the ceiling, to give an arch in your back."
+        }
+      ]
+    }
+  },
+  "The_Straddle": {
+    "name": {
+      "value": "Straddle Stretch",
+      "evidence": [
+        {
+          "rule": "The source name does not say what the movement is. The record is a stretch, so the name ends in \"Stretch\"."
+        }
+      ]
+    }
+  },
+  "One_Handed_Hang": {
+    "name": {
+      "value": "One-Handed Bar Hang",
+      "evidence": [
+        {
+          "quote": "Grab onto a chinup bar with one hand, using a pronated grip."
+        }
+      ]
+    },
+    "tracking.measure": {
+      "value": "time",
+      "evidence": [
+        {
+          "quote": "Hold for 10-20 seconds and switch sides."
+        }
+      ]
+    },
+    "tracking.durationSec": {
+      "value": 30,
+      "evidence": [
+        {
+          "rule": "A default target for a new plan. The source gives none."
+        }
+      ]
+    },
+    "tracking.laterality": {
+      "value": "unilateral",
+      "evidence": [
+        {
+          "quote": "Grab onto a chinup bar with one hand, using a pronated grip."
+        }
+      ]
+    },
+    "equipment": {
+      "value": [
+        "pull-up bar"
+      ],
+      "evidence": [
+        {
+          "quote": "Grab onto a chinup bar with one hand, using a pronated grip."
+        }
+      ]
+    }
+  },
+  "Iron_Crosses_stretch": {
+    "name": {
+      "value": "Iron Cross Stretch",
+      "evidence": [
+        {
+          "rule": "The source puts \"stretch\" in parentheses."
+        }
+      ]
+    }
+  },
+  "Cocoons": {
+    "name": {
+      "value": "Lying Knee Tuck",
+      "evidence": [
+        {
+          "quote": "To perform the movement, tuck the knees toward your chest, rotating your pelvis to lift your glutes from the floor."
+        }
+      ]
+    }
+  },
+  "Car_Drivers": {
+    "name": {
+      "value": "Plate Steering Wheel Rotation",
+      "evidence": [
+        {
+          "quote": "Use the same type of movement you would use to turn a steering wheel to one side."
+        }
+      ]
+    }
+  },
+  "Spell_Caster": {
+    "name": {
+      "value": "Dumbbell Spell Caster Twist",
+      "evidence": [
+        {
+          "quote": "Keeping your arms straight and the dumbbells parallel to the ground, rotate your torso to swing the weights to your opposite side."
+        }
+      ]
+    }
+  },
+  "Power_Partials": {
+    "name": {
+      "value": "Lateral Raise Partials",
+      "evidence": [
+        {
+          "quote": "Keeping your arms straight and the torso stationary, lift the weights out to your sides until they are about shoulder level height while exhaling."
+        }
+      ]
+    }
+  },
+  "Pyramid": {
+    "name": {
+      "value": "Exercise Ball Pyramid Stretch",
+      "evidence": [
+        {
+          "quote": "Start off by rolling your torso forward onto the ball so your hips rest on top of the ball and become the highest point of your body."
+        }
+      ]
+    }
+  },
+  "Atlas_Stone_Trainer": {
+    "equipment": {
+      "value": [
+        "atlas stone"
+      ],
+      "evidence": [
+        {
+          "quote": "This trainer is effective for developing Atlas Stone strength for those who don't have access to stones, and are typically made from bar ends or heavy pipe."
+        }
+      ]
+    }
+  },
+  "Atlas_Stones": {
+    "equipment": {
+      "value": [
+        "atlas stone"
+      ],
+      "evidence": [
+        {
+          "quote": "Begin with the atlas stone between your feet."
+        }
+      ]
+    }
+  },
+  "Axle_Deadlift": {
+    "equipment": {
+      "value": [
+        "axle"
+      ],
+      "evidence": [
+        {
+          "quote": "Approach the bar so that it is centered over your feet."
+        },
+        {
+          "rule": "An axle is a thick bar. The name says which bar."
+        }
+      ]
+    }
+  },
+  "Backward_Drag": {
+    "equipment": {
+      "value": [
+        "sled"
+      ],
+      "evidence": [
+        {
+          "quote": "Load a sled with the desired weight, attaching a rope or straps to the sled that you can hold onto."
+        }
+      ]
+    },
+    "tracking.measure": {
+      "value": "distance",
+      "evidence": [
+        {
+          "quote": "Begin the exercise by moving backwards for a given distance."
+        }
+      ]
+    },
+    "tracking.distanceM": {
+      "value": 20.0,
+      "evidence": [
+        {
+          "rule": "A default target for a new plan. The source gives none."
+        }
+      ]
+    }
+  },
+  "Bear_Crawl_Sled_Drags": {
+    "equipment": {
+      "value": [
+        "sled"
+      ],
+      "evidence": [
+        {
+          "quote": "Wearing either a harness or a loose weight belt, attach the chain to the back so that you will be facing away from the sled."
+        }
+      ]
+    },
+    "tracking.measure": {
+      "value": "distance",
+      "evidence": [
+        {
+          "quote": "Try to keep your back flat as you move over a given distance."
+        }
+      ]
+    },
+    "tracking.distanceM": {
+      "value": 20.0,
+      "evidence": [
+        {
+          "rule": "A default target for a new plan. The source gives none."
+        }
+      ]
+    }
+  },
+  "Car_Deadlift": {
+    "equipment": {
+      "value": [
+        "deadlift frame"
+      ],
+      "evidence": [
+        {
+          "quote": "This event apparatus typically has neutral grip handles, however some have a straight bar that you can approach like a normal deadlift."
+        }
+      ]
+    }
+  },
+  "Circus_Bell": {
+    "equipment": {
+      "value": [
+        "dumbbell"
+      ],
+      "evidence": [
+        {
+          "quote": "The circus bell is an oversized dumbbell with a thick handle."
+        }
+      ]
+    },
+    "tracking.laterality": {
+      "value": "unilateral",
+      "evidence": [
+        {
+          "quote": "Clean the dumbbell by extending through your hips and knees to deliver the implement to the desired shoulder, letting go with the extra hand."
+        }
+      ]
+    }
+  },
+  "Conans_Wheel": {
+    "equipment": {
+      "value": [
+        "conans wheel"
+      ],
+      "evidence": [
+        {
+          "quote": "With the weight loaded, take a zurcher hold on the end of the implement."
+        }
+      ]
+    },
+    "tracking.measure": {
+      "value": "distance",
+      "evidence": [
+        {
+          "quote": "Keep a tight, upright posture as you being to walk, taking short, fast steps."
+        }
+      ]
+    },
+    "tracking.distanceM": {
+      "value": 20.0,
+      "evidence": [
+        {
+          "rule": "A default target for a new plan. The source gives none."
+        }
+      ]
+    }
+  },
+  "Crucifix": {
+    "equipment": {
+      "value": [
+        "dumbbell"
+      ],
+      "evidence": [
+        {
+          "quote": "While the event can be practiced using dumbbells, it is best to practice with one of the various implements used, such as axes and hammers, as it feels different."
+        }
+      ]
+    },
+    "tracking.measure": {
+      "value": "time",
+      "evidence": [
+        {
+          "quote": "In the crucifix, you statically hold weights out to the side for time."
+        }
+      ]
+    },
+    "tracking.durationSec": {
+      "value": 20,
+      "evidence": [
+        {
+          "quote": "Typically, the weights should be heavy enough that you fail in 30-60 seconds."
+        },
+        {
+          "rule": "20 s is a start for a lighter first set."
+        }
+      ]
+    }
+  },
+  "Farmers_Walk": {
+    "equipment": {
+      "value": [
+        "farmers handles"
+      ],
+      "evidence": [
+        {
+          "quote": "There are various implements that can be used for the farmers walk."
+        }
+      ]
+    },
+    "tracking.measure": {
+      "value": "distance",
+      "evidence": [
+        {
+          "quote": "Move for a given distance, typically 50-100 feet, as fast as possible."
+        }
+      ]
+    },
+    "tracking.distanceM": {
+      "value": 20.0,
+      "evidence": [
+        {
+          "quote": "Move for a given distance, typically 50-100 feet, as fast as possible."
+        }
+      ]
+    }
+  },
+  "Forward_Drag_with_Press": {
+    "equipment": {
+      "value": [
+        "sled"
+      ],
+      "evidence": [
+        {
+          "quote": "Attach a dual handled chain or rope attachment to the sled."
+        }
+      ]
+    },
+    "tracking.measure": {
+      "value": "distance",
+      "evidence": [
+        {
+          "quote": "Begin the movement by moving forward for one step."
+        }
+      ]
+    },
+    "tracking.distanceM": {
+      "value": 20.0,
+      "evidence": [
+        {
+          "rule": "A default target for a new plan. The source gives none."
+        }
+      ]
+    }
+  },
+  "Keg_Load": {
+    "equipment": {
+      "value": [
+        "keg"
+      ],
+      "evidence": [
+        {
+          "quote": "To load kegs, place the desired number a distance from the loading platform, typically 30-50 feet."
+        }
+      ]
+    }
+  },
+  "Log_Lift": {
+    "equipment": {
+      "value": [
+        "log bar"
+      ],
+      "evidence": [
+        {
+          "quote": "Begin standing with the log in front of you."
+        }
+      ]
+    }
+  },
+  "Power_Stairs": {
+    "equipment": {
+      "value": [
+        "box"
+      ],
+      "evidence": [
+        {
+          "quote": "In the power stairs, implements are moved up a staircase."
+        }
+      ]
+    },
+    "tracking.measure": {
+      "value": "distance",
+      "evidence": [
+        {
+          "quote": "In the power stairs, implements are moved up a staircase."
+        }
+      ]
+    },
+    "tracking.distanceM": {
+      "value": 10.0,
+      "evidence": [
+        {
+          "rule": "A default target for a new plan. The source gives none."
+        }
+      ]
+    }
+  },
+  "Rickshaw_Carry": {
+    "equipment": {
+      "value": [
+        "rickshaw"
+      ],
+      "evidence": [
+        {
+          "quote": "Position the frame at the starting point, and load with the appropriate weight."
+        },
+        {
+          "rule": "A rickshaw is a frame with handles."
+        }
+      ]
+    },
+    "tracking.measure": {
+      "value": "distance",
+      "evidence": [
+        {
+          "quote": "Immediately begin walking briskly with quick, controlled steps."
+        }
+      ]
+    },
+    "tracking.distanceM": {
+      "value": 20.0,
+      "evidence": [
+        {
+          "rule": "A default target for a new plan. The source gives none."
+        }
+      ]
+    }
+  },
+  "Rickshaw_Deadlift": {
+    "equipment": {
+      "value": [
+        "rickshaw"
+      ],
+      "evidence": [
+        {
+          "quote": "Load the frame with the desired weight."
+        },
+        {
+          "rule": "A rickshaw is a frame with handles."
+        }
+      ]
+    }
+  },
+  "Sandbag_Load": {
+    "equipment": {
+      "value": [
+        "sandbag"
+      ],
+      "evidence": [
+        {
+          "quote": "To load sandbags or other objects, begin with the implements placed a distance from the loading platform, typically 50 feet."
+        }
+      ]
+    }
+  },
+  "Sled_Drag_-_Harness": {
+    "name": {
+      "value": "Harness Sled Drag",
+      "evidence": [
+        {
+          "rule": "The source puts the form word after a dash. The name puts it first."
+        }
+      ]
+    },
+    "equipment": {
+      "value": [
+        "sled"
+      ],
+      "evidence": [
+        {
+          "quote": "To begin, load the sled with the desired weight and attach the pulling strap."
+        }
+      ]
+    },
+    "tracking.measure": {
+      "value": "distance",
+      "evidence": [
+        {
+          "quote": "Whether pulling forwards or backwards, lean in the direction of travel and progress by extending through the hips and knees."
+        }
+      ]
+    },
+    "tracking.distanceM": {
+      "value": 20.0,
+      "evidence": [
+        {
+          "rule": "A default target for a new plan. The source gives none."
+        }
+      ]
+    }
+  },
+  "Sled_Push": {
+    "equipment": {
+      "value": [
+        "sled"
+      ],
+      "evidence": [
+        {
+          "quote": "Load your pushing sled with the desired weight."
+        }
+      ]
+    },
+    "tracking.measure": {
+      "value": "distance",
+      "evidence": [
+        {
+          "quote": "Push the sled as fast as possible, focusing on extending your hips and knees to strengthen your posterior chain."
+        },
+        {
+          "rule": "A sled push covers a course."
+        }
+      ]
+    },
+    "tracking.distanceM": {
+      "value": 20.0,
+      "evidence": [
+        {
+          "rule": "A default target for a new plan. The source gives none."
+        }
+      ]
+    }
+  },
+  "Tire_Flip": {
+    "equipment": {
+      "value": [
+        "tire"
+      ],
+      "evidence": [
+        {
+          "quote": "Begin by gripping the bottom of the tire on the tread, and position your feet back a bit."
+        }
+      ]
+    }
+  },
+  "Yoke_Walk": {
+    "equipment": {
+      "value": [
+        "yoke"
+      ],
+      "evidence": [
+        {
+          "quote": "The yoke is usually done with a yoke apparatus, but is sometimes seen with refrigerators or other heavy objects."
+        }
+      ]
+    },
+    "tracking.measure": {
+      "value": "distance",
+      "evidence": [
+        {
+          "quote": "With your head looking forward and back arched, lift the yoke by driving through the heels."
+        }
+      ]
+    },
+    "tracking.distanceM": {
+      "value": 20.0,
+      "evidence": [
+        {
+          "rule": "A default target for a new plan. The source gives none."
+        }
+      ]
+    }
+  },
+  "Back_Flyes_-_With_Bands": {
+    "name": {
+      "value": "Banded Rear Delt Fly",
+      "evidence": [
+        {
+          "rule": "The dataset puts the equipment word first, as in \"Banded Squat\". The source puts it after a dash."
+        }
+      ]
+    }
+  },
+  "Barbell_Ab_Rollout_-_On_Knees": {
+    "name": {
+      "value": "Kneeling Barbell Ab Rollout",
+      "evidence": [
+        {
+          "rule": "The source puts a form word after a dash. The name puts it in place, in the singular."
+        }
+      ]
+    }
+  },
+  "Barbell_Bench_Press_-_Medium_Grip": {
+    "name": {
+      "value": "Barbell Bench Press",
+      "evidence": [
+        {
+          "rule": "Medium grip is the default grip, so the name leaves it out."
+        }
+      ]
+    }
+  },
+  "Barbell_Incline_Bench_Press_-_Medium_Grip": {
+    "name": {
+      "value": "Barbell Incline Bench Press",
+      "evidence": [
+        {
+          "rule": "Medium grip is the default grip, so the name leaves it out."
+        }
+      ]
+    }
+  },
+  "Bench_Press_-_Powerlifting": {
+    "name": {
+      "value": "Competition Bench Press",
+      "evidence": [
+        {
+          "quote": "However wide your grip, it should cover the ring on the bar."
+        }
+      ]
+    }
+  },
+  "Bench_Press_-_With_Bands": {
+    "name": {
+      "value": "Banded Bench Press",
+      "evidence": [
+        {
+          "rule": "The dataset puts the equipment word first, as in \"Banded Squat\". The source puts it after a dash."
+        }
+      ]
+    }
+  },
+  "Cable_Hammer_Curls_-_Rope_Attachment": {
+    "name": {
+      "value": "Cable Rope Hammer Curl",
+      "evidence": [
+        {
+          "rule": "The source puts a form word after a dash. The name puts it in place, in the singular."
+        }
+      ]
+    }
+  },
+  "Calf_Raises_-_With_Bands": {
+    "name": {
+      "value": "Banded Calf Raise",
+      "evidence": [
+        {
+          "rule": "The dataset puts the equipment word first, as in \"Banded Squat\". The source puts it after a dash."
+        }
+      ]
+    }
+  },
+  "Cross_Over_-_With_Bands": {
+    "name": {
+      "value": "Banded Crossover",
+      "evidence": [
+        {
+          "rule": "The dataset puts the equipment word first, as in \"Banded Squat\". The source puts it after a dash."
+        }
+      ]
+    }
+  },
+  "Crunch_-_Hands_Overhead": {
+    "name": {
+      "value": "Overhead Crunch",
+      "evidence": [
+        {
+          "rule": "The source puts a form word after a dash. The name puts it in place, in the singular."
+        }
+      ]
+    }
+  },
+  "Crunch_-_Legs_On_Exercise_Ball": {
+    "name": {
+      "value": "Crunch with Legs on Exercise Ball",
+      "evidence": [
+        {
+          "rule": "The source puts a form word after a dash. The name puts it in place, in the singular."
+        }
+      ]
+    }
+  },
+  "Hang_Clean_-_Below_the_Knees": {
+    "name": {
+      "value": "Hang Clean Below the Knees",
+      "evidence": [
+        {
+          "rule": "The source puts a form word after a dash. The name puts it in place, in the singular."
+        }
+      ]
+    }
+  },
+  "Hang_Snatch_-_Below_Knees": {
+    "name": {
+      "value": "Hang Snatch Below the Knees",
+      "evidence": [
+        {
+          "rule": "The source puts a form word after a dash. The name puts it in place, in the singular."
+        }
+      ]
+    }
+  },
+  "Incline_Dumbbell_Flyes_-_With_A_Twist": {
+    "name": {
+      "value": "Incline Dumbbell Fly with Twist",
+      "evidence": [
+        {
+          "rule": "The source puts a form word after a dash. The name puts it in place, in the singular."
+        }
+      ]
+    }
+  },
+  "Isometric_Neck_Exercise_-_Front_And_Back": {
+    "name": {
+      "value": "Isometric Neck Hold (Front and Back)",
+      "evidence": [
+        {
+          "rule": "The source puts a form word after a dash. The name puts it in place, in the singular."
+        }
+      ]
+    },
+    "tracking.measure": {
+      "value": "time",
+      "evidence": [
+        {
+          "quote": "Hold for the recommended number of seconds."
+        }
+      ]
+    },
+    "tracking.durationSec": {
+      "value": 20,
+      "evidence": [
+        {
+          "rule": "A default target for a new plan. The source gives none."
+        }
+      ]
+    }
+  },
+  "Isometric_Neck_Exercise_-_Sides": {
+    "name": {
+      "value": "Isometric Neck Hold (Sides)",
+      "evidence": [
+        {
+          "rule": "The source puts a form word after a dash. The name puts it in place, in the singular."
+        }
+      ]
+    },
+    "tracking.measure": {
+      "value": "time",
+      "evidence": [
+        {
+          "quote": "Hold for the recommended number of seconds."
+        }
+      ]
+    },
+    "tracking.durationSec": {
+      "value": 20,
+      "evidence": [
+        {
+          "rule": "A default target for a new plan. The source gives none."
+        }
+      ]
+    },
+    "tracking.laterality": {
+      "value": "unilateral",
+      "evidence": [
+        {
+          "quote": "With your head and neck in a neutral position (normal position with head erect facing forward), place your left hand on the left side of your head."
+        }
+      ]
+    }
+  },
+  "Lateral_Raise_-_With_Bands": {
+    "name": {
+      "value": "Banded Lateral Raise",
+      "evidence": [
+        {
+          "rule": "The dataset puts the equipment word first, as in \"Banded Squat\". The source puts it after a dash."
+        }
+      ]
+    }
+  },
+  "Oblique_Crunches_-_On_The_Floor": {
+    "name": {
+      "value": "Floor Oblique Crunch",
+      "evidence": [
+        {
+          "rule": "The source puts a form word after a dash. The name puts it in place, in the singular."
+        }
+      ]
+    },
+    "tracking.laterality": {
+      "value": "unilateral",
+      "evidence": [
+        {
+          "quote": "Start out by lying on your right side with your legs lying on top of each other."
+        }
+      ]
+    }
+  },
+  "Push_Press_-_Behind_the_Neck": {
+    "name": {
+      "value": "Behind-the-Neck Push Press",
+      "evidence": [
+        {
+          "rule": "The source puts a form word after a dash. The name puts it in place, in the singular."
+        }
+      ]
+    }
+  },
+  "Shoulder_Press_-_With_Bands": {
+    "name": {
+      "value": "Banded Shoulder Press",
+      "evidence": [
+        {
+          "rule": "The dataset puts the equipment word first, as in \"Banded Squat\". The source puts it after a dash."
+        }
+      ]
+    }
+  },
+  "Squats_-_With_Bands": {
+    "name": {
+      "value": "Banded Squat",
+      "evidence": [
+        {
+          "rule": "The dataset puts the equipment word first, as in \"Banded Squat\". The source puts it after a dash."
+        }
+      ]
+    }
+  },
+  "Triceps_Pushdown_-_Rope_Attachment": {
+    "name": {
+      "value": "Rope Triceps Pushdown",
+      "evidence": [
+        {
+          "rule": "The source puts a form word after a dash. The name puts it in place, in the singular."
+        }
+      ]
+    }
+  },
+  "Triceps_Pushdown_-_V-Bar_Attachment": {
+    "name": {
+      "value": "V-Bar Triceps Pushdown",
+      "evidence": [
+        {
+          "rule": "The source puts a form word after a dash. The name puts it in place, in the singular."
+        }
+      ]
+    }
+  },
+  "Upright_Row_-_With_Bands": {
+    "name": {
+      "value": "Banded Upright Row",
+      "evidence": [
+        {
+          "rule": "The dataset puts the equipment word first, as in \"Banded Squat\". The source puts it after a dash."
+        }
+      ]
+    }
+  },
+  "Anterior_Tibialis-SMR": {
+    "equipment": {
+      "value": [
+        "foam roller"
+      ],
+      "evidence": [
+        {
+          "quote": "Using a Muscle Roller or a rolling pin, apply pressure to the muscles on the outside of your shins."
+        }
+      ]
+    }
+  },
+  "Foot-SMR": {
+    "equipment": {
+      "value": [
+        "foam roller"
+      ],
+      "evidence": [
+        {
+          "quote": "Using a foot roller or a similar object, such as a small section of pvc pipe, place your foot against the roller across the arch of your foot."
+        }
+      ]
+    }
+  },
+  "Neck-SMR": {
+    "equipment": {
+      "value": [
+        "foam roller"
+      ],
+      "evidence": [
+        {
+          "quote": "Using a muscle roller or a rolling pin, place the roller behind your head and against your neck."
+        }
+      ]
+    }
+  },
+  "Chair_Leg_Extended_Stretch": {
+    "equipment": {
+      "value": [
+        "chair"
+      ],
+      "evidence": [
+        {
+          "quote": "Sit upright in a chair and grip the seat on the sides."
+        }
+      ]
+    }
+  },
+  "Chair_Lower_Back_Stretch": {
+    "equipment": {
+      "value": [
+        "chair"
+      ],
+      "evidence": [
+        {
+          "quote": "Sit upright on a chair."
+        }
+      ]
+    }
+  },
+  "Chair_Upper_Body_Stretch": {
+    "equipment": {
+      "value": [
+        "chair"
+      ],
+      "evidence": [
+        {
+          "quote": "Sit on the edge of a chair, gripping the back of it."
+        }
+      ]
+    }
+  },
+  "Standing_Elevated_Quad_Stretch": {
+    "equipment": {
+      "value": [
+        "bench"
+      ],
+      "evidence": [
+        {
+          "quote": "Start by standing with your back about two to three feet away from a bench or step."
+        }
+      ]
+    }
+  },
+  "Belt_Squat": {
+    "name": {
+      "value": "Belt Squat",
+      "evidence": [
+        {
+          "quote": "Stand on top of them and wrap the weighted belt around your waist with the amount of weight you feel comfortable with."
+        }
+      ]
+    },
+    "equipment": {
+      "value": [
+        "dip belt",
+        "bench"
+      ],
+      "evidence": [
+        {
+          "quote": "Start by positioning two flat benches shoulder width apart from each other."
+        },
+        {
+          "quote": "Stand on top of them and wrap the weighted belt around your waist with the amount of weight you feel comfortable with."
+        }
+      ]
+    }
+  }
+}
