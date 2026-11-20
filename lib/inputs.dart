@@ -8,7 +8,7 @@ const datasets = ['free-exercise-db', 'wger'];
 
 /// The datasets whose records `curated/merges.json` covers. A parsed dataset
 /// joins the release when its records join merge groups.
-const mergedDatasets = ['free-exercise-db'];
+const mergedDatasets = ['free-exercise-db', 'wger'];
 
 /// Runs the parse of each source in [datasets].
 Map<String, Parsed> parseAll() => {

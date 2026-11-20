@@ -20,6 +20,7 @@ Json _parsed(String id, {String? force, List<String>? equipment}) => {
 List<Json> _merge(
   Map<String, List<String>> groups, {
   Json fields = const {},
+  Json aliases = const {},
   List<Json> records = const [],
 }) => merge(
   MergeInputs(
@@ -34,7 +35,7 @@ List<Json> _merge(
     },
     merges: {'groups': groups},
     fields: fields,
-    aliases: const {},
+    aliases: aliases,
     muscleGroups: const {'chest': 'chest', 'triceps': 'arms'},
   ),
 );
@@ -132,6 +133,67 @@ void main() {
       ])['credit'],
       isNull,
     );
+  });
+
+  test('a later member fills a gap, and its name becomes an alias', () {
+    final r = _merge(
+      {
+        'Dip': ['src:Dip', 'src:Weighted_Dip'],
+      },
+      records: [
+        _parsed('Dip'),
+        _parsed('Weighted_Dip', equipment: ['dip bar']),
+      ],
+    ).single;
+    expect(r['equipment'], ['dip bar']);
+    expect(r['aliases'], ['Weighted Dip']);
+  });
+
+  test('a rejected alias never reaches the record', () {
+    final r = _merge(
+      {
+        'Seated_Press': ['src:Seated_Press', 'src:Overhead_Press'],
+      },
+      records: [_parsed('Seated_Press'), _parsed('Overhead_Press')],
+      aliases: {
+        'Seated_Press': [
+          {
+            'name': 'Overhead Press',
+            'reject': true,
+            'evidence': [
+              {'rule': 'x'},
+            ],
+          },
+        ],
+      },
+    ).single;
+    expect(r['aliases'], isEmpty);
+  });
+
+  test('a source alias that names another record goes', () {
+    final records = _merge(
+      {
+        'Hip_Hinge': ['src:Hip_Hinge'],
+        'Good_Morning': ['src:Good_Morning', 'src:Hip_Hinge_2'],
+      },
+      records: [
+        _parsed('Hip_Hinge'),
+        _parsed('Good_Morning'),
+        {..._parsed('Hip_Hinge_2'), 'name': 'Hip Hinge'},
+      ],
+    );
+    expect(records.last['aliases'], isEmpty);
+  });
+
+  test('kind and measure follow the name only when no source states them', () {
+    expect(kindOf('Couch Stretch'), 'stretching');
+    expect(kindOf('Child\'s Pose'), 'stretching');
+    expect(kindOf('Hang Clean'), 'strength');
+    expect(measureOf('Hang Clean', 'strength', null), 'reps');
+    expect(measureOf('Towel Grip Dead Hang', 'strength', null), 'time');
+    expect(measureOf('Suitcase Carry', 'strength', null), 'distance');
+    expect(measureOf('Drag Curl', 'strength', null), 'reps');
+    expect(measureOf('Plank', 'strength', 'pull'), 'reps');
   });
 
   test('laterality reads the name', () {

@@ -42,7 +42,7 @@ List<Json> merge(MergeInputs inputs) {
       for (final r in records) '$dataset:${r['id']}': (dataset, r),
   };
   final groups = (inputs.merges['groups'] as Map).cast<String, List<dynamic>>();
-  return [
+  final records = [
     for (final MapEntry(key: slug, value: members) in groups.entries)
       _record(
         slug,
@@ -51,6 +51,32 @@ List<Json> merge(MergeInputs inputs) {
         (inputs.aliases[slug] as List?)?.cast<Json>() ?? const [],
         inputs,
       ),
+  ];
+  return _dropTakenAliases(records);
+}
+
+/// A source alias is a hint. It goes when another record has it as a name or
+/// a curated alias, or when an earlier record took it.
+List<Json> _dropTakenAliases(List<Json> records) {
+  final taken = {
+    for (final r in records) ...[
+      _key(r['name'] as String),
+      for (final a in (r['aliases'] as List).take(r['_curatedAliases'] as int))
+        _key(a as String),
+    ],
+  };
+  return [
+    for (final r in records)
+      {
+        for (final e in r.entries)
+          if (e.key == 'aliases')
+            e.key: [
+              for (final (i, a) in (e.value as List).cast<String>().indexed)
+                if (i < (r['_curatedAliases'] as int) || taken.add(_key(a))) a,
+            ]
+          else if (e.key != '_curatedAliases')
+            e.key: e.value,
+      },
   ];
 }
 
@@ -62,70 +88,129 @@ Json _record(
   MergeInputs inputs,
 ) {
   final provenance = <String, String>{};
-  final (dataset, first) = members.first;
+  final (_, first) = members.first;
   final sources = _sourcesOf(members, inputs);
 
-  T pick<T>(String field, T Function() fromSource, {T Function()? rule}) {
+  /// The value of the first member that has one, and its dataset.
+  (String, T)? fromMembers<T>(T? Function(Json r) get) {
+    for (final (dataset, r) in members) {
+      final value = get(r);
+      if (value != null && !(value is List && value.isEmpty)) {
+        return (dataset, value);
+      }
+    }
+    return null;
+  }
+
+  T pick<T>(
+    String field,
+    (String, T)? Function() fromSource, {
+    T Function()? rule,
+  }) {
     if (curated.containsKey(field)) {
       provenance[field] = 'curated';
       final value = (curated[field] as Map)['value'];
       return (value is List ? value.cast<String>() : value) as T;
     }
-    final value = fromSource();
-    if (value != null || rule == null) {
-      if (value != null) provenance[field] = dataset;
+    if (fromSource() case (final dataset, final value)) {
+      provenance[field] = dataset;
       return value;
     }
-    final ruled = rule();
+    final ruled = rule?.call();
     if (ruled != null) provenance[field] = 'rule';
-    return ruled;
+    return ruled as T;
   }
 
-  final name = pick('name', () => first['name'] as String);
-  final kind = pick('kind', () => first['kind'] as String?);
-  final muscles = first['muscles'] as Map;
-  final primary = pick(
-    'muscles.primary',
-    () => (muscles['primary'] as List).cast<String>(),
+  List<String>? strings(Object? v) => (v as List?)?.cast<String>();
+  Map<String, dynamic> musclesOf(Json r) =>
+      r['muscles'] as Map<String, dynamic>;
+
+  final name = pick<String>(
+    'name',
+    () => fromMembers((r) => r['name'] as String),
   );
-  final secondary = pick('muscles.secondary', () {
-    final all = (muscles['secondary'] as List).cast<String>();
-    return [
-      for (final m in all)
-        if (!primary.contains(m)) m,
-    ];
-  });
-  final equipment = pick(
+  final kind = pick<String?>(
+    'kind',
+    () => fromMembers((r) => r['kind'] as String?),
+    rule: () => kindOf(name),
+  );
+  final primary = pick<List<String>>(
+    'muscles.primary',
+    () => fromMembers((r) => strings(musclesOf(r)['primary'])),
+    rule: () => const [],
+  );
+  final secondary = pick<List<String>>(
+    'muscles.secondary',
+    () => fromMembers(
+      (r) => [
+        for (final m in strings(musclesOf(r)['secondary']) ?? const <String>[])
+          if (!primary.contains(m)) m,
+      ],
+    ),
+    rule: () => const [],
+  );
+  final equipment = pick<List<String>?>(
     'equipment',
-    () => (first['equipment'] as List?)?.cast<String>(),
+    () => fromMembers((r) => strings(r['equipment'])),
     rule: () => kind == 'stretching' ? ['bodyweight'] : null,
   );
-  final instructions = pick(
+  final instructions = pick<List<String>>(
     'instructions',
-    () => (first['instructions'] as List).cast<String>(),
+    () => fromMembers((r) => strings(r['instructions'])),
+    rule: () => const [],
   );
-  final region = pick(
+  final region = pick<String?>(
     'region',
-    () => null,
+    () =>
+        primary.isNotEmpty ? null : fromMembers((r) => r['region'] as String?),
     rule: () => primary.isEmpty ? null : inputs.muscleGroups[primary.first],
   );
+  final force = pick<String?>(
+    'force',
+    () => fromMembers((r) => r['force'] as String?),
+  );
 
-  if (aliases.isNotEmpty) provenance['aliases'] = 'curated';
+  final rejected = {
+    for (final a in aliases)
+      if (a['reject'] == true) _key(a['name'] as String),
+  };
+  final kept = [
+    for (final a in aliases)
+      if (a['reject'] != true) a,
+  ];
+  final allAliases = <String>[
+    for (final a in kept) a['name'] as String,
+    for (final (i, (_, r)) in members.indexed) ...[
+      if (i > 0 || !curated.containsKey('name')) r['name'] as String,
+      ...?strings(r['aliases']),
+    ],
+  ];
+  final seen = {_key(name), ...rejected};
+  final named = [
+    for (final a in allAliases)
+      if (seen.add(_key(a))) a,
+  ];
+  if (kept.isNotEmpty) {
+    provenance['aliases'] = 'curated';
+  } else if (named.isNotEmpty) {
+    provenance['aliases'] = members.first.$1;
+  }
+
   final sourceName = first['name'] as String;
   final tracking = <String, Object?>{
-    'measure': pick(
+    'measure': pick<String>(
       'tracking.measure',
       () => null,
-      rule: () => first['force'] == 'static' ? 'time' : 'reps',
+      rule: () => measureOf(name, kind, force),
     ),
-    'durationSec': pick('tracking.durationSec', () => null),
-    'distanceM': pick('tracking.distanceM', () => null),
-    'laterality': pick(
+    'durationSec': pick<int?>('tracking.durationSec', () => null),
+    'distanceM': pick<num?>('tracking.distanceM', () => null),
+    'laterality': pick<String>(
       'tracking.laterality',
       () => null,
       rule: () => lateralityOf(sourceName),
     ),
-    'load': pick(
+    'load': pick<String>(
       'tracking.load',
       () => null,
       rule: () => switch (kind) {
@@ -134,26 +219,34 @@ Json _record(
         _ => 'absolute',
       },
     ),
-    'bodyweightFactor': pick('tracking.bodyweightFactor', () => null),
+    'bodyweightFactor': pick<num?>('tracking.bodyweightFactor', () => null),
   };
+  final variationGroup = fromMembers((r) => r['variationGroup'] as String?);
 
   return {
     'slug': slug,
     'name': name,
-    'aliases': [for (final a in aliases) a['name']],
+    'aliases': named,
+    '_curatedAliases': kept.length,
     'kind': kind,
     'region': region,
     'muscles': {'primary': primary, 'secondary': secondary},
     'equipment': equipment,
-    'level': pick('level', () => first['level'] as String?),
-    'force': pick('force', () => first['force'] as String?),
-    'mechanic': pick('mechanic', () => first['mechanic'] as String?),
+    'level': pick<String?>(
+      'level',
+      () => fromMembers((r) => r['level'] as String?),
+    ),
+    'force': force,
+    'mechanic': pick<String?>(
+      'mechanic',
+      () => fromMembers((r) => r['mechanic'] as String?),
+    ),
     'instructions': instructions,
     'tracking': {
       for (final f in trackingFields)
         if (tracking[f] != null) f: tracking[f],
     },
-    'variationGroup': null,
+    'variationGroup': variationGroup?.$2,
     'sources': sources,
     'provenance': provenance,
     ...licenseOf(sources),
@@ -235,4 +328,29 @@ String lateralityOf(String name) {
     'split squat',
   ];
   return unilateral.any(n.contains) ? 'unilateral' : 'bilateral';
+}
+
+String _key(String name) =>
+    name.toLowerCase().replaceAll(RegExp('[^a-z0-9]'), '');
+
+/// A rule on the name, for a source that gives no kind.
+String kindOf(String name) =>
+    RegExp(r'stretch|\bpose\b|foam roll', caseSensitive: false).hasMatch(name)
+    ? 'stretching'
+    : 'strength';
+
+/// A rule on the force, or on the kind and the name when no source gives a
+/// force. A curated value overrides it.
+String measureOf(String name, String? kind, String? force) {
+  if (force != null) return force == 'static' ? 'time' : 'reps';
+  final n = name.toLowerCase();
+  if (kind == 'cardio') return 'time';
+  if (RegExp(r'\bcarry\b|farmer|sled drag').hasMatch(n)) return 'distance';
+  if (kind == 'stretching' ||
+      RegExp(
+        r'\bhold\b|\bplank\b|dead ?hang|\bhang$|l-sit|isometric|wall sit',
+      ).hasMatch(n)) {
+    return 'time';
+  }
+  return 'reps';
 }

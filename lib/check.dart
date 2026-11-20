@@ -51,6 +51,16 @@ List<String> checkDataset(Map<String, Parsed> parsed, List<Json> records) {
       problems.add('merges: $slug joins or renames records with no evidence');
     }
   }
+  final drops = ((merges['drops'] as Map?) ?? const {}).cast<String, dynamic>();
+  for (final MapEntry(key: ref, value: items) in drops.entries) {
+    if (!refs.containsKey(ref)) {
+      problems.add('merges: drops $ref, which no source has');
+    }
+    if (!seen.add(ref)) problems.add('merges: $ref is dropped and in a group');
+    if (!_hasEvidence(items)) {
+      problems.add('merges: drop of $ref has no evidence');
+    }
+  }
   for (final ref in refs.keys) {
     if (!seen.contains(ref)) problems.add('merges: no group has $ref');
   }

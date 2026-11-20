@@ -5,43 +5,43 @@ Back Extension	Hyperextensions_Back_Extensions
 Ball Pass	
 Bench Dip	Bench_Dips
 Bench Press (Barbell)	Barbell_Bench_Press_-_Medium_Grip
-Bicep Curl (Barbell)	
+Bicep Curl (Barbell)	Barbell_Curl
 Bicep Curl (Dumbbell)	Dumbbell_Bicep_Curl
-Bicycle Crunch	
-Box Jump	
-Bulgarian Split Squat	
-Burpee	
+Bicycle Crunch	Air_Bike
+Box Jump	Front_Box_Jump
+Bulgarian Split Squat	Bulgarian_Split_Squat
+Burpee	Burpees
 Burpee To Pull-up	
 Chest Dip (Assisted)	
 Chin Up	Chin-Up
 Clean (Barbell)	Clean
 Clean and Jerk (Barbell)	Clean_and_Jerk
 Cluster	
-Cossack Squat	
+Cossack Squat	Cossack_Squat
 Crunch	Crunches
-Crunch (Stability Ball)	
+Crunch (Stability Ball)	Exercise_Ball_Crunch
 Deadlift (Barbell)	Barbell_Deadlift
 Decline Crunch	Decline_Crunch
 Eccentric finger roll	
-Face Pull (Band)	
+Face Pull (Band)	Banded_Face_Pull
 Farmer’s Carry (Weighted)	Farmers_Walk
 Flat Leg Raise	
-Front Lever	
+Front Lever	Front_Lever
 Front Raise (Dumbbell)	Front_Dumbbell_Raise
 Front Squat (Barbell)	Front_Barbell_Squat
-Glute Kickback (Machine)	
+Glute Kickback (Machine)	Glute_Kickback_Machine
 Good Morning (Barbell)	Good_Morning
 HIIT	
 Hamstring curl	
-Handstand Hold (Wall)	
+Handstand Hold (Wall)	Wall_Handstand
 Handstand Push Up	Handstand_Push-Ups
 Handstand Push Up (Band Assisted)	
 Handstand Push Up (Kipping)	
-Hanging Knee Raise	
+Hanging Knee Raise	Hanging_Knee_Raise
 Hanging Leg Raise	Hanging_Leg_Raise
 Hiking	
-Hip Abductor (Machine)	
-Hip Adductor (Machine)	
+Hip Abductor (Machine)	Thigh_Abductor
+Hip Adductor (Machine)	Thigh_Adductor
 Hip Thrust (Barbell)	Barbell_Hip_Thrust
 Hip Thrust (Bodyweight)	
 Hollow rock	
@@ -49,29 +49,29 @@ Inverted Row (Bodyweight)	Inverted_Row
 Jackknife Sit Up	Jackknife_Sit-Up
 Jumping Jack	
 Jumping Muscle Up	
-Kettlebell Swing	
+Kettlebell Swing	Kettlebell_Swing
 Knee Tuck (Exercise Ball)	
-L-sit	
+L-sit	L-Sit
 Lateral Lunge	
-Lateral Raise (Dumbbell)	
+Lateral Raise (Dumbbell)	Side_Lateral_Raise
 Leg Curl (Exercise Ball)	Ball_Leg_Curl
 Leg Extension (Machine)	Leg_Extensions
 Low-impact Cardio & Core	
 Lunge (Barbell)	Barbell_Lunge
-Lunge (Bodyweight)	
-Lunge (Dumbbell)	
+Lunge (Bodyweight)	Bodyweight_Lunge
+Lunge (Dumbbell)	Dumbbell_Lunges
 Lying Leg Curl (Machine)	Lying_Leg_Curls
 Mountain Climber	Mountain_Climbers
 Muscle Up	
 No money	
 Oblique Crunch	Oblique_Crunches
 Overhead Press (Barbell)	Standing_Military_Press
-Pike Push Up	
-Pistol Squat	
-Plank shoulder tap	
+Pike Push Up	Pike_Push_Ups
+Pistol Squat	Pistol_Squat
+Plank shoulder tap	Plank_Shoulder_Taps
 Power Clean	Power_Clean
 Pull Up	Pullups
-Pullover (Dumbbell)	
+Pullover (Dumbbell)	Pullover
 Push Up	Pushups
 Rest	
 Reverse Crunch	Reverse_Crunch
@@ -80,8 +80,8 @@ Reverse Curl (Dumbbell)
 Reverse Fly (Dumbbell)	
 Reverse Wrist Curl	
 Ring Dip (Assisted)	
-Ring Row	
-Ring push up	
+Ring Row	Ring_Row
+Ring push up	Ring_Push-Up
 Romanian Deadlift (Barbell)	Romanian_Deadlift
 Rowing (Machine)	
 Russian Twist	Russian_Twist
@@ -103,25 +103,25 @@ Squat (Smith Machine)	Smith_Machine_Squat
 Stairmaster	
 Standing Calf Raise (Barbell)	Standing_Barbell_Calf_Raise
 Standing Calf Raise (Dumbbell)	Standing_Dumbbell_Calf_Raise
-Standing Calf Raise (Machine)	
+Standing Calf Raise (Machine)	Standing_Calf_Raises
 Standing Ws	
-Step-up	
+Step-up	Step-ups
 Straight Bar Dip	
 Stretching	
 Sumo Deadlift (Barbell)	Sumo_Deadlift
-Sumo squat	
-Thruster (Barbell)	
-Toes To Bar	
+Sumo squat	Sumo_Squats
+Thruster (Barbell)	Thruster
+Toes To Bar	Toes_To_Bar
 Torso Rotation (Dumbbell)	
 Triceps Dip	Dips_-_Triceps_Version
-Triceps Dip (Assisted)	
+Triceps Dip (Assisted)	Triceps_Dips_Assisted
 Triceps Extension	
-Triceps Extension (Barbell)	
-Triceps Extension (Dumbbell)	
+Triceps Extension (Barbell)	Barbell_Triceps_Extension
+Triceps Extension (Dumbbell)	Dumbbell_Triceps_Extension
 Tuck Up	
-V Up	
-Wall Ball	
+V Up	V-Up
+Wall Ball	Wall_Balls
 Wall Walk	
-Windshield Wiper	
+Windshield Wiper	Windshield_Wipers
 Wood Chop	
 Yoga	
