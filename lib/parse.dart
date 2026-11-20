@@ -138,10 +138,15 @@ Parsed parseWger(List<Json> raw, Json map) {
       'license': licenses.reduce(
         (a, b) => licenseRanks[b]! > licenseRanks[a]! ? b : a,
       ),
-      'authors': {
+      'authors': switch ({
         ...(e['author_history'] as List).cast<String>(),
         ...(t['author_history'] as List).cast<String>(),
-      }.toList(),
+        ?(e['license_author'] as String?),
+        ?(t['license_author'] as String?),
+      }.where((a) => a.trim().isNotEmpty).toList()) {
+        [] => null,
+        final authors => authors,
+      },
       'variationGroup': e['variation_group'],
     });
   }

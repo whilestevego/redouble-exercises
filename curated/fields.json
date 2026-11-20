@@ -3051,5 +3051,3140 @@
         }
       ]
     }
+  },
+  "Kettlebell_Swing": {
+    "name": {
+      "value": "Kettlebell Swing",
+      "evidence": [
+        {
+          "rule": "The wger name is not in English, is for one side, or does not say the form. The name says what the steps describe."
+        }
+      ]
+    }
+  },
+  "Bear_Walk": {
+    "name": {
+      "value": "Bear Walk",
+      "evidence": [
+        {
+          "rule": "The wger name is not in English, is for one side, or does not say the form. The name says what the steps describe."
+        }
+      ]
+    }
+  },
+  "Braced_Squat": {
+    "equipment": {
+      "value": [
+        "plate"
+      ],
+      "evidence": [
+        {
+          "quote": "Grab a weight plate and hold it out in front of your body with arms straight out."
+        }
+      ]
+    }
+  },
+  "Butterfly_Narrow_Grip": {
+    "equipment": {
+      "value": [
+        "machine"
+      ],
+      "evidence": [
+        {
+          "quote": "Sit on the butterfly machine, the feet have a good contact with the floor, the upper arms are parallel to the floor."
+        }
+      ]
+    }
+  },
+  "Hack_Machine_Calf_Raise": {
+    "name": {
+      "value": "Hack Machine Calf Raise",
+      "evidence": [
+        {
+          "rule": "The wger name is not in English, is for one side, or does not say the form. The name says what the steps describe."
+        }
+      ]
+    },
+    "equipment": {
+      "value": [
+        "machine"
+      ],
+      "evidence": [
+        {
+          "quote": "Place yourself on the machine with your back firmly against the backrest, the feet are on the platform for calf raises."
+        }
+      ]
+    }
+  },
+  "Dumbbells_On_Scott_Machine": {
+    "name": {
+      "value": "Dumbbells On Scott Machine",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Front_Pull_Wide": {
+    "name": {
+      "value": "Front Pull Wide",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Front_Pull_Narrow": {
+    "name": {
+      "value": "Front Pull Narrow",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Glute_Bridge": {
+    "equipment": {
+      "value": [
+        "bodyweight"
+      ],
+      "evidence": [
+        {
+          "rule": "The barbell is optional, as the steps say. The body is the load."
+        }
+      ]
+    }
+  },
+  "Hammercurls_On_Cable": {
+    "name": {
+      "value": "Hammercurls On Cable",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "High_Pull": {
+    "equipment": {
+      "value": [
+        "barbell"
+      ],
+      "evidence": [
+        {
+          "quote": "Use a light barbell, perform explosive lift up starting from underneath knee cap level."
+        }
+      ]
+    }
+  },
+  "Jumping_Jack": {
+    "name": {
+      "value": "Jumping Jack",
+      "evidence": [
+        {
+          "rule": "The wger name is not in English, is for one side, or does not say the form. The name says what the steps describe."
+        }
+      ]
+    }
+  },
+  "Squats_On_Multipress": {
+    "name": {
+      "value": "Squats On Multipress",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Landmine_Press": {
+    "name": {
+      "value": "Landmine Press",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Lateral_Rows_On_Cable_One_Armed": {
+    "name": {
+      "value": "Lateral Rows On Cable, One Armed",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Leg_Presses_wide": {
+    "equipment": {
+      "value": [
+        "machine"
+      ],
+      "evidence": [
+        {
+          "quote": "Sit on the machine and put your feet on the platform, a bit more than shoulder wide."
+        }
+      ]
+    }
+  },
+  "Leg_Press_On_Hackenschmidt_Machine": {
+    "name": {
+      "value": "Leg Press On Hackenschmidt Machine",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Lying_Leg_Raise": {
+    "name": {
+      "value": "Lying Leg Raise",
+      "evidence": [
+        {
+          "rule": "The wger name is not in English, is for one side, or does not say the form. The name says what the steps describe."
+        }
+      ]
+    },
+    "equipment": {
+      "value": [
+        "bench"
+      ],
+      "evidence": [
+        {
+          "quote": "Lay down on a bench and hold onto the recliner with your hands to keep you stable."
+        }
+      ]
+    }
+  },
+  "Leg_Raises_Standing": {
+    "equipment": {
+      "value": [
+        "machine"
+      ],
+      "evidence": [
+        {
+          "quote": "Put your forearms on the pads on the leg raise machine, the body is hanging freely."
+        }
+      ]
+    }
+  },
+  "Diamond_Push_Ups": {
+    "name": {
+      "value": "Diamond Push Ups",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Wide-Stance_Low_Box_Squat": {
+    "name": {
+      "value": "Wide-Stance Low Box Squat",
+      "evidence": [
+        {
+          "rule": "The wger name is not in English, is for one side, or does not say the form. The name says what the steps describe."
+        }
+      ]
+    }
+  },
+  "EZ-Bar_Military_Press": {
+    "name": {
+      "value": "EZ-Bar Military Press",
+      "evidence": [
+        {
+          "rule": "The wger name is not in English, is for one side, or does not say the form. The name says what the steps describe."
+        }
+      ]
+    }
+  },
+  "Bar_Muscle-Up": {
+    "name": {
+      "value": "Bar Muscle-Up",
+      "evidence": [
+        {
+          "rule": "The wger name is not in English, is for one side, or does not say the form. The name says what the steps describe."
+        }
+      ]
+    }
+  },
+  "Negative_Crunches": {
+    "equipment": {
+      "value": [
+        "bench"
+      ],
+      "evidence": [
+        {
+          "quote": "Sit yourself on the decline bench and fix your legs."
+        }
+      ]
+    }
+  },
+  "Prone_Scapular_Retraction_with_Arms_at_Side": {
+    "name": {
+      "value": "Prone Scapular Retraction with Arms at Side",
+      "evidence": [
+        {
+          "rule": "The wger name is not in English, is for one side, or does not say the form. The name says what the steps describe."
+        }
+      ]
+    }
+  },
+  "Pull_Ups_On_Machine": {
+    "name": {
+      "value": "Pull Ups On Machine",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Rack_Deadlift": {
+    "equipment": {
+      "value": [
+        "smith machine"
+      ],
+      "evidence": [
+        {
+          "quote": "Deadlift to be done using a Smith machine or a free rack."
+        }
+      ]
+    }
+  },
+  "Rowing_Lying_On_Bench": {
+    "name": {
+      "value": "Rowing, Lying On Bench",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Rowing_Seated_Narrow_Grip": {
+    "name": {
+      "value": "Rowing Seated, Narrow Grip",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Rowing_T-bar": {
+    "equipment": {
+      "value": [
+        "barbell"
+      ],
+      "evidence": [
+        {
+          "quote": "Grab the barbell with a wide grip (slightly more than shoulder wide) and lean forward."
+        }
+      ]
+    }
+  },
+  "Interval_Run": {
+    "name": {
+      "value": "Interval Run",
+      "evidence": [
+        {
+          "rule": "The wger name is not in English, is for one side, or does not say the form. The name says what the steps describe."
+        }
+      ]
+    }
+  },
+  "Treadmill_Run": {
+    "name": {
+      "value": "Treadmill Run",
+      "evidence": [
+        {
+          "rule": "The wger name is not in English, is for one side, or does not say the form. The name says what the steps describe."
+        }
+      ]
+    }
+  },
+  "Side_Bends_On_Machine": {
+    "name": {
+      "value": "Side Bends On Machine",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Shrugs_On_Multipress": {
+    "name": {
+      "value": "Shrugs On Multipress",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Side_To_Side_Push_Ups": {
+    "name": {
+      "value": "Side To Side Push Ups",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Skipping": {
+    "name": {
+      "value": "Skipping",
+      "evidence": [
+        {
+          "rule": "The wger name is not in English, is for one side, or does not say the form. The name says what the steps describe."
+        }
+      ]
+    }
+  },
+  "Squat_Jack": {
+    "name": {
+      "value": "Squat Jack",
+      "evidence": [
+        {
+          "quote": "Jump wide, then close"
+        }
+      ]
+    }
+  },
+  "Standing_Rope_Forearm": {
+    "equipment": {
+      "value": [
+        "plate"
+      ],
+      "evidence": [
+        {
+          "quote": "All you need is a 5 or 10 pound weight plate, a strong thin rope about 3 feet long and a 6-8 inch stick or bar."
+        }
+      ]
+    }
+  },
+  "Triceps_Extensions_On_Cable": {
+    "name": {
+      "value": "Triceps Extensions On Cable",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Triceps_Extensions_On_Cable_With_Bar": {
+    "name": {
+      "value": "Triceps Extensions On Cable With Bar",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Rowing_With_TRX_Band": {
+    "name": {
+      "value": "Rowing With TRX Band",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Upright_Row_On_Multi_Press": {
+    "name": {
+      "value": "Upright Row, On Multi Press",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    },
+    "equipment": {
+      "value": [
+        "smith machine"
+      ],
+      "evidence": [
+        {
+          "rule": "A multi press is a Smith machine."
+        }
+      ]
+    }
+  },
+  "Upright_Row_EZ-Bar": {
+    "name": {
+      "value": "Upright Row, EZ-Bar",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Single-Leg_Calf_Raise": {
+    "name": {
+      "value": "Single-Leg Calf Raise",
+      "evidence": [
+        {
+          "rule": "The wger name is not in English, is for one side, or does not say the form. The name says what the steps describe."
+        }
+      ]
+    }
+  },
+  "Weighted_Step-ups": {
+    "equipment": {
+      "value": [
+        "barbell"
+      ],
+      "evidence": [
+        {
+          "quote": "box step ups w/ barbell and 45's on each side"
+        }
+      ]
+    }
+  },
+  "Sloper_Hanging": {
+    "name": {
+      "value": "Sloper Hanging",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Fingerboard_20_Mm_Edge": {
+    "name": {
+      "value": "Fingerboard 20 Mm Edge",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Pullup_On_Fingerboard": {
+    "name": {
+      "value": "Pullup On Fingerboard",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Reverse_Nordic_Curl": {
+    "equipment": {
+      "value": [
+        "bodyweight"
+      ],
+      "evidence": [
+        {
+          "quote": "Natural Leg Extension is alternative to Leg Extension machine with no equipment."
+        }
+      ]
+    }
+  },
+  "Bus_Drivers": {
+    "equipment": {
+      "value": [
+        "plate"
+      ],
+      "evidence": [
+        {
+          "quote": "Sitting with a Weight Plate, used as wheel, in both hands; raised slightly below eye level"
+        }
+      ]
+    }
+  },
+  "T-Bar_Row": {
+    "name": {
+      "value": "T-Bar Row",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Suspended_Crossess": {
+    "name": {
+      "value": "Suspended Crossess",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Quadriped_Arm_And_Leg_Raise": {
+    "name": {
+      "value": "Quadriped Arm And Leg Raise",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Biceps_With_TRX": {
+    "name": {
+      "value": "Biceps With TRX",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Swimming_50m_Sprints": {
+    "name": {
+      "value": "Swimming 50m Sprints",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Curl_With_Kettlebell_Two_Hands": {
+    "name": {
+      "value": "Curl With Kettlebell Two Hands",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "One-handed_Kettlebell_Curls": {
+    "name": {
+      "value": "One-handed Kettlebell Curls",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Medicine_Ball_Booklet_Crunch": {
+    "name": {
+      "value": "Medicine Ball Booklet Crunch",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Hanging_Knee_Raise": {
+    "name": {
+      "value": "Hanging Knee Raise",
+      "evidence": [
+        {
+          "rule": "The wger name is not in English, is for one side, or does not say the form. The name says what the steps describe."
+        }
+      ]
+    }
+  },
+  "Commando_Pull-ups": {
+    "name": {
+      "value": "Commando Pull-ups",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "High_Knees": {
+    "name": {
+      "value": "High Knees",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Push-up_Rotations": {
+    "name": {
+      "value": "Push-up Rotations",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Side_Split_Squat": {
+    "name": {
+      "value": "Side Split Squat",
+      "evidence": [
+        {
+          "rule": "The wger name is not in English, is for one side, or does not say the form. The name says what the steps describe."
+        }
+      ]
+    }
+  },
+  "Bulgarian_Split_Squat": {
+    "name": {
+      "value": "Bulgarian Split Squat",
+      "evidence": [
+        {
+          "rule": "The wger name is not in English, is for one side, or does not say the form. The name says what the steps describe."
+        }
+      ]
+    }
+  },
+  "Kneeling_Kickbacks": {
+    "name": {
+      "value": "Kneeling Kickbacks",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Split_Squat": {
+    "name": {
+      "value": "Split Squat",
+      "evidence": [
+        {
+          "rule": "The wger name is not in English, is for one side, or does not say the form. The name says what the steps describe."
+        }
+      ]
+    }
+  },
+  "Jump_Rope_Basic_Jumps": {
+    "name": {
+      "value": "Jump Rope: Basic Jumps",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "4-count_Burpees": {
+    "name": {
+      "value": "4-count Burpees",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "No_Push-up_Burpees": {
+    "name": {
+      "value": "No Push-up Burpees",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Reverse_Lunge": {
+    "name": {
+      "value": "Reverse Lunge",
+      "evidence": [
+        {
+          "rule": "The wger name is not in English, is for one side, or does not say the form. The name says what the steps describe."
+        }
+      ]
+    }
+  },
+  "Floor_Dip": {
+    "name": {
+      "value": "Floor Dip",
+      "evidence": [
+        {
+          "rule": "The wger name is not in English, is for one side, or does not say the form. The name says what the steps describe."
+        }
+      ]
+    }
+  },
+  "High_Plank": {
+    "name": {
+      "value": "High Plank",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Kettlebell_Deadlifts": {
+    "name": {
+      "value": "Kettlebell Deadlifts",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Forward_Shoulder_Rotation": {
+    "name": {
+      "value": "Forward Shoulder Rotation",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Backward_Shoulder_Rotation": {
+    "name": {
+      "value": "Backward Shoulder Rotation",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Chin_Tuck": {
+    "name": {
+      "value": "Chin Tuck",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Head_Turns": {
+    "name": {
+      "value": "Head Turns",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Back_Neck_Stretch": {
+    "name": {
+      "value": "Back Neck Stretch",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Front_Neck_Stretch": {
+    "name": {
+      "value": "Front Neck Stretch",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Alternating_Dumbbell_Curl": {
+    "name": {
+      "value": "Alternating Dumbbell Curl",
+      "evidence": [
+        {
+          "rule": "The wger name is not in English, is for one side, or does not say the form. The name says what the steps describe."
+        }
+      ]
+    }
+  },
+  "Levator_Scapulae_Stretch": {
+    "name": {
+      "value": "Levator Scapulae Stretch",
+      "evidence": [
+        {
+          "rule": "The wger name is not in English, is for one side, or does not say the form. The name says what the steps describe."
+        }
+      ]
+    }
+  },
+  "Clockwise_Neck_Circles": {
+    "name": {
+      "value": "Clockwise Neck Circles",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Counterclockwise_Neck_Circles": {
+    "name": {
+      "value": "Counterclockwise Neck Circles",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Neck_Half_Circles": {
+    "name": {
+      "value": "Neck Half Circles",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Head_Tilts": {
+    "name": {
+      "value": "Head Tilts",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Single_Arm_Plank_To_Row": {
+    "name": {
+      "value": "Single Arm Plank To Row",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Elevated_Prayer_Stretch": {
+    "name": {
+      "value": "Elevated Prayer Stretch",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Quadruped_Thoracic_Rotation": {
+    "name": {
+      "value": "Quadruped Thoracic Rotation",
+      "evidence": [
+        {
+          "rule": "The wger name is not in English, is for one side, or does not say the form. The name says what the steps describe."
+        }
+      ]
+    }
+  },
+  "Shoulder_Dislocates": {
+    "name": {
+      "value": "Shoulder Dislocates",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Bent_Over_Row_To_External_Rotation": {
+    "name": {
+      "value": "Bent Over Row To External Rotation",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Dumbbell_Sumo_Deadlift": {
+    "name": {
+      "value": "Dumbbell Sumo Deadlift",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Medicine_Ball_Twist": {
+    "name": {
+      "value": "Medicine Ball Twist",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Bag_Training": {
+    "name": {
+      "value": "Bag Training",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Abduction_While_Standing": {
+    "name": {
+      "value": "Abduction While Standing",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Seated_Rear_Delt_Rise": {
+    "name": {
+      "value": "Seated Rear Delt Rise",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Dynamic_Side_Hold": {
+    "name": {
+      "value": "Dynamic Side Hold",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Wall_Balls": {
+    "name": {
+      "value": "Wall Balls",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Horizontal_Traction_Isometry": {
+    "name": {
+      "value": "Horizontal Traction Isometry",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Walking_Bridge": {
+    "name": {
+      "value": "Walking Bridge",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Parallette_Push-Up": {
+    "name": {
+      "value": "Parallette Push-Up",
+      "evidence": [
+        {
+          "rule": "The wger name is not in English, is for one side, or does not say the form. The name says what the steps describe."
+        }
+      ]
+    },
+    "equipment": {
+      "value": [
+        "bodyweight"
+      ],
+      "evidence": [
+        {
+          "rule": "Parallettes are not in the vocabulary. The body is the load."
+        }
+      ]
+    }
+  },
+  "3D_Lunge_Warmup": {
+    "name": {
+      "value": "3D Lunge Warmup",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Dumbbell_Farmer_s_Carry": {
+    "name": {
+      "value": "Dumbbell Farmer's Carry",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Wide-grip_Supinated_Lat_Pulldown": {
+    "name": {
+      "value": "Wide-grip Supinated Lat Pulldown",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Close-grip_Supinated_Lat_Pulldown": {
+    "name": {
+      "value": "Close-grip Supinated Lat Pulldown",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Cable_Glute_Extension": {
+    "name": {
+      "value": "Cable Glute Extension",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Machine_Glute_Extension": {
+    "name": {
+      "value": "Machine Glute Extension",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Neutral-grip_Chest_Pulldown": {
+    "name": {
+      "value": "Neutral-grip Chest Pulldown",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "High-pulley_Pullover": {
+    "name": {
+      "value": "High-pulley Pullover",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Incline_Bench_Pulldown": {
+    "name": {
+      "value": "Incline Bench Pulldown",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Seated_Back_Extension_Machine": {
+    "equipment": {
+      "value": [
+        "machine"
+      ],
+      "evidence": [
+        {
+          "quote": "Sit in the machine with your hips and lower back against the seat and backrest and your feet on the platform."
+        }
+      ]
+    }
+  },
+  "Tibialis_Raises": {
+    "name": {
+      "value": "Tibialis Raises",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Dragon_Squat": {
+    "name": {
+      "value": "Dragon Squat",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Cycling_Cardio_Session": {
+    "name": {
+      "value": "Cycling Cardio Session",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Wrist_Curl_Dumbbells": {
+    "name": {
+      "value": "Wrist Curl, Dumbbells",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Shoulder_Width_Three-point_Push-up": {
+    "name": {
+      "value": "Shoulder Width Three-point Push-up",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Skydiver_With_Arms_In_T-position": {
+    "name": {
+      "value": "Skydiver With Arms In T-position",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Front_Lever_Tuck": {
+    "name": {
+      "value": "Front Lever Tuck",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Knee_Push-ups": {
+    "name": {
+      "value": "Knee Push-ups",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Australian_Pull-ups": {
+    "name": {
+      "value": "Australian Pull-ups",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Claps_Over_The_Head": {
+    "name": {
+      "value": "Claps Over The Head",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Dumbbell_Drag_Curls": {
+    "name": {
+      "value": "Dumbbell Drag Curls",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Dumbbell_Wide_Bicep_Curls": {
+    "name": {
+      "value": "Dumbbell Wide Bicep Curls",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Dumbbell_Bicep_Curl_To_Press": {
+    "name": {
+      "value": "Dumbbell Bicep Curl To Press",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Dumbbell_Rear_Delt_Row": {
+    "name": {
+      "value": "Dumbbell Rear Delt Row",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Frog_Stand": {
+    "name": {
+      "value": "Frog Stand",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Yoga_Exercise_Cow-cat": {
+    "name": {
+      "value": "Yoga Exercise: Cow-cat",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "TRX_Roll_Out": {
+    "name": {
+      "value": "TRX Roll Out",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Ice_Cream_Maker": {
+    "name": {
+      "value": "Ice Cream Maker",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Front_Lever_Pull-up": {
+    "name": {
+      "value": "Front Lever Pull-up",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "TRX_Hammer_Curl": {
+    "name": {
+      "value": "TRX Hammer Curl",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "TRX_Gorilla_Biceps_Curl": {
+    "name": {
+      "value": "TRX Gorilla Biceps Curl",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    },
+    "equipment": {
+      "value": [
+        "suspension trainer"
+      ],
+      "evidence": [
+        {
+          "quote": "We'll stand facing the TRX straps and grab them with our fists facing each other, facing forward, with our arms fully extended at about shoulder-width apart."
+        }
+      ]
+    }
+  },
+  "TRX_Single_Arm_Bicep_Curl": {
+    "name": {
+      "value": "TRX Single Arm Bicep Curl",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    },
+    "equipment": {
+      "value": [
+        "suspension trainer"
+      ],
+      "evidence": [
+        {
+          "quote": "Step 1: Stand comfortably and grasp the handles of the suspension system."
+        }
+      ]
+    }
+  },
+  "Back_Bridge": {
+    "name": {
+      "value": "Back Bridge",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "TRX_Tricep_Extension": {
+    "equipment": {
+      "value": [
+        "suspension trainer"
+      ],
+      "evidence": [
+        {
+          "quote": "Attach the TRX or other suspension system overhead, having the handles hanging at chest level or slightly lower."
+        }
+      ]
+    }
+  },
+  "TRX_Dips": {
+    "name": {
+      "value": "TRX Dips",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    },
+    "equipment": {
+      "value": [
+        "suspension trainer"
+      ],
+      "evidence": [
+        {
+          "quote": "Start with the hands on the suspension trainer and feet on the ground."
+        }
+      ]
+    }
+  },
+  "Plantarflexion_Stretch_With_Band": {
+    "name": {
+      "value": "Plantarflexion Stretch With Band",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Biceps_Close_Grip_Pull_Down": {
+    "equipment": {
+      "value": [
+        "machine"
+      ],
+      "evidence": [
+        {
+          "quote": "On a lat pull down machine, hold the bar keeping your hands relatively close."
+        }
+      ]
+    }
+  },
+  "Butt_Kick": {
+    "name": {
+      "value": "Butt Kick",
+      "evidence": [
+        {
+          "rule": "The wger name is not in English, is for one side, or does not say the form. The name says what the steps describe."
+        }
+      ]
+    }
+  },
+  "Reach_Ups": {
+    "name": {
+      "value": "Reach Ups",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Dynamic_Side_Plank": {
+    "name": {
+      "value": "Dynamic Side Plank",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Reverse-grip_Pull-ups": {
+    "name": {
+      "value": "Reverse-grip Pull-ups",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "One_Armed_Push-ups": {
+    "name": {
+      "value": "One Armed Push-ups",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Single-leg_Hamstring_Curl": {
+    "name": {
+      "value": "Single-leg Hamstring Curl",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "High-Cable_Cross_Triceps_Extension": {
+    "name": {
+      "value": "High-Cable Cross Triceps Extension",
+      "evidence": [
+        {
+          "rule": "The wger name is not in English, is for one side, or does not say the form. The name says what the steps describe."
+        }
+      ]
+    }
+  },
+  "High_Knee_Skips": {
+    "name": {
+      "value": "High Knee Skips",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Bodyweight_Lunge": {
+    "name": {
+      "value": "Bodyweight Lunge",
+      "evidence": [
+        {
+          "rule": "The wger name is not in English, is for one side, or does not say the form. The name says what the steps describe."
+        }
+      ]
+    }
+  },
+  "Forearm_Curls_underhand_Grip": {
+    "name": {
+      "value": "Forearm Curls (underhand Grip)",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Double_Kettlebell_Clean_And_Press": {
+    "name": {
+      "value": "Double Kettlebell Clean And Press",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Pullover_Machine": {
+    "equipment": {
+      "value": [
+        "machine"
+      ],
+      "evidence": [
+        {
+          "quote": "Pullover machine, sitting, elbows on pads"
+        }
+      ]
+    }
+  },
+  "Bodyweight_Good_Morning": {
+    "name": {
+      "value": "Bodyweight Good Morning",
+      "evidence": [
+        {
+          "quote": "Stand with your feet more than shoulder-width apart (wider stance) and place your hands on your hips."
+        }
+      ]
+    }
+  },
+  "Cossack_Squat": {
+    "name": {
+      "value": "Cossack Squat",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Plank_With_Alternating_Leg_Lift": {
+    "name": {
+      "value": "Plank With Alternating Leg Lift",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Lat_Pull_Dumbbell": {
+    "name": {
+      "value": "Lat Pull Dumbbell",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Pin_Bench_Press_Barbell": {
+    "name": {
+      "value": "Pin Bench Press Barbell",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Pin_Overhead_Press": {
+    "name": {
+      "value": "Pin Overhead Press",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Push_Overhead_Press": {
+    "name": {
+      "value": "Push Overhead Press",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Incline_Overhead_Press_Dumbbell": {
+    "name": {
+      "value": "Incline Overhead Press Dumbbell",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Dumbbell_Kreis_Press": {
+    "name": {
+      "value": "Dumbbell Kreis Press",
+      "evidence": [
+        {
+          "rule": "The wger name is not in English, is for one side, or does not say the form. The name says what the steps describe."
+        }
+      ]
+    }
+  },
+  "Shoulder_Raise_Side_And_Front_Dumbbell": {
+    "name": {
+      "value": "Shoulder Raise Side And Front Dumbbell",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Jerk": {
+    "name": {
+      "value": "Jerk",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "ClimbMill": {
+    "equipment": {
+      "value": [
+        "machine"
+      ],
+      "evidence": [
+        {
+          "quote": "The ClimbMill, also known as a stair climber, is a cardio-focused machine that simulates climbing stairs."
+        }
+      ]
+    }
+  },
+  "Torso_Rotation_Stretch": {
+    "name": {
+      "value": "Torso Rotation Stretch",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Knee_To_Chest_Stretch": {
+    "name": {
+      "value": "Knee To Chest Stretch",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Punches": {
+    "name": {
+      "value": "Punches",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Dumbbell_Spider_Curl": {
+    "name": {
+      "value": "Dumbbell Spider Curl",
+      "evidence": [
+        {
+          "quote": "Lie face-down on an adjustable weight bench with your chest fully supported, holding a pair of dumbbells."
+        }
+      ]
+    }
+  },
+  "Bent_Over_Cable_Flye": {
+    "name": {
+      "value": "Bent Over Cable Flye",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Kroc_Row": {
+    "equipment": {
+      "value": [
+        "dumbbell"
+      ],
+      "evidence": [
+        {
+          "quote": "Dumbbell rows with looser technique but heavier weight."
+        }
+      ]
+    }
+  },
+  "Biceps_Curl_Trifecta": {
+    "name": {
+      "value": "Biceps Curl Trifecta",
+      "evidence": [
+        {
+          "rule": "The wger name is not in English, is for one side, or does not say the form. The name says what the steps describe."
+        }
+      ]
+    }
+  },
+  "Hyper_Y_W_Combo": {
+    "equipment": {
+      "value": [
+        "exercise ball"
+      ],
+      "evidence": [
+        {
+          "quote": "Use a glute-ham raise or a stability ball for this exercise and a light weight plate in each hand."
+        }
+      ]
+    }
+  },
+  "Dumbbell_Upper_Chest_Variation": {
+    "name": {
+      "value": "Dumbbell Upper Chest Variation",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Dumbbell_Underhand_Bench_Press": {
+    "name": {
+      "value": "Dumbbell Underhand Bench Press",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Elbows_Tucked_Dumbbell_Bench_Press": {
+    "name": {
+      "value": "Elbows Tucked Dumbbell Bench Press",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Alternative_Dumbbell_Gorilla_Rows": {
+    "name": {
+      "value": "Alternative Dumbbell Gorilla Rows",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Dumbbell_Bradford_Press": {
+    "name": {
+      "value": "Dumbbell Bradford Press",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "High-Incline_Smith_Machine_Press": {
+    "equipment": {
+      "value": [
+        "smith machine",
+        "bench"
+      ],
+      "evidence": [
+        {
+          "quote": "Set the bench to a 45-60° incline."
+        },
+        {
+          "rule": "The name says Smith machine."
+        }
+      ]
+    }
+  },
+  "Pendular_Hack": {
+    "name": {
+      "value": "Pendular Hack",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    },
+    "equipment": {
+      "value": [
+        "machine"
+      ],
+      "evidence": [
+        {
+          "quote": "Pendulum hack, made on a pendulum machine"
+        }
+      ]
+    }
+  },
+  "Ball_Slams": {
+    "equipment": {
+      "value": [
+        "medicine ball"
+      ],
+      "evidence": [
+        {
+          "quote": "Use your core and arms to slam the medicine ball straight down between your feet with as much force as possible."
+        }
+      ]
+    }
+  },
+  "Toes_To_Bar": {
+    "name": {
+      "value": "Toes To Bar",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Archer_Pull_Up": {
+    "equipment": {
+      "value": [
+        "pull-up bar"
+      ],
+      "evidence": [
+        {
+          "quote": "Grip: Grasp a pull-up bar with a wider-than-shoulder-width overhand grip."
+        }
+      ]
+    }
+  },
+  "Clap_Push-Up": {
+    "name": {
+      "value": "Clap Push-Up",
+      "evidence": [
+        {
+          "rule": "The wger name is not in English, is for one side, or does not say the form. The name says what the steps describe."
+        }
+      ]
+    }
+  },
+  "Alternating_Dumbbell_Hammer_Curl": {
+    "name": {
+      "value": "Alternating Dumbbell Hammer Curl",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Ab_Wheel": {
+    "name": {
+      "value": "Ab Wheel",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Standing_Dowel_Shoulder_Press": {
+    "name": {
+      "value": "Standing Dowel Shoulder Press",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Bretzel_Stretch": {
+    "name": {
+      "value": "Bretzel Stretch",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Hip_Hinge": {
+    "name": {
+      "value": "Hip Hinge",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Trap_Press": {
+    "name": {
+      "value": "Trap Press",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Side-laying_Interior_Rotation": {
+    "name": {
+      "value": "Side-laying Interior Rotation",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Supine_Press": {
+    "name": {
+      "value": "Supine Press",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "March_Or_Jog_In_Place": {
+    "name": {
+      "value": "March Or Jog In Place",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Leg_And_Hip_Stretch": {
+    "name": {
+      "value": "Leg And Hip Stretch",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Arm_And_Neck_Stretch": {
+    "name": {
+      "value": "Arm And Neck Stretch",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Leg_Curl_With_Elastic": {
+    "name": {
+      "value": "Leg Curl With Elastic",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Kettlebell_Sumo_Deadlift": {
+    "name": {
+      "value": "Kettlebell Sumo Deadlift",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Rubber_Band_Glute_Kickback": {
+    "name": {
+      "value": "Rubber Band Glute Kickback",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Dumbbell_Donkey_Kick": {
+    "name": {
+      "value": "Dumbbell Donkey Kick",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Stationary_Bike_Cardio": {
+    "name": {
+      "value": "Stationary Bike Cardio",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Unilateral_Cable_Row": {
+    "name": {
+      "value": "Unilateral Cable Row",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Modified_Pulldown": {
+    "name": {
+      "value": "Modified Pulldown",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Single_Arm_Row": {
+    "name": {
+      "value": "Single Arm Row",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Dumbbell_Side_Squat": {
+    "equipment": {
+      "value": [
+        "dumbbell"
+      ],
+      "evidence": [
+        {
+          "quote": "This exercise involves holding a dumbbell in one hand and performing a squat while stepping to the side."
+        }
+      ]
+    }
+  },
+  "Machine_Lateral_Raise": {
+    "equipment": {
+      "value": [
+        "machine"
+      ],
+      "evidence": [
+        {
+          "quote": "The machine lateral raise is an isolation exercise that targets the medial (side) deltoid muscle to build wider, more defined shoulders."
+        }
+      ]
+    }
+  },
+  "Decline_Cable_Chest_Press": {
+    "name": {
+      "value": "Decline Cable Chest Press",
+      "evidence": [
+        {
+          "rule": "The wger name is not in English, is for one side, or does not say the form. The name says what the steps describe."
+        }
+      ]
+    }
+  },
+  "Internally_Rotated_Preacher_Curl": {
+    "name": {
+      "value": "Internally Rotated Preacher Curl",
+      "evidence": [
+        {
+          "rule": "The wger name is not in English, is for one side, or does not say the form. The name says what the steps describe."
+        }
+      ]
+    }
+  },
+  "Externally_Rotated_Preacher_Curl": {
+    "name": {
+      "value": "Externally Rotated Preacher Curl",
+      "evidence": [
+        {
+          "rule": "The wger name is not in English, is for one side, or does not say the form. The name says what the steps describe."
+        }
+      ]
+    }
+  },
+  "Single-Arm_Cross-Body_Lat_Pulldown": {
+    "name": {
+      "value": "Single-Arm Cross-Body Lat Pulldown",
+      "evidence": [
+        {
+          "rule": "The wger name is not in English, is for one side, or does not say the form. The name says what the steps describe."
+        }
+      ]
+    }
+  },
+  "Internally_Rotated_Cable_Triceps_Extension": {
+    "name": {
+      "value": "Internally Rotated Cable Triceps Extension",
+      "evidence": [
+        {
+          "rule": "The wger name is not in English, is for one side, or does not say the form. The name says what the steps describe."
+        }
+      ]
+    }
+  },
+  "Curl_with_Shoulder_Elevated": {
+    "name": {
+      "value": "Curl with Shoulder Elevated",
+      "evidence": [
+        {
+          "rule": "The wger name is not in English, is for one side, or does not say the form. The name says what the steps describe."
+        }
+      ]
+    }
+  },
+  "Seated_Figure_Four": {
+    "name": {
+      "value": "Seated Figure Four",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Bear_Crawl_Pull_Through": {
+    "name": {
+      "value": "Bear Crawl Pull Through",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Shoulder_External_Rotation_With_Dumbbell": {
+    "name": {
+      "value": "Shoulder External Rotation With Dumbbell",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Neck_Extension": {
+    "name": {
+      "value": "Neck Extension",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Single-Arm_High_Pulley_Row": {
+    "name": {
+      "value": "Single-Arm High Pulley Row",
+      "evidence": [
+        {
+          "rule": "The wger name is not in English, is for one side, or does not say the form. The name says what the steps describe."
+        }
+      ]
+    }
+  },
+  "Banded_Face_Pull": {
+    "name": {
+      "value": "Banded Face Pull",
+      "evidence": [
+        {
+          "rule": "The wger name is not in English, is for one side, or does not say the form. The name says what the steps describe."
+        }
+      ]
+    }
+  },
+  "Isometric_Squat_To_Failure": {
+    "name": {
+      "value": "Isometric Squat To Failure",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Single-Leg_Lunge_with_Kettlebell": {
+    "name": {
+      "value": "Single-Leg Lunge with Kettlebell",
+      "evidence": [
+        {
+          "rule": "The wger name is not in English, is for one side, or does not say the form. The name says what the steps describe."
+        }
+      ]
+    }
+  },
+  "Single-leg_Side_Glute_Press": {
+    "name": {
+      "value": "Single-leg Side Glute Press",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Single-Leg_Deadlift_With_Dumbbell": {
+    "name": {
+      "value": "Single-Leg Deadlift With Dumbbell",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Assisted_Chin-ups": {
+    "name": {
+      "value": "Assisted Chin-ups",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    },
+    "equipment": {
+      "value": [
+        "machine"
+      ],
+      "evidence": [
+        {
+          "quote": "Chin-ups with machine assistance (counterweights)"
+        }
+      ]
+    }
+  },
+  "Neutral-grip_Pull-ups_Or_TRX_Rows": {
+    "name": {
+      "value": "Neutral-grip Pull-ups Or TRX Rows",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "45_Lateral_Raises": {
+    "name": {
+      "value": "45° Lateral Raises",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Shoulder_Y-pull_Cable": {
+    "name": {
+      "value": "Shoulder Y-pull Cable",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Legend_Incline_Bench_Press": {
+    "equipment": {
+      "value": [
+        "machine"
+      ],
+      "evidence": [
+        {
+          "quote": "Incline bench press on the Legend Fitness LeverEdge machine."
+        }
+      ]
+    }
+  },
+  "Chair_Dips": {
+    "name": {
+      "value": "Chair Dips",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Deficit_Push_Ups": {
+    "name": {
+      "value": "Deficit Push Ups",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Unilateral_Cross_Body_Cable_Pull_Down": {
+    "name": {
+      "value": "Unilateral Cross Body Cable Pull Down",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Ankle_Dorsiflexion_Rocks": {
+    "name": {
+      "value": "Ankle Dorsiflexion Rocks",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Behind_The_Back_Cable_Lateral_Raise": {
+    "name": {
+      "value": "Behind The Back Cable Lateral Raise",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Parallel_Bar_Hold": {
+    "equipment": {
+      "value": [
+        "dip bar"
+      ],
+      "evidence": [
+        {
+          "quote": "Stand between a set of parallel bars."
+        }
+      ]
+    }
+  },
+  "Band_Pull-apart_With_External_Rotation": {
+    "name": {
+      "value": "Band Pull-apart With External Rotation",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Landmine_Squat_To_Press": {
+    "name": {
+      "value": "Landmine Squat To Press",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Ring_Support_Hold": {
+    "equipment": {
+      "value": [
+        "rings"
+      ],
+      "evidence": [
+        {
+          "quote": "Hold yourself in a support position on gymnastic rings with arms straight at sides."
+        }
+      ]
+    }
+  },
+  "L-Sit": {
+    "name": {
+      "value": "L-Sit",
+      "evidence": [
+        {
+          "rule": "The wger name is not in English, is for one side, or does not say the form. The name says what the steps describe."
+        }
+      ]
+    }
+  },
+  "Calves_Foam_Roller": {
+    "name": {
+      "value": "Calves Foam Roller",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Hamstring_Foam_Roller": {
+    "name": {
+      "value": "Hamstring Foam Roller",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Foam_Roller_Anterior_Tibialis": {
+    "name": {
+      "value": "Foam Roller Anterior Tibialis",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Foam_Roller_Iliotibial_Band": {
+    "name": {
+      "value": "Foam Roller Iliotibial Band",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Foam_Roller_Quadriceps": {
+    "name": {
+      "value": "Foam Roller Quadriceps",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Side_Stretch": {
+    "name": {
+      "value": "Side Stretch",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Banded_Ankle_Mobility": {
+    "equipment": {
+      "value": [
+        "bands"
+      ],
+      "evidence": [
+        {
+          "quote": "Anchor a resistance band low behind you, for example at the bottom of a rack, and loop it around the front of your ankle, just above the foot."
+        }
+      ]
+    }
+  },
+  "Lunge_With_Twist_Stretch": {
+    "name": {
+      "value": "Lunge With Twist Stretch",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Lying_Hamstring_Stretch_With_Band": {
+    "name": {
+      "value": "Lying Hamstring Stretch With Band",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Incline_Dumbbell_Y-Raise": {
+    "name": {
+      "value": "Incline Dumbbell Y-Raise",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Dumbbell_Wrist_Extension": {
+    "name": {
+      "value": "Dumbbell Wrist Extension",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Weighted_Push-ups": {
+    "name": {
+      "value": "Weighted Push-ups",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Tuck_Planche": {
+    "name": {
+      "value": "Tuck Planche",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Legend_Chest_Press": {
+    "equipment": {
+      "value": [
+        "machine"
+      ],
+      "evidence": [
+        {
+          "quote": "Plate-loaded chest press machine from Legend Fitness LeverEdge line."
+        }
+      ]
+    }
+  },
+  "Seated_Cable_Chest_Fly": {
+    "name": {
+      "value": "Seated Cable Chest Fly",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Cable_Rear-Delt_Fly_single_Arm": {
+    "name": {
+      "value": "Cable Rear-Delt Fly (single Arm)",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Dumbbell_Snatch": {
+    "name": {
+      "value": "Dumbbell Snatch",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Foam_Roll_IT_Band": {
+    "equipment": {
+      "value": [
+        "foam roller"
+      ],
+      "evidence": [
+        {
+          "rule": "\"IT band\" names the iliotibial band, not a resistance band. The name says foam roll."
+        }
+      ]
+    }
+  },
+  "SMR_Glutes_lax_Ball": {
+    "name": {
+      "value": "SMR Glutes (lax Ball)",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Roll-overs_Into_V-sits": {
+    "name": {
+      "value": "Roll-overs Into V-sits",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Single-arm_Cable_Pushdown": {
+    "name": {
+      "value": "Single-arm Cable Pushdown",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Kick_With_Board": {
+    "name": {
+      "value": "Kick With Board",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Band_Terminal_Knee_Extension": {
+    "name": {
+      "value": "Band Terminal Knee Extension",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Elbow_Lever": {
+    "name": {
+      "value": "Elbow Lever",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Single-leg_BOSU_Balance": {
+    "name": {
+      "value": "Single-leg BOSU Balance",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Hip-Out_And_Hip-In_Lateral_Steps": {
+    "name": {
+      "value": "Hip-Out And Hip-In Lateral Steps",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Reverse_V-Squat": {
+    "equipment": {
+      "value": [
+        "machine"
+      ],
+      "evidence": [
+        {
+          "quote": "Step into the V-squat machine facing the pad, the opposite way from the regular V-squat, so that your chest rests against the pad and your shoulders sit under the shoulder pads."
+        }
+      ]
+    }
+  },
+  "Plate-Loaded_Lat_Pulldown": {
+    "equipment": {
+      "value": [
+        "machine"
+      ],
+      "evidence": [
+        {
+          "rule": "The steps say that the resistance comes from plates on lever arms, not a cable."
+        }
+      ]
+    }
+  },
+  "Single-Arm_Cable_Row_With_Rotation_Floor": {
+    "name": {
+      "value": "Single-Arm Cable Row With Rotation (Floor)",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Seated_Knee_Extension_With_Overpressure": {
+    "name": {
+      "value": "Seated Knee Extension With Overpressure",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Single-Leg_Balance_With_Eyes_Closed": {
+    "name": {
+      "value": "Single-Leg Balance With Eyes Closed",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Single-Leg_Balance_With_Kettlebell_Circles": {
+    "name": {
+      "value": "Single-Leg Balance With Kettlebell Circles",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Weighted_Neck_Flexion": {
+    "name": {
+      "value": "Weighted Neck Flexion",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Single_Leg_Press": {
+    "name": {
+      "value": "Single Leg Press",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    },
+    "equipment": {
+      "value": [
+        "machine"
+      ],
+      "evidence": [
+        {
+          "quote": "Strength training exercise where you push a weight away from your body using one leg at a time on a leg press machine."
+        }
+      ]
+    }
+  },
+  "Ring_Row": {
+    "name": {
+      "value": "Ring Row",
+      "evidence": [
+        {
+          "rule": "The wger name is not in English, is for one side, or does not say the form. The name says what the steps describe."
+        }
+      ]
+    }
+  },
+  "Tyson_Push-ups": {
+    "name": {
+      "value": "Tyson Push-ups",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Wrist_Rocks": {
+    "name": {
+      "value": "Wrist Rocks",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Dumbbell_Cyclist_Squat": {
+    "name": {
+      "value": "Dumbbell Cyclist Squat",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Triceps_Push_Up": {
+    "name": {
+      "value": "Triceps Push Up",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Exhale_And_Body-position_Swim_Drill": {
+    "name": {
+      "value": "Exhale And Body-position Swim Drill",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Machine_Incline_Chest_Press": {
+    "name": {
+      "value": "Machine Incline Chest Press",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    },
+    "equipment": {
+      "value": [
+        "machine"
+      ],
+      "evidence": [
+        {
+          "quote": "Perform Machine Incline Chest Press with controlled form, keeping tension on the target muscles, pausing briefly at the peak contraction, then returning slowly under control without using momentum."
+        }
+      ]
+    }
+  },
+  "Cable_Cupping": {
+    "equipment": {
+      "value": [
+        "cable"
+      ],
+      "evidence": [
+        {
+          "quote": "Attach a single handle to a low cable."
+        }
+      ]
+    }
+  },
+  "Cable_Back_Pressure": {
+    "equipment": {
+      "value": [
+        "cable"
+      ],
+      "evidence": [
+        {
+          "quote": "Set a cable at chest height and stand side on, holding the handle with your elbow bent about ninety degrees in front of you, like an arm wrestling setup."
+        }
+      ]
+    }
+  },
+  "Cable_Side_Pressure": {
+    "equipment": {
+      "value": [
+        "cable"
+      ],
+      "evidence": [
+        {
+          "quote": "Set a cable at chest height and stand side on with the cable on your working side."
+        }
+      ]
+    }
+  },
+  "Cable_Wrist_Pronation": {
+    "equipment": {
+      "value": [
+        "cable"
+      ],
+      "evidence": [
+        {
+          "quote": "Attach a strap or handle to a cable at hand height so the cable pulls your palm toward facing up."
+        }
+      ]
+    }
+  },
+  "Cable_Wrist_Supination": {
+    "equipment": {
+      "value": [
+        "cable"
+      ],
+      "evidence": [
+        {
+          "quote": "Attach a strap or handle to a cable at hand height so the cable pulls your palm toward facing down."
+        }
+      ]
+    }
+  },
+  "Hammer_Levering": {
+    "equipment": {
+      "value": [
+        "sledgehammer"
+      ],
+      "evidence": [
+        {
+          "quote": "Hold a sledgehammer or an empty dumbbell handle with a plate on one end near the bottom of the handle, arm by your side."
+        }
+      ]
+    }
+  },
+  "Hub_Lift": {
+    "equipment": {
+      "value": [
+        "plate"
+      ],
+      "evidence": [
+        {
+          "quote": "Place a weight plate on the floor with the hub facing up, or use a loading pin with a plate attached."
+        }
+      ]
+    }
+  },
+  "Hanging_Leg_Raise_With_Hip_Lift_On_Rings": {
+    "name": {
+      "value": "Hanging Leg Raise With Hip Lift On Rings",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Quadratus_Lumborum_Stretch": {
+    "name": {
+      "value": "Quadratus Lumborum Stretch",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Standing_Leg_Lift_With_External_Rotation": {
+    "name": {
+      "value": "Standing Leg Lift With External Rotation",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Prone_Leg_Kickback": {
+    "name": {
+      "value": "Prone Leg Kickback",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Ring_Push-Up": {
+    "name": {
+      "value": "Ring Push-Up",
+      "evidence": [
+        {
+          "rule": "The wger name is not in English, is for one side, or does not say the form. The name says what the steps describe."
+        }
+      ]
+    }
+  },
+  "TRX_Rings_Dip": {
+    "equipment": {
+      "value": [
+        "rings"
+      ],
+      "evidence": [
+        {
+          "quote": "Set TRX straps or rings so the handles hang at a height that lets you support your body with straight arms and the feet clear of the floor, or lightly assisted if needed."
+        }
+      ]
+    }
+  },
+  "Pogo_Jumps": {
+    "name": {
+      "value": "Pogo Jumps",
+      "evidence": [
+        {
+          "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    }
+  },
+  "Split_Squats": {
+    "name": {
+      "value": "Jumping Split Squat",
+      "evidence": [
+        {
+          "quote": "Jump into a split leg position, with one leg forward and one leg back, flexing the knees and lowering your hips slightly as you do so."
+        },
+        {
+          "rule": "The steps jump, so the name says so. The released slug stays."
+        }
+      ]
+    }
+  },
+  "Barbell_Shoulder_Press": {
+    "name": {
+      "value": "Seated Barbell Shoulder Press",
+      "evidence": [
+        {
+          "quote": "Sit on a bench with back support in a squat rack."
+        },
+        {
+          "rule": "Seated is a form word. The released slug stays."
+        }
+      ]
+    }
+  },
+  "Split_Squat_with_Dumbbells": {
+    "name": {
+      "value": "Dumbbell Bulgarian Split Squat",
+      "evidence": [
+        {
+          "quote": "Position yourself into a staggered stance with the rear foot elevated and front foot forward."
+        },
+        {
+          "rule": "A split squat with the rear foot elevated is a Bulgarian split squat. The released slug stays."
+        }
+      ]
+    }
+  },
+  "Air_Bike": {
+    "tracking.laterality": {
+      "value": "alternating",
+      "evidence": [
+        {
+          "quote": "Continue alternating in this manner until all of the recommended repetitions for each side have been completed."
+        }
+      ]
+    }
+  },
+  "Dead_Bug": {
+    "tracking.laterality": {
+      "value": "alternating",
+      "evidence": [
+        {
+          "quote": "Repeat on the opposite side, alternating until the set is complete."
+        }
+      ]
+    }
+  },
+  "Oblique_Crunches": {
+    "tracking.laterality": {
+      "value": "alternating",
+      "evidence": [
+        {
+          "quote": "Continue alternating in this manner until all of the recommended repetitions for each side have been completed."
+        }
+      ]
+    }
   }
 }

@@ -289,6 +289,30 @@
           "rule": "A common name. Standing is the default form."
         }
       ]
+    },
+    {
+      "name": "OHP Barbell",
+      "evidence": [
+        {
+          "rule": "No form word, so the name means the standing press, the default form."
+        }
+      ]
+    },
+    {
+      "name": "Overhead press Barbell",
+      "evidence": [
+        {
+          "rule": "No form word, so the name means the standing press, the default form."
+        }
+      ]
+    },
+    {
+      "name": "Military Press with Barbell",
+      "evidence": [
+        {
+          "rule": "No form word, so the name means the standing press, the default form."
+        }
+      ]
     }
   ],
   "Bent_Over_Barbell_Row": [
@@ -343,6 +367,105 @@
       "evidence": [
         {
           "rule": "A common name. The cable is the default equipment."
+        }
+      ]
+    }
+  ],
+  "Barbell_Shoulder_Press": [
+    {
+      "name": "OHP Barbell",
+      "evidence": [
+        {
+          "rule": "The record is a seated press. A name with no form word means the standing press."
+        }
+      ],
+      "reject": true
+    },
+    {
+      "name": "Overhead press Barbell",
+      "evidence": [
+        {
+          "rule": "The record is a seated press. A name with no form word means the standing press."
+        }
+      ],
+      "reject": true
+    },
+    {
+      "name": "Military Press with Barbell",
+      "evidence": [
+        {
+          "rule": "The record is a seated press. A name with no form word means the standing press."
+        }
+      ],
+      "reject": true
+    }
+  ],
+  "Thigh_Abductor": [
+    {
+      "name": "Hip Abductor (Machine)",
+      "evidence": [
+        {
+          "rule": "Strong's name for this exercise."
+        }
+      ]
+    }
+  ],
+  "Thigh_Adductor": [
+    {
+      "name": "Hip Adductor (Machine)",
+      "evidence": [
+        {
+          "rule": "Strong's name for this exercise."
+        }
+      ]
+    }
+  ],
+  "Standing_Calf_Raises": [
+    {
+      "name": "Standing Calf Raise (Machine)",
+      "evidence": [
+        {
+          "rule": "Strong's name for this exercise."
+        }
+      ]
+    }
+  ],
+  "Dumbbell_Lunges": [
+    {
+      "name": "Lunge (Dumbbell)",
+      "evidence": [
+        {
+          "rule": "Strong's name for this exercise."
+        }
+      ]
+    }
+  ],
+  "Exercise_Ball_Crunch": [
+    {
+      "name": "Crunch (Stability Ball)",
+      "evidence": [
+        {
+          "rule": "Strong's name for this exercise."
+        }
+      ]
+    }
+  ],
+  "Wall_Handstand": [
+    {
+      "name": "Handstand Hold (Wall)",
+      "evidence": [
+        {
+          "rule": "Strong's name for this exercise."
+        }
+      ]
+    }
+  ],
+  "Banded_Face_Pull": [
+    {
+      "name": "Face Pull (Band)",
+      "evidence": [
+        {
+          "rule": "Strong's name for this exercise."
         }
       ]
     }

@@ -76,7 +76,10 @@ dist/         the release
   the record's steps, or the rule it applies. The build fails when a quote is
   not in the steps.
 - The **merge** is a fixed function of the two. A curated value wins over a
-  source value, and a source value wins over a rule.
+  source value, and a source value wins over a rule. In a group, the first
+  member that states a field gives it, so a free-exercise-db record keeps its
+  fields and wger fills the gaps. The other members' names and their aliases
+  become aliases, unless another record already has the name.
 
 A form word names a different exercise. "Seated Barbell Shoulder Press" and
 "Barbell Shoulder Press" are two records, and a name with no form word means
@@ -113,8 +116,8 @@ The sources keep their own licenses:
 - free-exercise-db by yuhonas and contributors, under the
   [Unlicense](https://github.com/yuhonas/free-exercise-db/blob/main/LICENSE.md).
 - wger by its contributors. Each record has its own license: CC BY-SA 4.0,
-  CC BY-SA 3.0 or CC0. `parsed/wger.json` keeps the license and the authors
-  of each record. wger records are not in `dist/` yet.
+  CC BY-SA 3.0 or CC0. Each record in `dist/` that uses wger names its wger
+  authors in `credit`, and `dist/ATTRIBUTION.md` lists them.
 
 `names/` lists the exercise names that other apps write, and the record that
 each name must match.
