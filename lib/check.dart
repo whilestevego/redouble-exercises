@@ -1,5 +1,6 @@
 import 'dart:io';
 
+import 'inputs.dart';
 import 'json_io.dart';
 import 'parse.dart';
 
@@ -33,8 +34,8 @@ List<String> checkDataset(Map<String, Parsed> parsed, List<Json> records) {
   };
 
   final refs = <String, Json>{
-    for (final MapEntry(key: d, value: p) in parsed.entries)
-      for (final r in p.records) '$d:${r['id']}': r,
+    for (final d in mergedDatasets)
+      for (final r in parsed[d]!.records) '$d:${r['id']}': r,
   };
   final seen = <String>{};
   for (final MapEntry(key: slug, value: members) in groups.entries) {
@@ -142,6 +143,16 @@ List<String> checkDataset(Map<String, Parsed> parsed, List<Json> records) {
               s['license'] == null || (s['authors'] as List?)?.isEmpty != false,
         )) {
       problems.add('$slug: a source has no license or no authors');
+    }
+  }
+
+  for (final file in Directory('names').listSync().whereType<File>()) {
+    if (!file.path.endsWith('.tsv')) continue;
+    for (final line in file.readAsLinesSync().skip(1)) {
+      final slug = line.split('\t').elementAtOrNull(1) ?? '';
+      if (slug.isNotEmpty && !bySlug.containsKey(slug)) {
+        problems.add('${file.path}: "$line" names no record');
+      }
     }
   }
 

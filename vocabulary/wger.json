@@ -1,0 +1,57 @@
+{
+  "region": {
+    "Abs": "core",
+    "Arms": "arms",
+    "Back": "back",
+    "Calves": "legs",
+    "Chest": "chest",
+    "Legs": "legs",
+    "Shoulders": "shoulders",
+    "Cardio": null
+  },
+  "kind": {
+    "Cardio": "cardio"
+  },
+  "muscles": {
+    "Biceps brachii": "biceps",
+    "Anterior deltoid": "shoulders",
+    "Serratus anterior": null,
+    "Pectoralis major": "chest",
+    "Triceps brachii": "triceps",
+    "Rectus abdominis": "abdominals",
+    "Gastrocnemius": "calves",
+    "Gluteus maximus": "glutes",
+    "Trapezius": "traps",
+    "Quadriceps femoris": "quadriceps",
+    "Biceps femoris": "hamstrings",
+    "Latissimus dorsi": "lats",
+    "Brachialis": "biceps",
+    "Obliquus externus abdominis": "abdominals",
+    "Soleus": "calves"
+  },
+  "equipment": {
+    "Barbell": "barbell",
+    "SZ-Bar": "ez bar",
+    "Dumbbell": "dumbbell",
+    "Gym mat": null,
+    "Swiss Ball": "exercise ball",
+    "Pull-up bar": "pull-up bar",
+    "none (bodyweight exercise)": "bodyweight",
+    "Bench": "bench",
+    "Incline bench": "bench",
+    "Kettlebell": "kettlebell",
+    "Resistance band": "bands",
+    "Cable machine": "cable"
+  },
+  "license": {
+    "CC-BY-SA 4": "CC BY-SA 4.0",
+    "CC-BY-SA 3": "CC BY-SA 3.0",
+    "CC0": "CC0"
+  },
+  "language": 2,
+  "translationLicense": {
+    "1": "CC BY-SA 3.0",
+    "2": "CC BY-SA 4.0",
+    "3": "CC0"
+  }
+}
