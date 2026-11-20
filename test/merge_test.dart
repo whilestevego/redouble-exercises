@@ -26,8 +26,10 @@ List<Json> _merge(
     parsed: {'src': records},
     sources: {
       'src': {
+        'dataset': 'src',
         'license': 'Unlicense',
         'authors': ['someone'],
+        'recordUrl': 'https://example.com/{id}',
       },
     },
     merges: {'groups': groups},
@@ -94,6 +96,41 @@ void main() {
     expect(
       [for (final s in r['sources'] as List) (s as Map)['id']],
       ['Dip', 'Weighted_Dip'],
+    );
+  });
+
+  test('a CC BY-SA source makes the record CC BY-SA and asks for credit', () {
+    final out = licenseOf([
+      {
+        'dataset': 'a',
+        'license': 'Unlicense',
+        'authors': ['x'],
+        'url': 'u1',
+      },
+      {
+        'dataset': 'b',
+        'license': 'CC BY-SA 4.0',
+        'authors': ['y'],
+        'url': 'u2',
+      },
+    ]);
+    expect(out['license'], 'CC BY-SA 4.0');
+    expect(out['credit'], {
+      'dataset': 'b',
+      'authors': ['y'],
+      'license': 'CC BY-SA 4.0',
+      'url': 'u2',
+    });
+    expect(
+      licenseOf([
+        {
+          'dataset': 'a',
+          'license': 'Unlicense',
+          'authors': ['x'],
+          'url': 'u',
+        },
+      ])['credit'],
+      isNull,
     );
   });
 

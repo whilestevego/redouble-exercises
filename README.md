@@ -29,9 +29,11 @@ its exercise library from the releases of this repo.
   "variationGroup": null,
   "sources": [
     { "dataset": "free-exercise-db", "id": "Face_Pull", "license": "Unlicense",
-      "authors": ["yuhonas and contributors"] }
+      "authors": ["yuhonas and contributors"], "url": "https://github.com/…/Face_Pull" }
   ],
-  "provenance": { "name": "free-exercise-db", "aliases": "curated", "tracking.measure": "rule", "…": "…" }
+  "provenance": { "name": "free-exercise-db", "aliases": "curated", "tracking.measure": "rule", "…": "…" },
+  "license": "Unlicense",
+  "credit": null
 }
 ```
 
@@ -45,6 +47,11 @@ its exercise library from the releases of this repo.
   or `distance`. `laterality` is `bilateral`, `unilateral` or `alternating`.
   `load` is `absolute`, `added` (bodyweight plus added weight) or `none`.
   `bodyweightFactor` is the share of the bodyweight that the movement lifts.
+
+- **`license`** is the strictest license among the record's sources.
+  **`credit`** gives the dataset, the authors, the license and the link that
+  the license requires, or `null` when no source asks for credit.
+  `dist/ATTRIBUTION.md` lists each credit.
 
 The equipment and muscle slugs are in `vocabulary/`.
 
