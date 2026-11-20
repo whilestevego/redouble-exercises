@@ -1,5 +1,6 @@
 import 'dart:io';
 
+import 'package:redouble_exercises/attribution.dart';
 import 'package:redouble_exercises/check.dart';
 import 'package:redouble_exercises/inputs.dart';
 import 'package:redouble_exercises/json_io.dart';
@@ -25,16 +26,28 @@ void main(List<String> args) {
     },
     'dist/exercises.json': release(records),
   };
+  final texts = {
+    'dist/ATTRIBUTION.md': attributionOf(records, [
+      for (final d in datasets) readJson('sources/$d/SOURCE.json') as Json,
+    ]),
+  };
 
   final problems = <String>[];
-  for (final MapEntry(key: path, value: value) in outputs.entries) {
+  final files = {
+    for (final MapEntry(key: path, value: value) in outputs.entries)
+      path: encodeJson(value),
+    ...texts,
+  };
+  for (final MapEntry(key: path, value: text) in files.entries) {
+    final file = File(path);
     if (checkOnly) {
-      final file = File(path);
-      if (!file.existsSync() || file.readAsStringSync() != encodeJson(value)) {
+      if (!file.existsSync() || file.readAsStringSync() != text) {
         problems.add('$path is not the output of the build. Run make build.');
       }
     } else {
-      writeJson(path, value);
+      file
+        ..parent.createSync(recursive: true)
+        ..writeAsStringSync(text);
     }
   }
   problems.addAll(checkDataset(parsed, records));

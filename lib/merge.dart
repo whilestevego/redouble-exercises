@@ -63,6 +63,7 @@ Json _record(
 ) {
   final provenance = <String, String>{};
   final (dataset, first) = members.first;
+  final sources = _sourcesOf(members, inputs);
 
   T pick<T>(String field, T Function() fromSource, {T Function()? rule}) {
     if (curated.containsKey(field)) {
@@ -153,16 +154,62 @@ Json _record(
         if (tracking[f] != null) f: tracking[f],
     },
     'variationGroup': null,
-    'sources': [
-      for (final (dataset, r) in members)
-        {
-          'dataset': dataset,
-          'id': r['id'],
-          'license': inputs.sources[dataset]!['license'],
-          'authors': inputs.sources[dataset]!['authors'],
-        },
-    ],
+    'sources': sources,
     'provenance': provenance,
+    ...licenseOf(sources),
+  };
+}
+
+/// A record's own license and authors win over its dataset's.
+List<Json> _sourcesOf(List<(String, Json)> members, MergeInputs inputs) => [
+  for (final (dataset, r) in members)
+    {
+      'dataset': dataset,
+      'id': r['id'],
+      'license': r['license'] ?? inputs.sources[dataset]!['license'],
+      'authors': r['authors'] ?? inputs.sources[dataset]!['authors'],
+      'url': (inputs.sources[dataset]!['recordUrl'] as String).replaceAll(
+        '{id}',
+        '${r['id']}',
+      ),
+    },
+];
+
+/// The rank of each license that a source uses. A higher rank asks more of
+/// a reuser. Rank 0 asks for no credit.
+const licenseRanks = {
+  'CC0': 0,
+  'Unlicense': 0,
+  'CC BY 4.0': 1,
+  'CC BY-SA 3.0': 2,
+  'CC BY-SA 4.0': 3,
+};
+
+/// The record's `license`, the strictest of its sources, and its `credit`:
+/// the authors, the license and the link that a license with a rank above 0
+/// requires. The credit is null when no source asks for one.
+Json licenseOf(List<Json> sources) {
+  int rank(Json s) =>
+      licenseRanks[s['license']] ??
+      (throw StateError('Unknown license ${s['license']}'));
+  final strictest = sources.reduce((a, b) => rank(b) > rank(a) ? b : a);
+  final credited = [
+    for (final s in sources)
+      if (rank(s) > 0) s,
+  ];
+  return {
+    'license': strictest['license'],
+    'credit': credited.isEmpty
+        ? null
+        : {
+            'dataset': credited.first['dataset'],
+            'authors': {
+              for (final s in credited)
+                ...(s['authors'] as List).cast<String>(),
+            }.toList(),
+            'license': strictest['license'],
+            'url': credited.first['url'],
+          },
   };
 }
 
