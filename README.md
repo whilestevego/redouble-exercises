@@ -111,4 +111,10 @@ The data in `dist/`, `parsed/`, `curated/` and `vocabulary/` is under
 The sources keep their own licenses:
 
 - free-exercise-db by yuhonas and contributors, under the
-  [Unlicense](https://github.com/yuhonas/free-exercise-db/blob/main/LICENSE).
+  [Unlicense](https://github.com/yuhonas/free-exercise-db/blob/main/LICENSE.md).
+- wger by its contributors. Each record has its own license: CC BY-SA 4.0,
+  CC BY-SA 3.0 or CC0. `parsed/wger.json` keeps the license and the authors
+  of each record. wger records are not in `dist/` yet.
+
+`names/` lists the exercise names that other apps write, and the record that
+each name must match.

@@ -4,7 +4,11 @@ import 'json_io.dart';
 import 'merge.dart';
 import 'parse.dart';
 
-const datasets = ['free-exercise-db'];
+const datasets = ['free-exercise-db', 'wger'];
+
+/// The datasets whose records `curated/merges.json` covers. A parsed dataset
+/// joins the release when its records join merge groups.
+const mergedDatasets = ['free-exercise-db'];
 
 /// Runs the parse of each source in [datasets].
 Map<String, Parsed> parseAll() => {
@@ -15,6 +19,10 @@ Map<String, Parsed> parseAll() => {
         readJson('vocabulary/$d.json') as Json,
         readJson('sources/$d/SOURCE.json') as Json,
       ),
+      'wger' => parseWger(
+        (readJson('sources/$d/exerciseinfo.json') as List).cast<Json>(),
+        readJson('vocabulary/$d.json') as Json,
+      ),
       _ => throw StateError('No parse for $d'),
     },
 };
@@ -24,7 +32,8 @@ MergeInputs mergeInputs(Map<String, List<Json>> parsed) {
   return MergeInputs(
     parsed: parsed,
     sources: {
-      for (final d in datasets) d: readJson('sources/$d/SOURCE.json') as Json,
+      for (final d in mergedDatasets)
+        d: readJson('sources/$d/SOURCE.json') as Json,
     },
     merges: readJson('curated/merges.json') as Json,
     fields: readJson('curated/fields.json') as Json,

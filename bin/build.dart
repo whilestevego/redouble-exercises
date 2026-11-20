@@ -17,7 +17,7 @@ void main(List<String> args) {
   final checkOnly = args.contains('--check');
   final parsed = parseAll();
   final records = merge(
-    mergeInputs({for (final e in parsed.entries) e.key: e.value.records}),
+    mergeInputs({for (final d in mergedDatasets) d: parsed[d]!.records}),
   );
   final outputs = {
     for (final MapEntry(key: d, value: p) in parsed.entries) ...{
@@ -28,7 +28,8 @@ void main(List<String> args) {
   };
   final texts = {
     'dist/ATTRIBUTION.md': attributionOf(records, [
-      for (final d in datasets) readJson('sources/$d/SOURCE.json') as Json,
+      for (final d in mergedDatasets)
+        readJson('sources/$d/SOURCE.json') as Json,
     ]),
   };
 

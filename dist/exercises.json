@@ -14,6 +14,17 @@
         "yuhonas and contributors"
       ],
       "recordUrl": "https://github.com/yuhonas/free-exercise-db/tree/5197c055b356498944328bd00178b64a5e9f422c/exercises/{id}"
+    },
+    {
+      "dataset": "wger",
+      "url": "https://wger.de",
+      "file": "https://wger.de/api/v2/exerciseinfo/",
+      "fetched": "2026-11-19",
+      "license": "CC BY-SA 4.0",
+      "authors": [
+        "wger contributors"
+      ],
+      "recordUrl": "https://wger.de/exercise/{id}/view"
     }
   ],
   "count": 869,
