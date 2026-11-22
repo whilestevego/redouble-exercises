@@ -469,5 +469,182 @@
         }
       ]
     }
+  ],
+  "Around_The_Worlds": [
+    {
+      "name": "Around the World",
+      "evidence": [
+        {
+          "rule": "The singular form of the name, as Strong writes it."
+        }
+      ]
+    }
+  ],
+  "Leg_Curl": [
+    {
+      "name": "Hamstring Curl",
+      "evidence": [
+        {
+          "quote": "also known as the hamstring curl"
+        }
+      ]
+    }
+  ],
+  "Standing_Dumbbell_Reverse_Curl": [
+    {
+      "name": "Reverse Curl (Dumbbell)",
+      "evidence": [
+        {
+          "rule": "Strong's name. A name with no form word means the standing form."
+        }
+      ]
+    }
+  ],
+  "Decline_Reverse_Crunch": [
+    {
+      "name": "Reverse Crunch (Decline Bench)",
+      "evidence": [
+        {
+          "rule": "Strong's name for this exercise."
+        }
+      ]
+    }
+  ],
+  "Exercise_Ball_Pull-In": [
+    {
+      "name": "Knee Tuck (Exercise Ball)",
+      "evidence": [
+        {
+          "rule": "Strong's name. The steps put the shins on the ball and pull the knees in."
+        }
+      ]
+    }
+  ],
+  "Flat_Bench_Lying_Leg_Raise": [
+    {
+      "name": "Flat Leg Raise",
+      "evidence": [
+        {
+          "rule": "Strong's name. The legs rise from a flat lying position."
+        }
+      ]
+    }
+  ],
+  "Single_Leg_RDL": [
+    {
+      "name": "Single Leg Deadlift",
+      "evidence": [
+        {
+          "rule": "A single-leg deadlift hinges at the hip on one leg, as the steps describe."
+        }
+      ]
+    }
+  ],
+  "Bear_Walk": [
+    {
+      "name": "Bear Crawl",
+      "evidence": [
+        {
+          "rule": "The common name of the movement that the steps describe."
+        }
+      ]
+    }
+  ],
+  "Pull_Ups_On_Machine": [
+    {
+      "name": "Assisted Pull-Up",
+      "evidence": [
+        {
+          "rule": "The machine assists the pull-up with a counterweight."
+        }
+      ]
+    },
+    {
+      "name": "Pull Up (Assisted)",
+      "evidence": [
+        {
+          "rule": "The machine assists the pull-up with a counterweight."
+        }
+      ]
+    },
+    {
+      "name": "Machine Assisted Pull-Up",
+      "evidence": [
+        {
+          "rule": "The machine assists the pull-up with a counterweight."
+        }
+      ]
+    }
+  ],
+  "Suspended_Crossess": [
+    {
+      "name": "croci",
+      "reject": true,
+      "evidence": [
+        {
+          "rule": "The alias is not an English name of this exercise."
+        }
+      ]
+    },
+    {
+      "name": "sospensione",
+      "reject": true,
+      "evidence": [
+        {
+          "rule": "The alias is not an English name of this exercise."
+        }
+      ]
+    },
+    {
+      "name": "trx",
+      "reject": true,
+      "evidence": [
+        {
+          "rule": "The alias is not an English name of this exercise."
+        }
+      ]
+    }
+  ],
+  "Parallel_Bar_Hold": [
+    {
+      "name": "Isometria alle parallele",
+      "reject": true,
+      "evidence": [
+        {
+          "rule": "The alias is not an English name of this exercise."
+        }
+      ]
+    }
+  ],
+  "Boxing": [
+    {
+      "name": "Nah workout",
+      "reject": true,
+      "evidence": [
+        {
+          "rule": "The alias is not an English name of this exercise."
+        }
+      ]
+    }
+  ],
+  "Dumbbells_On_Scott_Machine": [
+    {
+      "name": "Dumbbell Preacher Curl",
+      "evidence": [
+        {
+          "rule": "A Scott machine is a preacher bench. This is the common English name."
+        }
+      ]
+    }
+  ],
+  "Bar_Muscle-Up": [
+    {
+      "name": "Bar Muscle-Up",
+      "evidence": [
+        {
+          "rule": "The equipment word names the default form, so it is the same exercise."
+        }
+      ]
+    }
   ]
 }

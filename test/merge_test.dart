@@ -1,3 +1,5 @@
+import 'package:redouble_exercises/check.dart';
+import 'package:redouble_exercises/inputs.dart';
 import 'package:redouble_exercises/json_io.dart';
 import 'package:redouble_exercises/merge.dart';
 import 'package:test/test.dart';
@@ -22,6 +24,7 @@ List<Json> _merge(
   Json fields = const {},
   Json aliases = const {},
   List<Json> records = const [],
+  List<Json> own = const [],
 }) => merge(
   MergeInputs(
     parsed: {'src': records},
@@ -37,6 +40,7 @@ List<Json> _merge(
     fields: fields,
     aliases: aliases,
     muscleGroups: const {'chest': 'chest', 'triceps': 'arms'},
+    own: own,
   ),
 );
 
@@ -200,5 +204,46 @@ void main() {
     expect(lateralityOf('Single-Leg Hop'), 'unilateral');
     expect(lateralityOf('Alternate Hammer Curl'), 'alternating');
     expect(lateralityOf('Barbell Squat'), 'bilateral');
+  });
+
+  test('an own record is CC0, asks for no credit and keeps its tracking', () {
+    final r = _merge(
+      const {},
+      own: [
+        {
+          ..._parsed('Hollow_Rock'),
+          'slug': 'Hollow_Rock',
+          'aliases': ['Hollow Body Rock'],
+          'tracking': {'load': 'none'},
+        }..remove('id'),
+      ],
+    ).single;
+    expect(r['slug'], 'Hollow_Rock');
+    expect(r['aliases'], ['Hollow Body Rock']);
+    expect(r['license'], 'CC0');
+    expect(r['credit'], isNull);
+    expect(((r['sources'] as List).single as Map)['dataset'], ownDataset);
+    expect((r['tracking'] as Map)['load'], 'none');
+    expect((r['provenance'] as Map)['tracking.load'], ownDataset);
+  });
+
+  test('the release lists the names that are not strength exercises', () {
+    expect(release(const [])['notStrength'], contains('Yoga'));
+  });
+
+  test('url evidence needs an https url and a note', () {
+    expect(isUrlEvidence({'url': 'https://exrx.net/x', 'note': 'n'}), isTrue);
+    expect(isUrlEvidence({'url': 'http://exrx.net/x', 'note': 'n'}), isFalse);
+    expect(isUrlEvidence({'url': 'exrx', 'note': 'n'}), isFalse);
+    expect(isUrlEvidence({'url': 'https://exrx.net/x'}), isFalse);
+  });
+
+  test('a copy name never becomes an alias', () {
+    expect(isCopyName('Pull-ups (Custom)'), isTrue);
+    expect(isCopyName('Triceps stretch left'), isTrue);
+    expect(isCopyName('Jumping Jack HD'), isTrue);
+    expect(isCopyName('Jalón al pecho'), isTrue);
+    expect(isCopyName('Military Press with Barbell'), isFalse);
+    expect(isCopyName('Shrug'), isFalse);
   });
 }

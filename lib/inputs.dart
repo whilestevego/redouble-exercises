@@ -42,8 +42,12 @@ MergeInputs mergeInputs(Map<String, List<Json>> parsed) {
       for (final m in (muscles['muscles'] as List).cast<Json>())
         m['slug'] as String: m['group'] as String,
     },
+    own: ownRecords(),
   );
 }
+
+List<Json> ownRecords() =>
+    (readJson('curated/records.json') as List).cast<Json>();
 
 /// The release file. [records] are the merged records.
 Json release(List<Json> records) => {
@@ -53,6 +57,7 @@ Json release(List<Json> records) => {
   'sources': [for (final d in datasets) readJson('sources/$d/SOURCE.json')],
   'count': records.length,
   'exercises': records,
+  'notStrength': readJson('curated/not-strength.json'),
 };
 
 bool get inRepoRoot => File('pubspec.yaml').existsSync();

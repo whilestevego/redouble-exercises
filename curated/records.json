@@ -1,1 +1,1777 @@
-[]
+[
+  {
+    "slug": "Skin_the_Cat",
+    "name": "Skin the Cat",
+    "aliases": [],
+    "kind": "strength",
+    "muscles": {
+      "primary": [
+        "lats",
+        "shoulders"
+      ],
+      "secondary": [
+        "abdominals",
+        "biceps",
+        "forearms"
+      ]
+    },
+    "equipment": [
+      "rings"
+    ],
+    "level": "intermediate",
+    "force": "pull",
+    "mechanic": "compound",
+    "instructions": [
+      "Hang from the rings with straight arms and an overhand grip.",
+      "Tuck the knees to the chest and lift the hips until the legs pass between the arms.",
+      "Lower the feet behind you under control. Stop when the shoulders reach the end of their comfortable range.",
+      "Pull the hips back up and pass the legs between the arms again to return to the hang."
+    ],
+    "tracking": {
+      "load": "added"
+    },
+    "evidence": [
+      {
+        "url": "https://generationiron.com/skin-the-cat-exercise/",
+        "note": "The page shows a bar or ring exercise and names the shoulders, the back and the core."
+      },
+      {
+        "url": "https://dieringe.com/exercises/skin-the-cat",
+        "note": "The page shows a ring exercise and names the lats, upper back, abs, front delts, chest and biceps."
+      }
+    ]
+  },
+  {
+    "slug": "Hollow_Rock",
+    "name": "Hollow Rock",
+    "aliases": [
+      "Hollow Body Rock"
+    ],
+    "kind": "strength",
+    "muscles": {
+      "primary": [
+        "abdominals"
+      ],
+      "secondary": []
+    },
+    "equipment": [
+      "bodyweight"
+    ],
+    "level": "beginner",
+    "force": null,
+    "mechanic": null,
+    "instructions": [
+      "Lie on your back. Press the lower back into the floor.",
+      "Lift the shoulders and the straight legs a short distance off the floor, with the arms by the ears.",
+      "Rock forward and back along the curve of the spine. Keep the body in the same shape.",
+      "Stop the set when the lower back comes off the floor."
+    ],
+    "tracking": {
+      "measure": "reps"
+    },
+    "evidence": [
+      {
+        "url": "https://www.garagegymreviews.com/hollow-rock-exercise",
+        "note": "The page shows a bodyweight floor exercise and names the abdominals, obliques, hip flexors and quads."
+      },
+      {
+        "url": "https://www.exercise.com/exercises/hollow-rock/",
+        "note": "The page shows a bodyweight floor exercise and names the abs, with the obliques as secondary."
+      }
+    ]
+  },
+  {
+    "slug": "Wall_Walk",
+    "name": "Wall Walk",
+    "aliases": [],
+    "kind": "strength",
+    "muscles": {
+      "primary": [
+        "shoulders"
+      ],
+      "secondary": [
+        "triceps",
+        "abdominals",
+        "chest"
+      ]
+    },
+    "equipment": [
+      "bodyweight"
+    ],
+    "level": "intermediate",
+    "force": "push",
+    "mechanic": "compound",
+    "instructions": [
+      "Lie face down with the feet against the base of a wall and the hands under the shoulders.",
+      "Push up to a plank. Walk the feet up the wall while the hands walk back toward the wall.",
+      "Stop when the chest is close to the wall and the body is in a handstand line.",
+      "Walk the hands forward and the feet down until the chest is on the floor again."
+    ],
+    "evidence": [
+      {
+        "url": "https://www.strengthlog.com/wall-walk/",
+        "note": "The page shows a bodyweight exercise at a wall and names the front deltoid, triceps, chest and abs."
+      },
+      {
+        "url": "https://www.crossfit.com/essentials/the-wall-walk",
+        "note": "The page shows an inversion at a wall and names upper-body strength, with no specific muscles."
+      }
+    ]
+  },
+  {
+    "slug": "Double_Under",
+    "name": "Double Under",
+    "aliases": [
+      "Skip (Double Under)",
+      "Double Unders"
+    ],
+    "kind": "plyometrics",
+    "muscles": {
+      "primary": [
+        "calves"
+      ],
+      "secondary": [
+        "quadriceps",
+        "shoulders",
+        "forearms"
+      ]
+    },
+    "equipment": [
+      "jump rope"
+    ],
+    "level": "intermediate",
+    "force": "push",
+    "mechanic": "compound",
+    "instructions": [
+      "Hold a handle of the rope in each hand, with the elbows close to the sides.",
+      "Jump a little higher than for a single jump, with the legs almost straight.",
+      "Turn the wrists fast, so that the rope passes under the feet two times before you land.",
+      "Land on the balls of the feet and go directly into the next jump."
+    ],
+    "tracking": {
+      "load": "none"
+    },
+    "evidence": [
+      {
+        "url": "https://barbend.com/double-unders/",
+        "note": "The page shows a jump rope exercise and names the calves, quadriceps, hamstrings, glutes, abdominals, forearms and shoulders."
+      },
+      {
+        "url": "https://www.garagegymreviews.com/double-unders",
+        "note": "The page shows a jump rope exercise and names the quadriceps, hamstrings, calves, glutes, shoulders, arms and core."
+      }
+    ]
+  },
+  {
+    "slug": "Tuck_Up",
+    "name": "Tuck Up",
+    "aliases": [],
+    "kind": "strength",
+    "muscles": {
+      "primary": [
+        "abdominals"
+      ],
+      "secondary": []
+    },
+    "equipment": [
+      "bodyweight"
+    ],
+    "level": "beginner",
+    "force": "pull",
+    "mechanic": "isolation",
+    "instructions": [
+      "Lie on your back with the legs straight and the arms overhead, just off the floor.",
+      "Sit up and pull the knees to the chest at the same time. Reach the hands past the shins.",
+      "Balance for a moment on the hips.",
+      "Open the body again under control until the shoulders and the heels are just off the floor."
+    ],
+    "evidence": [
+      {
+        "url": "https://gymnasticbodies.com/exercises/tuck-up",
+        "note": "The page shows a bodyweight exercise and names the abdominals and the hips."
+      },
+      {
+        "url": "https://www.roguefitness.com/gb/theindex/movement-library/movement-demo-tuck-ups",
+        "note": "The page shows a bodyweight exercise and names the abdominals, deep core stabilizers and hip flexors."
+      }
+    ]
+  },
+  {
+    "slug": "Stability_Ball_Pass",
+    "name": "Stability Ball Pass",
+    "aliases": [
+      "Ball Pass",
+      "V-Pass",
+      "Stability Ball V-Pass"
+    ],
+    "kind": "strength",
+    "muscles": {
+      "primary": [
+        "abdominals"
+      ],
+      "secondary": []
+    },
+    "equipment": [
+      "exercise ball"
+    ],
+    "level": "intermediate",
+    "force": "pull",
+    "mechanic": "isolation",
+    "instructions": [
+      "Lie on your back with the legs straight. Hold an exercise ball overhead in both hands.",
+      "Lift the arms and the legs together and put the ball between the ankles.",
+      "Lower the arms and the legs toward the floor. The legs now hold the ball.",
+      "Lift again and pass the ball back to the hands. One pass each way is one repetition."
+    ],
+    "tracking": {
+      "load": "added"
+    },
+    "evidence": [
+      {
+        "url": "https://workoutlabs.com/exercise-guide/swiss-ball-hand-off-v-pass/",
+        "note": "The page shows an exercise ball V-pass and names the abs, with the glutes and hip flexors as secondary."
+      },
+      {
+        "url": "https://www.active.com/fitness/articles/4-stability-ball-exercises-for-a-strong-core",
+        "note": "The page shows a stability ball V-pass from hands to feet and names the core."
+      }
+    ]
+  },
+  {
+    "slug": "Assisted_Chest_Dip",
+    "name": "Assisted Chest Dip",
+    "aliases": [
+      "Chest Dip (Assisted)",
+      "Machine Assisted Chest Dip"
+    ],
+    "kind": "strength",
+    "muscles": {
+      "primary": [
+        "chest"
+      ],
+      "secondary": [
+        "triceps",
+        "shoulders"
+      ]
+    },
+    "equipment": [
+      "machine"
+    ],
+    "level": "beginner",
+    "force": "push",
+    "mechanic": "compound",
+    "instructions": [
+      "Set the weight of the assisted dip machine. More weight gives more help.",
+      "Hold the handles and put the knees on the pad or the feet on the platform.",
+      "Lean the chest forward. Bend the elbows and lower the body until the upper arms are parallel to the floor.",
+      "Push down on the handles until the arms are straight."
+    ],
+    "evidence": [
+      {
+        "url": "https://weighttraining.guide/exercises/machine-assisted-chest-dip",
+        "note": "The page shows an assisted dip machine with a forward lean and names the lower pectoralis major, anterior deltoid and triceps."
+      },
+      {
+        "url": "https://www.puregym.com/exercises/chest/dips/",
+        "note": "The page shows chest dips with a forward lean, assisted on a dip machine pad, and names the pectorals, front deltoids and triceps."
+      }
+    ]
+  },
+  {
+    "slug": "Assisted_Ring_Dip",
+    "name": "Assisted Ring Dip",
+    "aliases": [
+      "Ring Dip (Assisted)",
+      "Band-Assisted Ring Dip"
+    ],
+    "kind": "strength",
+    "muscles": {
+      "primary": [
+        "triceps",
+        "chest"
+      ],
+      "secondary": [
+        "shoulders"
+      ]
+    },
+    "equipment": [
+      "rings",
+      "bands"
+    ],
+    "level": "intermediate",
+    "force": "push",
+    "mechanic": "compound",
+    "instructions": [
+      "Loop a band across the two rings, or set the rings low enough to keep the feet on the floor.",
+      "Hold the rings with straight arms. Put the knees or the shins on the band.",
+      "Bend the elbows and lower the body until the shoulders are below the elbows. Keep the rings close to the body.",
+      "Push up until the arms are straight."
+    ],
+    "tracking": {
+      "load": "added"
+    },
+    "evidence": [
+      {
+        "url": "https://barbend.com/ring-dips-progressions/",
+        "note": "The page shows a ring dip assisted by a band and names the triceps, chest and anterior shoulder."
+      },
+      {
+        "url": "https://torokhtiy.com/blogs/guides/ring-dips-for-functional-fitness",
+        "note": "The page shows banded ring dips with a knee on the band and names the shoulders, chest, triceps and abdominals."
+      }
+    ]
+  },
+  {
+    "slug": "Straight_Bar_Dip",
+    "name": "Straight Bar Dip",
+    "aliases": [],
+    "kind": "strength",
+    "muscles": {
+      "primary": [
+        "triceps",
+        "chest"
+      ],
+      "secondary": [
+        "shoulders"
+      ]
+    },
+    "equipment": [
+      "pull-up bar"
+    ],
+    "level": "intermediate",
+    "force": "push",
+    "mechanic": "compound",
+    "instructions": [
+      "Hold the body above a single horizontal bar, with straight arms and the bar at the hips.",
+      "Bend the elbows and lean the chest forward over the bar. Let the legs move forward to keep balance.",
+      "Lower until the chest is close to the bar.",
+      "Push down on the bar until the arms are straight."
+    ],
+    "tracking": {
+      "load": "added"
+    },
+    "evidence": [
+      {
+        "url": "https://generationiron.com/straight-bar-dips-bodybuilding/",
+        "note": "The page shows a dip on a straight bar with palms forward and names the chest, triceps and shoulders."
+      },
+      {
+        "url": "https://www.gornation.com/blogs/calisthenics-exercises/straight-bar-dip",
+        "note": "The page shows a dip on a straight bar and names the triceps, chest, front deltoids and core."
+      }
+    ]
+  },
+  {
+    "slug": "Jumping_Muscle_Up",
+    "name": "Jumping Muscle Up",
+    "aliases": [
+      "Jumping Muscle-Up"
+    ],
+    "kind": "strength",
+    "muscles": {
+      "primary": [
+        "lats"
+      ],
+      "secondary": [
+        "biceps",
+        "triceps",
+        "chest"
+      ]
+    },
+    "equipment": [
+      "pull-up bar"
+    ],
+    "level": "intermediate",
+    "force": "pull",
+    "mechanic": "compound",
+    "instructions": [
+      "Stand under a bar that you can reach with bent arms, or stand on a box.",
+      "Hold the bar and jump. Pull the bar to the lower chest while the jump lifts the body.",
+      "Turn the wrists and the elbows over the bar and lean the chest forward.",
+      "Push down until the arms are straight. Lower under control to the start."
+    ],
+    "tracking": {
+      "load": "added"
+    },
+    "evidence": [
+      {
+        "url": "https://www.strengthlog.com/jumping-muscle-up/",
+        "note": "The page shows rings or a bar with a box and names the chest, lats and triceps as primary."
+      },
+      {
+        "url": "https://www.trainheroic.com/?p=238012",
+        "note": "The page shows a jump from a box to a bar muscle-up and names the lats, core, arms and shoulders."
+      }
+    ]
+  },
+  {
+    "slug": "Kipping_Handstand_Push-Up",
+    "name": "Kipping Handstand Push-Up",
+    "aliases": [
+      "Handstand Push Up (Kipping)"
+    ],
+    "kind": "strength",
+    "muscles": {
+      "primary": [
+        "shoulders"
+      ],
+      "secondary": [
+        "triceps",
+        "quadriceps",
+        "glutes"
+      ]
+    },
+    "equipment": [
+      "bodyweight"
+    ],
+    "level": "expert",
+    "force": "push",
+    "mechanic": "compound",
+    "instructions": [
+      "Kick up to a handstand with the heels against a wall.",
+      "Lower the head to the floor or a mat. The head and the hands make a triangle.",
+      "Bend the knees and bring them toward the chest.",
+      "Drive the legs up along the wall and push with the arms at the same time until the arms are straight."
+    ],
+    "evidence": [
+      {
+        "url": "https://theprogrm.com/handstand-push-up-technique/",
+        "note": "The page shows a kipping handstand push-up at a wall and names the deltoids, chest and triceps."
+      },
+      {
+        "url": "https://www.crossfit.com/essentials/the-kipping-handstand-push-up",
+        "note": "The page shows the kipping handstand push-up by title and video only, and names no muscles."
+      }
+    ]
+  },
+  {
+    "slug": "Band-Assisted_Handstand_Push-Up",
+    "name": "Band-Assisted Handstand Push-Up",
+    "aliases": [
+      "Handstand Push Up (Band Assisted)"
+    ],
+    "kind": "strength",
+    "muscles": {
+      "primary": [
+        "shoulders"
+      ],
+      "secondary": [
+        "triceps",
+        "traps"
+      ]
+    },
+    "equipment": [
+      "bands"
+    ],
+    "level": "intermediate",
+    "force": "push",
+    "mechanic": "compound",
+    "instructions": [
+      "Attach a strong band across a rack at about shoulder height.",
+      "Put the hands on the floor under the band and kick up, so that the band supports the shoulders or the hips.",
+      "Bend the elbows and lower the head toward the floor. The band takes part of the bodyweight.",
+      "Push up until the arms are straight."
+    ],
+    "tracking": {
+      "load": "added"
+    },
+    "evidence": [
+      {
+        "url": "https://www.strongfirst.com/build-up-to-your-first-handstand-pushup/",
+        "note": "The page shows a handstand push-up assisted by bands on a pull-up bar and names no specific muscles."
+      },
+      {
+        "url": "https://www.rubberbanditz.com/handstand-pushup/",
+        "note": "The page shows a handstand push-up with resistance bands on a bar and names the shoulders, arms, back and chest."
+      }
+    ]
+  },
+  {
+    "slug": "Burpee_Pull-Up",
+    "name": "Burpee Pull-Up",
+    "aliases": [
+      "Burpee To Pull-up"
+    ],
+    "kind": "strength",
+    "muscles": {
+      "primary": [
+        "lats",
+        "quadriceps"
+      ],
+      "secondary": [
+        "chest",
+        "shoulders",
+        "biceps"
+      ]
+    },
+    "equipment": [
+      "pull-up bar"
+    ],
+    "level": "intermediate",
+    "force": null,
+    "mechanic": "compound",
+    "instructions": [
+      "Stand under a pull-up bar that you can reach with a jump.",
+      "Put the hands on the floor, jump the feet back and lower the chest to the floor.",
+      "Push up and jump the feet back to the hands.",
+      "Jump to the bar and pull until the chin is above it. Drop down and start the next repetition."
+    ],
+    "tracking": {
+      "load": "added"
+    },
+    "evidence": [
+      {
+        "url": "https://generationiron.com/burpee-pull-up-heart-rate-strength/",
+        "note": "The page shows a burpee into a pull-up on a bar and names the lats, quads, glutes, pecs, shoulders and core."
+      },
+      {
+        "url": "https://exercise.com/exercises/burpee-pull-up",
+        "note": "The page shows a burpee into a pull-up on a chin-up bar and names the quads, abs, biceps, glutes and shoulders."
+      }
+    ]
+  },
+  {
+    "slug": "Cluster",
+    "name": "Cluster",
+    "aliases": [
+      "Squat Clean Thruster"
+    ],
+    "kind": "strength",
+    "muscles": {
+      "primary": [
+        "quadriceps",
+        "shoulders"
+      ],
+      "secondary": [
+        "glutes",
+        "hamstrings",
+        "traps",
+        "triceps"
+      ]
+    },
+    "equipment": [
+      "barbell"
+    ],
+    "level": "intermediate",
+    "force": "push",
+    "mechanic": "compound",
+    "instructions": [
+      "Stand over the barbell with a grip just outside the legs, as for a clean.",
+      "Pull the bar from the floor and drop under it into a full front squat, with the bar on the shoulders.",
+      "Stand up fast and use the drive of the legs to press the bar overhead in one movement.",
+      "Lower the bar to the shoulders and then to the floor."
+    ],
+    "evidence": [
+      {
+        "url": "https://fitnessvolt.com/crossfit-cluster-guide/",
+        "note": "The page shows a barbell clean into a thruster and names the quadriceps, hamstrings, glutes, deltoids, trapezius and core."
+      },
+      {
+        "url": "https://www.roguefitness.com/gb/theindex/movement-library/movement-demo-cluster",
+        "note": "The page shows a barbell clean into a front squat and overhead drive, and names the lats, hips, legs and shoulders."
+      }
+    ]
+  },
+  {
+    "slug": "Bodyweight_Hip_Thrust",
+    "name": "Bodyweight Hip Thrust",
+    "aliases": [
+      "Hip Thrust (Bodyweight)"
+    ],
+    "kind": "strength",
+    "muscles": {
+      "primary": [
+        "glutes"
+      ],
+      "secondary": [
+        "hamstrings"
+      ]
+    },
+    "equipment": [
+      "bodyweight",
+      "bench"
+    ],
+    "level": "beginner",
+    "force": "push",
+    "mechanic": "isolation",
+    "instructions": [
+      "Sit on the floor with the upper back against the long side of a bench. Bend the knees and put the feet flat on the floor.",
+      "Push through the heels and lift the hips until the trunk and the thighs are in one line.",
+      "Squeeze the glutes for a moment at the top. Keep the chin down and the ribs low.",
+      "Lower the hips under control."
+    ],
+    "evidence": [
+      {
+        "url": "https://www.puregym.com/exercises/glutes/hip-thrusts/bodyweight-hip-thrust/",
+        "note": "The page shows a bench or box with no load and names the glutes, hamstrings, quads, core and lower back."
+      },
+      {
+        "url": "https://www.healthline.com/health/fitness-exercise/hip-thrusts",
+        "note": "The page shows a bench hip thrust that starts with bodyweight and names the gluteus maximus, gluteus medius and hamstrings."
+      }
+    ]
+  },
+  {
+    "slug": "Lateral_Lunge",
+    "name": "Lateral Lunge",
+    "aliases": [
+      "Side Lunge"
+    ],
+    "kind": "strength",
+    "muscles": {
+      "primary": [
+        "quadriceps",
+        "glutes"
+      ],
+      "secondary": [
+        "adductors",
+        "hamstrings"
+      ]
+    },
+    "equipment": [
+      "bodyweight"
+    ],
+    "level": "beginner",
+    "force": "push",
+    "mechanic": "compound",
+    "instructions": [
+      "Stand with the feet together.",
+      "Take a wide step to one side. Bend the knee of that leg and push the hips back. Keep the other leg straight.",
+      "Lower until the thigh of the bent leg is near parallel to the floor, with both feet flat.",
+      "Push off the bent leg to return to the start. Do the other side."
+    ],
+    "evidence": [
+      {
+        "url": "https://www.acefitness.org/resources/everyone/exercise-library/50/side-lunge/",
+        "note": "The page shows a side lunge with no equipment and names the butt, hips and thighs."
+      },
+      {
+        "url": "https://www.onepeloton.com/blog/lateral-lunge",
+        "note": "The page shows a bodyweight lateral lunge and names the glutes, quads, hamstrings, adductors and gluteus medius."
+      }
+    ]
+  },
+  {
+    "slug": "Side_Plank_Hip_Abduction",
+    "name": "Side Plank Hip Abduction",
+    "aliases": [
+      "Side Plank Leg Lift",
+      "Side Plank Leg Raise"
+    ],
+    "kind": "strength",
+    "muscles": {
+      "primary": [
+        "abductors",
+        "abdominals"
+      ],
+      "secondary": [
+        "glutes"
+      ]
+    },
+    "equipment": [
+      "bodyweight"
+    ],
+    "level": "intermediate",
+    "force": "push",
+    "mechanic": "isolation",
+    "instructions": [
+      "Lie on one side and lift the hips into a side plank on the forearm.",
+      "Keep the body in a straight line from the head to the feet.",
+      "Lift the top leg as high as you can without a turn of the hips.",
+      "Lower the leg under control. Do all repetitions, then change sides."
+    ],
+    "evidence": [
+      {
+        "url": "https://weighttraining.guide/exercises/side-plank-hip-abduction",
+        "note": "The page shows a bodyweight exercise and names the gluteus medius, gluteus minimus, tensor fasciae latae and obliques."
+      },
+      {
+        "url": "https://motra.com/exercises/sidePlankWithHipAbduction",
+        "note": "The page shows a side plank leg lift on a mat and names the obliques, glutes and abductors."
+      }
+    ]
+  },
+  {
+    "slug": "Side_Plank_Reach_Through",
+    "name": "Side Plank Reach Through",
+    "aliases": [
+      "Side Plank Reach",
+      "Side Plank Rotation"
+    ],
+    "kind": "strength",
+    "muscles": {
+      "primary": [
+        "abdominals"
+      ],
+      "secondary": [
+        "shoulders"
+      ]
+    },
+    "equipment": [
+      "bodyweight"
+    ],
+    "level": "beginner",
+    "force": "pull",
+    "mechanic": null,
+    "instructions": [
+      "Lift the hips into a side plank on the forearm or the hand. Point the top arm at the ceiling.",
+      "Turn the chest toward the floor and reach the top arm through the space under the trunk.",
+      "Keep the hips high during the turn.",
+      "Turn back and point the arm at the ceiling again. Do all repetitions, then change sides."
+    ],
+    "evidence": [
+      {
+        "url": "https://www.ucalgary.ca/shred-injuries/all-sports/field-hockey/side-plank-torso-rotation",
+        "note": "The page shows a side plank with torso rotation, no equipment, and names the obliques and shoulder muscles."
+      },
+      {
+        "url": "https://www.healthline.com/health/side-plank",
+        "note": "The page shows side plank rotations with the top arm threaded under, and names the obliques, shoulders, lats, glutes and abs."
+      }
+    ]
+  },
+  {
+    "slug": "Band_No_Money",
+    "name": "Band No Money",
+    "aliases": [
+      "No Money",
+      "No Moneys"
+    ],
+    "kind": "strength",
+    "muscles": {
+      "primary": [
+        "shoulders"
+      ],
+      "secondary": [
+        "middle back",
+        "traps"
+      ]
+    },
+    "equipment": [
+      "bands"
+    ],
+    "level": "beginner",
+    "force": "pull",
+    "mechanic": "isolation",
+    "instructions": [
+      "Stand tall and hold a light band in both hands with the palms up.",
+      "Bend the elbows to 90 degrees and keep them against the sides.",
+      "Turn the forearms out and pull the band apart. Squeeze the shoulder blades together.",
+      "Return slowly until the hands are in front of the elbows."
+    ],
+    "evidence": [
+      {
+        "url": "https://thebodyblueprint.com/banded-no-money-exercise/",
+        "note": "The page shows a light resistance band exercise and names the infraspinatus, teres minor and rotator cuff."
+      },
+      {
+        "url": "https://www.caliverse.app/exercises/band-no-money-drill-236",
+        "note": "The page shows a light resistance band exercise and names the shoulders, external rotators and scapular retractors."
+      }
+    ]
+  },
+  {
+    "slug": "Z_Press",
+    "name": "Z Press",
+    "aliases": [],
+    "kind": "strength",
+    "muscles": {
+      "primary": [
+        "shoulders"
+      ],
+      "secondary": [
+        "triceps",
+        "abdominals",
+        "traps"
+      ]
+    },
+    "equipment": [
+      "barbell"
+    ],
+    "level": "intermediate",
+    "force": "push",
+    "mechanic": "compound",
+    "instructions": [
+      "Sit on the floor with the legs straight in front of you. Hold the barbell at the shoulders, from pins or from a partner.",
+      "Sit tall with the trunk vertical. Do not lean back.",
+      "Press the bar overhead until the arms are straight and the bar is above the shoulders.",
+      "Lower the bar to the shoulders under control."
+    ],
+    "evidence": [
+      {
+        "url": "https://barbend.com/z-press/",
+        "note": "The page shows a barbell, kettlebell or dumbbell press seated on the floor and names the deltoids, lats, abdominals and erector spinae."
+      },
+      {
+        "url": "https://www.strengthlog.com/z-press/",
+        "note": "The page shows a barbell exercise and names the front deltoid, lateral deltoid, triceps, chest and trapezius."
+      }
+    ]
+  },
+  {
+    "slug": "Spanish_Squat",
+    "name": "Spanish Squat",
+    "aliases": [],
+    "kind": "strength",
+    "muscles": {
+      "primary": [
+        "quadriceps"
+      ],
+      "secondary": [
+        "glutes"
+      ]
+    },
+    "equipment": [
+      "bands"
+    ],
+    "level": "beginner",
+    "force": "push",
+    "mechanic": "compound",
+    "instructions": [
+      "Attach a heavy band around a post at knee height. Step into the loop, with the band behind both knees.",
+      "Walk back until the band is tight. Stand with the feet at shoulder width.",
+      "Sit back and down against the pull of the band. Keep the shins vertical and the trunk upright.",
+      "Stand up, or hold the low position for time."
+    ],
+    "evidence": [
+      {
+        "url": "https://www.catalystathletics.com/exercise/747/Spanish-Squat/",
+        "note": "The page shows a heavy band behind the knees, anchored to a rack, and names the quads."
+      },
+      {
+        "url": "https://www.rehabhero.ca/exercise/spanish-squats",
+        "note": "The page shows a heavy band behind the knees and names the quadriceps and gluteus maximus."
+      }
+    ]
+  },
+  {
+    "slug": "Seal_Row",
+    "name": "Seal Row",
+    "aliases": [
+      "Bench Pull"
+    ],
+    "kind": "strength",
+    "muscles": {
+      "primary": [
+        "middle back",
+        "lats"
+      ],
+      "secondary": [
+        "biceps",
+        "shoulders",
+        "traps"
+      ]
+    },
+    "equipment": [
+      "barbell",
+      "bench"
+    ],
+    "level": "intermediate",
+    "force": "pull",
+    "mechanic": "compound",
+    "instructions": [
+      "Lie face down on a bench that is high enough for the arms to hang straight. Hold the barbell under the bench.",
+      "Keep the chest and the hips on the bench.",
+      "Pull the bar up until it touches the underside of the bench. Squeeze the shoulder blades together.",
+      "Lower the bar until the arms are straight."
+    ],
+    "evidence": [
+      {
+        "url": "https://www.strengthlog.com/seal-row/",
+        "note": "The page shows a barbell and a bench and names the lats, trapezius and rear deltoids."
+      },
+      {
+        "url": "https://legionathletics.com/seal-row",
+        "note": "The page shows a barbell and a raised bench and names the lats, traps, rhomboids and rear delts."
+      }
+    ]
+  },
+  {
+    "slug": "Kettlebell_Halo",
+    "name": "Kettlebell Halo",
+    "aliases": [],
+    "kind": "strength",
+    "muscles": {
+      "primary": [
+        "shoulders"
+      ],
+      "secondary": [
+        "abdominals",
+        "traps",
+        "triceps"
+      ]
+    },
+    "equipment": [
+      "kettlebell"
+    ],
+    "level": "beginner",
+    "force": null,
+    "mechanic": "compound",
+    "instructions": [
+      "Stand tall and hold a kettlebell by the horns, upside down, in front of the chest.",
+      "Move the kettlebell around the head in a close circle. Keep the ribs down and the head still.",
+      "Return to the chest. This is one repetition.",
+      "Change direction on each repetition."
+    ],
+    "evidence": [
+      {
+        "url": "https://www.strengthlog.com/kettlebell-halo",
+        "note": "The page shows a kettlebell exercise and names the front, lateral and rear deltoids as primary muscles."
+      },
+      {
+        "url": "https://www.onepeloton.com/blog/kettlebell-halos",
+        "note": "The page shows a kettlebell exercise and names the deltoids, rotator cuff, trapezius, rhomboids, obliques and transverse abdominis."
+      }
+    ]
+  },
+  {
+    "slug": "Archer_Push-Up",
+    "name": "Archer Push-Up",
+    "aliases": [],
+    "kind": "strength",
+    "muscles": {
+      "primary": [
+        "chest"
+      ],
+      "secondary": [
+        "triceps",
+        "shoulders",
+        "abdominals"
+      ]
+    },
+    "equipment": [
+      "bodyweight"
+    ],
+    "level": "intermediate",
+    "force": "push",
+    "mechanic": "compound",
+    "instructions": [
+      "Start in a push-up position with the hands much wider than the shoulders.",
+      "Bend one elbow and lower the chest toward that hand. Keep the other arm straight.",
+      "Push back up to the middle.",
+      "Do the other side."
+    ],
+    "evidence": [
+      {
+        "url": "https://www.nasm.org/resource-center/exercise-library/archer-push-up",
+        "note": "The page shows a bodyweight exercise and names the pectoralis major and triceps, with anterior deltoid, serratus and core."
+      },
+      {
+        "url": "https://www.puregym.com/exercises/chest/press-up/archer-push-ups/",
+        "note": "The page shows a bodyweight exercise and names the pectoralis major, deltoids, triceps, abdominals and serratus anterior."
+      }
+    ]
+  },
+  {
+    "slug": "Chest-to-Bar_Pull-Up",
+    "name": "Chest-to-Bar Pull-Up",
+    "aliases": [
+      "Chest to Bar Pull Up"
+    ],
+    "kind": "strength",
+    "muscles": {
+      "primary": [
+        "lats"
+      ],
+      "secondary": [
+        "biceps",
+        "middle back",
+        "traps"
+      ]
+    },
+    "equipment": [
+      "pull-up bar"
+    ],
+    "level": "intermediate",
+    "force": "pull",
+    "mechanic": "compound",
+    "instructions": [
+      "Hang from the bar with an overhand grip, a little wider than the shoulders.",
+      "Pull the elbows down and back.",
+      "Continue until the chest touches the bar below the collarbones.",
+      "Lower under control until the arms are straight."
+    ],
+    "tracking": {
+      "load": "added"
+    },
+    "evidence": [
+      {
+        "url": "https://www.strengthlog.com/chest-to-bar/",
+        "note": "The page shows a pull-up bar exercise and names the lats as the primary muscle."
+      },
+      {
+        "url": "https://fitnessvolt.com/chest-to-bar-pull-ups/",
+        "note": "The page shows a pull-up bar exercise and names the lats, trapezius, rhomboids, biceps and teres major."
+      }
+    ]
+  },
+  {
+    "slug": "Kipping_Pull-Up",
+    "name": "Kipping Pull-Up",
+    "aliases": [],
+    "kind": "strength",
+    "muscles": {
+      "primary": [
+        "lats"
+      ],
+      "secondary": [
+        "biceps",
+        "shoulders",
+        "abdominals"
+      ]
+    },
+    "equipment": [
+      "pull-up bar"
+    ],
+    "level": "intermediate",
+    "force": "pull",
+    "mechanic": "compound",
+    "instructions": [
+      "Hang from the bar with an overhand grip.",
+      "Swing between an arch position and a hollow position. The shoulders start the swing.",
+      "From the hollow position, drive the hips up and pull until the chin is above the bar.",
+      "Push away from the bar and go back into the swing for the next repetition."
+    ],
+    "tracking": {
+      "load": "added"
+    },
+    "evidence": [
+      {
+        "url": "https://www.exercise.com/exercises/kipping-pull-up/",
+        "note": "The page shows a chin-up bar exercise and names the lats, then the abs, biceps, forearms, shoulders and traps."
+      },
+      {
+        "url": "https://morningchalkup.com/2021/06/25/kipping-pull-up/",
+        "note": "The page shows a pull-up bar exercise and names the lats, forearms, biceps and scapular stabilizers."
+      }
+    ]
+  },
+  {
+    "slug": "GHD_Sit-Up",
+    "name": "GHD Sit-Up",
+    "aliases": [
+      "Glute-Ham Developer Sit-Up"
+    ],
+    "kind": "strength",
+    "muscles": {
+      "primary": [
+        "abdominals"
+      ],
+      "secondary": [
+        "quadriceps"
+      ]
+    },
+    "equipment": [
+      "bodyweight"
+    ],
+    "level": "intermediate",
+    "force": "pull",
+    "mechanic": "isolation",
+    "instructions": [
+      "Sit on the glute-ham developer with the feet locked in and the hips just past the pad.",
+      "Lean back with the knees a little bent, until the trunk is parallel to the floor or lower.",
+      "Straighten the knees hard and sit up.",
+      "Touch the foot pads with the hands."
+    ],
+    "evidence": [
+      {
+        "url": "https://crossfit.com/essentials/ghd-sit-up-with-chris-spealler",
+        "note": "The page shows a glute-ham developer exercise and names the hip flexors and the abdominals."
+      },
+      {
+        "url": "https://fitnessvolt.com/ghd-sit-up-exercise-guide/",
+        "note": "The page shows a GHD machine exercise and names the rectus abdominis, hip flexors, obliques and erector spinae."
+      }
+    ]
+  },
+  {
+    "slug": "Step_Down",
+    "name": "Step Down",
+    "aliases": [
+      "Lateral Step Down",
+      "Box Step Down"
+    ],
+    "kind": "strength",
+    "muscles": {
+      "primary": [
+        "quadriceps"
+      ],
+      "secondary": [
+        "glutes"
+      ]
+    },
+    "equipment": [
+      "bodyweight",
+      "box"
+    ],
+    "level": "beginner",
+    "force": "push",
+    "mechanic": "compound",
+    "instructions": [
+      "Stand on one leg at the edge of a low box. The other foot is in the air beside or in front of the box.",
+      "Bend the knee of the standing leg and lower the free heel slowly toward the floor.",
+      "Keep the knee in line with the toes and the hips level.",
+      "Touch the floor lightly with the heel. Push up through the standing leg."
+    ],
+    "tracking": {
+      "laterality": "unilateral"
+    },
+    "evidence": [
+      {
+        "url": "https://theprehabguys.com/vimeo-video/lateral-step-down/",
+        "note": "The page shows a lateral step down from a box and names the thigh and butt muscles of the standing leg."
+      },
+      {
+        "url": "https://www.rehabhero.ca/exercise/lateral-step-down",
+        "note": "The page shows a lateral step down from a plyo box or stepper and names the gluteus medius, gluteus maximus and quadriceps."
+      }
+    ]
+  },
+  {
+    "slug": "Curtsy_Lunge",
+    "name": "Curtsy Lunge",
+    "aliases": [
+      "Curtsy Squat"
+    ],
+    "kind": "strength",
+    "muscles": {
+      "primary": [
+        "glutes",
+        "quadriceps"
+      ],
+      "secondary": [
+        "adductors",
+        "hamstrings"
+      ]
+    },
+    "equipment": [
+      "bodyweight"
+    ],
+    "level": "beginner",
+    "force": "push",
+    "mechanic": "compound",
+    "instructions": [
+      "Stand with the feet at hip width.",
+      "Step one leg back and across behind the other leg.",
+      "Bend both knees until the front thigh is near parallel to the floor. Keep the hips and the chest to the front.",
+      "Push through the front foot to return. Do the other side."
+    ],
+    "evidence": [
+      {
+        "url": "https://www.strengthlog.com/curtsy-lunge/",
+        "note": "The page shows a bodyweight exercise, with optional dumbbells or barbell, and names the quads, glutes and adductors."
+      },
+      {
+        "url": "https://www.onepeloton.com/blog/curtsy-lunge",
+        "note": "The page shows a bodyweight or dumbbell exercise and names the quadriceps, hamstrings, glute medius and minimus, adductors and calves."
+      }
+    ]
+  },
+  {
+    "slug": "Overhead_Carry",
+    "name": "Overhead Carry",
+    "aliases": [
+      "Waiter's Walk",
+      "Overhead Walk"
+    ],
+    "kind": "strength",
+    "muscles": {
+      "primary": [
+        "shoulders"
+      ],
+      "secondary": [
+        "abdominals",
+        "traps",
+        "triceps"
+      ]
+    },
+    "equipment": [
+      "kettlebell",
+      "dumbbell"
+    ],
+    "level": "intermediate",
+    "force": null,
+    "mechanic": "compound",
+    "instructions": [
+      "Press a kettlebell or a dumbbell overhead with one arm and lock the elbow.",
+      "Keep the upper arm close to the ear and the ribs down.",
+      "Walk the set distance with short, even steps.",
+      "Lower the weight, change arms and walk back."
+    ],
+    "evidence": [
+      {
+        "url": "https://barbend.com/overhead-carries",
+        "note": "The page shows a kettlebell, dumbbell, barbell or yoke carry and names the upper back, deltoids, scapular stabilizers and abdominals."
+      },
+      {
+        "url": "https://generationiron.com/overhead-carry-exercise-guide/",
+        "note": "The page shows a kettlebell, barbell or dumbbell carry and names the shoulders, arms, core, traps and rhomboids."
+      }
+    ]
+  },
+  {
+    "slug": "Snatch-Grip_Deadlift",
+    "name": "Snatch-Grip Deadlift",
+    "aliases": [
+      "Snatch Grip Deadlift"
+    ],
+    "kind": "strength",
+    "muscles": {
+      "primary": [
+        "hamstrings",
+        "glutes",
+        "lower back"
+      ],
+      "secondary": [
+        "traps",
+        "middle back",
+        "quadriceps",
+        "forearms"
+      ]
+    },
+    "equipment": [
+      "barbell"
+    ],
+    "level": "intermediate",
+    "force": "pull",
+    "mechanic": "compound",
+    "instructions": [
+      "Stand with the feet at hip width and the bar over the middle of the feet.",
+      "Take a wide overhand grip, as for a snatch. The hips are lower than in a normal deadlift.",
+      "Keep the back flat and push the floor away until you stand tall.",
+      "Lower the bar along the legs to the floor."
+    ],
+    "evidence": [
+      {
+        "url": "https://www.healthline.com/health/exercise-fitness/snatch-grip-deadlift",
+        "note": "The page shows a barbell exercise and names the hamstrings, glutes, upper back, hips, core, traps and lats."
+      },
+      {
+        "url": "https://www.strengthlog.com/snatch-grip-deadlift/",
+        "note": "The page shows a wide-grip barbell exercise and names the glutes and lower back, with quads, hamstrings, adductors and traps."
+      }
+    ]
+  },
+  {
+    "slug": "Spoto_Press",
+    "name": "Spoto Press",
+    "aliases": [],
+    "kind": "strength",
+    "muscles": {
+      "primary": [
+        "chest"
+      ],
+      "secondary": [
+        "triceps",
+        "shoulders"
+      ]
+    },
+    "equipment": [
+      "barbell",
+      "bench"
+    ],
+    "level": "intermediate",
+    "force": "push",
+    "mechanic": "compound",
+    "instructions": [
+      "Set up as for a bench press and take the bar out of the rack.",
+      "Lower the bar under control and stop it a few centimetres above the chest.",
+      "Hold the bar still for about one second. Do not rest it on the chest.",
+      "Press the bar up until the arms are straight."
+    ],
+    "evidence": [
+      {
+        "url": "https://barbell-logic.com/gym-shorts-the-spoto-bench-press/",
+        "note": "The page shows a barbell bench press paused above the chest and names the pecs and the triceps."
+      },
+      {
+        "url": "https://www.elitefts.com/education/building-the-biggest-hood-in-the-hood-spoto-press",
+        "note": "The page shows a barbell bench press paused above the chest and names the chest (pecs)."
+      }
+    ]
+  },
+  {
+    "slug": "B-Stance_Hip_Thrust",
+    "name": "B-Stance Hip Thrust",
+    "aliases": [
+      "Staggered-Stance Hip Thrust",
+      "Kickstand Hip Thrust"
+    ],
+    "kind": "strength",
+    "muscles": {
+      "primary": [
+        "glutes"
+      ],
+      "secondary": [
+        "hamstrings",
+        "quadriceps"
+      ]
+    },
+    "equipment": [
+      "barbell",
+      "bench"
+    ],
+    "level": "intermediate",
+    "force": "push",
+    "mechanic": "isolation",
+    "instructions": [
+      "Sit with the upper back against a bench and a barbell across the hips.",
+      "Put one foot flat on the floor. Put the other foot a little forward on its heel, only for balance.",
+      "Push through the flat foot and lift the hips until the trunk is parallel to the floor.",
+      "Lower under control. Do all repetitions, then change legs."
+    ],
+    "evidence": [
+      {
+        "url": "https://www.onnit.com/academy/how-to-do-b-stance-hip-thrusts-like-an-expert",
+        "note": "The page shows a bench exercise with an optional barbell and names the gluteus maximus, medius and minimus."
+      },
+      {
+        "url": "https://fitnessvolt.com/b-stance-hip-thrusts/",
+        "note": "The page shows a bench and barbell exercise and names the gluteus maximus, hamstrings, gluteus medius, quadriceps and erector spinae."
+      }
+    ]
+  },
+  {
+    "slug": "Kas_Glute_Bridge",
+    "name": "Kas Glute Bridge",
+    "aliases": [],
+    "kind": "strength",
+    "muscles": {
+      "primary": [
+        "glutes"
+      ],
+      "secondary": [
+        "hamstrings"
+      ]
+    },
+    "equipment": [
+      "barbell",
+      "bench"
+    ],
+    "level": "beginner",
+    "force": "push",
+    "mechanic": "isolation",
+    "instructions": [
+      "Sit with the upper back against a bench and a barbell across the hips. Put the feet flat on the floor.",
+      "Lift the hips until the trunk is parallel to the floor.",
+      "Lower the hips only a short distance. The shoulders do not move on the bench.",
+      "Lift the hips again and squeeze the glutes. Keep each repetition short and slow."
+    ],
+    "evidence": [
+      {
+        "url": "https://www.healthline.com/health/kas-glute-bridge",
+        "note": "The page shows a bench exercise with a barbell, dumbbell or band and names the gluteus maximus, medius and minimus."
+      },
+      {
+        "url": "https://www.dmoose.com/blogs/for-women/how-do-kas-glute-bridge-well-formed-booty",
+        "note": "The page shows a barbell and bench exercise and names the glutes, with hamstrings, lower back and abs in its FAQ."
+      }
+    ]
+  },
+  {
+    "slug": "Frog_Pump",
+    "name": "Frog Pump",
+    "aliases": [],
+    "kind": "strength",
+    "muscles": {
+      "primary": [
+        "glutes"
+      ],
+      "secondary": [
+        "adductors"
+      ]
+    },
+    "equipment": [
+      "bodyweight"
+    ],
+    "level": "beginner",
+    "force": "push",
+    "mechanic": "isolation",
+    "instructions": [
+      "Lie on your back. Put the soles of the feet together and let the knees fall out to the sides.",
+      "Pull the heels close to the hips.",
+      "Push through the outer edges of the feet and lift the hips. Squeeze the glutes at the top.",
+      "Lower the hips to the floor."
+    ],
+    "evidence": [
+      {
+        "url": "https://www.strengthlog.com/frog-pumps",
+        "note": "The page shows a bodyweight exercise and names the glutes, with the hamstrings and adductors as secondary muscles."
+      },
+      {
+        "url": "https://fitnessvolt.com/frog-pumps-guide/",
+        "note": "The page shows a bodyweight exercise and names the gluteus maximus, medius and minimus."
+      }
+    ]
+  },
+  {
+    "slug": "Crab_Walk",
+    "name": "Crab Walk",
+    "aliases": [],
+    "kind": "strength",
+    "muscles": {
+      "primary": [
+        "triceps",
+        "shoulders"
+      ],
+      "secondary": [
+        "glutes",
+        "hamstrings",
+        "abdominals"
+      ]
+    },
+    "equipment": [
+      "bodyweight"
+    ],
+    "level": "beginner",
+    "force": null,
+    "mechanic": "compound",
+    "instructions": [
+      "Sit on the floor with the feet flat and the hands behind the hips.",
+      "Lift the hips off the floor.",
+      "Move one hand and the opposite foot at the same time. Then move the other hand and foot.",
+      "Walk forward or back for the set distance. Keep the hips up."
+    ],
+    "evidence": [
+      {
+        "url": "https://www.bodi.com/blog/crab-walk-exercise",
+        "note": "The page shows a bodyweight exercise and names the triceps, rectus abdominis, glutes, quadriceps, hamstrings, shoulders and lats."
+      },
+      {
+        "url": "https://www.setforset.com/blogs/news/crab-walk",
+        "note": "The page shows a bodyweight exercise and names the triceps, deltoids, lats, glutes, hamstrings, quads and core."
+      }
+    ]
+  },
+  {
+    "slug": "Man_Maker",
+    "name": "Man Maker",
+    "aliases": [
+      "Man Makers"
+    ],
+    "kind": "strength",
+    "muscles": {
+      "primary": [
+        "quadriceps",
+        "shoulders",
+        "chest"
+      ],
+      "secondary": [
+        "lats",
+        "glutes",
+        "triceps",
+        "abdominals"
+      ]
+    },
+    "equipment": [
+      "dumbbell"
+    ],
+    "level": "intermediate",
+    "force": null,
+    "mechanic": "compound",
+    "instructions": [
+      "Stand with a dumbbell in each hand. Put the dumbbells on the floor and jump or step back to a plank on them.",
+      "Do a push-up. Then row one dumbbell and the other.",
+      "Jump or step the feet to the hands and clean the dumbbells to the shoulders in a squat.",
+      "Stand up and press the dumbbells overhead. Lower them to the sides."
+    ],
+    "evidence": [
+      {
+        "url": "https://experiencelife.lifetime.life/article/how-to-do-the-man-maker-exercise/",
+        "note": "The page shows a two-dumbbell full-body complex (push-up, renegade rows, squat clean, press) and names no specific muscles."
+      },
+      {
+        "url": "https://us.myprotein.com/thezone/training/man-makers-the-full-body-exercise-that-will-make-you-sweat",
+        "note": "The page shows a dumbbell exercise and names the core, legs, glutes, biceps, shoulders, chest and back."
+      }
+    ]
+  },
+  {
+    "slug": "Knees_to_Elbows",
+    "name": "Knees to Elbows",
+    "aliases": [
+      "Knees to Elbow",
+      "Hanging Knees to Elbows"
+    ],
+    "kind": "strength",
+    "muscles": {
+      "primary": [
+        "abdominals"
+      ],
+      "secondary": [
+        "lats",
+        "forearms"
+      ]
+    },
+    "equipment": [
+      "pull-up bar"
+    ],
+    "level": "intermediate",
+    "force": "pull",
+    "mechanic": "isolation",
+    "instructions": [
+      "Hang from the bar with an overhand grip and straight arms.",
+      "Pull down on the bar with the lats and lift the knees.",
+      "Curl the hips up until the knees touch the elbows.",
+      "Lower the legs under control. Stop the swing before the next repetition."
+    ],
+    "tracking": {
+      "load": "added"
+    },
+    "evidence": [
+      {
+        "url": "https://catalystathletics.com/exercise/490/Knees-To-Elbows",
+        "note": "The page shows a pull-up bar or stall bar exercise and names the hip flexors and the abs."
+      },
+      {
+        "url": "https://www.liftosaur.com/exercises/bodyweight-kneesto-elbows",
+        "note": "The page shows a pull-up bar exercise and names the rectus abdominis, with hip flexors, obliques and adductors as synergists."
+      }
+    ]
+  },
+  {
+    "slug": "Lu_Raise",
+    "name": "Lu Raise",
+    "aliases": [],
+    "kind": "strength",
+    "muscles": {
+      "primary": [
+        "shoulders"
+      ],
+      "secondary": [
+        "traps"
+      ]
+    },
+    "equipment": [
+      "plate",
+      "dumbbell"
+    ],
+    "level": "beginner",
+    "force": "push",
+    "mechanic": "isolation",
+    "instructions": [
+      "Stand tall with a light plate or dumbbell in each hand at the sides.",
+      "Lift the straight arms out to the sides.",
+      "Continue the same arc past shoulder height until the hands are overhead.",
+      "Lower along the same path under control."
+    ],
+    "evidence": [
+      {
+        "url": "https://catalystathletics.com/exercise/865/Overhead-Lateral-Raise/",
+        "note": "The page shows a dumbbell or plate exercise, also called Lu Raise, and names the lateral and anterior delts."
+      },
+      {
+        "url": "https://www.boxrox.com/is-the-lu-raise-the-perfect-upper-body-exercise-for-jacked-shoulders/",
+        "note": "The page shows a dumbbell exercise and names the middle and anterior deltoids, with rotator cuff, trapezius and serratus anterior."
+      }
+    ]
+  },
+  {
+    "slug": "Powell_Raise",
+    "name": "Powell Raise",
+    "aliases": [
+      "Side-Lying Lateral Raise"
+    ],
+    "kind": "strength",
+    "muscles": {
+      "primary": [
+        "shoulders"
+      ],
+      "secondary": [
+        "traps"
+      ]
+    },
+    "equipment": [
+      "dumbbell",
+      "bench"
+    ],
+    "level": "beginner",
+    "force": "push",
+    "mechanic": "isolation",
+    "instructions": [
+      "Lie on one side on a flat or low incline bench. Hold a light dumbbell in the top hand.",
+      "Let the straight arm hang across the body toward the floor.",
+      "Lift the arm in an arc until it points at the ceiling.",
+      "Lower slowly. Do all repetitions, then change sides."
+    ],
+    "tracking": {
+      "laterality": "unilateral"
+    },
+    "evidence": [
+      {
+        "url": "https://www.rehabhero.ca/exercise/powell-raise",
+        "note": "The page shows a side-lying dumbbell raise on an incline bench and names the supraspinatus, lateral deltoid and upper trapezius."
+      },
+      {
+        "url": "https://motra.com/exercises/dumbbellPowellRaise",
+        "note": "The page shows a side-lying dumbbell raise on a flat bench, also called side-lying lateral raise, and names the shoulders."
+      }
+    ]
+  },
+  {
+    "slug": "Cable_Hip_Abduction",
+    "name": "Cable Hip Abduction",
+    "aliases": [
+      "Standing Cable Hip Abduction"
+    ],
+    "kind": "strength",
+    "muscles": {
+      "primary": [
+        "abductors"
+      ],
+      "secondary": [
+        "glutes"
+      ]
+    },
+    "equipment": [
+      "cable"
+    ],
+    "level": "beginner",
+    "force": "push",
+    "mechanic": "isolation",
+    "instructions": [
+      "Attach an ankle strap to a low pulley. Put the strap on the leg that is away from the machine.",
+      "Stand side-on to the machine and hold it for balance.",
+      "Move the leg with the strap out to the side. Keep the trunk upright and the toes to the front.",
+      "Return slowly. Do all repetitions, then change legs."
+    ],
+    "tracking": {
+      "laterality": "unilateral"
+    },
+    "evidence": [
+      {
+        "url": "https://www.strengthlog.com/cable-machine-hip-abduction/",
+        "note": "The page shows a standing low-pulley exercise with an ankle strap and names the abductors, with the glutes as secondary."
+      },
+      {
+        "url": "https://www.puregym.com/exercises/legs/inner-outer-thigh/cable-hip-abduction",
+        "note": "The page shows a standing cable exercise with an ankle strap and names the gluteus medius, gluteus minimus and TFL."
+      }
+    ]
+  },
+  {
+    "slug": "Human_Flag",
+    "name": "Human Flag",
+    "aliases": [],
+    "kind": "strength",
+    "muscles": {
+      "primary": [
+        "abdominals",
+        "shoulders",
+        "lats"
+      ],
+      "secondary": [
+        "forearms"
+      ]
+    },
+    "equipment": [
+      "bodyweight"
+    ],
+    "level": "expert",
+    "force": "static",
+    "mechanic": null,
+    "instructions": [
+      "Hold a vertical pole with one hand low and one hand high, wider than the shoulders.",
+      "Push with the bottom arm and pull with the top arm. Both arms stay straight.",
+      "Lift the legs until the body is horizontal and side-on to the floor.",
+      "Hold the position. Lower under control."
+    ],
+    "evidence": [
+      {
+        "url": "https://www.exercise.com/exercises/human-flag",
+        "note": "The page shows a bodyweight hold on a pole and names the shoulders, then the abs, lats, obliques and traps."
+      },
+      {
+        "url": "https://fitnessvolt.com/calisthenics/human-flag/",
+        "note": "The page shows a bodyweight hold on a vertical pole and names the lats, upper back, shoulders, triceps, obliques and forearms."
+      }
+    ]
+  },
+  {
+    "slug": "Planche",
+    "name": "Planche",
+    "aliases": [
+      "Full Planche"
+    ],
+    "kind": "strength",
+    "muscles": {
+      "primary": [
+        "shoulders"
+      ],
+      "secondary": [
+        "chest",
+        "abdominals",
+        "biceps"
+      ]
+    },
+    "equipment": [
+      "bodyweight"
+    ],
+    "level": "expert",
+    "force": "static",
+    "mechanic": null,
+    "instructions": [
+      "Put the hands on the floor or on parallettes at hip level, with straight arms.",
+      "Lean the shoulders far forward over the hands and push the shoulder blades apart.",
+      "Lift the feet until the straight body is parallel to the floor.",
+      "Hold the position with the arms locked."
+    ],
+    "evidence": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Planche_(exercise)",
+        "note": "The page shows a gymnastics hold on floor, rings or bars and names the anterior deltoid and biceps, with core and pectorals."
+      },
+      {
+        "url": "https://www.gornation.com/blogs/calisthenics-exercises/planche",
+        "note": "The page shows a bodyweight hold, with optional parallettes, and names the shoulders, chest, triceps, core and glutes."
+      }
+    ]
+  },
+  {
+    "slug": "Kipping_Bar_Muscle_Up",
+    "name": "Kipping Muscle-Up",
+    "aliases": [
+      "Kipping Bar Muscle-Up"
+    ],
+    "kind": "strength",
+    "muscles": {
+      "primary": [
+        "lats",
+        "triceps"
+      ],
+      "secondary": [
+        "shoulders",
+        "chest",
+        "biceps",
+        "abdominals",
+        "forearms"
+      ]
+    },
+    "equipment": [
+      "pull-up bar"
+    ],
+    "level": "expert",
+    "force": "pull",
+    "mechanic": "compound",
+    "instructions": [
+      "Hang from the bar with straight arms and an overhand grip, a little wider than the shoulders.",
+      "Swing the body: push the chest forward through the arms, then kick the legs forward and pull the hips toward the bar.",
+      "At the top of the swing, pull the bar to the lower chest and turn the wrists over the bar.",
+      "Lean the chest over the bar and push down until the arms are straight.",
+      "Push back off the bar and lower into the hang. Start the next swing from there."
+    ],
+    "tracking": {
+      "load": "added"
+    },
+    "evidence": [
+      {
+        "url": "https://fitnessvolt.com/kipping-muscle-up/",
+        "note": "The page shows a muscle-up on a bar with a hip swing, and names the lats, the triceps, the shoulders, the chest and the core."
+      },
+      {
+        "url": "https://www.strengthlog.com/bar-muscle-up/",
+        "note": "The page shows the bar muscle-up with a kip, a pull to the bar, a turn of the wrists and a dip to straight arms."
+      }
+    ]
+  }
+]
