@@ -58,7 +58,7 @@
       "bodyweight"
     ],
     "level": "beginner",
-    "force": "static",
+    "force": null,
     "mechanic": null,
     "instructions": [
       "Lie on your back. Press the lower back into the floor.",

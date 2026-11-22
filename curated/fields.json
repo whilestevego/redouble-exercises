@@ -10189,10 +10189,10 @@
   },
   "Neck_Extension": {
     "name": {
-      "value": "Neck Extension",
+      "value": "One-Arm Overhead Cable Triceps Extension",
       "evidence": [
         {
-          "rule": "The dataset writes a name in title case, with words in full."
+          "quote": "Unilateral triceps exercise with your back to the pulley, with the pulley at the top"
         }
       ]
     },
@@ -10235,6 +10235,24 @@
       "evidence": [
         {
           "rule": "A machine, a cable or a band guides or scales the load. The dataset marks this as beginner."
+        }
+      ]
+    },
+    "equipment": {
+      "value": [
+        "cable"
+      ],
+      "evidence": [
+        {
+          "quote": "Unilateral triceps exercise with your back to the pulley, with the pulley at the top"
+        }
+      ]
+    },
+    "tracking.laterality": {
+      "value": "unilateral",
+      "evidence": [
+        {
+          "quote": "Unilateral triceps exercise"
         }
       ]
     }

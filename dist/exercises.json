@@ -87268,7 +87268,7 @@
     },
     {
       "slug": "Neck_Extension",
-      "name": "Neck Extension",
+      "name": "One-Arm Overhead Cable Triceps Extension",
       "aliases": [],
       "kind": "strength",
       "region": "arms",
@@ -87279,8 +87279,7 @@
         "secondary": []
       },
       "equipment": [
-        "cable",
-        "ez bar"
+        "cable"
       ],
       "level": "beginner",
       "force": "push",
@@ -87290,7 +87289,7 @@
       ],
       "tracking": {
         "measure": "reps",
-        "laterality": "bilateral",
+        "laterality": "unilateral",
         "load": "absolute"
       },
       "variationGroup": null,
@@ -87310,12 +87309,12 @@
         "kind": "rule",
         "muscles.primary": "curated",
         "muscles.secondary": "curated",
-        "equipment": "wger",
+        "equipment": "curated",
         "instructions": "wger",
         "region": "rule",
         "force": "curated",
         "tracking.measure": "rule",
-        "tracking.laterality": "rule",
+        "tracking.laterality": "curated",
         "tracking.load": "rule",
         "level": "curated",
         "mechanic": "curated"
@@ -102861,7 +102860,7 @@
         "bodyweight"
       ],
       "level": "beginner",
-      "force": "static",
+      "force": null,
       "mechanic": null,
       "instructions": [
         "Lie on your back. Press the lower back into the floor.",
@@ -102894,7 +102893,6 @@
         "equipment": "redouble-exercises",
         "instructions": "redouble-exercises",
         "region": "rule",
-        "force": "redouble-exercises",
         "aliases": "redouble-exercises",
         "tracking.measure": "redouble-exercises",
         "tracking.laterality": "rule",
