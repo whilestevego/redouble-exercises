@@ -1055,14 +1055,15 @@
     "kind": "strength",
     "muscles": {
       "primary": [
-        "abdominals"
+        "abdominals",
+        "hip flexors"
       ],
       "secondary": [
         "quadriceps"
       ]
     },
     "equipment": [
-      "bodyweight"
+      "ghd"
     ],
     "level": "intermediate",
     "force": "pull",
@@ -1073,6 +1074,9 @@
       "Straighten the knees hard and sit up.",
       "Touch the foot pads with the hands."
     ],
+    "tracking": {
+      "load": "added"
+    },
     "evidence": [
       {
         "url": "https://crossfit.com/essentials/ghd-sit-up-with-chris-spealler",
@@ -1771,6 +1775,84 @@
       {
         "url": "https://www.strengthlog.com/bar-muscle-up/",
         "note": "The page shows the bar muscle-up with a kip, a pull to the bar, a turn of the wrists and a dip to straight arms."
+      }
+    ]
+  },
+  {
+    "slug": "Standing_W",
+    "name": "Standing W",
+    "aliases": [
+      "Standing Ws",
+      "Standing Shoulder W"
+    ],
+    "kind": "strength",
+    "muscles": {
+      "primary": [
+        "shoulders"
+      ],
+      "secondary": [
+        "traps",
+        "middle back"
+      ]
+    },
+    "equipment": [
+      "bands"
+    ],
+    "level": "beginner",
+    "force": "pull",
+    "mechanic": "isolation",
+    "instructions": [
+      "Attach a light band at shoulder height. Stand tall, face the band and hold one end in each hand.",
+      "Hold the arms in front of the chest with the palms down and the elbows bent.",
+      "Pull the shoulder blades back and down. Do not lift the shoulders.",
+      "Pull the elbows back and turn the forearms up and out, until the arms and the head make a W.",
+      "Return slowly to the start."
+    ],
+    "evidence": [
+      {
+        "url": "https://theprehabguys.com/vimeo-video/standing-shoulder-w-band-2/",
+        "note": "The page shows the standing shoulder W with a band at shoulder height. The elbows move back and the arms turn until they make a W, and the work is between the shoulder blades."
+      },
+      {
+        "url": "https://mikereinold.com/the-shoulder-w-exercise/",
+        "note": "The page shows the shoulder W with a band. Both shoulders turn out while the shoulder blades move back. It names the infraspinatus, the teres minor and the lower trapezius."
+      }
+    ]
+  },
+  {
+    "slug": "Eccentric_Finger_Roll",
+    "name": "Eccentric Finger Roll",
+    "aliases": [],
+    "kind": "strength",
+    "muscles": {
+      "primary": [
+        "forearms"
+      ],
+      "secondary": []
+    },
+    "equipment": [
+      "dumbbell"
+    ],
+    "level": "beginner",
+    "force": "pull",
+    "mechanic": "isolation",
+    "instructions": [
+      "Hold a dumbbell in one hand with the arm at your side. Close the hand tightly and keep the wrist straight.",
+      "Open the hand slowly for a count of three to five. Let the dumbbell roll down to the last joint of the fingers.",
+      "Close the fingers to roll the dumbbell back into the palm. Use the other hand to help if the weight is heavy.",
+      "Do all repetitions, then change hands."
+    ],
+    "tracking": {
+      "laterality": "unilateral"
+    },
+    "evidence": [
+      {
+        "url": "https://gripped.com/?p=46972",
+        "note": "The page shows a finger roll with a dumbbell. The hand opens slowly, the dumbbell rolls to the fingertips and the fingers close again. It names the finger flexor tendons and the pulleys."
+      },
+      {
+        "url": "https://nicros.com/?p=1764",
+        "note": "The page shows the heavy finger roll. The bar moves from the closed hand down to the open fingers with a straight wrist, and the forearm muscles work in the eccentric and the concentric phase."
       }
     ]
   }

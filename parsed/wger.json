@@ -358,6 +358,7 @@
         "calves",
         "chest",
         "abdominals",
+        "serratus anterior",
         "triceps"
       ],
       "secondary": [
@@ -1180,7 +1181,8 @@
     "muscles": {
       "primary": [
         "lats",
-        "chest"
+        "chest",
+        "serratus anterior"
       ],
       "secondary": []
     },
@@ -1234,7 +1236,9 @@
       "primary": [
         "abdominals"
       ],
-      "secondary": []
+      "secondary": [
+        "serratus anterior"
+      ]
     },
     "instructions": [
       "Lay down on your back a soft surface, the feet are on the floor. Ask a partner or use some other help (barbell, etc.) to keep them fixed, your hands are behind your head. From this position move your upper body up till your head or elbows touch your knees. Do this movement by rolling up your back."
@@ -2496,7 +2500,8 @@
         "quadriceps"
       ],
       "secondary": [
-        "abdominals"
+        "abdominals",
+        "serratus anterior"
       ]
     },
     "instructions": [
@@ -3405,7 +3410,9 @@
       "primary": [
         "abdominals"
       ],
-      "secondary": []
+      "secondary": [
+        "serratus anterior"
+      ]
     },
     "instructions": [
       "Lay down on a bench and hold onto the recliner with your hands to keep you stable. Hold your legs straight and lift them till they make an angle of about 45°. Make a short pause of 1 sec. and go slowly down to the initial position. To increase the intensity you can make a longer pause of 7 sec. every 5th time."
@@ -3431,7 +3438,9 @@
       "primary": [
         "abdominals"
       ],
-      "secondary": []
+      "secondary": [
+        "serratus anterior"
+      ]
     },
     "instructions": [
       "Put your forearms on the pads on the leg raise machine, the body is hanging freely. Lift now your legs with a fast movement as high as you can, make a short pause of 1sec at the top, and bring them down again. Make sure that during the exercise your body does not swing, only the legs should move."
@@ -6042,7 +6051,8 @@
       "primary": [
         "shoulders",
         "glutes",
-        "abdominals"
+        "abdominals",
+        "serratus anterior"
       ],
       "secondary": []
     },
@@ -6363,6 +6373,7 @@
       "secondary": [
         "glutes",
         "abdominals",
+        "serratus anterior",
         "traps"
       ]
     },
@@ -6491,6 +6502,7 @@
       "secondary": [
         "shoulders",
         "biceps",
+        "serratus anterior",
         "traps"
       ]
     },
@@ -7265,6 +7277,7 @@
       "primary": [
         "shoulders",
         "glutes",
+        "serratus anterior",
         "traps"
       ],
       "secondary": [
@@ -8895,7 +8908,8 @@
         "shoulders",
         "biceps",
         "lats",
-        "abdominals"
+        "abdominals",
+        "serratus anterior"
       ],
       "secondary": []
     },
@@ -9390,6 +9404,7 @@
         "lats",
         "abdominals",
         "quadriceps",
+        "serratus anterior",
         "traps"
       ],
       "secondary": []
@@ -10120,7 +10135,8 @@
     "muscles": {
       "primary": [
         "biceps",
-        "lats"
+        "lats",
+        "serratus anterior"
       ],
       "secondary": []
     },
@@ -10151,7 +10167,8 @@
     ],
     "muscles": {
       "primary": [
-        "lats"
+        "lats",
+        "serratus anterior"
       ],
       "secondary": []
     },
@@ -10234,7 +10251,8 @@
     "equipment": null,
     "muscles": {
       "primary": [
-        "lats"
+        "lats",
+        "serratus anterior"
       ],
       "secondary": []
     },
@@ -10416,6 +10434,7 @@
         "shoulders",
         "glutes",
         "abdominals",
+        "serratus anterior",
         "traps"
       ],
       "secondary": [
@@ -10975,6 +10994,7 @@
         "chest"
       ],
       "secondary": [
+        "serratus anterior",
         "triceps"
       ]
     },
@@ -11606,7 +11626,8 @@
         "abdominals"
       ],
       "secondary": [
-        "abdominals"
+        "abdominals",
+        "serratus anterior"
       ]
     },
     "instructions": [
@@ -11693,7 +11714,8 @@
     "equipment": null,
     "muscles": {
       "primary": [
-        "abdominals"
+        "abdominals",
+        "serratus anterior"
       ],
       "secondary": [
         "shoulders",
@@ -12574,7 +12596,8 @@
       "secondary": [
         "abdominals",
         "chest",
-        "quadriceps"
+        "quadriceps",
+        "serratus anterior"
       ]
     },
     "instructions": [
@@ -14867,7 +14890,8 @@
         "triceps"
       ],
       "secondary": [
-        "biceps"
+        "biceps",
+        "serratus anterior"
       ]
     },
     "instructions": [
@@ -16963,7 +16987,8 @@
         "abdominals"
       ],
       "secondary": [
-        "abdominals"
+        "abdominals",
+        "serratus anterior"
       ]
     },
     "instructions": [
@@ -17365,7 +17390,8 @@
         "triceps"
       ],
       "secondary": [
-        "lats"
+        "lats",
+        "serratus anterior"
       ]
     },
     "instructions": [
@@ -17594,6 +17620,7 @@
       ],
       "secondary": [
         "abdominals",
+        "serratus anterior",
         "traps"
       ]
     },
@@ -17623,6 +17650,7 @@
       "primary": [
         "shoulders",
         "lats",
+        "serratus anterior",
         "traps"
       ],
       "secondary": [
@@ -17898,7 +17926,8 @@
     ],
     "muscles": {
       "primary": [
-        "lats"
+        "lats",
+        "serratus anterior"
       ],
       "secondary": []
     },
@@ -19695,6 +19724,7 @@
     "muscles": {
       "primary": [
         "abdominals",
+        "serratus anterior",
         "triceps"
       ],
       "secondary": []
@@ -21896,7 +21926,8 @@
       "secondary": [
         "lats",
         "chest",
-        "quadriceps"
+        "quadriceps",
+        "serratus anterior"
       ]
     },
     "instructions": [
@@ -21960,7 +21991,8 @@
       "primary": [
         "lats",
         "chest",
-        "abdominals"
+        "abdominals",
+        "serratus anterior"
       ],
       "secondary": [
         "quadriceps",
@@ -22618,7 +22650,8 @@
         "shoulders"
       ],
       "secondary": [
-        "lats"
+        "lats",
+        "serratus anterior"
       ]
     },
     "instructions": [
@@ -23162,7 +23195,8 @@
         "abdominals"
       ],
       "secondary": [
-        "abdominals"
+        "abdominals",
+        "serratus anterior"
       ]
     },
     "instructions": [
@@ -23273,7 +23307,8 @@
     "muscles": {
       "primary": [
         "shoulders",
-        "abdominals"
+        "abdominals",
+        "serratus anterior"
       ],
       "secondary": [
         "abdominals",
@@ -23499,7 +23534,8 @@
       ],
       "secondary": [
         "biceps",
-        "abdominals"
+        "abdominals",
+        "serratus anterior"
       ]
     },
     "instructions": [
@@ -23532,7 +23568,8 @@
       "secondary": [
         "shoulders",
         "biceps",
-        "abdominals"
+        "abdominals",
+        "serratus anterior"
       ]
     },
     "instructions": [
@@ -23565,7 +23602,8 @@
       "secondary": [
         "shoulders",
         "biceps",
-        "abdominals"
+        "abdominals",
+        "serratus anterior"
       ]
     },
     "instructions": [
@@ -23624,7 +23662,8 @@
         "abdominals"
       ],
       "secondary": [
-        "abdominals"
+        "abdominals",
+        "serratus anterior"
       ]
     },
     "instructions": [
@@ -24285,6 +24324,7 @@
       ],
       "secondary": [
         "abdominals",
+        "serratus anterior",
         "traps",
         "triceps"
       ]
@@ -24919,7 +24959,9 @@
     "mechanic": null,
     "equipment": null,
     "muscles": {
-      "primary": [],
+      "primary": [
+        "serratus anterior"
+      ],
       "secondary": [
         "shoulders"
       ]
@@ -25168,7 +25210,8 @@
     ],
     "muscles": {
       "primary": [
-        "shoulders"
+        "shoulders",
+        "serratus anterior"
       ],
       "secondary": [
         "biceps",
@@ -25261,7 +25304,8 @@
         "triceps"
       ],
       "secondary": [
-        "abdominals"
+        "abdominals",
+        "serratus anterior"
       ]
     },
     "instructions": [
@@ -25892,6 +25936,7 @@
         "shoulders"
       ],
       "secondary": [
+        "serratus anterior",
         "traps"
       ]
     },
@@ -26660,7 +26705,9 @@
       "primary": [
         "abdominals"
       ],
-      "secondary": []
+      "secondary": [
+        "serratus anterior"
+      ]
     },
     "instructions": [
       "Starting position",
@@ -26692,7 +26739,8 @@
         "abdominals"
       ],
       "secondary": [
-        "abdominals"
+        "abdominals",
+        "serratus anterior"
       ]
     },
     "instructions": [
@@ -26867,7 +26915,9 @@
       "bodyweight"
     ],
     "muscles": {
-      "primary": [],
+      "primary": [
+        "serratus anterior"
+      ],
       "secondary": [
         "shoulders"
       ]
@@ -27103,7 +27153,8 @@
     ],
     "muscles": {
       "primary": [
-        "shoulders"
+        "shoulders",
+        "serratus anterior"
       ],
       "secondary": [
         "abdominals",
@@ -27422,7 +27473,9 @@
       "primary": [
         "abdominals"
       ],
-      "secondary": []
+      "secondary": [
+        "serratus anterior"
+      ]
     },
     "instructions": [
       "Perform Crunches with controlled form, keeping tension on the target muscles, pausing briefly at the peak contraction, then returning slowly under control without using momentum."
@@ -27679,6 +27732,7 @@
       "secondary": [
         "shoulders",
         "biceps",
+        "serratus anterior",
         "traps"
       ]
     },
@@ -28870,7 +28924,9 @@
       "primary": [
         "abdominals"
       ],
-      "secondary": []
+      "secondary": [
+        "serratus anterior"
+      ]
     },
     "instructions": [
       "Hang from the rings, tuck the pelvis first, then raise the legs and lift the hips, keep the torso still without swinging, lower slowly under control, breathe steadily."
@@ -29075,7 +29131,8 @@
       "secondary": [
         "shoulders",
         "biceps",
-        "abdominals"
+        "abdominals",
+        "serratus anterior"
       ]
     },
     "instructions": [
@@ -29112,6 +29169,7 @@
       "secondary": [
         "shoulders",
         "abdominals",
+        "serratus anterior",
         "triceps"
       ]
     },
@@ -29148,6 +29206,7 @@
       ],
       "secondary": [
         "abdominals",
+        "serratus anterior",
         "traps"
       ]
     },
@@ -29220,7 +29279,8 @@
       ],
       "secondary": [
         "shoulders",
-        "abdominals"
+        "abdominals",
+        "serratus anterior"
       ]
     },
     "instructions": [

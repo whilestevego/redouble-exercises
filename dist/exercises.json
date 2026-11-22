@@ -27,7 +27,7 @@
       "recordUrl": "https://wger.de/exercise/{id}/view"
     }
   ],
-  "count": 1592,
+  "count": 1594,
   "exercises": [
     {
       "slug": "3_4_Sit-Up",
@@ -557,7 +557,9 @@
         "primary": [
           "quadriceps"
         ],
-        "secondary": []
+        "secondary": [
+          "hip flexors"
+        ]
       },
       "equipment": [
         "bodyweight"
@@ -591,7 +593,7 @@
         "name": "free-exercise-db",
         "kind": "free-exercise-db",
         "muscles.primary": "free-exercise-db",
-        "muscles.secondary": "rule",
+        "muscles.secondary": "curated",
         "equipment": "free-exercise-db",
         "instructions": "free-exercise-db",
         "region": "rule",
@@ -1411,7 +1413,7 @@
       "region": "legs",
       "muscles": {
         "primary": [
-          "calves"
+          "tibialis anterior"
         ],
         "secondary": []
       },
@@ -1445,7 +1447,7 @@
       "provenance": {
         "name": "free-exercise-db",
         "kind": "free-exercise-db",
-        "muscles.primary": "free-exercise-db",
+        "muscles.primary": "curated",
         "muscles.secondary": "rule",
         "equipment": "curated",
         "instructions": "free-exercise-db",
@@ -3611,7 +3613,8 @@
           "shoulders"
         ],
         "secondary": [
-          "chest"
+          "chest",
+          "serratus anterior"
         ]
       },
       "equipment": [
@@ -3647,7 +3650,7 @@
         "name": "free-exercise-db",
         "kind": "free-exercise-db",
         "muscles.primary": "free-exercise-db",
-        "muscles.secondary": "free-exercise-db",
+        "muscles.secondary": "curated",
         "equipment": "free-exercise-db",
         "instructions": "free-exercise-db",
         "region": "rule",
@@ -12632,7 +12635,9 @@
         "primary": [
           "abdominals"
         ],
-        "secondary": []
+        "secondary": [
+          "serratus anterior"
+        ]
       },
       "equipment": [
         "bodyweight"
@@ -12723,7 +12728,7 @@
         "name": "free-exercise-db",
         "kind": "free-exercise-db",
         "muscles.primary": "free-exercise-db",
-        "muscles.secondary": "rule",
+        "muscles.secondary": "wger",
         "equipment": "free-exercise-db",
         "instructions": "free-exercise-db",
         "region": "rule",
@@ -20253,7 +20258,7 @@
         ]
       },
       "equipment": [
-        "machine"
+        "ghd"
       ],
       "level": "intermediate",
       "force": "pull",
@@ -20266,7 +20271,7 @@
       "tracking": {
         "measure": "reps",
         "laterality": "bilateral",
-        "load": "absolute"
+        "load": "added"
       },
       "variationGroup": null,
       "sources": [
@@ -20294,13 +20299,13 @@
         "kind": "free-exercise-db",
         "muscles.primary": "free-exercise-db",
         "muscles.secondary": "free-exercise-db",
-        "equipment": "free-exercise-db",
+        "equipment": "curated",
         "instructions": "free-exercise-db",
         "region": "rule",
         "force": "free-exercise-db",
         "tracking.measure": "rule",
         "tracking.laterality": "rule",
-        "tracking.load": "rule",
+        "tracking.load": "curated",
         "level": "free-exercise-db",
         "mechanic": "free-exercise-db"
       },
@@ -21978,9 +21983,11 @@
       "region": "legs",
       "muscles": {
         "primary": [
-          "quadriceps"
+          "hip flexors"
         ],
-        "secondary": []
+        "secondary": [
+          "quadriceps"
+        ]
       },
       "equipment": [
         "bands"
@@ -22014,8 +22021,8 @@
       "provenance": {
         "name": "free-exercise-db",
         "kind": "free-exercise-db",
-        "muscles.primary": "free-exercise-db",
-        "muscles.secondary": "rule",
+        "muscles.primary": "curated",
+        "muscles.secondary": "curated",
         "equipment": "free-exercise-db",
         "instructions": "free-exercise-db",
         "region": "rule",
@@ -23821,6 +23828,7 @@
       "region": "legs",
       "muscles": {
         "primary": [
+          "hip flexors",
           "quadriceps"
         ],
         "secondary": []
@@ -23855,7 +23863,7 @@
       "provenance": {
         "name": "free-exercise-db",
         "kind": "free-exercise-db",
-        "muscles.primary": "free-exercise-db",
+        "muscles.primary": "curated",
         "muscles.secondary": "rule",
         "equipment": "rule",
         "instructions": "free-exercise-db",
@@ -26570,9 +26578,11 @@
       "region": "legs",
       "muscles": {
         "primary": [
-          "quadriceps"
+          "hip flexors"
         ],
-        "secondary": []
+        "secondary": [
+          "quadriceps"
+        ]
       },
       "equipment": [
         "bodyweight"
@@ -26604,8 +26614,8 @@
       "provenance": {
         "name": "free-exercise-db",
         "kind": "free-exercise-db",
-        "muscles.primary": "free-exercise-db",
-        "muscles.secondary": "rule",
+        "muscles.primary": "curated",
+        "muscles.secondary": "curated",
         "equipment": "rule",
         "instructions": "free-exercise-db",
         "region": "rule",
@@ -30066,7 +30076,9 @@
         "primary": [
           "quadriceps"
         ],
-        "secondary": []
+        "secondary": [
+          "hip flexors"
+        ]
       },
       "equipment": [
         "bodyweight"
@@ -30101,7 +30113,7 @@
         "name": "free-exercise-db",
         "kind": "free-exercise-db",
         "muscles.primary": "free-exercise-db",
-        "muscles.secondary": "rule",
+        "muscles.secondary": "curated",
         "equipment": "free-exercise-db",
         "instructions": "free-exercise-db",
         "region": "rule",
@@ -32176,7 +32188,9 @@
         "primary": [
           "quadriceps"
         ],
-        "secondary": []
+        "secondary": [
+          "hip flexors"
+        ]
       },
       "equipment": [
         "bodyweight"
@@ -32209,7 +32223,7 @@
         "name": "free-exercise-db",
         "kind": "free-exercise-db",
         "muscles.primary": "free-exercise-db",
-        "muscles.secondary": "rule",
+        "muscles.secondary": "curated",
         "equipment": "rule",
         "instructions": "free-exercise-db",
         "region": "rule",
@@ -34227,7 +34241,8 @@
         "secondary": [
           "abdominals",
           "biceps",
-          "chest"
+          "chest",
+          "hip flexors"
         ]
       },
       "equipment": [
@@ -34263,7 +34278,7 @@
         "name": "free-exercise-db",
         "kind": "free-exercise-db",
         "muscles.primary": "free-exercise-db",
-        "muscles.secondary": "free-exercise-db",
+        "muscles.secondary": "curated",
         "equipment": "rule",
         "instructions": "free-exercise-db",
         "region": "rule",
@@ -34347,7 +34362,8 @@
         ],
         "secondary": [
           "hamstrings",
-          "lower back"
+          "lower back",
+          "hip flexors"
         ]
       },
       "equipment": [
@@ -34383,7 +34399,7 @@
         "name": "free-exercise-db",
         "kind": "free-exercise-db",
         "muscles.primary": "free-exercise-db",
-        "muscles.secondary": "free-exercise-db",
+        "muscles.secondary": "curated",
         "equipment": "rule",
         "instructions": "free-exercise-db",
         "region": "rule",
@@ -40921,7 +40937,8 @@
           "hamstrings"
         ],
         "secondary": [
-          "calves"
+          "calves",
+          "hip flexors"
         ]
       },
       "equipment": [
@@ -40965,7 +40982,7 @@
         "name": "free-exercise-db",
         "kind": "free-exercise-db",
         "muscles.primary": "free-exercise-db",
-        "muscles.secondary": "free-exercise-db",
+        "muscles.secondary": "curated",
         "equipment": "wger",
         "instructions": "free-exercise-db",
         "region": "rule",
@@ -50122,7 +50139,9 @@
     {
       "slug": "Standing_Cable_Wood_Chop",
       "name": "Standing Cable Wood Chop",
-      "aliases": [],
+      "aliases": [
+        "Wood Chop"
+      ],
       "kind": "strength",
       "region": "core",
       "muscles": {
@@ -50175,6 +50194,7 @@
         "instructions": "free-exercise-db",
         "region": "rule",
         "force": "free-exercise-db",
+        "aliases": "curated",
         "tracking.measure": "rule",
         "tracking.laterality": "rule",
         "tracking.load": "rule",
@@ -51030,9 +51050,11 @@
       "region": "legs",
       "muscles": {
         "primary": [
-          "quadriceps"
+          "hip flexors"
         ],
-        "secondary": []
+        "secondary": [
+          "quadriceps"
+        ]
       },
       "equipment": [
         "bodyweight"
@@ -51064,8 +51086,8 @@
       "provenance": {
         "name": "free-exercise-db",
         "kind": "free-exercise-db",
-        "muscles.primary": "free-exercise-db",
-        "muscles.secondary": "rule",
+        "muscles.primary": "curated",
+        "muscles.secondary": "curated",
         "equipment": "rule",
         "instructions": "free-exercise-db",
         "region": "rule",
@@ -58171,7 +58193,9 @@
     {
       "slug": "Barbell_Reverse_Wrist_Curl",
       "name": "Barbell Reverse Wrist Curl",
-      "aliases": [],
+      "aliases": [
+        "Reverse Wrist Curl"
+      ],
       "kind": "strength",
       "region": "arms",
       "muscles": {
@@ -58217,6 +58241,7 @@
         "instructions": "wger",
         "region": "rule",
         "force": "curated",
+        "aliases": "curated",
         "tracking.measure": "rule",
         "tracking.laterality": "rule",
         "tracking.load": "rule",
@@ -58451,13 +58476,15 @@
           "calves",
           "chest",
           "abdominals",
+          "serratus anterior",
           "triceps"
         ],
         "secondary": [
           "glutes",
           "lats",
           "quadriceps",
-          "traps"
+          "traps",
+          "hip flexors"
         ]
       },
       "equipment": [
@@ -58493,7 +58520,7 @@
         "name": "curated",
         "kind": "rule",
         "muscles.primary": "wger",
-        "muscles.secondary": "wger",
+        "muscles.secondary": "curated",
         "equipment": "wger",
         "instructions": "wger",
         "region": "rule",
@@ -59116,7 +59143,8 @@
       "muscles": {
         "primary": [
           "lats",
-          "chest"
+          "chest",
+          "serratus anterior"
         ],
         "secondary": []
       },
@@ -59754,7 +59782,9 @@
     {
       "slug": "Dumbbell_Triceps_Extension",
       "name": "Dumbbell Triceps Extension",
-      "aliases": [],
+      "aliases": [
+        "Triceps Extension"
+      ],
       "kind": "strength",
       "region": "arms",
       "muscles": {
@@ -59802,6 +59832,7 @@
         "instructions": "wger",
         "region": "rule",
         "force": "curated",
+        "aliases": "curated",
         "tracking.measure": "rule",
         "tracking.laterality": "rule",
         "tracking.load": "rule",
@@ -60425,7 +60456,8 @@
           "quadriceps"
         ],
         "secondary": [
-          "abdominals"
+          "abdominals",
+          "serratus anterior"
         ]
       },
       "equipment": [
@@ -61447,7 +61479,8 @@
       "region": "core",
       "muscles": {
         "primary": [
-          "abdominals"
+          "abdominals",
+          "hip flexors"
         ],
         "secondary": []
       },
@@ -61480,7 +61513,7 @@
       "provenance": {
         "name": "wger",
         "kind": "rule",
-        "muscles.primary": "wger",
+        "muscles.primary": "curated",
         "muscles.secondary": "rule",
         "equipment": "curated",
         "instructions": "wger",
@@ -61505,7 +61538,9 @@
         "primary": [
           "abdominals"
         ],
-        "secondary": []
+        "secondary": [
+          "serratus anterior"
+        ]
       },
       "equipment": [
         "bench"
@@ -61537,7 +61572,7 @@
         "name": "curated",
         "kind": "rule",
         "muscles.primary": "wger",
-        "muscles.secondary": "rule",
+        "muscles.secondary": "wger",
         "equipment": "curated",
         "instructions": "wger",
         "region": "rule",
@@ -61568,7 +61603,9 @@
         "primary": [
           "abdominals"
         ],
-        "secondary": []
+        "secondary": [
+          "serratus anterior"
+        ]
       },
       "equipment": [
         "machine"
@@ -61600,7 +61637,7 @@
         "name": "wger",
         "kind": "rule",
         "muscles.primary": "wger",
-        "muscles.secondary": "rule",
+        "muscles.secondary": "wger",
         "equipment": "curated",
         "instructions": "wger",
         "region": "rule",
@@ -64944,7 +64981,8 @@
         "primary": [
           "shoulders",
           "glutes",
-          "abdominals"
+          "abdominals",
+          "serratus anterior"
         ],
         "secondary": []
       },
@@ -65431,6 +65469,7 @@
         "secondary": [
           "glutes",
           "abdominals",
+          "serratus anterior",
           "traps"
         ]
       },
@@ -65743,7 +65782,7 @@
         "secondary": []
       },
       "equipment": [
-        "bodyweight"
+        "fingerboard"
       ],
       "level": "beginner",
       "force": "static",
@@ -65773,13 +65812,13 @@
         "kind": "rule",
         "muscles.primary": "curated",
         "muscles.secondary": "rule",
-        "equipment": "wger",
+        "equipment": "curated",
         "instructions": "wger",
         "region": "rule",
         "force": "curated",
         "tracking.measure": "rule",
         "tracking.laterality": "rule",
-        "tracking.load": "rule",
+        "tracking.load": "curated",
         "level": "curated"
       },
       "license": "CC BY-SA 4.0",
@@ -65805,7 +65844,7 @@
         "secondary": []
       },
       "equipment": [
-        "bodyweight"
+        "fingerboard"
       ],
       "level": "beginner",
       "force": "static",
@@ -65841,7 +65880,7 @@
         "force": "curated",
         "tracking.measure": "rule",
         "tracking.laterality": "rule",
-        "tracking.load": "rule",
+        "tracking.load": "curated",
         "level": "curated"
       },
       "license": "CC BY-SA 4.0",
@@ -65870,7 +65909,7 @@
         ]
       },
       "equipment": [
-        "bodyweight"
+        "fingerboard"
       ],
       "level": "intermediate",
       "force": "pull",
@@ -65900,13 +65939,13 @@
         "kind": "rule",
         "muscles.primary": "wger",
         "muscles.secondary": "wger",
-        "equipment": "wger",
+        "equipment": "curated",
         "instructions": "wger",
         "region": "rule",
         "force": "curated",
         "tracking.measure": "rule",
         "tracking.laterality": "rule",
-        "tracking.load": "rule",
+        "tracking.load": "curated",
         "level": "curated",
         "mechanic": "curated"
       },
@@ -66687,6 +66726,7 @@
         "primary": [
           "shoulders",
           "glutes",
+          "serratus anterior",
           "traps"
         ],
         "secondary": [
@@ -69044,7 +69084,8 @@
           "shoulders",
           "biceps",
           "lats",
-          "abdominals"
+          "abdominals",
+          "serratus anterior"
         ],
         "secondary": []
       },
@@ -69919,6 +69960,7 @@
           "lats",
           "abdominals",
           "quadriceps",
+          "serratus anterior",
           "traps"
         ],
         "secondary": []
@@ -70630,7 +70672,7 @@
         ]
       },
       "equipment": [
-        "bodyweight"
+        "parallettes"
       ],
       "level": "beginner",
       "force": "push",
@@ -70666,7 +70708,7 @@
         "force": "curated",
         "tracking.measure": "rule",
         "tracking.laterality": "rule",
-        "tracking.load": "rule",
+        "tracking.load": "curated",
         "level": "curated",
         "mechanic": "curated"
       },
@@ -71003,7 +71045,7 @@
         "secondary": []
       },
       "equipment": [
-        "machine"
+        "ghd"
       ],
       "level": "beginner",
       "force": "push",
@@ -71014,7 +71056,7 @@
       "tracking": {
         "measure": "reps",
         "laterality": "bilateral",
-        "load": "absolute"
+        "load": "added"
       },
       "variationGroup": null,
       "sources": [
@@ -71039,7 +71081,7 @@
         "force": "curated",
         "tracking.measure": "rule",
         "tracking.laterality": "rule",
-        "tracking.load": "rule",
+        "tracking.load": "curated",
         "level": "curated",
         "mechanic": "curated"
       },
@@ -71062,7 +71104,8 @@
       "muscles": {
         "primary": [
           "biceps",
-          "lats"
+          "lats",
+          "serratus anterior"
         ],
         "secondary": []
       },
@@ -71128,7 +71171,8 @@
       "region": "back",
       "muscles": {
         "primary": [
-          "lats"
+          "lats",
+          "serratus anterior"
         ],
         "secondary": []
       },
@@ -71575,7 +71619,7 @@
       "region": "legs",
       "muscles": {
         "primary": [
-          "calves"
+          "tibialis anterior"
         ],
         "secondary": []
       },
@@ -72290,7 +72334,7 @@
         "secondary": []
       },
       "equipment": [
-        "bodyweight"
+        "fingerboard"
       ],
       "level": "beginner",
       "force": "static",
@@ -72326,7 +72370,7 @@
         "force": "curated",
         "tracking.measure": "rule",
         "tracking.laterality": "rule",
-        "tracking.load": "rule",
+        "tracking.load": "curated",
         "level": "curated"
       },
       "license": "CC BY-SA 4.0",
@@ -72432,6 +72476,7 @@
           "chest"
         ],
         "secondary": [
+          "serratus anterior",
           "triceps"
         ]
       },
@@ -73022,9 +73067,11 @@
       "region": "legs",
       "muscles": {
         "primary": [
-          "calves"
+          "tibialis anterior"
         ],
-        "secondary": []
+        "secondary": [
+          "calves"
+        ]
       },
       "equipment": [
         "bands"
@@ -73055,8 +73102,8 @@
       "provenance": {
         "name": "wger",
         "kind": "rule",
-        "muscles.primary": "wger",
-        "muscles.secondary": "rule",
+        "muscles.primary": "curated",
+        "muscles.secondary": "curated",
         "equipment": "wger",
         "instructions": "wger",
         "region": "rule",
@@ -73341,7 +73388,9 @@
         "primary": [
           "abdominals"
         ],
-        "secondary": []
+        "secondary": [
+          "serratus anterior"
+        ]
       },
       "equipment": [
         "bodyweight"
@@ -73373,7 +73422,7 @@
         "name": "curated",
         "kind": "rule",
         "muscles.primary": "wger",
-        "muscles.secondary": "rule",
+        "muscles.secondary": "wger",
         "equipment": "wger",
         "instructions": "wger",
         "region": "rule",
@@ -73531,7 +73580,8 @@
       "region": "core",
       "muscles": {
         "primary": [
-          "abdominals"
+          "abdominals",
+          "serratus anterior"
         ],
         "secondary": [
           "shoulders",
@@ -74175,7 +74225,7 @@
       "region": "legs",
       "muscles": {
         "primary": [
-          "calves"
+          "tibialis anterior"
         ],
         "secondary": []
       },
@@ -75086,7 +75136,8 @@
       "region": "core",
       "muscles": {
         "primary": [
-          "abdominals"
+          "abdominals",
+          "hip flexors"
         ],
         "secondary": [
           "biceps",
@@ -75124,7 +75175,7 @@
       "provenance": {
         "name": "curated",
         "kind": "wger",
-        "muscles.primary": "wger",
+        "muscles.primary": "curated",
         "muscles.secondary": "wger",
         "equipment": "wger",
         "instructions": "wger",
@@ -78821,7 +78872,8 @@
           "triceps"
         ],
         "secondary": [
-          "biceps"
+          "biceps",
+          "serratus anterior"
         ]
       },
       "equipment": [
@@ -82664,7 +82716,9 @@
         "primary": [
           "abdominals"
         ],
-        "secondary": []
+        "secondary": [
+          "serratus anterior"
+        ]
       },
       "equipment": [
         "ab wheel"
@@ -82699,7 +82753,7 @@
         "name": "curated",
         "kind": "rule",
         "muscles.primary": "wger",
-        "muscles.secondary": "rule",
+        "muscles.secondary": "wger",
         "equipment": "curated",
         "instructions": "wger",
         "region": "rule",
@@ -83387,7 +83441,8 @@
           "triceps"
         ],
         "secondary": [
-          "lats"
+          "lats",
+          "serratus anterior"
         ]
       },
       "equipment": [
@@ -83715,6 +83770,7 @@
         "primary": [
           "shoulders",
           "lats",
+          "serratus anterior",
           "traps"
         ],
         "secondary": [
@@ -84296,7 +84352,8 @@
       "region": "back",
       "muscles": {
         "primary": [
-          "lats"
+          "lats",
+          "serratus anterior"
         ],
         "secondary": []
       },
@@ -89953,7 +90010,7 @@
       "region": "legs",
       "muscles": {
         "primary": [
-          "quadriceps"
+          "hip flexors"
         ],
         "secondary": []
       },
@@ -90472,7 +90529,8 @@
         "secondary": [
           "lats",
           "chest",
-          "quadriceps"
+          "quadriceps",
+          "serratus anterior"
         ]
       },
       "equipment": [
@@ -90617,7 +90675,8 @@
         "primary": [
           "lats",
           "chest",
-          "abdominals"
+          "abdominals",
+          "serratus anterior"
         ],
         "secondary": [
           "quadriceps",
@@ -90806,7 +90865,7 @@
       "region": "legs",
       "muscles": {
         "primary": [
-          "calves"
+          "tibialis anterior"
         ],
         "secondary": []
       },
@@ -91421,9 +91480,11 @@
       "region": "legs",
       "muscles": {
         "primary": [
-          "quadriceps"
+          "hip flexors"
         ],
-        "secondary": []
+        "secondary": [
+          "quadriceps"
+        ]
       },
       "equipment": [
         "bodyweight"
@@ -91456,7 +91517,7 @@
         "name": "wger",
         "kind": "rule",
         "muscles.primary": "curated",
-        "muscles.secondary": "rule",
+        "muscles.secondary": "curated",
         "equipment": "wger",
         "instructions": "wger",
         "region": "rule",
@@ -92071,7 +92132,8 @@
           "shoulders"
         ],
         "secondary": [
-          "lats"
+          "lats",
+          "serratus anterior"
         ]
       },
       "equipment": [
@@ -92140,7 +92202,10 @@
           "glutes",
           "abdominals"
         ],
-        "secondary": []
+        "secondary": [
+          "hip flexors",
+          "quadriceps"
+        ]
       },
       "equipment": [
         "bodyweight"
@@ -92176,7 +92241,7 @@
         "name": "wger",
         "kind": "rule",
         "muscles.primary": "wger",
-        "muscles.secondary": "rule",
+        "muscles.secondary": "curated",
         "equipment": "wger",
         "instructions": "wger",
         "region": "rule",
@@ -92995,7 +93060,9 @@
           "quadriceps",
           "abdominals"
         ],
-        "secondary": []
+        "secondary": [
+          "serratus anterior"
+        ]
       },
       "equipment": [
         "bodyweight"
@@ -93027,7 +93094,7 @@
         "name": "wger",
         "kind": "rule",
         "muscles.primary": "wger",
-        "muscles.secondary": "rule",
+        "muscles.secondary": "wger",
         "equipment": "wger",
         "instructions": "wger",
         "region": "rule",
@@ -93187,7 +93254,8 @@
       "muscles": {
         "primary": [
           "shoulders",
-          "abdominals"
+          "abdominals",
+          "serratus anterior"
         ],
         "secondary": [
           "chest",
@@ -93577,7 +93645,8 @@
         ],
         "secondary": [
           "biceps",
-          "abdominals"
+          "abdominals",
+          "serratus anterior"
         ]
       },
       "equipment": [
@@ -93645,7 +93714,8 @@
         "secondary": [
           "shoulders",
           "biceps",
-          "abdominals"
+          "abdominals",
+          "serratus anterior"
         ]
       },
       "equipment": [
@@ -94096,7 +94166,7 @@
         "secondary": []
       },
       "equipment": [
-        "bodyweight"
+        "massage ball"
       ],
       "level": "beginner",
       "force": "static",
@@ -94130,7 +94200,7 @@
         "kind": "curated",
         "muscles.primary": "curated",
         "muscles.secondary": "rule",
-        "equipment": "rule",
+        "equipment": "curated",
         "instructions": "wger",
         "region": "rule",
         "force": "curated",
@@ -94416,7 +94486,7 @@
       "region": "legs",
       "muscles": {
         "primary": [
-          "quadriceps"
+          "hip flexors"
         ],
         "secondary": []
       },
@@ -95735,9 +95805,11 @@
       "name": "Serratus Wall Slide Stretch",
       "aliases": [],
       "kind": "stretching",
-      "region": "shoulders",
+      "region": "chest",
       "muscles": {
-        "primary": [],
+        "primary": [
+          "serratus anterior"
+        ],
         "secondary": [
           "shoulders"
         ]
@@ -95774,11 +95846,11 @@
       "provenance": {
         "name": "wger",
         "kind": "rule",
-        "muscles.primary": "rule",
+        "muscles.primary": "wger",
         "muscles.secondary": "wger",
         "equipment": "rule",
         "instructions": "wger",
-        "region": "wger",
+        "region": "rule",
         "force": "curated",
         "tracking.measure": "rule",
         "tracking.laterality": "rule",
@@ -95803,6 +95875,7 @@
       "region": "legs",
       "muscles": {
         "primary": [
+          "hip flexors",
           "quadriceps"
         ],
         "secondary": []
@@ -95868,7 +95941,7 @@
       "region": "legs",
       "muscles": {
         "primary": [
-          "quadriceps"
+          "hip flexors"
         ],
         "secondary": []
       },
@@ -96268,7 +96341,8 @@
       "region": "shoulders",
       "muscles": {
         "primary": [
-          "shoulders"
+          "shoulders",
+          "serratus anterior"
         ],
         "secondary": [
           "biceps",
@@ -96464,7 +96538,8 @@
           "triceps"
         ],
         "secondary": [
-          "abdominals"
+          "abdominals",
+          "serratus anterior"
         ]
       },
       "equipment": [
@@ -96969,7 +97044,9 @@
       "kind": "strength",
       "region": "core",
       "muscles": {
-        "primary": [],
+        "primary": [
+          "pelvic floor"
+        ],
         "secondary": []
       },
       "equipment": [
@@ -97003,11 +97080,11 @@
       "provenance": {
         "name": "wger",
         "kind": "rule",
-        "muscles.primary": "rule",
+        "muscles.primary": "curated",
         "muscles.secondary": "rule",
         "equipment": "curated",
         "instructions": "wger",
-        "region": "wger",
+        "region": "rule",
         "aliases": "wger",
         "tracking.measure": "rule",
         "tracking.laterality": "rule",
@@ -97717,6 +97794,7 @@
           "shoulders"
         ],
         "secondary": [
+          "serratus anterior",
           "traps"
         ]
       },
@@ -97998,7 +98076,7 @@
         ]
       },
       "equipment": [
-        "bodyweight"
+        "flex bar"
       ],
       "level": "beginner",
       "force": "pull",
@@ -98009,7 +98087,7 @@
       "tracking": {
         "measure": "reps",
         "laterality": "bilateral",
-        "load": "added"
+        "load": "absolute"
       },
       "variationGroup": "34e4c8b8-bafb-4f00-8c0a-bd16da450ddc",
       "sources": [
@@ -98028,7 +98106,7 @@
         "kind": "rule",
         "muscles.primary": "curated",
         "muscles.secondary": "wger",
-        "equipment": "wger",
+        "equipment": "curated",
         "instructions": "wger",
         "region": "rule",
         "force": "curated",
@@ -98067,7 +98145,7 @@
         ]
       },
       "equipment": [
-        "bodyweight"
+        "flex bar"
       ],
       "level": "beginner",
       "force": "pull",
@@ -98078,7 +98156,7 @@
       "tracking": {
         "measure": "reps",
         "laterality": "bilateral",
-        "load": "added"
+        "load": "absolute"
       },
       "variationGroup": "34e4c8b8-bafb-4f00-8c0a-bd16da450ddc",
       "sources": [
@@ -98097,7 +98175,7 @@
         "kind": "rule",
         "muscles.primary": "curated",
         "muscles.secondary": "wger",
-        "equipment": "wger",
+        "equipment": "curated",
         "instructions": "wger",
         "region": "rule",
         "force": "curated",
@@ -98136,7 +98214,7 @@
         ]
       },
       "equipment": [
-        "bodyweight"
+        "flex bar"
       ],
       "level": "beginner",
       "force": "pull",
@@ -98147,7 +98225,7 @@
       "tracking": {
         "measure": "reps",
         "laterality": "bilateral",
-        "load": "added"
+        "load": "absolute"
       },
       "variationGroup": null,
       "sources": [
@@ -98166,7 +98244,7 @@
         "kind": "rule",
         "muscles.primary": "curated",
         "muscles.secondary": "wger",
-        "equipment": "wger",
+        "equipment": "curated",
         "instructions": "wger",
         "region": "rule",
         "force": "curated",
@@ -98194,7 +98272,9 @@
       "kind": "strength",
       "region": "core",
       "muscles": {
-        "primary": [],
+        "primary": [
+          "pelvic floor"
+        ],
         "secondary": []
       },
       "equipment": [
@@ -98227,11 +98307,11 @@
       "provenance": {
         "name": "wger",
         "kind": "rule",
-        "muscles.primary": "rule",
+        "muscles.primary": "curated",
         "muscles.secondary": "rule",
         "equipment": "curated",
         "instructions": "wger",
-        "region": "wger",
+        "region": "rule",
         "tracking.measure": "rule",
         "tracking.laterality": "rule",
         "tracking.load": "rule",
@@ -98853,7 +98933,9 @@
         "primary": [
           "abdominals"
         ],
-        "secondary": []
+        "secondary": [
+          "serratus anterior"
+        ]
       },
       "equipment": [
         "bodyweight"
@@ -98888,7 +98970,7 @@
         "name": "wger",
         "kind": "rule",
         "muscles.primary": "wger",
-        "muscles.secondary": "rule",
+        "muscles.secondary": "wger",
         "equipment": "wger",
         "instructions": "wger",
         "region": "rule",
@@ -98919,7 +99001,9 @@
         "primary": [
           "abdominals"
         ],
-        "secondary": []
+        "secondary": [
+          "serratus anterior"
+        ]
       },
       "equipment": [
         "bodyweight"
@@ -98954,7 +99038,7 @@
         "name": "wger",
         "kind": "rule",
         "muscles.primary": "wger",
-        "muscles.secondary": "rule",
+        "muscles.secondary": "wger",
         "equipment": "wger",
         "instructions": "wger",
         "region": "rule",
@@ -99303,9 +99387,11 @@
       "name": "Scapular Pushups",
       "aliases": [],
       "kind": "strength",
-      "region": "back",
+      "region": "chest",
       "muscles": {
-        "primary": [],
+        "primary": [
+          "serratus anterior"
+        ],
         "secondary": [
           "shoulders"
         ]
@@ -99339,11 +99425,11 @@
       "provenance": {
         "name": "wger",
         "kind": "rule",
-        "muscles.primary": "rule",
+        "muscles.primary": "wger",
         "muscles.secondary": "wger",
         "equipment": "wger",
         "instructions": "wger",
-        "region": "wger",
+        "region": "rule",
         "force": "curated",
         "tracking.measure": "rule",
         "tracking.laterality": "rule",
@@ -99756,7 +99842,8 @@
       "region": "shoulders",
       "muscles": {
         "primary": [
-          "shoulders"
+          "shoulders",
+          "serratus anterior"
         ],
         "secondary": [
           "abdominals",
@@ -101590,7 +101677,9 @@
         "primary": [
           "abdominals"
         ],
-        "secondary": []
+        "secondary": [
+          "serratus anterior"
+        ]
       },
       "equipment": [
         "rings"
@@ -101622,7 +101711,7 @@
         "name": "curated",
         "kind": "rule",
         "muscles.primary": "wger",
-        "muscles.secondary": "rule",
+        "muscles.secondary": "wger",
         "equipment": "curated",
         "instructions": "wger",
         "region": "rule",
@@ -101916,7 +102005,8 @@
         "secondary": [
           "shoulders",
           "biceps",
-          "abdominals"
+          "abdominals",
+          "serratus anterior"
         ]
       },
       "equipment": [
@@ -101988,6 +102078,7 @@
         "secondary": [
           "shoulders",
           "abdominals",
+          "serratus anterior",
           "triceps"
         ]
       },
@@ -102059,6 +102150,7 @@
         ],
         "secondary": [
           "abdominals",
+          "serratus anterior",
           "traps"
         ]
       },
@@ -102203,7 +102295,8 @@
         ],
         "secondary": [
           "shoulders",
-          "abdominals"
+          "abdominals",
+          "serratus anterior"
         ]
       },
       "equipment": [
@@ -104207,14 +104300,15 @@
       "region": "core",
       "muscles": {
         "primary": [
-          "abdominals"
+          "abdominals",
+          "hip flexors"
         ],
         "secondary": [
           "quadriceps"
         ]
       },
       "equipment": [
-        "bodyweight"
+        "ghd"
       ],
       "level": "intermediate",
       "force": "pull",
@@ -104254,7 +104348,7 @@
         "aliases": "redouble-exercises",
         "tracking.measure": "rule",
         "tracking.laterality": "rule",
-        "tracking.load": "rule",
+        "tracking.load": "redouble-exercises",
         "level": "redouble-exercises",
         "mechanic": "redouble-exercises"
       },
@@ -105358,6 +105452,132 @@
         "tracking.measure": "rule",
         "tracking.laterality": "rule",
         "tracking.load": "redouble-exercises",
+        "level": "redouble-exercises",
+        "mechanic": "redouble-exercises"
+      },
+      "license": "CC0",
+      "credit": null
+    },
+    {
+      "slug": "Standing_W",
+      "name": "Standing W",
+      "aliases": [
+        "Standing Ws",
+        "Standing Shoulder W"
+      ],
+      "kind": "strength",
+      "region": "shoulders",
+      "muscles": {
+        "primary": [
+          "shoulders"
+        ],
+        "secondary": [
+          "traps",
+          "middle back"
+        ]
+      },
+      "equipment": [
+        "bands"
+      ],
+      "level": "beginner",
+      "force": "pull",
+      "mechanic": "isolation",
+      "instructions": [
+        "Attach a light band at shoulder height. Stand tall, face the band and hold one end in each hand.",
+        "Hold the arms in front of the chest with the palms down and the elbows bent.",
+        "Pull the shoulder blades back and down. Do not lift the shoulders.",
+        "Pull the elbows back and turn the forearms up and out, until the arms and the head make a W.",
+        "Return slowly to the start."
+      ],
+      "tracking": {
+        "measure": "reps",
+        "laterality": "bilateral",
+        "load": "absolute"
+      },
+      "variationGroup": null,
+      "sources": [
+        {
+          "dataset": "redouble-exercises",
+          "id": "Standing_W",
+          "license": "CC0",
+          "authors": [
+            "redouble-exercises contributors"
+          ],
+          "url": "https://github.com/whilestevego/redouble-exercises/blob/main/curated/records.json"
+        }
+      ],
+      "provenance": {
+        "name": "redouble-exercises",
+        "kind": "redouble-exercises",
+        "muscles.primary": "redouble-exercises",
+        "muscles.secondary": "redouble-exercises",
+        "equipment": "redouble-exercises",
+        "instructions": "redouble-exercises",
+        "region": "rule",
+        "force": "redouble-exercises",
+        "aliases": "redouble-exercises",
+        "tracking.measure": "rule",
+        "tracking.laterality": "rule",
+        "tracking.load": "rule",
+        "level": "redouble-exercises",
+        "mechanic": "redouble-exercises"
+      },
+      "license": "CC0",
+      "credit": null
+    },
+    {
+      "slug": "Eccentric_Finger_Roll",
+      "name": "Eccentric Finger Roll",
+      "aliases": [],
+      "kind": "strength",
+      "region": "arms",
+      "muscles": {
+        "primary": [
+          "forearms"
+        ],
+        "secondary": []
+      },
+      "equipment": [
+        "dumbbell"
+      ],
+      "level": "beginner",
+      "force": "pull",
+      "mechanic": "isolation",
+      "instructions": [
+        "Hold a dumbbell in one hand with the arm at your side. Close the hand tightly and keep the wrist straight.",
+        "Open the hand slowly for a count of three to five. Let the dumbbell roll down to the last joint of the fingers.",
+        "Close the fingers to roll the dumbbell back into the palm. Use the other hand to help if the weight is heavy.",
+        "Do all repetitions, then change hands."
+      ],
+      "tracking": {
+        "measure": "reps",
+        "laterality": "unilateral",
+        "load": "absolute"
+      },
+      "variationGroup": null,
+      "sources": [
+        {
+          "dataset": "redouble-exercises",
+          "id": "Eccentric_Finger_Roll",
+          "license": "CC0",
+          "authors": [
+            "redouble-exercises contributors"
+          ],
+          "url": "https://github.com/whilestevego/redouble-exercises/blob/main/curated/records.json"
+        }
+      ],
+      "provenance": {
+        "name": "redouble-exercises",
+        "kind": "redouble-exercises",
+        "muscles.primary": "redouble-exercises",
+        "muscles.secondary": "rule",
+        "equipment": "redouble-exercises",
+        "instructions": "redouble-exercises",
+        "region": "rule",
+        "force": "redouble-exercises",
+        "tracking.measure": "rule",
+        "tracking.laterality": "redouble-exercises",
+        "tracking.load": "rule",
         "level": "redouble-exercises",
         "mechanic": "redouble-exercises"
       },
