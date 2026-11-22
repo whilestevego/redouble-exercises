@@ -13241,42 +13241,6 @@
       ]
     }
   },
-  "Barbell_Reverse_Wrist_Curl": {
-    "muscles.primary": {
-      "value": [
-        "forearms"
-      ],
-      "evidence": [
-        {
-          "rule": "The wrist or the forearm moves against the load. The forearm muscles do the work."
-        }
-      ]
-    },
-    "force": {
-      "value": "pull",
-      "evidence": [
-        {
-          "rule": "Only the wrist or the forearm moves against the load. The dataset marks wrist work as a pull."
-        }
-      ]
-    },
-    "mechanic": {
-      "value": "isolation",
-      "evidence": [
-        {
-          "rule": "Only the wrist or the forearm moves against the load. The dataset marks wrist work as a pull."
-        }
-      ]
-    },
-    "level": {
-      "value": "beginner",
-      "evidence": [
-        {
-          "rule": "One joint moves in a stable position. The dataset marks this as beginner."
-        }
-      ]
-    }
-  },
   "Barbell_Triceps_Extension": {
     "force": {
       "value": "push",

@@ -2139,7 +2139,8 @@
       "free-exercise-db:Seated_Palm-Up_Barbell_Wrist_Curl"
     ],
     "Seated_Palms-Down_Barbell_Wrist_Curl": [
-      "free-exercise-db:Seated_Palms-Down_Barbell_Wrist_Curl"
+      "free-exercise-db:Seated_Palms-Down_Barbell_Wrist_Curl",
+      "wger:48"
     ],
     "Seated_Side_Lateral_Raise": [
       "free-exercise-db:Seated_Side_Lateral_Raise",
@@ -2868,9 +2869,6 @@
     ],
     "Axe_Hold": [
       "wger:31"
-    ],
-    "Barbell_Reverse_Wrist_Curl": [
-      "wger:48"
     ],
     "Barbell_Triceps_Extension": [
       "wger:50"
@@ -5905,11 +5903,6 @@
       }
     ],
     "Axe_Hold": [
-      {
-        "rule": "No free-exercise-db record is this exercise."
-      }
-    ],
-    "Barbell_Reverse_Wrist_Curl": [
       {
         "rule": "No free-exercise-db record is this exercise."
       }
@@ -9376,6 +9369,11 @@
     "Lying_Dumbbell_Tricep_Extension": [
       {
         "rule": "Both lie on a flat bench and bend the elbows to lower two dumbbells toward the head, then extend the arms. The equipment and the form are the same."
+      }
+    ],
+    "Seated_Palms-Down_Barbell_Wrist_Curl": [
+      {
+        "rule": "Both sit, hold a barbell with the palms down and rest the forearms on the thighs, then curl the wrists up. The equipment and the form are the same."
       }
     ]
   },

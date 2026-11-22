@@ -38,5 +38,13 @@
         "rule": "Both lie on a flat bench and bend the elbows to lower two dumbbells toward the head, then extend the arms. The equipment and the form are the same."
       }
     ]
+  },
+  "Barbell_Reverse_Wrist_Curl": {
+    "by": "Seated_Palms-Down_Barbell_Wrist_Curl",
+    "evidence": [
+      {
+        "rule": "Both sit, hold a barbell with the palms down and rest the forearms on the thighs, then curl the wrists up. The equipment and the form are the same."
+      }
+    ]
   }
 }
