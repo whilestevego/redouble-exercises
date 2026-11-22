@@ -961,6 +961,14 @@
           "rule": "The body is the load. The user can add weight with a belt or a vest."
         }
       ]
+    },
+    "name": {
+      "value": "Kipping Ring Muscle-Up",
+      "evidence": [
+        {
+          "quote": "Grip the rings using a false grip, with the base of your palms on top of the rings."
+        }
+      ]
     }
   },
   "Knee_Hip_Raise_On_Parallel_Bars": {
@@ -1062,6 +1070,14 @@
       "evidence": [
         {
           "rule": "The body is the load. The user can add weight with a belt or a vest."
+        }
+      ]
+    },
+    "name": {
+      "value": "Ring Muscle-Up",
+      "evidence": [
+        {
+          "quote": "Grip the rings using a false grip, with the base of your palms on top of the rings."
         }
       ]
     }
@@ -3866,10 +3882,10 @@
   },
   "Bar_Muscle-Up": {
     "name": {
-      "value": "Bar Muscle-Up",
+      "value": "Muscle-Up",
       "evidence": [
         {
-          "rule": "The wger name is not in English, is for one side, or does not say the form. The name says what the steps describe."
+          "rule": "A name with no form word means the default form. The default muscle-up is on a bar, and the ring forms say rings."
         }
       ]
     },

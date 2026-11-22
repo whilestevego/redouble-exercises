@@ -27,7 +27,7 @@
       "recordUrl": "https://wger.de/exercise/{id}/view"
     }
   ],
-  "count": 1596,
+  "count": 1597,
   "exercises": [
     {
       "slug": "3_4_Sit-Up",
@@ -25976,7 +25976,7 @@
     },
     {
       "slug": "Kipping_Muscle_Up",
-      "name": "Kipping Muscle Up",
+      "name": "Kipping Ring Muscle-Up",
       "aliases": [],
       "kind": "strength",
       "region": "back",
@@ -26025,7 +26025,7 @@
         }
       ],
       "provenance": {
-        "name": "free-exercise-db",
+        "name": "curated",
         "kind": "free-exercise-db",
         "muscles.primary": "free-exercise-db",
         "muscles.secondary": "free-exercise-db",
@@ -31469,7 +31469,7 @@
     },
     {
       "slug": "Muscle_Up",
-      "name": "Muscle Up",
+      "name": "Ring Muscle-Up",
       "aliases": [],
       "kind": "strength",
       "region": "back",
@@ -31517,7 +31517,7 @@
         }
       ],
       "provenance": {
-        "name": "free-exercise-db",
+        "name": "curated",
         "kind": "free-exercise-db",
         "muscles.primary": "free-exercise-db",
         "muscles.secondary": "free-exercise-db",
@@ -62270,8 +62270,10 @@
     },
     {
       "slug": "Bar_Muscle-Up",
-      "name": "Bar Muscle-Up",
-      "aliases": [],
+      "name": "Muscle-Up",
+      "aliases": [
+        "Bar Muscle-Up"
+      ],
       "kind": "strength",
       "region": "arms",
       "muscles": {
@@ -62321,6 +62323,7 @@
         "instructions": "wger",
         "region": "rule",
         "force": "curated",
+        "aliases": "curated",
         "tracking.measure": "rule",
         "tracking.laterality": "rule",
         "tracking.load": "curated",
@@ -105541,6 +105544,76 @@
         "tracking.laterality": "rule",
         "tracking.load": "rule",
         "level": "redouble-exercises"
+      },
+      "license": "CC0",
+      "credit": null
+    },
+    {
+      "slug": "Kipping_Bar_Muscle_Up",
+      "name": "Kipping Muscle-Up",
+      "aliases": [
+        "Kipping Bar Muscle-Up"
+      ],
+      "kind": "strength",
+      "region": "back",
+      "muscles": {
+        "primary": [
+          "lats",
+          "triceps"
+        ],
+        "secondary": [
+          "shoulders",
+          "chest",
+          "biceps",
+          "abdominals",
+          "forearms"
+        ]
+      },
+      "equipment": [
+        "pull-up bar"
+      ],
+      "level": "expert",
+      "force": "pull",
+      "mechanic": "compound",
+      "instructions": [
+        "Hang from the bar with straight arms and an overhand grip, a little wider than the shoulders.",
+        "Swing the body: push the chest forward through the arms, then kick the legs forward and pull the hips toward the bar.",
+        "At the top of the swing, pull the bar to the lower chest and turn the wrists over the bar.",
+        "Lean the chest over the bar and push down until the arms are straight.",
+        "Push back off the bar and lower into the hang. Start the next swing from there."
+      ],
+      "tracking": {
+        "measure": "reps",
+        "laterality": "bilateral",
+        "load": "added"
+      },
+      "variationGroup": null,
+      "sources": [
+        {
+          "dataset": "redouble-exercises",
+          "id": "Kipping_Bar_Muscle_Up",
+          "license": "CC0",
+          "authors": [
+            "redouble-exercises contributors"
+          ],
+          "url": "https://github.com/whilestevego/redouble-exercises/blob/main/curated/records.json"
+        }
+      ],
+      "provenance": {
+        "name": "redouble-exercises",
+        "kind": "redouble-exercises",
+        "muscles.primary": "redouble-exercises",
+        "muscles.secondary": "redouble-exercises",
+        "equipment": "redouble-exercises",
+        "instructions": "redouble-exercises",
+        "region": "rule",
+        "force": "redouble-exercises",
+        "aliases": "redouble-exercises",
+        "tracking.measure": "rule",
+        "tracking.laterality": "rule",
+        "tracking.load": "redouble-exercises",
+        "level": "redouble-exercises",
+        "mechanic": "redouble-exercises"
       },
       "license": "CC0",
       "credit": null

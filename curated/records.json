@@ -1726,5 +1726,52 @@
         "note": "The page shows a bodyweight hold, with optional parallettes, and names the shoulders, chest, triceps, core and glutes."
       }
     ]
+  },
+  {
+    "slug": "Kipping_Bar_Muscle_Up",
+    "name": "Kipping Muscle-Up",
+    "aliases": [
+      "Kipping Bar Muscle-Up"
+    ],
+    "kind": "strength",
+    "muscles": {
+      "primary": [
+        "lats",
+        "triceps"
+      ],
+      "secondary": [
+        "shoulders",
+        "chest",
+        "biceps",
+        "abdominals",
+        "forearms"
+      ]
+    },
+    "equipment": [
+      "pull-up bar"
+    ],
+    "level": "expert",
+    "force": "pull",
+    "mechanic": "compound",
+    "instructions": [
+      "Hang from the bar with straight arms and an overhand grip, a little wider than the shoulders.",
+      "Swing the body: push the chest forward through the arms, then kick the legs forward and pull the hips toward the bar.",
+      "At the top of the swing, pull the bar to the lower chest and turn the wrists over the bar.",
+      "Lean the chest over the bar and push down until the arms are straight.",
+      "Push back off the bar and lower into the hang. Start the next swing from there."
+    ],
+    "tracking": {
+      "load": "added"
+    },
+    "evidence": [
+      {
+        "url": "https://fitnessvolt.com/kipping-muscle-up/",
+        "note": "The page shows a muscle-up on a bar with a hip swing, and names the lats, the triceps, the shoulders, the chest and the core."
+      },
+      {
+        "url": "https://www.strengthlog.com/bar-muscle-up/",
+        "note": "The page shows the bar muscle-up with a kip, a pull to the bar, a turn of the wrists and a dip to straight arms."
+      }
+    ]
   }
 ]
