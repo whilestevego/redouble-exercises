@@ -264,7 +264,8 @@
     ],
     "Bent_Over_Barbell_Row": [
       "free-exercise-db:Bent_Over_Barbell_Row",
-      "wger:1698"
+      "wger:1698",
+      "wger:83"
     ],
     "Bent_Over_Dumbbell_Rear_Delt_Raise_With_Head_On_Bench": [
       "free-exercise-db:Bent_Over_Dumbbell_Rear_Delt_Raise_With_Head_On_Bench"
@@ -351,9 +352,6 @@
     ],
     "Butt-Ups": [
       "free-exercise-db:Butt-Ups"
-    ],
-    "Butt_Lift_Bridge": [
-      "free-exercise-db:Butt_Lift_Bridge"
     ],
     "Butterfly": [
       "free-exercise-db:Butterfly",
@@ -733,7 +731,8 @@
       "free-exercise-db:Dumbbell_Alternate_Bicep_Curl"
     ],
     "Dumbbell_Bench_Press": [
-      "free-exercise-db:Dumbbell_Bench_Press"
+      "free-exercise-db:Dumbbell_Bench_Press",
+      "wger:75"
     ],
     "Dumbbell_Bench_Press_with_Neutral_Grip": [
       "free-exercise-db:Dumbbell_Bench_Press_with_Neutral_Grip"
@@ -1453,7 +1452,8 @@
       "free-exercise-db:Lying_Crossover"
     ],
     "Lying_Dumbbell_Tricep_Extension": [
-      "free-exercise-db:Lying_Dumbbell_Tricep_Extension"
+      "free-exercise-db:Lying_Dumbbell_Tricep_Extension",
+      "wger:245"
     ],
     "Lying_Face_Down_Plate_Neck_Resistance": [
       "free-exercise-db:Lying_Face_Down_Plate_Neck_Resistance"
@@ -2343,7 +2343,8 @@
     ],
     "Smith_Machine_Squat": [
       "free-exercise-db:Smith_Machine_Squat",
-      "wger:1747"
+      "wger:1747",
+      "wger:341"
     ],
     "Smith_Machine_Stiff-Legged_Deadlift": [
       "free-exercise-db:Smith_Machine_Stiff-Legged_Deadlift"
@@ -2884,17 +2885,11 @@
     "Bear_Walk": [
       "wger:57"
     ],
-    "Benchpress_Dumbbells": [
-      "wger:75"
-    ],
     "Bent_High_Pulls": [
       "wger:79"
     ],
     "Bent-over_Lateral_Raises": [
       "wger:82"
-    ],
-    "Bent_Over_Rowing": [
-      "wger:83"
     ],
     "Braced_Squat": [
       "wger:124"
@@ -2954,9 +2949,6 @@
     "Fly_With_Cable": [
       "wger:237"
     ],
-    "Skullcrusher_Dumbbells": [
-      "wger:245"
-    ],
     "Front_Raises": [
       "wger:256"
     ],
@@ -2970,6 +2962,7 @@
       "wger:260"
     ],
     "Glute_Bridge": [
+      "free-exercise-db:Butt_Lift_Bridge",
       "wger:265"
     ],
     "Hammercurls_On_Cable": [
@@ -3005,9 +2998,6 @@
     "Jumping_Jack": [
       "wger:320",
       "wger:1314"
-    ],
-    "Squats_On_Multipress": [
-      "wger:341"
     ],
     "Landmine_Press": [
       "wger:346"
@@ -5743,7 +5733,7 @@
     ],
     "Bent_Over_Barbell_Row": [
       {
-        "rule": "wger names the same movement with the same equipment and form words."
+        "rule": "Both records have the same steps: a barbell row with the torso bent forward until it is almost parallel to the floor."
       }
     ],
     "Split_Squat_with_Dumbbells": [
@@ -5773,7 +5763,7 @@
     ],
     "Smith_Machine_Squat": [
       {
-        "rule": "wger names the same movement with the same equipment and form words."
+        "rule": "A multipress is a Smith machine. Both are a back squat under the bar of a Smith machine."
       }
     ],
     "Thigh_Abductor": [
@@ -5947,22 +5937,12 @@
         "rule": "No free-exercise-db record is this exercise."
       }
     ],
-    "Benchpress_Dumbbells": [
-      {
-        "rule": "No free-exercise-db record is this exercise."
-      }
-    ],
     "Bent_High_Pulls": [
       {
         "rule": "No free-exercise-db record is this exercise."
       }
     ],
     "Bent-over_Lateral_Raises": [
-      {
-        "rule": "No free-exercise-db record is this exercise."
-      }
-    ],
-    "Bent_Over_Rowing": [
       {
         "rule": "No free-exercise-db record is this exercise."
       }
@@ -6065,11 +6045,6 @@
         "rule": "No free-exercise-db record is this exercise."
       }
     ],
-    "Skullcrusher_Dumbbells": [
-      {
-        "rule": "No free-exercise-db record is this exercise."
-      }
-    ],
     "Front_Raises": [
       {
         "rule": "No free-exercise-db record is this exercise."
@@ -6092,7 +6067,7 @@
     ],
     "Glute_Bridge": [
       {
-        "rule": "No free-exercise-db record is this exercise."
+        "rule": "Both lie on the back with bent knees and lift the hips off the floor. The equipment and the form are the same."
       }
     ],
     "Hammercurls_On_Cable": [
@@ -6151,11 +6126,6 @@
       },
       {
         "rule": "wger has one record for each side, or a copy of the record. They name one exercise."
-      }
-    ],
-    "Squats_On_Multipress": [
-      {
-        "rule": "No free-exercise-db record is this exercise."
       }
     ],
     "Landmine_Press": [
@@ -9396,6 +9366,16 @@
     "Single-Arm_Backpack_Row": [
       {
         "rule": "No free-exercise-db record is this exercise."
+      }
+    ],
+    "Dumbbell_Bench_Press": [
+      {
+        "rule": "Both press two dumbbells from the chest while the lifter lies on a flat bench. The equipment and the form are the same."
+      }
+    ],
+    "Lying_Dumbbell_Tricep_Extension": [
+      {
+        "rule": "Both lie on a flat bench and bend the elbows to lower two dumbbells toward the head, then extend the arms. The equipment and the form are the same."
       }
     ]
   },

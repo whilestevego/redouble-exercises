@@ -3398,6 +3398,14 @@
           "rule": "One joint moves in a stable position. The dataset marks this as beginner."
         }
       ]
+    },
+    "name": {
+      "value": "Glute Bridge",
+      "evidence": [
+        {
+          "rule": "The common name of the exercise. The free-exercise-db name, Butt Lift (Bridge), becomes an alias."
+        }
+      ]
     }
   },
   "Hammercurls_On_Cable": {
@@ -3476,50 +3484,6 @@
       "evidence": [
         {
           "rule": "The wger name is not in English, is for one side, or does not say the form. The name says what the steps describe."
-        }
-      ]
-    }
-  },
-  "Squats_On_Multipress": {
-    "name": {
-      "value": "Squats On Multipress",
-      "evidence": [
-        {
-          "rule": "The dataset writes a name in title case, with words in full."
-        }
-      ]
-    },
-    "equipment": {
-      "value": [
-        "smith machine"
-      ],
-      "evidence": [
-        {
-          "rule": "Multipress is another name of the Smith machine."
-        }
-      ]
-    },
-    "force": {
-      "value": "push",
-      "evidence": [
-        {
-          "rule": "The hip and the knee extend together to push the load or the body up."
-        }
-      ]
-    },
-    "mechanic": {
-      "value": "compound",
-      "evidence": [
-        {
-          "rule": "The hip and the knee extend together to push the load or the body up."
-        }
-      ]
-    },
-    "level": {
-      "value": "beginner",
-      "evidence": [
-        {
-          "rule": "A machine, a cable or a band guides or scales the load. The dataset marks this as beginner."
         }
       ]
     }
@@ -13258,32 +13222,6 @@
       ]
     }
   },
-  "Benchpress_Dumbbells": {
-    "force": {
-      "value": "push",
-      "evidence": [
-        {
-          "rule": "A press, a dip or a push-up extends the elbow and moves the shoulder."
-        }
-      ]
-    },
-    "mechanic": {
-      "value": "compound",
-      "evidence": [
-        {
-          "rule": "A press, a dip or a push-up extends the elbow and moves the shoulder."
-        }
-      ]
-    },
-    "level": {
-      "value": "intermediate",
-      "evidence": [
-        {
-          "rule": "A free-weight lift that moves two or more joints needs practice of the technique. The dataset marks this as intermediate."
-        }
-      ]
-    }
-  },
   "Bent_High_Pulls": {
     "force": {
       "value": "pull",
@@ -13342,32 +13280,6 @@
       "evidence": [
         {
           "rule": "One joint moves in a stable position. The dataset marks this as beginner."
-        }
-      ]
-    }
-  },
-  "Bent_Over_Rowing": {
-    "force": {
-      "value": "pull",
-      "evidence": [
-        {
-          "rule": "A row or a pull-up flexes the elbow and pulls the shoulder back or down."
-        }
-      ]
-    },
-    "mechanic": {
-      "value": "compound",
-      "evidence": [
-        {
-          "rule": "A row or a pull-up flexes the elbow and pulls the shoulder back or down."
-        }
-      ]
-    },
-    "level": {
-      "value": "intermediate",
-      "evidence": [
-        {
-          "rule": "A free-weight lift that moves two or more joints needs practice of the technique. The dataset marks this as intermediate."
         }
       ]
     }
@@ -13805,32 +13717,6 @@
       "evidence": [
         {
           "rule": "A machine, a cable or a band guides or scales the load. The dataset marks this as beginner."
-        }
-      ]
-    }
-  },
-  "Skullcrusher_Dumbbells": {
-    "force": {
-      "value": "push",
-      "evidence": [
-        {
-          "rule": "The elbow extends against the load. One joint moves."
-        }
-      ]
-    },
-    "mechanic": {
-      "value": "isolation",
-      "evidence": [
-        {
-          "rule": "The elbow extends against the load. One joint moves."
-        }
-      ]
-    },
-    "level": {
-      "value": "beginner",
-      "evidence": [
-        {
-          "rule": "One joint moves in a stable position. The dataset marks this as beginner."
         }
       ]
     }

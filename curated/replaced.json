@@ -1,0 +1,42 @@
+{
+  "Butt_Lift_Bridge": {
+    "by": "Glute_Bridge",
+    "evidence": [
+      {
+        "rule": "Both lie on the back with bent knees and lift the hips off the floor. The equipment and the form are the same."
+      }
+    ]
+  },
+  "Benchpress_Dumbbells": {
+    "by": "Dumbbell_Bench_Press",
+    "evidence": [
+      {
+        "rule": "Both press two dumbbells from the chest while the lifter lies on a flat bench. The equipment and the form are the same."
+      }
+    ]
+  },
+  "Bent_Over_Rowing": {
+    "by": "Bent_Over_Barbell_Row",
+    "evidence": [
+      {
+        "rule": "Both records have the same steps: a barbell row with the torso bent forward until it is almost parallel to the floor."
+      }
+    ]
+  },
+  "Squats_On_Multipress": {
+    "by": "Smith_Machine_Squat",
+    "evidence": [
+      {
+        "rule": "A multipress is a Smith machine. Both are a back squat under the bar of a Smith machine."
+      }
+    ]
+  },
+  "Skullcrusher_Dumbbells": {
+    "by": "Lying_Dumbbell_Tricep_Extension",
+    "evidence": [
+      {
+        "rule": "Both lie on a flat bench and bend the elbows to lower two dumbbells toward the head, then extend the arms. The equipment and the form are the same."
+      }
+    ]
+  }
+}

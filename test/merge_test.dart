@@ -231,6 +231,13 @@ void main() {
     expect(release(const [])['notStrength'], contains('Yoga'));
   });
 
+  test('the release maps each replaced slug to its replacement', () {
+    expect(
+      release(const [])['replaced'],
+      containsPair('Butt_Lift_Bridge', 'Glute_Bridge'),
+    );
+  });
+
   test('url evidence needs an https url and a note', () {
     expect(isUrlEvidence({'url': 'https://exrx.net/x', 'note': 'n'}), isTrue);
     expect(isUrlEvidence({'url': 'http://exrx.net/x', 'note': 'n'}), isFalse);

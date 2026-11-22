@@ -37,8 +37,9 @@ its exercise library from the releases of this repo.
 }
 ```
 
-- A **slug** never changes, never goes away and never moves to another
-  exercise.
+- A **slug** never changes and never moves to another exercise. When two
+  released records turn out to be one exercise, `replaced` maps the old slug
+  to the record that replaces it. An app moves its references to that record.
 - **`provenance`** gives the origin of each field: a dataset name, `curated`
   or `rule`. The dataset name `redouble-exercises` marks an own record, which
   no source has. An own record is under CC0.

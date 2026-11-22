@@ -27,7 +27,7 @@
       "recordUrl": "https://wger.de/exercise/{id}/view"
     }
   ],
-  "count": 1597,
+  "count": 1592,
   "exercises": [
     {
       "slug": "3_4_Sit-Up",
@@ -5387,7 +5387,8 @@
       "aliases": [
         "Barbell Row",
         "Bent-Over Row",
-        "Barbell Row (Overhand)"
+        "Barbell Row (Overhand)",
+        "Bent Over Rowing"
       ],
       "kind": "strength",
       "region": "back",
@@ -5437,6 +5438,16 @@
             "daiben"
           ],
           "url": "https://wger.de/exercise/1698/view"
+        },
+        {
+          "dataset": "wger",
+          "id": "83",
+          "license": "CC BY-SA 3.0",
+          "authors": [
+            "wger.de",
+            "warchildmd"
+          ],
+          "url": "https://wger.de/exercise/83/view"
         }
       ],
       "provenance": {
@@ -5459,7 +5470,9 @@
       "credit": {
         "dataset": "wger",
         "authors": [
-          "daiben"
+          "daiben",
+          "wger.de",
+          "warchildmd"
         ],
         "license": "CC BY-SA 4.0",
         "url": "https://wger.de/exercise/1698/view"
@@ -7222,66 +7235,6 @@
         "kind": "free-exercise-db",
         "muscles.primary": "free-exercise-db",
         "muscles.secondary": "rule",
-        "equipment": "free-exercise-db",
-        "instructions": "free-exercise-db",
-        "region": "rule",
-        "force": "free-exercise-db",
-        "tracking.measure": "rule",
-        "tracking.laterality": "rule",
-        "tracking.load": "rule",
-        "level": "free-exercise-db",
-        "mechanic": "free-exercise-db"
-      },
-      "license": "Unlicense",
-      "credit": null
-    },
-    {
-      "slug": "Butt_Lift_Bridge",
-      "name": "Butt Lift (Bridge)",
-      "aliases": [],
-      "kind": "strength",
-      "region": "legs",
-      "muscles": {
-        "primary": [
-          "glutes"
-        ],
-        "secondary": [
-          "hamstrings"
-        ]
-      },
-      "equipment": [
-        "bodyweight"
-      ],
-      "level": "beginner",
-      "force": "push",
-      "mechanic": "isolation",
-      "instructions": [
-        "Lie flat on the floor on your back with the hands by your side and your knees bent. Your feet should be placed around shoulder width. This will be your starting position.",
-        "Pushing mainly with your heels, lift your hips off the floor while keeping your back straight. Breathe out as you perform this part of the motion and hold at the top for a second.",
-        "Slowly go back to the starting position as you breathe in."
-      ],
-      "tracking": {
-        "measure": "reps",
-        "laterality": "bilateral",
-        "load": "added"
-      },
-      "variationGroup": null,
-      "sources": [
-        {
-          "dataset": "free-exercise-db",
-          "id": "Butt_Lift_Bridge",
-          "license": "Unlicense",
-          "authors": [
-            "yuhonas and contributors"
-          ],
-          "url": "https://github.com/yuhonas/free-exercise-db/tree/5197c055b356498944328bd00178b64a5e9f422c/exercises/Butt_Lift_Bridge"
-        }
-      ],
-      "provenance": {
-        "name": "free-exercise-db",
-        "kind": "free-exercise-db",
-        "muscles.primary": "free-exercise-db",
-        "muscles.secondary": "free-exercise-db",
         "equipment": "free-exercise-db",
         "instructions": "free-exercise-db",
         "region": "rule",
@@ -14934,7 +14887,9 @@
     {
       "slug": "Dumbbell_Bench_Press",
       "name": "Dumbbell Bench Press",
-      "aliases": [],
+      "aliases": [
+        "Benchpress Dumbbells"
+      ],
       "kind": "strength",
       "region": "chest",
       "muscles": {
@@ -14964,7 +14919,7 @@
         "laterality": "bilateral",
         "load": "absolute"
       },
-      "variationGroup": null,
+      "variationGroup": "f45f135e-4cd3-4023-a82a-83fca2078656",
       "sources": [
         {
           "dataset": "free-exercise-db",
@@ -14974,6 +14929,15 @@
             "yuhonas and contributors"
           ],
           "url": "https://github.com/yuhonas/free-exercise-db/tree/5197c055b356498944328bd00178b64a5e9f422c/exercises/Dumbbell_Bench_Press"
+        },
+        {
+          "dataset": "wger",
+          "id": "75",
+          "license": "CC BY-SA 3.0",
+          "authors": [
+            "wger.de"
+          ],
+          "url": "https://wger.de/exercise/75/view"
         }
       ],
       "provenance": {
@@ -14985,14 +14949,22 @@
         "instructions": "free-exercise-db",
         "region": "rule",
         "force": "free-exercise-db",
+        "aliases": "free-exercise-db",
         "tracking.measure": "rule",
         "tracking.laterality": "rule",
         "tracking.load": "rule",
         "level": "free-exercise-db",
         "mechanic": "free-exercise-db"
       },
-      "license": "Unlicense",
-      "credit": null
+      "license": "CC BY-SA 3.0",
+      "credit": {
+        "dataset": "wger",
+        "authors": [
+          "wger.de"
+        ],
+        "license": "CC BY-SA 3.0",
+        "url": "https://wger.de/exercise/75/view"
+      }
     },
     {
       "slug": "Dumbbell_Bench_Press_with_Neutral_Grip",
@@ -29506,7 +29478,10 @@
     {
       "slug": "Lying_Dumbbell_Tricep_Extension",
       "name": "Lying Dumbbell Tricep Extension",
-      "aliases": [],
+      "aliases": [
+        "Skullcrusher Dumbbells",
+        "French Press Dumbbells"
+      ],
       "kind": "strength",
       "region": "arms",
       "muscles": {
@@ -29535,7 +29510,7 @@
         "laterality": "bilateral",
         "load": "absolute"
       },
-      "variationGroup": null,
+      "variationGroup": "46d83fa5-cddc-4cb5-9b16-dcd4c62ae861",
       "sources": [
         {
           "dataset": "free-exercise-db",
@@ -29545,6 +29520,15 @@
             "yuhonas and contributors"
           ],
           "url": "https://github.com/yuhonas/free-exercise-db/tree/5197c055b356498944328bd00178b64a5e9f422c/exercises/Lying_Dumbbell_Tricep_Extension"
+        },
+        {
+          "dataset": "wger",
+          "id": "245",
+          "license": "CC BY-SA 3.0",
+          "authors": [
+            "wger.de"
+          ],
+          "url": "https://wger.de/exercise/245/view"
         }
       ],
       "provenance": {
@@ -29556,14 +29540,22 @@
         "instructions": "free-exercise-db",
         "region": "rule",
         "force": "free-exercise-db",
+        "aliases": "free-exercise-db",
         "tracking.measure": "rule",
         "tracking.laterality": "rule",
         "tracking.load": "rule",
         "level": "free-exercise-db",
         "mechanic": "free-exercise-db"
       },
-      "license": "Unlicense",
-      "credit": null
+      "license": "CC BY-SA 3.0",
+      "credit": {
+        "dataset": "wger",
+        "authors": [
+          "wger.de"
+        ],
+        "license": "CC BY-SA 3.0",
+        "url": "https://wger.de/exercise/245/view"
+      }
     },
     {
       "slug": "Lying_Face_Down_Plate_Neck_Resistance",
@@ -47489,7 +47481,9 @@
     {
       "slug": "Smith_Machine_Squat",
       "name": "Smith Machine Squat",
-      "aliases": [],
+      "aliases": [
+        "Squats on Multipress"
+      ],
       "kind": "strength",
       "region": "legs",
       "muscles": {
@@ -47541,6 +47535,15 @@
             "Tierrasverdes"
           ],
           "url": "https://wger.de/exercise/1747/view"
+        },
+        {
+          "dataset": "wger",
+          "id": "341",
+          "license": "CC BY-SA 3.0",
+          "authors": [
+            "wger.de"
+          ],
+          "url": "https://wger.de/exercise/341/view"
         }
       ],
       "provenance": {
@@ -47552,6 +47555,7 @@
         "instructions": "free-exercise-db",
         "region": "rule",
         "force": "free-exercise-db",
+        "aliases": "free-exercise-db",
         "tracking.measure": "rule",
         "tracking.laterality": "rule",
         "tracking.load": "rule",
@@ -47562,7 +47566,8 @@
       "credit": {
         "dataset": "wger",
         "authors": [
-          "Tierrasverdes"
+          "Tierrasverdes",
+          "wger.de"
         ],
         "license": "CC BY-SA 4.0",
         "url": "https://wger.de/exercise/1747/view"
@@ -58508,77 +58513,6 @@
       }
     },
     {
-      "slug": "Benchpress_Dumbbells",
-      "name": "Benchpress Dumbbells",
-      "aliases": [],
-      "kind": "strength",
-      "region": "chest",
-      "muscles": {
-        "primary": [
-          "chest"
-        ],
-        "secondary": [
-          "shoulders",
-          "triceps"
-        ]
-      },
-      "equipment": [
-        "bench",
-        "dumbbell"
-      ],
-      "level": "intermediate",
-      "force": "push",
-      "mechanic": "compound",
-      "instructions": [
-        "Setup and Starting Position: Sit at the end of a flat bench with a dumbbell resting vertically against each thigh. Carefully lean back while driving the dumbbells toward your chest with your knees.",
-        "The “Leg Drive” and Posture: Plant your feet firmly on the floor. Retract your shoulder blades (press them together against the bench) and maintain a slight natural lumbar curve.",
-        "Starting Position: Push the dumbbells toward the ceiling. Your wrists should be aligned with your elbows. Rotate the dumbbells slightly inward (about 45 degrees) so that your elbows do not splay out too far to the sides, thereby protecting your shoulders.",
-        "Eccentric Phase (Lowering): Lower the dumbbells in a controlled manner toward the sides of your chest. Your elbows should lower at an angle of about 45–60 degrees relative to your body. Feel the stretch in the lower part of your chest.",
-        "Concentric Phase (Lift): Push the weight upward in a slight arc (toward the center), without letting the dumbbells collide at the top or fully locking out your elbows to maintain muscle tension. Exhale as you lift."
-      ],
-      "tracking": {
-        "measure": "reps",
-        "laterality": "bilateral",
-        "load": "absolute"
-      },
-      "variationGroup": "f45f135e-4cd3-4023-a82a-83fca2078656",
-      "sources": [
-        {
-          "dataset": "wger",
-          "id": "75",
-          "license": "CC BY-SA 3.0",
-          "authors": [
-            "wger.de"
-          ],
-          "url": "https://wger.de/exercise/75/view"
-        }
-      ],
-      "provenance": {
-        "name": "wger",
-        "kind": "rule",
-        "muscles.primary": "wger",
-        "muscles.secondary": "wger",
-        "equipment": "wger",
-        "instructions": "wger",
-        "region": "rule",
-        "force": "curated",
-        "tracking.measure": "rule",
-        "tracking.laterality": "rule",
-        "tracking.load": "rule",
-        "level": "curated",
-        "mechanic": "curated"
-      },
-      "license": "CC BY-SA 3.0",
-      "credit": {
-        "dataset": "wger",
-        "authors": [
-          "wger.de"
-        ],
-        "license": "CC BY-SA 3.0",
-        "url": "https://wger.de/exercise/75/view"
-      }
-    },
-    {
       "slug": "Bent_High_Pulls",
       "name": "Bent High Pulls",
       "aliases": [],
@@ -58703,77 +58637,6 @@
         ],
         "license": "CC BY-SA 4.0",
         "url": "https://wger.de/exercise/82/view"
-      }
-    },
-    {
-      "slug": "Bent_Over_Rowing",
-      "name": "Bent Over Rowing",
-      "aliases": [],
-      "kind": "strength",
-      "region": "back",
-      "muscles": {
-        "primary": [
-          "lats"
-        ],
-        "secondary": [
-          "shoulders",
-          "biceps"
-        ]
-      },
-      "equipment": [
-        "barbell"
-      ],
-      "level": "intermediate",
-      "force": "pull",
-      "mechanic": "compound",
-      "instructions": [
-        "Holding a barbell with a pronated grip (palms facing down), bend your knees slightly and bring your torso forward, by bending at the waist, while keeping the back straight until it is almost parallel to the floor. Tip: Make sure that you keep the head up. The barbell should hang directly in front of you as your arms hang perpendicular to the floor and your torso. This is your starting position.",
-        "Now, while keeping the torso stationary, breathe out and lift the barbell to you. Keep the elbows close to the body and only use the forearms to hold the weight. At the top contracted position, squeeze the back muscles and hold for a brief pause.",
-        "Then inhale and slowly lower the barbell back to the starting position.",
-        "Repeat for the recommended amount of repetitions."
-      ],
-      "tracking": {
-        "measure": "reps",
-        "laterality": "bilateral",
-        "load": "absolute"
-      },
-      "variationGroup": "e87bd3db-75b1-44ec-8962-df2f97274109",
-      "sources": [
-        {
-          "dataset": "wger",
-          "id": "83",
-          "license": "CC BY-SA 3.0",
-          "authors": [
-            "wger.de",
-            "warchildmd"
-          ],
-          "url": "https://wger.de/exercise/83/view"
-        }
-      ],
-      "provenance": {
-        "name": "wger",
-        "kind": "rule",
-        "muscles.primary": "wger",
-        "muscles.secondary": "wger",
-        "equipment": "wger",
-        "instructions": "wger",
-        "region": "rule",
-        "force": "curated",
-        "tracking.measure": "rule",
-        "tracking.laterality": "rule",
-        "tracking.load": "rule",
-        "level": "curated",
-        "mechanic": "curated"
-      },
-      "license": "CC BY-SA 3.0",
-      "credit": {
-        "dataset": "wger",
-        "authors": [
-          "wger.de",
-          "warchildmd"
-        ],
-        "license": "CC BY-SA 3.0",
-        "url": "https://wger.de/exercise/83/view"
       }
     },
     {
@@ -60019,74 +59882,6 @@
       }
     },
     {
-      "slug": "Skullcrusher_Dumbbells",
-      "name": "Skullcrusher Dumbbells",
-      "aliases": [
-        "French Press Dumbbells"
-      ],
-      "kind": "strength",
-      "region": "arms",
-      "muscles": {
-        "primary": [
-          "triceps"
-        ],
-        "secondary": []
-      },
-      "equipment": [
-        "bench",
-        "dumbbell"
-      ],
-      "level": "beginner",
-      "force": "push",
-      "mechanic": "isolation",
-      "instructions": [
-        "Hold the dumbbells and lay down on a flat bench in such a way that around 1/4 of your head is over the edge. Stretch arms straight up and then lean dumbbells away from your toes to a 10-20 degree angle. Keep upper arm at this angle throughout exercise. Dumbbell shall not be amed at your head, but away over your head. This will maximise gain from exercise with load on triceps all the time.",
-        "Pay attention to your elbows and arms: only the triceps are doing the work, the rest of the arms should not move."
-      ],
-      "tracking": {
-        "measure": "reps",
-        "laterality": "bilateral",
-        "load": "absolute"
-      },
-      "variationGroup": "46d83fa5-cddc-4cb5-9b16-dcd4c62ae861",
-      "sources": [
-        {
-          "dataset": "wger",
-          "id": "245",
-          "license": "CC BY-SA 3.0",
-          "authors": [
-            "wger.de"
-          ],
-          "url": "https://wger.de/exercise/245/view"
-        }
-      ],
-      "provenance": {
-        "name": "wger",
-        "kind": "rule",
-        "muscles.primary": "wger",
-        "muscles.secondary": "rule",
-        "equipment": "wger",
-        "instructions": "wger",
-        "region": "rule",
-        "force": "curated",
-        "aliases": "wger",
-        "tracking.measure": "rule",
-        "tracking.laterality": "rule",
-        "tracking.load": "rule",
-        "level": "curated",
-        "mechanic": "curated"
-      },
-      "license": "CC BY-SA 3.0",
-      "credit": {
-        "dataset": "wger",
-        "authors": [
-          "wger.de"
-        ],
-        "license": "CC BY-SA 3.0",
-        "url": "https://wger.de/exercise/245/view"
-      }
-    },
-    {
       "slug": "Front_Raises",
       "name": "Front Raises",
       "aliases": [
@@ -60347,7 +60142,9 @@
     {
       "slug": "Glute_Bridge",
       "name": "Glute Bridge",
-      "aliases": [],
+      "aliases": [
+        "Butt Lift (Bridge)"
+      ],
       "kind": "strength",
       "region": "legs",
       "muscles": {
@@ -60365,7 +60162,9 @@
       "force": "push",
       "mechanic": "isolation",
       "instructions": [
-        "Lie on you back with your hips and knees flexed, feet on the ground. From this position, raise your butt off of the ground to a height where your body makes a straight line from your knees to your shoulders. To make the exercise more intense, you can add weight by letting a barbell rest on your hips as you complete the motion, or you can put your feet on a slightly higher surface such as a step or a bench."
+        "Lie flat on the floor on your back with the hands by your side and your knees bent. Your feet should be placed around shoulder width. This will be your starting position.",
+        "Pushing mainly with your heels, lift your hips off the floor while keeping your back straight. Breathe out as you perform this part of the motion and hold at the top for a second.",
+        "Slowly go back to the starting position as you breathe in."
       ],
       "tracking": {
         "measure": "reps",
@@ -60374,6 +60173,15 @@
       },
       "variationGroup": "df253492-1fa4-407a-aa2c-1a19a5b30925",
       "sources": [
+        {
+          "dataset": "free-exercise-db",
+          "id": "Butt_Lift_Bridge",
+          "license": "Unlicense",
+          "authors": [
+            "yuhonas and contributors"
+          ],
+          "url": "https://github.com/yuhonas/free-exercise-db/tree/5197c055b356498944328bd00178b64a5e9f422c/exercises/Butt_Lift_Bridge"
+        },
         {
           "dataset": "wger",
           "id": "265",
@@ -60385,14 +60193,15 @@
         }
       ],
       "provenance": {
-        "name": "wger",
-        "kind": "rule",
-        "muscles.primary": "wger",
-        "muscles.secondary": "wger",
+        "name": "curated",
+        "kind": "free-exercise-db",
+        "muscles.primary": "free-exercise-db",
+        "muscles.secondary": "free-exercise-db",
         "equipment": "curated",
-        "instructions": "wger",
+        "instructions": "free-exercise-db",
         "region": "rule",
         "force": "curated",
+        "aliases": "curated",
         "tracking.measure": "rule",
         "tracking.laterality": "rule",
         "tracking.load": "rule",
@@ -61113,69 +60922,6 @@
         ],
         "license": "CC BY-SA 4.0",
         "url": "https://wger.de/exercise/320/view"
-      }
-    },
-    {
-      "slug": "Squats_On_Multipress",
-      "name": "Squats On Multipress",
-      "aliases": [],
-      "kind": "strength",
-      "region": "legs",
-      "muscles": {
-        "primary": [
-          "quadriceps"
-        ],
-        "secondary": [
-          "glutes"
-        ]
-      },
-      "equipment": [
-        "smith machine"
-      ],
-      "level": "beginner",
-      "force": "push",
-      "mechanic": "compound",
-      "instructions": [],
-      "tracking": {
-        "measure": "reps",
-        "laterality": "bilateral",
-        "load": "absolute"
-      },
-      "variationGroup": "3bd6e8cb-668e-46f0-95a2-8b02596b5810",
-      "sources": [
-        {
-          "dataset": "wger",
-          "id": "341",
-          "license": "CC BY-SA 3.0",
-          "authors": [
-            "wger.de"
-          ],
-          "url": "https://wger.de/exercise/341/view"
-        }
-      ],
-      "provenance": {
-        "name": "curated",
-        "kind": "rule",
-        "muscles.primary": "wger",
-        "muscles.secondary": "wger",
-        "equipment": "curated",
-        "instructions": "rule",
-        "region": "rule",
-        "force": "curated",
-        "tracking.measure": "rule",
-        "tracking.laterality": "rule",
-        "tracking.load": "rule",
-        "level": "curated",
-        "mechanic": "curated"
-      },
-      "license": "CC BY-SA 3.0",
-      "credit": {
-        "dataset": "wger",
-        "authors": [
-          "wger.de"
-        ],
-        "license": "CC BY-SA 3.0",
-        "url": "https://wger.de/exercise/341/view"
       }
     },
     {
@@ -105657,5 +105403,12 @@
     "Walking",
     "Warm Up",
     "Yoga"
-  ]
+  ],
+  "replaced": {
+    "Butt_Lift_Bridge": "Glute_Bridge",
+    "Benchpress_Dumbbells": "Dumbbell_Bench_Press",
+    "Bent_Over_Rowing": "Bent_Over_Barbell_Row",
+    "Squats_On_Multipress": "Smith_Machine_Squat",
+    "Skullcrusher_Dumbbells": "Lying_Dumbbell_Tricep_Extension"
+  }
 }

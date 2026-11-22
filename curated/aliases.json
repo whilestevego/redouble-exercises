@@ -646,5 +646,15 @@
         }
       ]
     }
+  ],
+  "Glute_Bridge": [
+    {
+      "name": "Butt Lift (Bridge)",
+      "evidence": [
+        {
+          "rule": "The free-exercise-db name of the same exercise, which Butt_Lift_Bridge had before Glute_Bridge replaced it."
+        }
+      ]
+    }
   ]
 }
