@@ -646,5 +646,44 @@
         }
       ]
     }
+  ],
+  "Dumbbell_Triceps_Extension": [
+    {
+      "name": "Triceps Extension",
+      "evidence": [
+        {
+          "rule": "Strong's name. Strong has a separate Skullcrusher, and its barbell and dumbbell forms of this name are the overhead records. A name with no equipment word means the default form."
+        },
+        {
+          "url": "https://www.healthline.com/health/fitness/overhead-triceps-extension",
+          "note": "The page says that the most common form uses one dumbbell that both hands hold over the head, standing or seated."
+        }
+      ]
+    }
+  ],
+  "Barbell_Reverse_Wrist_Curl": [
+    {
+      "name": "Reverse Wrist Curl",
+      "evidence": [
+        {
+          "url": "https://www.flashmavi.com/learn/reverse-wrist-curl",
+          "note": "The page gives the name with no equipment word. It shows a barbell with the palms down, seated, with the forearms on the thighs, as the steps describe."
+        }
+      ]
+    }
+  ],
+  "Standing_Cable_Wood_Chop": [
+    {
+      "name": "Wood Chop",
+      "evidence": [
+        {
+          "rule": "A name with no form word means the default form. The standing chop on a high cable is the default form."
+        },
+        {
+          "url": "https://www.strengthlog.com/cable-machine-wood-chop-high-to-low/",
+          "note": "The page calls the exercise a wood chop. It shows a high cable, a stance sideways to the machine and a diagonal pull down across the body, as the steps describe."
+        }
+      ]
+    }
   ]
 }
