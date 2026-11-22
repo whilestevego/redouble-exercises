@@ -2,7 +2,7 @@
 
 This repo is an open exercise dataset. `README.md` describes the format and
 the build. The plan and the build record are in the REDOUBLE repo:
-`plans/plan-open-exercise-dataset.md`.
+`plans/completed/plan-open-exercise-dataset.md`.
 
 ## Commands
 
