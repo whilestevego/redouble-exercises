@@ -199,10 +199,22 @@ List<String> checkDataset(Map<String, Parsed> parsed, List<Json> records) {
     }
   }
 
+  final replaced = replacedSlugs();
+  for (final MapEntry(key: old, value: entry) in replaced.entries) {
+    final by = entry['by'];
+    if (bySlug.containsKey(old)) {
+      problems.add('replaced: $old is still a record');
+    }
+    if (!bySlug.containsKey(by) || replaced.containsKey(by)) {
+      problems.add('replaced: $old names $by, which is not a record');
+    } else {
+      evidence('replaced: $old', '$by', entry['evidence']);
+    }
+  }
   final released = File('releases/slugs.json');
   if (released.existsSync()) {
     for (final slug in (readJson(released.path) as List).cast<String>()) {
-      if (!bySlug.containsKey(slug)) {
+      if (!bySlug.containsKey(slug) && !replaced.containsKey(slug)) {
         problems.add('released slug $slug is gone');
       }
     }

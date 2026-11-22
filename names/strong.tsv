@@ -22,7 +22,7 @@ Crunch	Crunches
 Crunch (Stability Ball)	Exercise_Ball_Crunch
 Deadlift (Barbell)	Barbell_Deadlift
 Decline Crunch	Decline_Crunch
-Eccentric finger roll	
+Eccentric finger roll	Eccentric_Finger_Roll
 Face Pull (Band)	Banded_Face_Pull
 Farmer’s Carry (Weighted)	Farmers_Walk
 Flat Leg Raise	Flat_Bench_Lying_Leg_Raise
@@ -78,7 +78,7 @@ Reverse Crunch	Reverse_Crunch
 Reverse Crunch (Decline Bench)	Decline_Reverse_Crunch
 Reverse Curl (Dumbbell)	Standing_Dumbbell_Reverse_Curl
 Reverse Fly (Dumbbell)	
-Reverse Wrist Curl	
+Reverse Wrist Curl	Seated_Palms-Down_Barbell_Wrist_Curl
 Ring Dip (Assisted)	Assisted_Ring_Dip
 Ring Row	Ring_Row
 Ring push up	Ring_Push-Up
@@ -104,7 +104,7 @@ Stairmaster
 Standing Calf Raise (Barbell)	Standing_Barbell_Calf_Raise
 Standing Calf Raise (Dumbbell)	Standing_Dumbbell_Calf_Raise
 Standing Calf Raise (Machine)	Standing_Calf_Raises
-Standing Ws	
+Standing Ws	Standing_W
 Step-up	Step-ups
 Straight Bar Dip	Straight_Bar_Dip
 Stretching	
@@ -115,7 +115,7 @@ Toes To Bar	Toes_To_Bar
 Torso Rotation (Dumbbell)	
 Triceps Dip	Dips_-_Triceps_Version
 Triceps Dip (Assisted)	Triceps_Dips_Assisted
-Triceps Extension	
+Triceps Extension	Dumbbell_Triceps_Extension
 Triceps Extension (Barbell)	Barbell_Triceps_Extension
 Triceps Extension (Dumbbell)	Dumbbell_Triceps_Extension
 Tuck Up	Tuck_Up
@@ -123,5 +123,5 @@ V Up	V-Up
 Wall Ball	Wall_Balls
 Wall Walk	Wall_Walk
 Windshield Wiper	Windshield_Wipers
-Wood Chop	
+Wood Chop	Standing_Cable_Wood_Chop
 Yoga	

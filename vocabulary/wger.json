@@ -15,7 +15,7 @@
   "muscles": {
     "Biceps brachii": "biceps",
     "Anterior deltoid": "shoulders",
-    "Serratus anterior": null,
+    "Serratus anterior": "serratus anterior",
     "Pectoralis major": "chest",
     "Triceps brachii": "triceps",
     "Rectus abdominis": "abdominals",

@@ -57,6 +57,10 @@ make ci      # run it before you push
 - **A slug never changes, never goes away and never moves to another
   exercise** after a release lists it in `releases/slugs.json`. Before that,
   a record whose steps contradict its name gets a new slug.
+- **Two released records that are one exercise join, and one slug goes to
+  `curated/replaced.json`.** Move its members into the other group, give the
+  join evidence and add the old name as an alias when the merge drops it.
+  The release's `replaced` map tells an app to move its references.
 - **The parse holds no judgment.** Never fix a value in `lib/parse.dart`. A
   value that needs a decision goes into `curated/`.
 - **Never edit `parsed/` or `dist/` by hand.** `make build` writes them.

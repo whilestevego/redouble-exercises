@@ -46,6 +46,11 @@ MergeInputs mergeInputs(Map<String, List<Json>> parsed) {
   );
 }
 
+/// Released slugs that another record replaces: the old slug, and the
+/// replacement and its evidence.
+Map<String, Json> replacedSlugs() =>
+    (readJson('curated/replaced.json') as Map).cast<String, Json>();
+
 List<Json> ownRecords() =>
     (readJson('curated/records.json') as List).cast<Json>();
 
@@ -58,6 +63,10 @@ Json release(List<Json> records) => {
   'count': records.length,
   'exercises': records,
   'notStrength': readJson('curated/not-strength.json'),
+  'replaced': {
+    for (final MapEntry(:key, :value) in replacedSlugs().entries)
+      key: value['by'],
+  },
 };
 
 bool get inRepoRoot => File('pubspec.yaml').existsSync();

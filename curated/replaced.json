@@ -1,0 +1,94 @@
+{
+  "Butt_Lift_Bridge": {
+    "by": "Glute_Bridge",
+    "evidence": [
+      {
+        "quote": "Lie flat on the floor on your back with the hands by your side and your knees bent."
+      },
+      {
+        "quote": "Pushing mainly with your heels, lift your hips off the floor while keeping your back straight."
+      },
+      {
+        "quote": "Lie on you back with your hips and knees flexed, feet on the ground."
+      },
+      {
+        "quote": "From this position, raise your butt off of the ground to a height where your body makes a straight line from your knees to your shoulders."
+      }
+    ]
+  },
+  "Benchpress_Dumbbells": {
+    "by": "Dumbbell_Bench_Press",
+    "evidence": [
+      {
+        "quote": "Lie down on a flat bench with a dumbbell in each hand resting on top of your thighs."
+      },
+      {
+        "quote": "Sit at the end of a flat bench with a dumbbell resting vertically against each thigh."
+      },
+      {
+        "quote": "Carefully lean back while driving the dumbbells toward your chest with your knees."
+      }
+    ]
+  },
+  "Bent_Over_Rowing": {
+    "by": "Bent_Over_Barbell_Row",
+    "evidence": [
+      {
+        "rule": "The two records have the same steps, word for word."
+      },
+      {
+        "quote": "Holding a barbell with a pronated grip (palms facing down), bend your knees slightly and bring your torso forward, by bending at the waist, while keeping the back straight until it is almost parallel to the floor."
+      }
+    ]
+  },
+  "Squats_On_Multipress": {
+    "by": "Smith_Machine_Squat",
+    "evidence": [
+      {
+        "quote": "step under the bar and place the back of your shoulders (slightly below the neck) across it."
+      },
+      {
+        "url": "https://www.fitbook.de/fitness/multipress",
+        "note": "The page writes \"die Multipresse bzw. Smith Machine\" (the multipress, or Smith machine) and describes a bar guided on two vertical rails."
+      },
+      {
+        "url": "https://www.uni-regensburg.de/fileadmin/user_upload/universitaet/einrichtungen/Sportzentrum/PDF/URAlive/Smith_Maschine.pdf",
+        "note": "The handout is titled Smith Maschine, and one of its steps puts a block under the bar of the Multipresse."
+      },
+      {
+        "rule": "The wger record has no steps. Its German name, Kniebeuge an Multipresse, means a squat on a multipress."
+      }
+    ]
+  },
+  "Skullcrusher_Dumbbells": {
+    "by": "Lying_Dumbbell_Tricep_Extension",
+    "evidence": [
+      {
+        "quote": "Lie on a flat bench while holding two dumbbells directly in front of you."
+      },
+      {
+        "quote": "slowly lower the weight until the dumbbells are near your ears."
+      },
+      {
+        "quote": "Hold the dumbbells and lay down on a flat bench in such a way that around 1/4 of your head is over the edge."
+      },
+      {
+        "quote": "only the triceps are doing the work, the rest of the arms should not move."
+      }
+    ]
+  },
+  "Barbell_Reverse_Wrist_Curl": {
+    "by": "Seated_Palms-Down_Barbell_Wrist_Curl",
+    "evidence": [
+      {
+        "quote": "Hold a barbell with both hands and your palms facing down; hands spaced about shoulder width."
+      },
+      {
+        "quote": "Sitting on a bench, grab a barbell with your palms facing down and your hands shoulder-width apart."
+      },
+      {
+        "quote": "Rest your forearms on your thighs and allow your wrists to hang over your knees."
+      }
+    ]
+  }
+}

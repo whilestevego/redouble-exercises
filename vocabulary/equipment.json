@@ -210,5 +210,25 @@
   {
     "slug": "deadlift frame",
     "label": "Deadlift Frame"
+  },
+  {
+    "slug": "ghd",
+    "label": "GHD"
+  },
+  {
+    "slug": "parallettes",
+    "label": "Parallettes"
+  },
+  {
+    "slug": "fingerboard",
+    "label": "Fingerboard"
+  },
+  {
+    "slug": "flex bar",
+    "label": "Flex Bar"
+  },
+  {
+    "slug": "massage ball",
+    "label": "Massage Ball"
   }
 ]

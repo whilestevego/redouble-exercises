@@ -3034,6 +3034,19 @@
           "quote": "Using a Muscle Roller or a rolling pin, apply pressure to the muscles on the outside of your shins."
         }
       ]
+    },
+    "muscles.primary": {
+      "value": [
+        "tibialis anterior"
+      ],
+      "evidence": [
+        {
+          "quote": "apply pressure to the muscles on the outside of your shins"
+        },
+        {
+          "rule": "The name states the muscle."
+        }
+      ]
     }
   },
   "Foot-SMR": {
@@ -3172,6 +3185,23 @@
       "evidence": [
         {
           "rule": "The wger name is not in English, is for one side, or does not say the form. The name says what the steps describe."
+        }
+      ]
+    },
+    "muscles.secondary": {
+      "value": [
+        "glutes",
+        "lats",
+        "quadriceps",
+        "traps",
+        "hip flexors"
+      ],
+      "evidence": [
+        {
+          "quote": "Hip Flexors, Quads, Glutes and Calves"
+        },
+        {
+          "rule": "The other muscles are the values of the source."
         }
       ]
     }
@@ -3398,6 +3428,14 @@
           "rule": "One joint moves in a stable position. The dataset marks this as beginner."
         }
       ]
+    },
+    "name": {
+      "value": "Glute Bridge",
+      "evidence": [
+        {
+          "rule": "The common name of the exercise. The free-exercise-db name, Butt Lift (Bridge), becomes an alias."
+        }
+      ]
     }
   },
   "Hammercurls_On_Cable": {
@@ -3476,50 +3514,6 @@
       "evidence": [
         {
           "rule": "The wger name is not in English, is for one side, or does not say the form. The name says what the steps describe."
-        }
-      ]
-    }
-  },
-  "Squats_On_Multipress": {
-    "name": {
-      "value": "Squats On Multipress",
-      "evidence": [
-        {
-          "rule": "The dataset writes a name in title case, with words in full."
-        }
-      ]
-    },
-    "equipment": {
-      "value": [
-        "smith machine"
-      ],
-      "evidence": [
-        {
-          "rule": "Multipress is another name of the Smith machine."
-        }
-      ]
-    },
-    "force": {
-      "value": "push",
-      "evidence": [
-        {
-          "rule": "The hip and the knee extend together to push the load or the body up."
-        }
-      ]
-    },
-    "mechanic": {
-      "value": "compound",
-      "evidence": [
-        {
-          "rule": "The hip and the knee extend together to push the load or the body up."
-        }
-      ]
-    },
-    "level": {
-      "value": "beginner",
-      "evidence": [
-        {
-          "rule": "A machine, a cable or a band guides or scales the load. The dataset marks this as beginner."
         }
       ]
     }
@@ -4752,6 +4746,24 @@
           "rule": "A basic hold or bodyweight movement that needs no special skill. The dataset marks this as beginner."
         }
       ]
+    },
+    "equipment": {
+      "value": [
+        "fingerboard"
+      ],
+      "evidence": [
+        {
+          "quote": "Hanging on sloper holds of a fingerboard for a amount of seconds"
+        }
+      ]
+    },
+    "tracking.load": {
+      "value": "added",
+      "evidence": [
+        {
+          "rule": "The body is the load. The user can add weight with a belt or a vest."
+        }
+      ]
     }
   },
   "Fingerboard_20_Mm_Edge": {
@@ -4765,11 +4777,11 @@
     },
     "equipment": {
       "value": [
-        "bodyweight"
+        "fingerboard"
       ],
       "evidence": [
         {
-          "rule": "The body is the load. The other equipment is not in the vocabulary."
+          "quote": "Hang for 10 seconds on a fingerboard with a 20 mm edge"
         }
       ]
     },
@@ -4796,6 +4808,14 @@
       "evidence": [
         {
           "rule": "A basic hold or bodyweight movement that needs no special skill. The dataset marks this as beginner."
+        }
+      ]
+    },
+    "tracking.load": {
+      "value": "added",
+      "evidence": [
+        {
+          "rule": "The body is the load. The user can add weight with a belt or a vest."
         }
       ]
     }
@@ -4830,6 +4850,24 @@
       "evidence": [
         {
           "rule": "The movement lifts the full bodyweight, or it needs balance or power. The dataset marks this as intermediate."
+        }
+      ]
+    },
+    "equipment": {
+      "value": [
+        "fingerboard"
+      ],
+      "evidence": [
+        {
+          "quote": "Pullup on a choosen edge of a fingerboard / hangboard"
+        }
+      ]
+    },
+    "tracking.load": {
+      "value": "added",
+      "evidence": [
+        {
+          "rule": "The body is the load. The user can add weight with a belt or a vest."
         }
       ]
     }
@@ -6557,11 +6595,11 @@
     },
     "equipment": {
       "value": [
-        "bodyweight"
+        "parallettes"
       ],
       "evidence": [
         {
-          "rule": "Parallettes are not in the vocabulary. The body is the load."
+          "quote": "assume a push-up position with your hands on the parallettes and your feet on the ground"
         }
       ]
     },
@@ -6586,6 +6624,14 @@
       "evidence": [
         {
           "rule": "A basic hold or bodyweight movement that needs no special skill. The dataset marks this as beginner."
+        }
+      ]
+    },
+    "tracking.load": {
+      "value": "added",
+      "evidence": [
+        {
+          "rule": "The body is the load. The user can add weight with a belt or a vest."
         }
       ]
     }
@@ -6749,11 +6795,11 @@
     },
     "equipment": {
       "value": [
-        "machine"
+        "ghd"
       ],
       "evidence": [
         {
-          "rule": "The name states the equipment."
+          "quote": "A GHD hip extension is one of the best exercises for the glutes."
         }
       ]
     },
@@ -6778,6 +6824,14 @@
       "evidence": [
         {
           "rule": "A machine, a cable or a band guides or scales the load. The dataset marks this as beginner."
+        }
+      ]
+    },
+    "tracking.load": {
+      "value": "added",
+      "evidence": [
+        {
+          "rule": "The body is the load. The user can add weight with a plate at the chest."
         }
       ]
     }
@@ -6949,11 +7003,14 @@
     },
     "muscles.primary": {
       "value": [
-        "calves"
+        "tibialis anterior"
       ],
       "evidence": [
         {
-          "rule": "The tibialis anterior is not in the vocabulary. The dataset files the front of the shin under the calves."
+          "quote": "Lift the balls of your feet, resting on your heels."
+        },
+        {
+          "rule": "The name states the muscle. The tibialis anterior lifts the front of the foot."
         }
       ]
     },
@@ -7825,11 +7882,11 @@
     },
     "muscles.primary": {
       "value": [
-        "calves"
+        "tibialis anterior"
       ],
       "evidence": [
         {
-          "rule": "The tibialis anterior is not in the vocabulary. The dataset files the front of the shin under the calves."
+          "quote": "This stretch is for the ankles, as well as Tibialis anterior."
         }
       ]
     },
@@ -8114,6 +8171,17 @@
       "evidence": [
         {
           "rule": "The dataset writes a name in title case, with words in full."
+        }
+      ]
+    },
+    "muscles.primary": {
+      "value": [
+        "abdominals",
+        "hip flexors"
+      ],
+      "evidence": [
+        {
+          "quote": "High knee skips target the oblique, leg muscles, hip muscles and hip flexors"
         }
       ]
     }
@@ -11183,11 +11251,11 @@
     },
     "muscles.primary": {
       "value": [
-        "calves"
+        "tibialis anterior"
       ],
       "evidence": [
         {
-          "rule": "The tibialis anterior is not in the vocabulary. The dataset files the front of the shin under the calves."
+          "quote": "Slowly roll the front of your shin (tibialis anterior) over the foam roller"
         }
       ]
     },
@@ -11788,6 +11856,19 @@
       "evidence": [
         {
           "rule": "A stretch or a mobility drill with no load. The dataset marks this as beginner."
+        }
+      ]
+    },
+    "equipment": {
+      "value": [
+        "massage ball"
+      ],
+      "evidence": [
+        {
+          "quote": "SMR Glutes (lax ball)"
+        },
+        {
+          "rule": "A lacrosse ball is a massage ball."
         }
       ]
     }
@@ -13160,42 +13241,6 @@
       ]
     }
   },
-  "Barbell_Reverse_Wrist_Curl": {
-    "muscles.primary": {
-      "value": [
-        "forearms"
-      ],
-      "evidence": [
-        {
-          "rule": "The wrist or the forearm moves against the load. The forearm muscles do the work."
-        }
-      ]
-    },
-    "force": {
-      "value": "pull",
-      "evidence": [
-        {
-          "rule": "Only the wrist or the forearm moves against the load. The dataset marks wrist work as a pull."
-        }
-      ]
-    },
-    "mechanic": {
-      "value": "isolation",
-      "evidence": [
-        {
-          "rule": "Only the wrist or the forearm moves against the load. The dataset marks wrist work as a pull."
-        }
-      ]
-    },
-    "level": {
-      "value": "beginner",
-      "evidence": [
-        {
-          "rule": "One joint moves in a stable position. The dataset marks this as beginner."
-        }
-      ]
-    }
-  },
   "Barbell_Triceps_Extension": {
     "force": {
       "value": "push",
@@ -13258,32 +13303,6 @@
       ]
     }
   },
-  "Benchpress_Dumbbells": {
-    "force": {
-      "value": "push",
-      "evidence": [
-        {
-          "rule": "A press, a dip or a push-up extends the elbow and moves the shoulder."
-        }
-      ]
-    },
-    "mechanic": {
-      "value": "compound",
-      "evidence": [
-        {
-          "rule": "A press, a dip or a push-up extends the elbow and moves the shoulder."
-        }
-      ]
-    },
-    "level": {
-      "value": "intermediate",
-      "evidence": [
-        {
-          "rule": "A free-weight lift that moves two or more joints needs practice of the technique. The dataset marks this as intermediate."
-        }
-      ]
-    }
-  },
   "Bent_High_Pulls": {
     "force": {
       "value": "pull",
@@ -13342,32 +13361,6 @@
       "evidence": [
         {
           "rule": "One joint moves in a stable position. The dataset marks this as beginner."
-        }
-      ]
-    }
-  },
-  "Bent_Over_Rowing": {
-    "force": {
-      "value": "pull",
-      "evidence": [
-        {
-          "rule": "A row or a pull-up flexes the elbow and pulls the shoulder back or down."
-        }
-      ]
-    },
-    "mechanic": {
-      "value": "compound",
-      "evidence": [
-        {
-          "rule": "A row or a pull-up flexes the elbow and pulls the shoulder back or down."
-        }
-      ]
-    },
-    "level": {
-      "value": "intermediate",
-      "evidence": [
-        {
-          "rule": "A free-weight lift that moves two or more joints needs practice of the technique. The dataset marks this as intermediate."
         }
       ]
     }
@@ -13809,32 +13802,6 @@
       ]
     }
   },
-  "Skullcrusher_Dumbbells": {
-    "force": {
-      "value": "push",
-      "evidence": [
-        {
-          "rule": "The elbow extends against the load. One joint moves."
-        }
-      ]
-    },
-    "mechanic": {
-      "value": "isolation",
-      "evidence": [
-        {
-          "rule": "The elbow extends against the load. One joint moves."
-        }
-      ]
-    },
-    "level": {
-      "value": "beginner",
-      "evidence": [
-        {
-          "rule": "One joint moves in a stable position. The dataset marks this as beginner."
-        }
-      ]
-    }
-  },
   "Front_Raises": {
     "force": {
       "value": "push",
@@ -14181,6 +14148,20 @@
       "evidence": [
         {
           "rule": "One joint moves in a stable position. The dataset marks this as beginner."
+        }
+      ]
+    },
+    "muscles.primary": {
+      "value": [
+        "abdominals",
+        "hip flexors"
+      ],
+      "evidence": [
+        {
+          "quote": "targets the iliopsoas (the anterior hip flexors)"
+        },
+        {
+          "quote": "leg raises are also often used to strengthen the rectus abdominis muscle"
         }
       ]
     }
@@ -15935,11 +15916,14 @@
   "Recruitment_Pulls": {
     "equipment": {
       "value": [
-        "bodyweight"
+        "fingerboard"
       ],
       "evidence": [
         {
-          "rule": "The body is the load. The other equipment is not in the vocabulary."
+          "quote": "Find a few specific edge sizes on a hangboard"
+        },
+        {
+          "rule": "A hangboard is another name for a fingerboard."
         }
       ]
     },
@@ -15966,6 +15950,14 @@
       "evidence": [
         {
           "rule": "A basic hold or bodyweight movement that needs no special skill. The dataset marks this as beginner."
+        }
+      ]
+    },
+    "tracking.load": {
+      "value": "added",
+      "evidence": [
+        {
+          "rule": "The climber pulls with the body against the board. No bar or plate gives the load."
         }
       ]
     }
@@ -16044,6 +16036,32 @@
       "evidence": [
         {
           "rule": "A machine, a cable or a band guides or scales the load. The dataset marks this as beginner."
+        }
+      ]
+    },
+    "muscles.primary": {
+      "value": [
+        "tibialis anterior"
+      ],
+      "evidence": [
+        {
+          "quote": "It targets the Soleus and Tibialis anterior."
+        },
+        {
+          "rule": "Dorsiflexion is the work of the tibialis anterior."
+        }
+      ]
+    },
+    "muscles.secondary": {
+      "value": [
+        "calves"
+      ],
+      "evidence": [
+        {
+          "quote": "It targets the Soleus and Tibialis anterior."
+        },
+        {
+          "rule": "The soleus is a calf muscle."
         }
       ]
     }
@@ -19957,11 +19975,11 @@
   "Solo_Hip_Flexor_Stretch": {
     "muscles.primary": {
       "value": [
-        "quadriceps"
+        "hip flexors"
       ],
       "evidence": [
         {
-          "rule": "The hip flexors are not in the vocabulary. The dataset files a hip flexor stretch under the quadriceps."
+          "rule": "The name states the muscle."
         }
       ]
     },
@@ -20309,11 +20327,11 @@
   "Hip_Flexor_Stretch": {
     "muscles.primary": {
       "value": [
-        "quadriceps"
+        "hip flexors"
       ],
       "evidence": [
         {
-          "rule": "The hip flexors are not in the vocabulary. The dataset files a hip flexor stretch under the quadriceps."
+          "quote": "push your hips forward until you feel a stretch at the front of the hip and thigh"
         }
       ]
     },
@@ -20330,6 +20348,16 @@
       "evidence": [
         {
           "rule": "A stretch or a mobility drill with no load. The dataset marks this as beginner."
+        }
+      ]
+    },
+    "muscles.secondary": {
+      "value": [
+        "quadriceps"
+      ],
+      "evidence": [
+        {
+          "quote": "a stretch at the front of the hip and thigh"
         }
       ]
     }
@@ -20502,6 +20530,17 @@
       "evidence": [
         {
           "rule": "A stretch or a mobility drill with no load. The dataset marks this as beginner."
+        }
+      ]
+    },
+    "muscles.secondary": {
+      "value": [
+        "hip flexors",
+        "quadriceps"
+      ],
+      "evidence": [
+        {
+          "quote": "the hip flexors and quads (back leg)"
         }
       ]
     }
@@ -21201,11 +21240,11 @@
   "Rear-foot-elevated_Hip_Flexor_Stretch": {
     "muscles.primary": {
       "value": [
-        "quadriceps"
+        "hip flexors"
       ],
       "evidence": [
         {
-          "rule": "The hip flexors are not in the vocabulary. The dataset files a hip flexor stretch under the quadriceps."
+          "rule": "The name states the muscle."
         }
       ]
     },
@@ -21399,11 +21438,15 @@
   "Couch_Stretch": {
     "muscles.primary": {
       "value": [
+        "hip flexors",
         "quadriceps"
       ],
       "evidence": [
         {
-          "rule": "The hip flexors are not in the vocabulary. The dataset files a hip flexor stretch under the quadriceps."
+          "quote": "Brace your core, tense your rear glute, and straighten up your torso to vertical, under control."
+        },
+        {
+          "rule": "The rear knee bends fully and the rear hip extends. That stretches the hip flexors and the quadriceps."
         }
       ]
     },
@@ -21427,11 +21470,14 @@
   "Long_Lunge_Pulse_Stretch": {
     "muscles.primary": {
       "value": [
-        "quadriceps"
+        "hip flexors"
       ],
       "evidence": [
         {
-          "rule": "The hip flexors are not in the vocabulary. The dataset files a hip flexor stretch under the quadriceps."
+          "quote": "Step forwards into a lunge, dropping until your knee is almost touching the floor."
+        },
+        {
+          "rule": "A long lunge extends the hip of the rear leg. That stretches its hip flexors."
         }
       ]
     },
@@ -21739,6 +21785,16 @@
           "rule": "A basic hold or bodyweight movement that needs no special skill. The dataset marks this as beginner."
         }
       ]
+    },
+    "muscles.primary": {
+      "value": [
+        "pelvic floor"
+      ],
+      "evidence": [
+        {
+          "quote": "Tighten the pelvic floor muscles and lift them gently upwards and inwards."
+        }
+      ]
     }
   },
   "Gentle_Reverse_Kegels": {
@@ -21757,6 +21813,16 @@
       "evidence": [
         {
           "rule": "A basic hold or bodyweight movement that needs no special skill. The dataset marks this as beginner."
+        }
+      ]
+    },
+    "muscles.primary": {
+      "value": [
+        "pelvic floor"
+      ],
+      "evidence": [
+        {
+          "quote": "let your pelvic floor relax and gently lengthen downwards"
         }
       ]
     }
@@ -22061,6 +22127,16 @@
           "rule": "One joint moves in a stable position. The dataset marks this as beginner."
         }
       ]
+    },
+    "equipment": {
+      "value": [
+        "flex bar"
+      ],
+      "evidence": [
+        {
+          "quote": "Performed with a flexible resistance bar such as a Theraband FlexBar."
+        }
+      ]
     }
   },
   "FlexBar_Wrist_Flexion": {
@@ -22097,6 +22173,16 @@
           "rule": "One joint moves in a stable position. The dataset marks this as beginner."
         }
       ]
+    },
+    "equipment": {
+      "value": [
+        "flex bar"
+      ],
+      "evidence": [
+        {
+          "quote": "Performed with a flexible resistance bar such as a Theraband FlexBar."
+        }
+      ]
     }
   },
   "FlexBar_Tyler_Twist": {
@@ -22131,6 +22217,16 @@
       "evidence": [
         {
           "rule": "One joint moves in a stable position. The dataset marks this as beginner."
+        }
+      ]
+    },
+    "equipment": {
+      "value": [
+        "flex bar"
+      ],
+      "evidence": [
+        {
+          "quote": "done with a flexible resistance bar such as a Theraband FlexBar"
         }
       ]
     }
@@ -23433,6 +23529,217 @@
       "evidence": [
         {
           "rule": "The body is the load. The user can add weight with a belt or a vest."
+        }
+      ]
+    }
+  },
+  "Glute_Ham_Raise": {
+    "equipment": {
+      "value": [
+        "ghd"
+      ],
+      "evidence": [
+        {
+          "quote": "Kneel on a glute-ham developer or have a partner hold your ankles."
+        },
+        {
+          "quote": "Place your feet against the footplate in between the rollers as you lie facedown."
+        }
+      ]
+    },
+    "tracking.load": {
+      "value": "added",
+      "evidence": [
+        {
+          "rule": "The body is the load. The user can add weight with a plate at the chest."
+        }
+      ]
+    }
+  },
+  "Kneeling_Hip_Flexor": {
+    "muscles.primary": {
+      "value": [
+        "hip flexors"
+      ],
+      "evidence": [
+        {
+          "quote": "Shift your weight forward until you feel a stretch in your hip."
+        },
+        {
+          "rule": "The name states the muscle."
+        }
+      ]
+    },
+    "muscles.secondary": {
+      "value": [
+        "quadriceps"
+      ],
+      "evidence": [
+        {
+          "rule": "The source names the quadriceps. The rectus femoris part of the quadriceps crosses the hip, so it stays as a secondary muscle."
+        }
+      ]
+    }
+  },
+  "Standing_Hip_Flexors": {
+    "muscles.primary": {
+      "value": [
+        "hip flexors"
+      ],
+      "evidence": [
+        {
+          "quote": "it's hard to relax the hip flexor and stand on it at the same time"
+        }
+      ]
+    },
+    "muscles.secondary": {
+      "value": [
+        "quadriceps"
+      ],
+      "evidence": [
+        {
+          "rule": "The source names the quadriceps. The rectus femoris part of the quadriceps crosses the hip, so it stays as a secondary muscle."
+        }
+      ]
+    }
+  },
+  "Intermediate_Hip_Flexor_and_Quad_Stretch": {
+    "muscles.primary": {
+      "value": [
+        "hip flexors",
+        "quadriceps"
+      ],
+      "evidence": [
+        {
+          "quote": "creating tension in the hip flexors and quadriceps"
+        }
+      ]
+    }
+  },
+  "On_Your_Side_Quad_Stretch": {
+    "muscles.secondary": {
+      "value": [
+        "hip flexors"
+      ],
+      "evidence": [
+        {
+          "quote": "To stretch your hip flexor, press your left hip forward"
+        }
+      ]
+    }
+  },
+  "All_Fours_Quad_Stretch": {
+    "muscles.secondary": {
+      "value": [
+        "hip flexors"
+      ],
+      "evidence": [
+        {
+          "quote": "stretching the quadriceps and hip flexors"
+        }
+      ]
+    }
+  },
+  "Lying_Prone_Quadriceps": {
+    "muscles.secondary": {
+      "value": [
+        "hip flexors"
+      ],
+      "evidence": [
+        {
+          "quote": "further stretching the quadriceps and hip flexors"
+        }
+      ]
+    }
+  },
+  "One_Half_Locust": {
+    "muscles.secondary": {
+      "value": [
+        "abdominals",
+        "biceps",
+        "chest",
+        "hip flexors"
+      ],
+      "evidence": [
+        {
+          "quote": "This also stretches the right hip flexor and the chest and shoulders."
+        },
+        {
+          "rule": "The other muscles are the values of the source."
+        }
+      ]
+    }
+  },
+  "One_Knee_To_Chest": {
+    "muscles.secondary": {
+      "value": [
+        "hamstrings",
+        "lower back",
+        "hip flexors"
+      ],
+      "evidence": [
+        {
+          "quote": "the hip flexor of the straight leg"
+        },
+        {
+          "rule": "The other muscles are the values of the source."
+        }
+      ]
+    }
+  },
+  "Runners_Stretch": {
+    "muscles.secondary": {
+      "value": [
+        "calves",
+        "hip flexors"
+      ],
+      "evidence": [
+        {
+          "quote": "You'll Stretch the hip flexor of the back leg"
+        },
+        {
+          "rule": "The other muscle is the value of the source."
+        }
+      ]
+    }
+  },
+  "Hip_Flexion_with_Band": {
+    "muscles.primary": {
+      "value": [
+        "hip flexors"
+      ],
+      "evidence": [
+        {
+          "quote": "raise your knee up to 90 degrees and pause"
+        },
+        {
+          "rule": "The hip flexes against the band, as the name says. The hip flexors do the work."
+        }
+      ]
+    },
+    "muscles.secondary": {
+      "value": [
+        "quadriceps"
+      ],
+      "evidence": [
+        {
+          "rule": "The source names the quadriceps. The rectus femoris part of the quadriceps crosses the hip, so it stays as a secondary muscle."
+        }
+      ]
+    }
+  },
+  "Barbell_Incline_Shoulder_Raise": {
+    "muscles.secondary": {
+      "value": [
+        "chest",
+        "serratus anterior"
+      ],
+      "evidence": [
+        {
+          "quote": "lift the bar by protracting your shoulder blades"
+        },
+        {
+          "rule": "The serratus anterior moves the shoulder blade forward around the ribs. The other muscles are the values of the source."
         }
       ]
     }

@@ -110,6 +110,26 @@
       "slug": "abdominals",
       "label": "Abs",
       "group": "core"
+    },
+    {
+      "slug": "serratus anterior",
+      "label": "Serratus",
+      "group": "chest"
+    },
+    {
+      "slug": "hip flexors",
+      "label": "Hip Flexors",
+      "group": "legs"
+    },
+    {
+      "slug": "tibialis anterior",
+      "label": "Tibialis",
+      "group": "legs"
+    },
+    {
+      "slug": "pelvic floor",
+      "label": "Pelvic Floor",
+      "group": "core"
     }
   ]
 }
