@@ -12,7 +12,11 @@ const _loads = {'absolute', 'added', 'none'};
 List<String> checkDataset(Map<String, Parsed> parsed, List<Json> records) {
   final problems = <String>[];
   final merges = readJson('curated/merges.json') as Json;
-  final groups = (merges['groups'] as Map).cast<String, List<dynamic>>();
+  final own = ownRecords();
+  final groups = {
+    ...(merges['groups'] as Map).cast<String, List<dynamic>>(),
+    for (final r in own) r['slug'] as String: const <dynamic>[],
+  };
   final groupEvidence = (merges['evidence'] as Map).cast<String, dynamic>();
   final fields = (readJson('curated/fields.json') as Map)
       .cast<String, dynamic>();
@@ -46,7 +50,8 @@ List<String> checkDataset(Map<String, Parsed> parsed, List<Json> records) {
       if (!seen.add(m)) problems.add('merges: $m is in two groups');
     }
     final renamed =
-        members.length > 1 || members.single != 'free-exercise-db:$slug';
+        members.length > 1 ||
+        (members.isNotEmpty && members.single != 'free-exercise-db:$slug');
     if (renamed && !_hasEvidence(groupEvidence[slug])) {
       problems.add('merges: $slug joins or renames records with no evidence');
     }
@@ -84,8 +89,33 @@ List<String> checkDataset(Map<String, Parsed> parsed, List<Json> records) {
       if (quote != null && !textOf(slug).contains(_flat(quote))) {
         problems.add('$where quotes text that the steps do not have: "$quote"');
       }
+      if (e.containsKey('url') && !isUrlEvidence(e)) {
+        problems.add('$where has url evidence with a bad url or no note');
+      }
+      if (!const ['quote', 'rule', 'url'].any(e.containsKey)) {
+        problems.add('$where has evidence of an unknown kind');
+      }
     }
   }
+
+  if (merges['groups'].length + own.length != groups.length) {
+    problems.add('records: an own record has the slug of a merge group');
+  }
+  for (final r in own) {
+    final slug = r['slug'];
+    evidence('records: $slug', '$slug', r['evidence']);
+    final hosts = {
+      for (final e in ((r['evidence'] as List?) ?? const []).cast<Json>())
+        if (isUrlEvidence(e)) Uri.parse(e['url'] as String).host,
+    };
+    if (hosts.length < 2) {
+      problems.add('records: $slug needs url evidence from two sources');
+    }
+  }
+  final notStrength = {
+    for (final n in (readJson('curated/not-strength.json') as List))
+      _normalized(n as String),
+  };
 
   for (final MapEntry(key: slug, value: entry) in fields.entries) {
     if (!groups.containsKey(slug)) {
@@ -120,6 +150,9 @@ List<String> checkDataset(Map<String, Parsed> parsed, List<Json> records) {
         problems.add('names: "$name" of $slug is also a name of $other');
       }
       names[key] = slug;
+      if (r['kind'] != 'cardio' && notStrength.contains(key)) {
+        problems.add('not-strength: "$name" is a name of $slug');
+      }
     }
     for (final e in ((r['equipment'] as List?) ?? const []).cast<String>()) {
       if (!equipment.contains(e)) {
@@ -175,6 +208,17 @@ List<String> checkDataset(Map<String, Parsed> parsed, List<Json> records) {
     }
   }
   return problems;
+}
+
+/// Evidence from an outside source: an https url and a note on what it shows.
+bool isUrlEvidence(Json e) {
+  final uri = Uri.tryParse(e['url'] is String ? e['url'] as String : '');
+  final note = e['note'];
+  return uri != null &&
+      uri.scheme == 'https' &&
+      uri.host.contains('.') &&
+      note is String &&
+      note.trim().isNotEmpty;
 }
 
 bool _hasEvidence(Object? items) => items is List && items.isNotEmpty;

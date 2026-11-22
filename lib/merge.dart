@@ -9,6 +9,7 @@ class MergeInputs {
     required this.fields,
     required this.aliases,
     required this.muscleGroups,
+    this.own = const [],
   });
 
   /// Parsed records by dataset, in source order.
@@ -22,7 +23,20 @@ class MergeInputs {
 
   /// Muscle slug to its group slug.
   final Map<String, String> muscleGroups;
+
+  /// The records of `curated/records.json`, which no source has.
+  final List<Json> own;
 }
+
+/// The dataset name of an own record, and its SOURCE entry.
+const ownDataset = 'redouble-exercises';
+const ownSource = {
+  'dataset': ownDataset,
+  'license': 'CC0',
+  'authors': ['redouble-exercises contributors'],
+  'recordUrl':
+      'https://github.com/whilestevego/redouble-exercises/blob/main/curated/records.json',
+};
 
 /// The tracking fields, in output order.
 const trackingFields = [
@@ -49,6 +63,14 @@ List<Json> merge(MergeInputs inputs) {
         [for (final m in members.cast<String>()) byRef[m]!],
         (inputs.fields[slug] as Map?)?.cast<String, dynamic>() ?? const {},
         (inputs.aliases[slug] as List?)?.cast<Json>() ?? const [],
+        inputs,
+      ),
+    for (final r in inputs.own)
+      _record(
+        r['slug'] as String,
+        [(ownDataset, r)],
+        (inputs.fields[r['slug']] as Map?)?.cast<String, dynamic>() ?? const {},
+        const [],
         inputs,
       ),
   ];
@@ -197,29 +219,37 @@ Json _record(
   }
 
   final sourceName = first['name'] as String;
+  (String, T)? tracked<T>(String f) =>
+      fromMembers((r) => (r['tracking'] as Map?)?[f] as T?);
   final tracking = <String, Object?>{
     'measure': pick<String>(
       'tracking.measure',
-      () => null,
+      () => tracked('measure'),
       rule: () => measureOf(name, kind, force),
     ),
-    'durationSec': pick<int?>('tracking.durationSec', () => null),
-    'distanceM': pick<num?>('tracking.distanceM', () => null),
+    'durationSec': pick<int?>(
+      'tracking.durationSec',
+      () => tracked('durationSec'),
+    ),
+    'distanceM': pick<num?>('tracking.distanceM', () => tracked('distanceM')),
     'laterality': pick<String>(
       'tracking.laterality',
-      () => null,
+      () => tracked('laterality'),
       rule: () => lateralityOf(sourceName),
     ),
     'load': pick<String>(
       'tracking.load',
-      () => null,
+      () => tracked('load'),
       rule: () => switch (kind) {
         'stretching' => 'none',
         _ when equipment?.contains('bodyweight') ?? false => 'added',
         _ => 'absolute',
       },
     ),
-    'bodyweightFactor': pick<num?>('tracking.bodyweightFactor', () => null),
+    'bodyweightFactor': pick<num?>(
+      'tracking.bodyweightFactor',
+      () => tracked('bodyweightFactor'),
+    ),
   };
   final variationGroup = fromMembers((r) => r['variationGroup'] as String?);
 
@@ -256,16 +286,15 @@ Json _record(
 /// A record's own license and authors win over its dataset's.
 List<Json> _sourcesOf(List<(String, Json)> members, MergeInputs inputs) => [
   for (final (dataset, r) in members)
-    {
-      'dataset': dataset,
-      'id': r['id'],
-      'license': r['license'] ?? inputs.sources[dataset]!['license'],
-      'authors': r['authors'] ?? inputs.sources[dataset]!['authors'],
-      'url': (inputs.sources[dataset]!['recordUrl'] as String).replaceAll(
-        '{id}',
-        '${r['id']}',
-      ),
-    },
+    if ((dataset == ownDataset ? ownSource : inputs.sources[dataset]!)
+        case final source)
+      {
+        'dataset': dataset,
+        'id': r['id'] ?? r['slug'],
+        'license': r['license'] ?? source['license'],
+        'authors': r['authors'] ?? source['authors'],
+        'url': (source['recordUrl'] as String).replaceAll('{id}', '${r['id']}'),
+      },
 ];
 
 /// The rank of each license that a source uses. A higher rank asks more of

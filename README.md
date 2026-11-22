@@ -40,7 +40,8 @@ its exercise library from the releases of this repo.
 - A **slug** never changes, never goes away and never moves to another
   exercise.
 - **`provenance`** gives the origin of each field: a dataset name, `curated`
-  or `rule`.
+  or `rule`. The dataset name `redouble-exercises` marks an own record, which
+  no source has. An own record is under CC0.
 - **`null` or an absent value means unknown.** An empty list of secondary
   muscles that a source states is a fact.
 - **`tracking`** tells an app how to log a set. `measure` is `reps`, `time`
@@ -55,6 +56,10 @@ its exercise library from the releases of this repo.
 
 The equipment and muscle slugs are in `vocabulary/`.
 
+The file also has a `notStrength` list. It holds names that other apps write
+for an activity that is not a strength exercise, such as "Yoga" or "Hiking".
+An app that imports such a name can offer to skip it.
+
 ## How the build works
 
 ```
@@ -64,7 +69,7 @@ sources/      the upstream files, pinned to a commit
 parsed/       each source in our field names and vocabulary
    │  step 2: curate (a person or an agent, with evidence)
    ▼
-curated/      merges, field values and aliases
+curated/      merges, field values, aliases and own records
    │  step 3: merge (bin/build.dart, fixed rules)
    ▼
 dist/         the release
@@ -72,9 +77,18 @@ dist/         the release
 
 - The **parse** only translates. A value with no mapping becomes `null` and
   goes into `parsed/<source>.report.json`.
-- The **curation** holds each decision. Each value has evidence: a quote from
-  the record's steps, or the rule it applies. The build fails when a quote is
-  not in the steps.
+- The **curation** holds each decision. Each value has evidence of one of
+  three kinds:
+  - `{"quote": "…"}` is a quote from the record's steps. The build fails when
+    the quote is not in the steps.
+  - `{"rule": "…"}` states the rule that gives the value.
+  - `{"url": "https://…", "note": "…"}` names an outside page that the curator
+    checked, and what the page shows. The build fails when the URL is not a
+    well-formed https URL.
+- `curated/records.json` holds the **own records**: exercises that no source
+  has. Each one is a full record, in our own words, with url evidence from two
+  independent sources or more.
+- `curated/not-strength.json` holds the `notStrength` names.
 - The **merge** is a fixed function of the two. A curated value wins over a
   source value, and a source value wins over a rule. In a group, the first
   member that states a field gives it, so a free-exercise-db record keeps its
@@ -97,8 +111,9 @@ make ci      # format, analyze, test, and check that dist/ is current
 
 `make check` fails when a committed output differs from a new build, or when
 a rule breaks. The rules: each source record is in one merge group, each
-curated value has evidence, each slug and name is unique, and each equipment
-and muscle is in the vocabulary.
+curated value has evidence, each own record has url evidence from two hosts,
+each slug and name is unique, and each equipment and muscle is in the
+vocabulary.
 
 ## Report a missing exercise or name
 
