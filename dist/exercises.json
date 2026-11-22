@@ -256,7 +256,7 @@
       "tracking": {
         "measure": "reps",
         "laterality": "bilateral",
-        "load": "absolute"
+        "load": "added"
       },
       "variationGroup": null,
       "sources": [
@@ -281,7 +281,7 @@
         "force": "free-exercise-db",
         "tracking.measure": "rule",
         "tracking.laterality": "rule",
-        "tracking.load": "rule",
+        "tracking.load": "curated",
         "level": "free-exercise-db",
         "mechanic": "free-exercise-db"
       },
@@ -1699,7 +1699,9 @@
     {
       "slug": "Around_The_Worlds",
       "name": "Around The Worlds",
-      "aliases": [],
+      "aliases": [
+        "Around the World"
+      ],
       "kind": "strength",
       "region": "chest",
       "muscles": {
@@ -1747,6 +1749,7 @@
         "instructions": "free-exercise-db",
         "region": "rule",
         "force": "free-exercise-db",
+        "aliases": "curated",
         "tracking.measure": "rule",
         "tracking.laterality": "rule",
         "tracking.load": "rule",
@@ -2236,7 +2239,7 @@
       "tracking": {
         "measure": "reps",
         "laterality": "bilateral",
-        "load": "absolute"
+        "load": "added"
       },
       "variationGroup": null,
       "sources": [
@@ -2261,7 +2264,7 @@
         "force": "free-exercise-db",
         "tracking.measure": "rule",
         "tracking.laterality": "rule",
-        "tracking.load": "rule",
+        "tracking.load": "curated",
         "level": "free-exercise-db",
         "mechanic": "free-exercise-db"
       },
@@ -2271,9 +2274,7 @@
     {
       "slug": "Band_Assisted_Pull-Up",
       "name": "Band Assisted Pull-Up",
-      "aliases": [
-        "Assisted Pull-Up"
-      ],
+      "aliases": [],
       "kind": "strength",
       "region": "back",
       "muscles": {
@@ -2819,8 +2820,7 @@
       "aliases": [
         "Bench Press (Barbell)",
         "Flat Barbell Bench Press",
-        "Bench Press",
-        "Bench Press (Custom)"
+        "Bench Press"
       ],
       "kind": "strength",
       "region": "chest",
@@ -3430,8 +3430,7 @@
       "slug": "Barbell_Hip_Thrust",
       "name": "Barbell Hip Thrust",
       "aliases": [
-        "Hip Thrust",
-        "Hip Thrust (Custom)"
+        "Hip Thrust"
       ],
       "kind": "powerlifting",
       "region": "legs",
@@ -6391,9 +6390,7 @@
     {
       "slug": "Bodyweight_Squat",
       "name": "Bodyweight Squat",
-      "aliases": [
-        "Bodyweight Squat HD"
-      ],
+      "aliases": [],
       "kind": "strength",
       "region": "legs",
       "muscles": {
@@ -6452,7 +6449,6 @@
         "instructions": "free-exercise-db",
         "region": "rule",
         "force": "free-exercise-db",
-        "aliases": "free-exercise-db",
         "tracking.measure": "rule",
         "tracking.laterality": "rule",
         "tracking.load": "rule",
@@ -7303,7 +7299,6 @@
       "slug": "Butterfly",
       "name": "Butterfly",
       "aliases": [
-        "Butterfly (Custom)",
         "Machine chest fly"
       ],
       "kind": "strength",
@@ -7547,8 +7542,7 @@
       "slug": "Cable_Crunch",
       "name": "Cable Crunch",
       "aliases": [
-        "Crunches With Cable",
-        "Crunches With Cable (Custom)"
+        "Crunches With Cable"
       ],
       "kind": "strength",
       "region": "core",
@@ -12676,7 +12670,6 @@
         "Crunch (Weighted)",
         "Weighted Crunch",
         "Weighted Crunches",
-        "Crunches (Custom)",
         "Dumbbell Crunches",
         "Abdominal Crunch"
       ],
@@ -12929,9 +12922,7 @@
     {
       "slug": "Dead_Bug",
       "name": "Dead Bug",
-      "aliases": [
-        "Dead Bug (Custom)"
-      ],
+      "aliases": [],
       "kind": "strength",
       "region": "core",
       "muscles": {
@@ -13001,7 +12992,6 @@
         "instructions": "free-exercise-db",
         "region": "rule",
         "force": "free-exercise-db",
-        "aliases": "free-exercise-db",
         "tracking.measure": "rule",
         "tracking.laterality": "curated",
         "tracking.load": "rule",
@@ -13789,7 +13779,9 @@
     {
       "slug": "Decline_Reverse_Crunch",
       "name": "Decline Reverse Crunch",
-      "aliases": [],
+      "aliases": [
+        "Reverse Crunch (Decline Bench)"
+      ],
       "kind": "strength",
       "region": "core",
       "muscles": {
@@ -13837,6 +13829,7 @@
         "instructions": "free-exercise-db",
         "region": "rule",
         "force": "free-exercise-db",
+        "aliases": "curated",
         "tracking.measure": "rule",
         "tracking.laterality": "rule",
         "tracking.load": "rule",
@@ -15068,7 +15061,6 @@
       "name": "Dumbbell Bicep Curl",
       "aliases": [
         "Biceps Curls With Dumbbell",
-        "Biceps Curls With Dumbbell (Custom)",
         "Standing Bicep Curl",
         "Dumbbell Curl"
       ],
@@ -17680,7 +17672,7 @@
       "tracking": {
         "measure": "reps",
         "laterality": "bilateral",
-        "load": "absolute"
+        "load": "added"
       },
       "variationGroup": "8f8b5cfb-7f26-45c5-bba5-aae58b3e039f",
       "sources": [
@@ -17715,7 +17707,7 @@
         "aliases": "curated",
         "tracking.measure": "rule",
         "tracking.laterality": "rule",
-        "tracking.load": "rule",
+        "tracking.load": "curated",
         "level": "free-exercise-db",
         "mechanic": "free-exercise-db"
       },
@@ -17732,7 +17724,9 @@
     {
       "slug": "Exercise_Ball_Pull-In",
       "name": "Exercise Ball Pull-In",
-      "aliases": [],
+      "aliases": [
+        "Knee Tuck (Exercise Ball)"
+      ],
       "kind": "strength",
       "region": "core",
       "muscles": {
@@ -17757,7 +17751,7 @@
       "tracking": {
         "measure": "reps",
         "laterality": "bilateral",
-        "load": "absolute"
+        "load": "added"
       },
       "variationGroup": null,
       "sources": [
@@ -17780,9 +17774,10 @@
         "instructions": "free-exercise-db",
         "region": "rule",
         "force": "free-exercise-db",
+        "aliases": "curated",
         "tracking.measure": "rule",
         "tracking.laterality": "rule",
-        "tracking.load": "rule",
+        "tracking.load": "curated",
         "level": "free-exercise-db",
         "mechanic": "free-exercise-db"
       },
@@ -18454,7 +18449,9 @@
     {
       "slug": "Flat_Bench_Lying_Leg_Raise",
       "name": "Flat Bench Lying Leg Raise",
-      "aliases": [],
+      "aliases": [
+        "Flat Leg Raise"
+      ],
       "kind": "strength",
       "region": "core",
       "muscles": {
@@ -18501,6 +18498,7 @@
         "instructions": "free-exercise-db",
         "region": "rule",
         "force": "free-exercise-db",
+        "aliases": "curated",
         "tracking.measure": "rule",
         "tracking.laterality": "rule",
         "tracking.load": "rule",
@@ -20778,8 +20776,7 @@
       "name": "Hack Squat",
       "aliases": [
         "Hack Squats",
-        "Machine Squat",
-        "Hack Squats (Custom)"
+        "Machine Squat"
       ],
       "kind": "strength",
       "region": "legs",
@@ -21538,7 +21535,6 @@
       "name": "Hanging Leg Raise",
       "aliases": [
         "Hanging Leg Raises",
-        "Hanging Leg Raises (Custom)",
         "Leg raises pull up bar"
       ],
       "kind": "strength",
@@ -26194,7 +26190,7 @@
       "tracking": {
         "measure": "reps",
         "laterality": "bilateral",
-        "load": "absolute"
+        "load": "added"
       },
       "variationGroup": null,
       "sources": [
@@ -26219,7 +26215,7 @@
         "force": "free-exercise-db",
         "tracking.measure": "rule",
         "tracking.laterality": "rule",
-        "tracking.load": "rule",
+        "tracking.load": "curated",
         "level": "free-exercise-db",
         "mechanic": "free-exercise-db"
       },
@@ -27424,8 +27420,7 @@
       "slug": "Leg_Extensions",
       "name": "Leg Extensions",
       "aliases": [
-        "Leg Extension",
-        "Leg Extension (Custom)"
+        "Leg Extension"
       ],
       "kind": "strength",
       "region": "legs",
@@ -27574,8 +27569,7 @@
       "slug": "Leg_Press",
       "name": "Leg Press",
       "aliases": [
-        "Machine Leg Press",
-        "Leg Press (Custom)"
+        "Machine Leg Press"
       ],
       "kind": "strength",
       "region": "legs",
@@ -30656,8 +30650,7 @@
       "slug": "Machine_Shoulder_Military_Press",
       "name": "Machine Shoulder (Military) Press",
       "aliases": [
-        "Shoulder Press, on Machine",
-        "Shoulder Press, on Machine (Custom)"
+        "Shoulder Press, on Machine"
       ],
       "kind": "strength",
       "region": "shoulders",
@@ -34019,8 +34012,7 @@
       "slug": "One_Arm_Lat_Pulldown",
       "name": "One Arm Lat Pulldown",
       "aliases": [
-        "Single-Arm Lat Pulldown",
-        "Single-Arm Lat Pulldown (Custom)"
+        "Single-Arm Lat Pulldown"
       ],
       "kind": "strength",
       "region": "back",
@@ -35392,8 +35384,7 @@
       "name": "Parallel Bar Dip",
       "aliases": [
         "Dips",
-        "Weighted Dips",
-        "Dips (Custom)"
+        "Weighted Dips"
       ],
       "kind": "strength",
       "region": "arms",
@@ -35679,7 +35670,7 @@
       "tracking": {
         "measure": "reps",
         "laterality": "bilateral",
-        "load": "absolute"
+        "load": "added"
       },
       "variationGroup": null,
       "sources": [
@@ -35704,7 +35695,7 @@
         "force": "free-exercise-db",
         "tracking.measure": "rule",
         "tracking.laterality": "rule",
-        "tracking.load": "rule",
+        "tracking.load": "curated",
         "level": "free-exercise-db",
         "mechanic": "free-exercise-db"
       },
@@ -37290,8 +37281,7 @@
         "Pull Up (Weighted)",
         "Weighted Pull Up",
         "Pull-Up",
-        "Weighted Pull Ups",
-        "Pull-ups (Custom)"
+        "Weighted Pull Ups"
       ],
       "kind": "strength",
       "region": "back",
@@ -37652,7 +37642,7 @@
       "tracking": {
         "measure": "reps",
         "laterality": "bilateral",
-        "load": "absolute"
+        "load": "added"
       },
       "variationGroup": null,
       "sources": [
@@ -37677,7 +37667,7 @@
         "force": "free-exercise-db",
         "tracking.measure": "rule",
         "tracking.laterality": "rule",
-        "tracking.load": "rule",
+        "tracking.load": "curated",
         "level": "free-exercise-db",
         "mechanic": "free-exercise-db"
       },
@@ -39459,7 +39449,6 @@
       "name": "Reverse Grip Bent-Over Rows",
       "aliases": [
         "Barbell Row (Underhand)",
-        "Barbell Row (Underhand) (Custom)",
         "Bent Over Rowing Reverse"
       ],
       "kind": "strength",
@@ -39703,7 +39692,6 @@
       "name": "Reverse Machine Flyes",
       "aliases": [
         "Butterfly Reverse",
-        "Butterfly Reverse (Custom)",
         "Pec deck rear delt fly"
       ],
       "kind": "strength",
@@ -40385,7 +40373,6 @@
       "name": "Romanian Deadlift",
       "aliases": [
         "RDL",
-        "Romanian Deadlift (Custom)",
         "Barbell Romanian Deadlift (RDL)"
       ],
       "kind": "strength",
@@ -42176,8 +42163,7 @@
       "slug": "Seated_Dumbbell_Curl",
       "name": "Seated Dumbbell Curl",
       "aliases": [
-        "Seated Dumbbell Curls",
-        "Seated Dumbbell Biceps Curl (Custom)"
+        "Seated Dumbbell Curls"
       ],
       "kind": "strength",
       "region": "arms",
@@ -42989,8 +42975,7 @@
       "name": "Seated Leg Curl",
       "aliases": [
         "Leg Curls (sitting)",
-        "Machine Seated Leg Curl",
-        "Leg Curls (sitting) (Custom)"
+        "Machine Seated Leg Curl"
       ],
       "kind": "strength",
       "region": "legs",
@@ -43504,8 +43489,7 @@
       "slug": "Seated_Side_Lateral_Raise",
       "name": "Seated Side Lateral Raise",
       "aliases": [
-        "Seated Dumbbell Side Lateral",
-        "Seated Dumbbell Side Lateral (Custom)"
+        "Seated Dumbbell Side Lateral"
       ],
       "kind": "strength",
       "region": "shoulders",
@@ -44177,10 +44161,7 @@
     {
       "slug": "Side_Bridge",
       "name": "Side Plank",
-      "aliases": [
-        "Side Plank (Custom)",
-        "Side plank right"
-      ],
+      "aliases": [],
       "kind": "strength",
       "region": "core",
       "muscles": {
@@ -44258,7 +44239,6 @@
         "instructions": "curated",
         "region": "rule",
         "force": "free-exercise-db",
-        "aliases": "free-exercise-db",
         "tracking.measure": "curated",
         "tracking.durationSec": "curated",
         "tracking.laterality": "curated",
@@ -44408,8 +44388,7 @@
         "Lateral Raises",
         "Shoulder fly",
         "Side raises",
-        "Dumbbell Lateral Raise",
-        "Dumbbell Lateral Raise (Custom)"
+        "Dumbbell Lateral Raise"
       ],
       "kind": "strength",
       "region": "shoulders",
@@ -44678,10 +44657,7 @@
     {
       "slug": "Side_Neck_Stretch",
       "name": "Side Neck Stretch",
-      "aliases": [
-        "Left neck stretch",
-        "Right neck stretch"
-      ],
+      "aliases": [],
       "kind": "stretching",
       "region": "shoulders",
       "muscles": {
@@ -44744,7 +44720,6 @@
         "instructions": "free-exercise-db",
         "region": "rule",
         "force": "free-exercise-db",
-        "aliases": "free-exercise-db",
         "tracking.measure": "rule",
         "tracking.laterality": "rule",
         "tracking.load": "rule",
@@ -45289,7 +45264,7 @@
       "tracking": {
         "measure": "reps",
         "laterality": "unilateral",
-        "load": "absolute"
+        "load": "added"
       },
       "variationGroup": null,
       "sources": [
@@ -45314,7 +45289,7 @@
         "force": "free-exercise-db",
         "tracking.measure": "rule",
         "tracking.laterality": "curated",
-        "tracking.load": "rule",
+        "tracking.load": "curated",
         "level": "free-exercise-db",
         "mechanic": "free-exercise-db"
       },
@@ -48917,8 +48892,7 @@
       "slug": "Split_Squat_with_Dumbbells",
       "name": "Dumbbell Bulgarian Split Squat",
       "aliases": [
-        "Bulgarian Squat with Dumbbells",
-        "Bulgarian Split Squat (Custom)"
+        "Bulgarian Squat with Dumbbells"
       ],
       "kind": "strength",
       "region": "legs",
@@ -49868,10 +49842,7 @@
     {
       "slug": "Standing_Biceps_Stretch",
       "name": "Standing Biceps Stretch",
-      "aliases": [
-        "Standing biceps stretch left",
-        "Standing biceps stretch right"
-      ],
+      "aliases": [],
       "kind": "stretching",
       "region": "arms",
       "muscles": {
@@ -49937,7 +49908,6 @@
         "instructions": "free-exercise-db",
         "region": "rule",
         "force": "free-exercise-db",
-        "aliases": "free-exercise-db",
         "tracking.measure": "rule",
         "tracking.laterality": "rule",
         "tracking.load": "rule",
@@ -50471,7 +50441,9 @@
     {
       "slug": "Standing_Dumbbell_Reverse_Curl",
       "name": "Standing Dumbbell Reverse Curl",
-      "aliases": [],
+      "aliases": [
+        "Reverse Curl (Dumbbell)"
+      ],
       "kind": "strength",
       "region": "arms",
       "muscles": {
@@ -50520,6 +50492,7 @@
         "instructions": "free-exercise-db",
         "region": "rule",
         "force": "free-exercise-db",
+        "aliases": "curated",
         "tracking.measure": "rule",
         "tracking.laterality": "rule",
         "tracking.load": "rule",
@@ -53018,7 +52991,6 @@
       "name": "Straight-Arm Pulldown",
       "aliases": [
         "Straight-arm Pull Down (bar Attachment)",
-        "Straight-arm Pull Down (bar Attachment) (Custom)",
         "Straight-Arm Pulldown (Cable)"
       ],
       "kind": "strength",
@@ -53819,7 +53791,7 @@
       "tracking": {
         "measure": "reps",
         "laterality": "bilateral",
-        "load": "absolute"
+        "load": "added"
       },
       "variationGroup": null,
       "sources": [
@@ -53844,7 +53816,7 @@
         "force": "free-exercise-db",
         "tracking.measure": "rule",
         "tracking.laterality": "rule",
-        "tracking.load": "rule",
+        "tracking.load": "curated",
         "level": "free-exercise-db",
         "mechanic": "free-exercise-db"
       },
@@ -53942,7 +53914,7 @@
       "tracking": {
         "measure": "reps",
         "laterality": "bilateral",
-        "load": "absolute"
+        "load": "added"
       },
       "variationGroup": null,
       "sources": [
@@ -53967,7 +53939,7 @@
         "force": "free-exercise-db",
         "tracking.measure": "rule",
         "tracking.laterality": "rule",
-        "tracking.load": "rule",
+        "tracking.load": "curated",
         "level": "free-exercise-db",
         "mechanic": "free-exercise-db"
       },
@@ -54070,7 +54042,7 @@
       "tracking": {
         "measure": "reps",
         "laterality": "unilateral",
-        "load": "absolute"
+        "load": "added"
       },
       "variationGroup": null,
       "sources": [
@@ -54095,7 +54067,7 @@
         "force": "free-exercise-db",
         "tracking.measure": "rule",
         "tracking.laterality": "curated",
-        "tracking.load": "rule",
+        "tracking.load": "curated",
         "level": "free-exercise-db",
         "mechanic": "free-exercise-db"
       },
@@ -54455,8 +54427,7 @@
       "name": "Thigh Adductor",
       "aliases": [
         "Hip Adductor (Machine)",
-        "Seated Hip Adduction",
-        "Seated Hip Adduction (Custom)"
+        "Seated Hip Adduction"
       ],
       "kind": "strength",
       "region": "legs",
@@ -55060,7 +55031,6 @@
       "slug": "Triceps_Pushdown",
       "name": "Triceps Pushdown",
       "aliases": [
-        "Triceps Pushdown (Custom)",
         "Tricep Pushdown on Cable"
       ],
       "kind": "strength",
@@ -55301,10 +55271,7 @@
     {
       "slug": "Triceps_Stretch",
       "name": "Triceps Stretch",
-      "aliases": [
-        "Triceps stretch left",
-        "Triceps stretch right"
-      ],
+      "aliases": [],
       "kind": "stretching",
       "region": "arms",
       "muscles": {
@@ -55368,7 +55335,6 @@
         "instructions": "free-exercise-db",
         "region": "rule",
         "force": "free-exercise-db",
-        "aliases": "free-exercise-db",
         "tracking.measure": "rule",
         "tracking.laterality": "rule",
         "tracking.load": "rule",
@@ -56959,9 +56925,7 @@
         "Lat Pulldown",
         "Wide-grip Pulldown",
         "Lat Pulldown (Wide Grip)",
-        "Machine Lat Pulldown",
-        "Wide-grip Pulldown (Custom)",
-        "Jalón al pecho con agarre ancho"
+        "Machine Lat Pulldown"
       ],
       "kind": "strength",
       "region": "back",
@@ -58335,8 +58299,7 @@
       "slug": "Barbell_Wrist_Curl",
       "name": "Barbell Wrist Curl",
       "aliases": [
-        "Forearm Curls",
-        "Curl De Muñeca Con Barra"
+        "Forearm Curls"
       ],
       "kind": "strength",
       "region": "arms",
@@ -58472,7 +58435,9 @@
     {
       "slug": "Bear_Walk",
       "name": "Bear Walk",
-      "aliases": [],
+      "aliases": [
+        "Bear Crawl"
+      ],
       "kind": "strength",
       "region": "shoulders",
       "muscles": {
@@ -58527,6 +58492,7 @@
         "equipment": "wger",
         "instructions": "wger",
         "region": "rule",
+        "aliases": "curated",
         "tracking.measure": "rule",
         "tracking.laterality": "rule",
         "tracking.load": "rule"
@@ -61071,9 +61037,7 @@
     {
       "slug": "Jumping_Jack",
       "name": "Jumping Jack",
-      "aliases": [
-        "Jumping Jack HD"
-      ],
+      "aliases": [],
       "kind": "cardio",
       "region": "legs",
       "muscles": {
@@ -61128,7 +61092,6 @@
         "equipment": "wger",
         "instructions": "wger",
         "region": "rule",
-        "aliases": "wger",
         "tracking.measure": "rule",
         "tracking.laterality": "rule",
         "tracking.load": "rule"
@@ -61536,7 +61499,9 @@
     {
       "slug": "Leg_Curl",
       "name": "Leg Curl",
-      "aliases": [],
+      "aliases": [
+        "Hamstring Curl"
+      ],
       "kind": "strength",
       "region": "legs",
       "muscles": {
@@ -61578,6 +61543,7 @@
         "instructions": "wger",
         "region": "rule",
         "force": "curated",
+        "aliases": "curated",
         "tracking.measure": "rule",
         "tracking.laterality": "rule",
         "tracking.load": "rule",
@@ -62545,7 +62511,7 @@
     },
     {
       "slug": "Pendelay_Rows",
-      "name": "Pendelay Rows",
+      "name": "Pendlay Rows",
       "aliases": [],
       "kind": "strength",
       "region": "back",
@@ -62586,7 +62552,7 @@
         }
       ],
       "provenance": {
-        "name": "wger",
+        "name": "curated",
         "kind": "rule",
         "muscles.primary": "wger",
         "muscles.secondary": "wger",
@@ -62678,9 +62644,7 @@
     {
       "slug": "Pistol_Squat",
       "name": "Pistol Squat",
-      "aliases": [
-        "Pistol squats right"
-      ],
+      "aliases": [],
       "kind": "strength",
       "region": "legs",
       "muscles": {
@@ -62740,7 +62704,6 @@
         "instructions": "wger",
         "region": "rule",
         "force": "curated",
-        "aliases": "wger",
         "tracking.measure": "rule",
         "tracking.laterality": "rule",
         "tracking.load": "rule",
@@ -62827,7 +62790,11 @@
     {
       "slug": "Pull_Ups_On_Machine",
       "name": "Pull Ups On Machine",
-      "aliases": [],
+      "aliases": [
+        "Assisted Pull-Up",
+        "Pull Up (Assisted)",
+        "Machine Assisted Pull-Up"
+      ],
       "kind": "strength",
       "region": "back",
       "muscles": {
@@ -62873,6 +62840,7 @@
         "instructions": "rule",
         "region": "rule",
         "force": "curated",
+        "aliases": "curated",
         "tracking.measure": "rule",
         "tracking.laterality": "rule",
         "tracking.load": "rule",
@@ -65528,10 +65496,7 @@
     {
       "slug": "Single-Leg_Calf_Raise",
       "name": "Single-Leg Calf Raise",
-      "aliases": [
-        "Calf raises, left leg",
-        "Calf raises, right leg"
-      ],
+      "aliases": [],
       "kind": "strength",
       "region": "legs",
       "muscles": {
@@ -65599,7 +65564,6 @@
         "instructions": "wger",
         "region": "rule",
         "force": "curated",
-        "aliases": "wger",
         "tracking.measure": "rule",
         "tracking.laterality": "rule",
         "tracking.load": "rule",
@@ -66889,11 +66853,7 @@
     {
       "slug": "Suspended_Crossess",
       "name": "Suspended Crossess",
-      "aliases": [
-        "croci",
-        "sospensione",
-        "trx"
-      ],
+      "aliases": [],
       "kind": "cardio",
       "region": "chest",
       "muscles": {
@@ -66936,7 +66896,6 @@
         "equipment": "wger",
         "instructions": "wger",
         "region": "rule",
-        "aliases": "wger",
         "tracking.measure": "rule",
         "tracking.laterality": "rule",
         "tracking.load": "rule"
@@ -66953,7 +66912,7 @@
     },
     {
       "slug": "Quadriped_Arm_And_Leg_Raise",
-      "name": "Quadriped Arm And Leg Raise",
+      "name": "Quadruped Arm And Leg Raise",
       "aliases": [],
       "kind": "strength",
       "region": "shoulders",
@@ -67723,9 +67682,7 @@
     {
       "slug": "Side_Split_Squat",
       "name": "Side Split Squat",
-      "aliases": [
-        "Side split squats right"
-      ],
+      "aliases": [],
       "kind": "strength",
       "region": "legs",
       "muscles": {
@@ -67786,7 +67743,6 @@
         "instructions": "wger",
         "region": "rule",
         "force": "curated",
-        "aliases": "wger",
         "tracking.measure": "rule",
         "tracking.laterality": "rule",
         "tracking.load": "rule",
@@ -67807,9 +67763,7 @@
     {
       "slug": "Bulgarian_Split_Squat",
       "name": "Bulgarian Split Squat",
-      "aliases": [
-        "Bulgarian split squats right"
-      ],
+      "aliases": [],
       "kind": "strength",
       "region": "legs",
       "muscles": {
@@ -67869,7 +67823,6 @@
         "instructions": "wger",
         "region": "rule",
         "force": "curated",
-        "aliases": "wger",
         "tracking.measure": "rule",
         "tracking.laterality": "rule",
         "tracking.load": "rule",
@@ -67959,9 +67912,7 @@
     {
       "slug": "Split_Squat",
       "name": "Split Squat",
-      "aliases": [
-        "Split squats right"
-      ],
+      "aliases": [],
       "kind": "strength",
       "region": "legs",
       "muscles": {
@@ -68021,7 +67972,6 @@
         "instructions": "wger",
         "region": "rule",
         "force": "curated",
-        "aliases": "wger",
         "tracking.measure": "rule",
         "tracking.laterality": "rule",
         "tracking.load": "rule",
@@ -68319,9 +68269,7 @@
     {
       "slug": "Floor_Dip",
       "name": "Floor Dip",
-      "aliases": [
-        "Bench Dips On Floor HD"
-      ],
+      "aliases": [],
       "kind": "strength",
       "region": "arms",
       "muscles": {
@@ -68380,7 +68328,6 @@
         "instructions": "wger",
         "region": "rule",
         "force": "curated",
-        "aliases": "wger",
         "tracking.measure": "rule",
         "tracking.laterality": "rule",
         "tracking.load": "rule",
@@ -68997,9 +68944,7 @@
     {
       "slug": "Levator_Scapulae_Stretch",
       "name": "Levator Scapulae Stretch",
-      "aliases": [
-        "Right levator scapulae stretch"
-      ],
+      "aliases": [],
       "kind": "stretching",
       "region": "shoulders",
       "muscles": {
@@ -69052,7 +68997,6 @@
         "instructions": "wger",
         "region": "rule",
         "force": "curated",
-        "aliases": "wger",
         "tracking.measure": "rule",
         "tracking.laterality": "rule",
         "tracking.load": "rule",
@@ -69457,9 +69401,7 @@
     {
       "slug": "Quadruped_Thoracic_Rotation",
       "name": "Quadruped Thoracic Rotation",
-      "aliases": [
-        "Quadruped thoracic rotation right"
-      ],
+      "aliases": [],
       "kind": "stretching",
       "region": "back",
       "muscles": {
@@ -69513,7 +69455,6 @@
         "equipment": "wger",
         "instructions": "wger",
         "region": "rule",
-        "aliases": "wger",
         "tracking.measure": "rule",
         "tracking.laterality": "rule",
         "tracking.load": "rule",
@@ -69997,7 +69938,7 @@
     },
     {
       "slug": "Vpushup",
-      "name": "Vpushup",
+      "name": "V Push-up",
       "aliases": [],
       "kind": "strength",
       "region": "chest",
@@ -70037,7 +69978,7 @@
         }
       ],
       "provenance": {
-        "name": "wger",
+        "name": "curated",
         "kind": "rule",
         "muscles.primary": "wger",
         "muscles.secondary": "rule",
@@ -72634,9 +72575,7 @@
     {
       "slug": "Finger_Pushup",
       "name": "Finger Pushup",
-      "aliases": [
-        "Flexão de dedo"
-      ],
+      "aliases": [],
       "kind": "strength",
       "region": "chest",
       "muscles": {
@@ -72698,7 +72637,6 @@
         "instructions": "wger",
         "region": "rule",
         "force": "curated",
-        "aliases": "wger",
         "tracking.measure": "rule",
         "tracking.laterality": "rule",
         "tracking.load": "rule",
@@ -76584,6 +76522,7 @@
       "slug": "Single_Leg_RDL",
       "name": "Single Leg RDL",
       "aliases": [
+        "Single Leg Deadlift",
         "Single Leg Romanian Deadlift"
       ],
       "kind": "strength",
@@ -76635,7 +76574,7 @@
         "instructions": "wger",
         "region": "rule",
         "force": "curated",
-        "aliases": "wger",
+        "aliases": "curated",
         "tracking.measure": "rule",
         "tracking.laterality": "rule",
         "tracking.load": "rule",
@@ -82874,9 +82813,7 @@
     {
       "slug": "Bird_Dog",
       "name": "Bird Dog",
-      "aliases": [
-        "Bird Dog (Custom)"
-      ],
+      "aliases": [],
       "kind": "strength",
       "region": "core",
       "muscles": {
@@ -82934,7 +82871,6 @@
         "equipment": "wger",
         "instructions": "wger",
         "region": "rule",
-        "aliases": "wger",
         "tracking.measure": "rule",
         "tracking.laterality": "rule",
         "tracking.load": "rule",
@@ -83415,7 +83351,7 @@
     },
     {
       "slug": "Side-laying_Interior_Rotation",
-      "name": "Side-laying Interior Rotation",
+      "name": "Side-lying Internal Rotation",
       "aliases": [],
       "kind": "strength",
       "region": "shoulders",
@@ -85755,9 +85691,7 @@
     {
       "slug": "Seated_Hip_Abduction",
       "name": "Seated Hip Abduction",
-      "aliases": [
-        "Seated Hip Abduction (Custom)"
-      ],
+      "aliases": [],
       "kind": "strength",
       "region": "legs",
       "muscles": {
@@ -85824,7 +85758,6 @@
         "instructions": "wger",
         "region": "rule",
         "force": "curated",
-        "aliases": "wger",
         "tracking.measure": "rule",
         "tracking.laterality": "rule",
         "tracking.load": "rule",
@@ -87511,9 +87444,7 @@
     {
       "slug": "Seated_Row_Machine",
       "name": "Seated Row (Machine)",
-      "aliases": [
-        "Seated Row (Machine) (Custom)"
-      ],
+      "aliases": [],
       "kind": "strength",
       "region": "back",
       "muscles": {
@@ -87570,7 +87501,6 @@
         "instructions": "wger",
         "region": "rule",
         "force": "curated",
-        "aliases": "wger",
         "tracking.measure": "rule",
         "tracking.laterality": "rule",
         "tracking.load": "rule",
@@ -89237,9 +89167,7 @@
     {
       "slug": "Parallel_Bar_Hold",
       "name": "Parallel Bar Hold",
-      "aliases": [
-        "Isometria alle parallele"
-      ],
+      "aliases": [],
       "kind": "strength",
       "region": "shoulders",
       "muscles": {
@@ -89300,7 +89228,6 @@
         "instructions": "wger",
         "region": "rule",
         "force": "curated",
-        "aliases": "wger",
         "tracking.measure": "rule",
         "tracking.laterality": "rule",
         "tracking.load": "curated",
@@ -92224,9 +92151,7 @@
     {
       "slug": "Incline_Dumbbell_Y-Raise",
       "name": "Incline Dumbbell Y-Raise",
-      "aliases": [
-        "Incline DB Y-Raise (Custom)"
-      ],
+      "aliases": [],
       "kind": "strength",
       "region": "shoulders",
       "muscles": {
@@ -92288,7 +92213,6 @@
         "instructions": "wger",
         "region": "rule",
         "force": "curated",
-        "aliases": "wger",
         "tracking.measure": "rule",
         "tracking.laterality": "rule",
         "tracking.load": "rule",
@@ -97143,9 +97067,7 @@
     {
       "slug": "Boxing",
       "name": "Boxing",
-      "aliases": [
-        "Nah workout"
-      ],
+      "aliases": [],
       "kind": "cardio",
       "region": "shoulders",
       "muscles": {
@@ -97189,7 +97111,6 @@
         "muscles.secondary": "wger",
         "instructions": "wger",
         "region": "rule",
-        "aliases": "wger",
         "tracking.measure": "rule",
         "tracking.laterality": "rule",
         "tracking.load": "rule"

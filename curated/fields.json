@@ -580,6 +580,14 @@
           "quote": "Hold the Ab Roller with both hands and kneel on the floor."
         }
       ]
+    },
+    "tracking.load": {
+      "value": "added",
+      "evidence": [
+        {
+          "rule": "The body is the load. The user can add weight with a belt or a vest."
+        }
+      ]
     }
   },
   "Balance_Board": {
@@ -966,6 +974,14 @@
         },
         {
           "rule": "A vertical leg raise bench is a dip station with pads for the back and the forearms."
+        }
+      ]
+    },
+    "tracking.load": {
+      "value": "added",
+      "evidence": [
+        {
+          "rule": "The body is the load. The user can add weight with a belt or a vest."
         }
       ]
     }
@@ -1374,6 +1390,14 @@
           "quote": "Standing in front of it, step onto the box to a full standing position, letting your other leg remain unsupported."
         }
       ]
+    },
+    "tracking.load": {
+      "value": "added",
+      "evidence": [
+        {
+          "rule": "The body is the load. The user can add weight with a belt or a vest."
+        }
+      ]
     }
   },
   "Sled_Overhead_Backward_Walk": {
@@ -1478,6 +1502,14 @@
           "quote": "Adjust the straps so the handles are at an appropriate height, below waist level."
         }
       ]
+    },
+    "tracking.load": {
+      "value": "added",
+      "evidence": [
+        {
+          "rule": "The body is the load. The user can add weight with a belt or a vest."
+        }
+      ]
     }
   },
   "Suspended_Push-Up": {
@@ -1516,6 +1548,14 @@
       "evidence": [
         {
           "quote": "Secure a set of suspension straps with the handles hanging about a foot off of the ground."
+        }
+      ]
+    },
+    "tracking.load": {
+      "value": "added",
+      "evidence": [
+        {
+          "rule": "The body is the load. The user can add weight with a belt or a vest."
         }
       ]
     }
@@ -1564,6 +1604,14 @@
       "evidence": [
         {
           "quote": "Facing away from the setup, place your rear foot into the handle behind you."
+        }
+      ]
+    },
+    "tracking.load": {
+      "value": "added",
+      "evidence": [
+        {
+          "rule": "The body is the load. The user can add weight with a belt or a vest."
         }
       ]
     }
@@ -4834,10 +4882,10 @@
   },
   "Quadriped_Arm_And_Leg_Raise": {
     "name": {
-      "value": "Quadriped Arm And Leg Raise",
+      "value": "Quadruped Arm And Leg Raise",
       "evidence": [
         {
-          "rule": "The dataset writes a name in title case, with words in full."
+          "rule": "The source name misspells the word quadruped."
         }
       ]
     },
@@ -9357,10 +9405,10 @@
   },
   "Side-laying_Interior_Rotation": {
     "name": {
-      "value": "Side-laying Interior Rotation",
+      "value": "Side-lying Internal Rotation",
       "evidence": [
         {
-          "rule": "The dataset writes a name in title case, with words in full."
+          "rule": "The steps lie on the side and turn the shoulder inward. The source name misspells both words."
         }
       ]
     },
@@ -14213,6 +14261,14 @@
           "rule": "A free-weight lift that moves two or more joints needs practice of the technique. The dataset marks this as intermediate."
         }
       ]
+    },
+    "name": {
+      "value": "Pendlay Rows",
+      "evidence": [
+        {
+          "rule": "The source name misspells the name of the coach Glenn Pendlay."
+        }
+      ]
     }
   },
   "Pike_Push_Ups": {
@@ -15536,6 +15592,14 @@
       "evidence": [
         {
           "rule": "A basic hold or bodyweight movement that needs no special skill. The dataset marks this as beginner."
+        }
+      ]
+    },
+    "name": {
+      "value": "V Push-up",
+      "evidence": [
+        {
+          "rule": "The source name runs the two words together."
         }
       ]
     }
@@ -23231,6 +23295,56 @@
       "evidence": [
         {
           "rule": "The swimmer moves the body through the water with no other load. A pool is not in the vocabulary."
+        }
+      ]
+    }
+  },
+  "Ball_Leg_Curl": {
+    "tracking.load": {
+      "value": "added",
+      "evidence": [
+        {
+          "rule": "The body is the load. The user can add weight with a belt or a vest."
+        }
+      ]
+    }
+  },
+  "Exercise_Ball_Crunch": {
+    "tracking.load": {
+      "value": "added",
+      "evidence": [
+        {
+          "rule": "The body is the load. The user can add weight with a belt or a vest."
+        }
+      ]
+    }
+  },
+  "Exercise_Ball_Pull-In": {
+    "tracking.load": {
+      "value": "added",
+      "evidence": [
+        {
+          "rule": "The body is the load. The user can add weight with a belt or a vest."
+        }
+      ]
+    }
+  },
+  "Physioball_Hip_Bridge": {
+    "tracking.load": {
+      "value": "added",
+      "evidence": [
+        {
+          "rule": "The body is the load. The user can add weight with a belt or a vest."
+        }
+      ]
+    }
+  },
+  "Push-Ups_With_Feet_On_An_Exercise_Ball": {
+    "tracking.load": {
+      "value": "added",
+      "evidence": [
+        {
+          "rule": "The body is the load. The user can add weight with a belt or a vest."
         }
       ]
     }

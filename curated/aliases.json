@@ -23,6 +23,15 @@
           "rule": "Another spelling of the name."
         }
       ]
+    },
+    {
+      "name": "Pull-ups (Custom)",
+      "reject": true,
+      "evidence": [
+        {
+          "rule": "A user's copy of the record in wger, not another name."
+        }
+      ]
     }
   ],
   "Chin-Up": [
@@ -69,6 +78,15 @@
           "rule": "The weighted form is this exercise with added weight, which the app records on the set."
         }
       ]
+    },
+    {
+      "name": "Crunches (Custom)",
+      "reject": true,
+      "evidence": [
+        {
+          "rule": "A user's copy of the record in wger, not another name."
+        }
+      ]
     }
   ],
   "Freehand_Jump_Squat": [
@@ -113,6 +131,15 @@
       "evidence": [
         {
           "rule": "Flat is the default bench angle."
+        }
+      ]
+    },
+    {
+      "name": "Bench Press (Custom)",
+      "reject": true,
+      "evidence": [
+        {
+          "rule": "A user's copy of the record in wger, not another name."
         }
       ]
     }
@@ -199,6 +226,15 @@
           "rule": "The common abbreviation."
         }
       ]
+    },
+    {
+      "name": "Romanian Deadlift (Custom)",
+      "reject": true,
+      "evidence": [
+        {
+          "rule": "A user's copy of the record in wger, not another name."
+        }
+      ]
     }
   ],
   "Barbell_Squat": [
@@ -243,6 +279,15 @@
       "evidence": [
         {
           "rule": "The barbell is the default equipment of a hip thrust."
+        }
+      ]
+    },
+    {
+      "name": "Hip Thrust (Custom)",
+      "reject": true,
+      "evidence": [
+        {
+          "rule": "A user's copy of the record in wger, not another name."
         }
       ]
     }
@@ -341,6 +386,24 @@
           "rule": "A common name. A wide grip is the default grip."
         }
       ]
+    },
+    {
+      "name": "Wide-grip Pulldown (Custom)",
+      "reject": true,
+      "evidence": [
+        {
+          "rule": "A user's copy of the record in wger, not another name."
+        }
+      ]
+    },
+    {
+      "name": "Jalón al pecho con agarre ancho",
+      "reject": true,
+      "evidence": [
+        {
+          "rule": "The alias is not an English name of this exercise."
+        }
+      ]
     }
   ],
   "Leg_Press": [
@@ -349,6 +412,15 @@
       "evidence": [
         {
           "rule": "The name with its equipment word."
+        }
+      ]
+    },
+    {
+      "name": "Leg Press (Custom)",
+      "reject": true,
+      "evidence": [
+        {
+          "rule": "A user's copy of the record in wger, not another name."
         }
       ]
     }
@@ -418,6 +490,15 @@
           "rule": "Strong's name for this exercise."
         }
       ]
+    },
+    {
+      "name": "Seated Hip Adduction (Custom)",
+      "reject": true,
+      "evidence": [
+        {
+          "rule": "A user's copy of the record in wger, not another name."
+        }
+      ]
     }
   ],
   "Standing_Calf_Raises": [
@@ -466,6 +547,637 @@
       "evidence": [
         {
           "rule": "Strong's name for this exercise."
+        }
+      ]
+    }
+  ],
+  "Around_The_Worlds": [
+    {
+      "name": "Around the World",
+      "evidence": [
+        {
+          "rule": "The singular form of the name, as Strong writes it."
+        }
+      ]
+    }
+  ],
+  "Leg_Curl": [
+    {
+      "name": "Hamstring Curl",
+      "evidence": [
+        {
+          "quote": "also known as the hamstring curl"
+        }
+      ]
+    }
+  ],
+  "Standing_Dumbbell_Reverse_Curl": [
+    {
+      "name": "Reverse Curl (Dumbbell)",
+      "evidence": [
+        {
+          "rule": "Strong's name. A name with no form word means the standing form."
+        }
+      ]
+    }
+  ],
+  "Decline_Reverse_Crunch": [
+    {
+      "name": "Reverse Crunch (Decline Bench)",
+      "evidence": [
+        {
+          "rule": "Strong's name for this exercise."
+        }
+      ]
+    }
+  ],
+  "Exercise_Ball_Pull-In": [
+    {
+      "name": "Knee Tuck (Exercise Ball)",
+      "evidence": [
+        {
+          "rule": "Strong's name. The steps put the shins on the ball and pull the knees in."
+        }
+      ]
+    }
+  ],
+  "Flat_Bench_Lying_Leg_Raise": [
+    {
+      "name": "Flat Leg Raise",
+      "evidence": [
+        {
+          "rule": "Strong's name. The legs rise from a flat lying position."
+        }
+      ]
+    }
+  ],
+  "Single_Leg_RDL": [
+    {
+      "name": "Single Leg Deadlift",
+      "evidence": [
+        {
+          "rule": "A single-leg deadlift hinges at the hip on one leg, as the steps describe."
+        }
+      ]
+    }
+  ],
+  "Bear_Walk": [
+    {
+      "name": "Bear Crawl",
+      "evidence": [
+        {
+          "rule": "The common name of the movement that the steps describe."
+        }
+      ]
+    }
+  ],
+  "Pull_Ups_On_Machine": [
+    {
+      "name": "Assisted Pull-Up",
+      "evidence": [
+        {
+          "rule": "The machine assists the pull-up with a counterweight."
+        }
+      ]
+    },
+    {
+      "name": "Pull Up (Assisted)",
+      "evidence": [
+        {
+          "rule": "The machine assists the pull-up with a counterweight."
+        }
+      ]
+    },
+    {
+      "name": "Machine Assisted Pull-Up",
+      "evidence": [
+        {
+          "rule": "The machine assists the pull-up with a counterweight."
+        }
+      ]
+    }
+  ],
+  "Bodyweight_Squat": [
+    {
+      "name": "Bodyweight Squat HD",
+      "reject": true,
+      "evidence": [
+        {
+          "rule": "The alias carries a video marker, not another name."
+        }
+      ]
+    }
+  ],
+  "Butterfly": [
+    {
+      "name": "Butterfly (Custom)",
+      "reject": true,
+      "evidence": [
+        {
+          "rule": "A user's copy of the record in wger, not another name."
+        }
+      ]
+    }
+  ],
+  "Cable_Crunch": [
+    {
+      "name": "Crunches With Cable (Custom)",
+      "reject": true,
+      "evidence": [
+        {
+          "rule": "A user's copy of the record in wger, not another name."
+        }
+      ]
+    }
+  ],
+  "Dead_Bug": [
+    {
+      "name": "Dead Bug (Custom)",
+      "reject": true,
+      "evidence": [
+        {
+          "rule": "A user's copy of the record in wger, not another name."
+        }
+      ]
+    }
+  ],
+  "Dumbbell_Bicep_Curl": [
+    {
+      "name": "Biceps Curls With Dumbbell (Custom)",
+      "reject": true,
+      "evidence": [
+        {
+          "rule": "A user's copy of the record in wger, not another name."
+        }
+      ]
+    }
+  ],
+  "Hack_Squat": [
+    {
+      "name": "Hack Squats (Custom)",
+      "reject": true,
+      "evidence": [
+        {
+          "rule": "A user's copy of the record in wger, not another name."
+        }
+      ]
+    }
+  ],
+  "Hanging_Leg_Raise": [
+    {
+      "name": "Hanging Leg Raises (Custom)",
+      "reject": true,
+      "evidence": [
+        {
+          "rule": "A user's copy of the record in wger, not another name."
+        }
+      ]
+    }
+  ],
+  "Leg_Extensions": [
+    {
+      "name": "Leg Extension (Custom)",
+      "reject": true,
+      "evidence": [
+        {
+          "rule": "A user's copy of the record in wger, not another name."
+        }
+      ]
+    }
+  ],
+  "Machine_Shoulder_Military_Press": [
+    {
+      "name": "Shoulder Press, on Machine (Custom)",
+      "reject": true,
+      "evidence": [
+        {
+          "rule": "A user's copy of the record in wger, not another name."
+        }
+      ]
+    }
+  ],
+  "One_Arm_Lat_Pulldown": [
+    {
+      "name": "Single-Arm Lat Pulldown (Custom)",
+      "reject": true,
+      "evidence": [
+        {
+          "rule": "A user's copy of the record in wger, not another name."
+        }
+      ]
+    }
+  ],
+  "Parallel_Bar_Dip": [
+    {
+      "name": "Dips (Custom)",
+      "reject": true,
+      "evidence": [
+        {
+          "rule": "A user's copy of the record in wger, not another name."
+        }
+      ]
+    }
+  ],
+  "Reverse_Grip_Bent-Over_Rows": [
+    {
+      "name": "Barbell Row (Underhand) (Custom)",
+      "reject": true,
+      "evidence": [
+        {
+          "rule": "A user's copy of the record in wger, not another name."
+        }
+      ]
+    }
+  ],
+  "Reverse_Machine_Flyes": [
+    {
+      "name": "Butterfly Reverse (Custom)",
+      "reject": true,
+      "evidence": [
+        {
+          "rule": "A user's copy of the record in wger, not another name."
+        }
+      ]
+    }
+  ],
+  "Seated_Dumbbell_Curl": [
+    {
+      "name": "Seated Dumbbell Biceps Curl (Custom)",
+      "reject": true,
+      "evidence": [
+        {
+          "rule": "A user's copy of the record in wger, not another name."
+        }
+      ]
+    }
+  ],
+  "Seated_Leg_Curl": [
+    {
+      "name": "Leg Curls (sitting) (Custom)",
+      "reject": true,
+      "evidence": [
+        {
+          "rule": "A user's copy of the record in wger, not another name."
+        }
+      ]
+    }
+  ],
+  "Seated_Side_Lateral_Raise": [
+    {
+      "name": "Seated Dumbbell Side Lateral (Custom)",
+      "reject": true,
+      "evidence": [
+        {
+          "rule": "A user's copy of the record in wger, not another name."
+        }
+      ]
+    }
+  ],
+  "Side_Bridge": [
+    {
+      "name": "Side Plank (Custom)",
+      "reject": true,
+      "evidence": [
+        {
+          "rule": "A user's copy of the record in wger, not another name."
+        }
+      ]
+    },
+    {
+      "name": "Side plank right",
+      "reject": true,
+      "evidence": [
+        {
+          "rule": "A name for one side of the body, not another name of the exercise."
+        }
+      ]
+    }
+  ],
+  "Side_Lateral_Raise": [
+    {
+      "name": "Dumbbell Lateral Raise (Custom)",
+      "reject": true,
+      "evidence": [
+        {
+          "rule": "A user's copy of the record in wger, not another name."
+        }
+      ]
+    }
+  ],
+  "Side_Neck_Stretch": [
+    {
+      "name": "Left neck stretch",
+      "reject": true,
+      "evidence": [
+        {
+          "rule": "A name for one side of the body, not another name of the exercise."
+        }
+      ]
+    },
+    {
+      "name": "Right neck stretch",
+      "reject": true,
+      "evidence": [
+        {
+          "rule": "A name for one side of the body, not another name of the exercise."
+        }
+      ]
+    }
+  ],
+  "Split_Squat_with_Dumbbells": [
+    {
+      "name": "Bulgarian Split Squat (Custom)",
+      "reject": true,
+      "evidence": [
+        {
+          "rule": "A user's copy of the record in wger, not another name."
+        }
+      ]
+    }
+  ],
+  "Standing_Biceps_Stretch": [
+    {
+      "name": "Standing biceps stretch left",
+      "reject": true,
+      "evidence": [
+        {
+          "rule": "A name for one side of the body, not another name of the exercise."
+        }
+      ]
+    },
+    {
+      "name": "Standing biceps stretch right",
+      "reject": true,
+      "evidence": [
+        {
+          "rule": "A name for one side of the body, not another name of the exercise."
+        }
+      ]
+    }
+  ],
+  "Straight-Arm_Pulldown": [
+    {
+      "name": "Straight-arm Pull Down (bar Attachment) (Custom)",
+      "reject": true,
+      "evidence": [
+        {
+          "rule": "A user's copy of the record in wger, not another name."
+        }
+      ]
+    }
+  ],
+  "Triceps_Pushdown": [
+    {
+      "name": "Triceps Pushdown (Custom)",
+      "reject": true,
+      "evidence": [
+        {
+          "rule": "A user's copy of the record in wger, not another name."
+        }
+      ]
+    }
+  ],
+  "Triceps_Stretch": [
+    {
+      "name": "Triceps stretch left",
+      "reject": true,
+      "evidence": [
+        {
+          "rule": "A name for one side of the body, not another name of the exercise."
+        }
+      ]
+    },
+    {
+      "name": "Triceps stretch right",
+      "reject": true,
+      "evidence": [
+        {
+          "rule": "A name for one side of the body, not another name of the exercise."
+        }
+      ]
+    }
+  ],
+  "Barbell_Wrist_Curl": [
+    {
+      "name": "Curl De Muñeca Con Barra",
+      "reject": true,
+      "evidence": [
+        {
+          "rule": "The alias is not an English name of this exercise."
+        }
+      ]
+    }
+  ],
+  "Jumping_Jack": [
+    {
+      "name": "Jumping Jack HD",
+      "reject": true,
+      "evidence": [
+        {
+          "rule": "The alias carries a video marker, not another name."
+        }
+      ]
+    }
+  ],
+  "Pistol_Squat": [
+    {
+      "name": "Pistol squats right",
+      "reject": true,
+      "evidence": [
+        {
+          "rule": "A name for one side of the body, not another name of the exercise."
+        }
+      ]
+    }
+  ],
+  "Single-Leg_Calf_Raise": [
+    {
+      "name": "Calf raises, left leg",
+      "reject": true,
+      "evidence": [
+        {
+          "rule": "A name for one side of the body, not another name of the exercise."
+        }
+      ]
+    },
+    {
+      "name": "Calf raises, right leg",
+      "reject": true,
+      "evidence": [
+        {
+          "rule": "A name for one side of the body, not another name of the exercise."
+        }
+      ]
+    }
+  ],
+  "Suspended_Crossess": [
+    {
+      "name": "croci",
+      "reject": true,
+      "evidence": [
+        {
+          "rule": "The alias is not an English name of this exercise."
+        }
+      ]
+    },
+    {
+      "name": "sospensione",
+      "reject": true,
+      "evidence": [
+        {
+          "rule": "The alias is not an English name of this exercise."
+        }
+      ]
+    },
+    {
+      "name": "trx",
+      "reject": true,
+      "evidence": [
+        {
+          "rule": "The alias is not an English name of this exercise."
+        }
+      ]
+    }
+  ],
+  "Side_Split_Squat": [
+    {
+      "name": "Side split squats right",
+      "reject": true,
+      "evidence": [
+        {
+          "rule": "A name for one side of the body, not another name of the exercise."
+        }
+      ]
+    }
+  ],
+  "Bulgarian_Split_Squat": [
+    {
+      "name": "Bulgarian split squats right",
+      "reject": true,
+      "evidence": [
+        {
+          "rule": "A name for one side of the body, not another name of the exercise."
+        }
+      ]
+    }
+  ],
+  "Split_Squat": [
+    {
+      "name": "Split squats right",
+      "reject": true,
+      "evidence": [
+        {
+          "rule": "A name for one side of the body, not another name of the exercise."
+        }
+      ]
+    }
+  ],
+  "Floor_Dip": [
+    {
+      "name": "Bench Dips On Floor HD",
+      "reject": true,
+      "evidence": [
+        {
+          "rule": "The alias carries a video marker, not another name."
+        }
+      ]
+    }
+  ],
+  "Levator_Scapulae_Stretch": [
+    {
+      "name": "Right levator scapulae stretch",
+      "reject": true,
+      "evidence": [
+        {
+          "rule": "A name for one side of the body, not another name of the exercise."
+        }
+      ]
+    }
+  ],
+  "Quadruped_Thoracic_Rotation": [
+    {
+      "name": "Quadruped thoracic rotation right",
+      "reject": true,
+      "evidence": [
+        {
+          "rule": "A name for one side of the body, not another name of the exercise."
+        }
+      ]
+    }
+  ],
+  "Finger_Pushup": [
+    {
+      "name": "Flexão de dedo",
+      "reject": true,
+      "evidence": [
+        {
+          "rule": "The alias is not an English name of this exercise."
+        }
+      ]
+    }
+  ],
+  "Bird_Dog": [
+    {
+      "name": "Bird Dog (Custom)",
+      "reject": true,
+      "evidence": [
+        {
+          "rule": "A user's copy of the record in wger, not another name."
+        }
+      ]
+    }
+  ],
+  "Seated_Hip_Abduction": [
+    {
+      "name": "Seated Hip Abduction (Custom)",
+      "reject": true,
+      "evidence": [
+        {
+          "rule": "A user's copy of the record in wger, not another name."
+        }
+      ]
+    }
+  ],
+  "Seated_Row_Machine": [
+    {
+      "name": "Seated Row (Machine) (Custom)",
+      "reject": true,
+      "evidence": [
+        {
+          "rule": "A user's copy of the record in wger, not another name."
+        }
+      ]
+    }
+  ],
+  "Parallel_Bar_Hold": [
+    {
+      "name": "Isometria alle parallele",
+      "reject": true,
+      "evidence": [
+        {
+          "rule": "The alias is not an English name of this exercise."
+        }
+      ]
+    }
+  ],
+  "Incline_Dumbbell_Y-Raise": [
+    {
+      "name": "Incline DB Y-Raise (Custom)",
+      "reject": true,
+      "evidence": [
+        {
+          "rule": "A user's copy of the record in wger, not another name."
+        }
+      ]
+    }
+  ],
+  "Boxing": [
+    {
+      "name": "Nah workout",
+      "reject": true,
+      "evidence": [
+        {
+          "rule": "The alias is not an English name of this exercise."
         }
       ]
     }

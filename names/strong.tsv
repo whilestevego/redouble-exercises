@@ -1,6 +1,6 @@
 name	slug
 Arnold Press (Dumbbell)	Arnold_Dumbbell_Press
-Around the World	
+Around the World	Around_The_Worlds
 Back Extension	Hyperextensions_Back_Extensions
 Ball Pass	
 Bench Dip	Bench_Dips
@@ -25,14 +25,14 @@ Decline Crunch	Decline_Crunch
 Eccentric finger roll	
 Face Pull (Band)	Banded_Face_Pull
 Farmer’s Carry (Weighted)	Farmers_Walk
-Flat Leg Raise	
+Flat Leg Raise	Flat_Bench_Lying_Leg_Raise
 Front Lever	Front_Lever
 Front Raise (Dumbbell)	Front_Dumbbell_Raise
 Front Squat (Barbell)	Front_Barbell_Squat
 Glute Kickback (Machine)	Glute_Kickback_Machine
 Good Morning (Barbell)	Good_Morning
 HIIT	
-Hamstring curl	
+Hamstring curl	Leg_Curl
 Handstand Hold (Wall)	Wall_Handstand
 Handstand Push Up	Handstand_Push-Ups
 Handstand Push Up (Band Assisted)	
@@ -50,7 +50,7 @@ Jackknife Sit Up	Jackknife_Sit-Up
 Jumping Jack	
 Jumping Muscle Up	
 Kettlebell Swing	Kettlebell_Swing
-Knee Tuck (Exercise Ball)	
+Knee Tuck (Exercise Ball)	Exercise_Ball_Pull-In
 L-sit	L-Sit
 Lateral Lunge	
 Lateral Raise (Dumbbell)	Side_Lateral_Raise
@@ -62,7 +62,7 @@ Lunge (Bodyweight)	Bodyweight_Lunge
 Lunge (Dumbbell)	Dumbbell_Lunges
 Lying Leg Curl (Machine)	Lying_Leg_Curls
 Mountain Climber	Mountain_Climbers
-Muscle Up	
+Muscle Up	Muscle_Up
 No money	
 Oblique Crunch	Oblique_Crunches
 Overhead Press (Barbell)	Standing_Military_Press
@@ -75,8 +75,8 @@ Pullover (Dumbbell)	Pullover
 Push Up	Pushups
 Rest	
 Reverse Crunch	Reverse_Crunch
-Reverse Crunch (Decline Bench)	
-Reverse Curl (Dumbbell)	
+Reverse Crunch (Decline Bench)	Decline_Reverse_Crunch
+Reverse Curl (Dumbbell)	Standing_Dumbbell_Reverse_Curl
 Reverse Fly (Dumbbell)	
 Reverse Wrist Curl	
 Ring Dip (Assisted)	
@@ -92,7 +92,7 @@ Seated Palms Up Wrist Curl (Dumbbell)	Seated_Dumbbell_Palms-Up_Wrist_Curl
 Side Plank	Side_Bridge
 Side Plank Hip Abduction	
 Side Plank Reach	
-Single Leg Deadlift	
+Single Leg Deadlift	Single_Leg_RDL
 Sit Up	Sit-Up
 Skin the Cat	
 Skip (Double Under)	
