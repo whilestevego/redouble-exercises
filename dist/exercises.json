@@ -27,7 +27,7 @@
       "recordUrl": "https://wger.de/exercise/{id}/view"
     }
   ],
-  "count": 1594,
+  "count": 1593,
   "exercises": [
     {
       "slug": "3_4_Sit-Up",
@@ -43437,7 +43437,10 @@
     {
       "slug": "Seated_Palms-Down_Barbell_Wrist_Curl",
       "name": "Seated Palms-Down Barbell Wrist Curl",
-      "aliases": [],
+      "aliases": [
+        "Reverse Wrist Curl",
+        "Barbell Reverse Wrist Curl"
+      ],
       "kind": "strength",
       "region": "arms",
       "muscles": {
@@ -43464,7 +43467,7 @@
         "laterality": "bilateral",
         "load": "absolute"
       },
-      "variationGroup": null,
+      "variationGroup": "34e4c8b8-bafb-4f00-8c0a-bd16da450ddc",
       "sources": [
         {
           "dataset": "free-exercise-db",
@@ -43474,6 +43477,15 @@
             "yuhonas and contributors"
           ],
           "url": "https://github.com/yuhonas/free-exercise-db/tree/5197c055b356498944328bd00178b64a5e9f422c/exercises/Seated_Palms-Down_Barbell_Wrist_Curl"
+        },
+        {
+          "dataset": "wger",
+          "id": "48",
+          "license": "CC BY-SA 4.0",
+          "authors": [
+            "burenl"
+          ],
+          "url": "https://wger.de/exercise/48/view"
         }
       ],
       "provenance": {
@@ -43485,14 +43497,22 @@
         "instructions": "free-exercise-db",
         "region": "rule",
         "force": "free-exercise-db",
+        "aliases": "curated",
         "tracking.measure": "rule",
         "tracking.laterality": "rule",
         "tracking.load": "rule",
         "level": "free-exercise-db",
         "mechanic": "free-exercise-db"
       },
-      "license": "Unlicense",
-      "credit": null
+      "license": "CC BY-SA 4.0",
+      "credit": {
+        "dataset": "wger",
+        "authors": [
+          "burenl"
+        ],
+        "license": "CC BY-SA 4.0",
+        "url": "https://wger.de/exercise/48/view"
+      }
     },
     {
       "slug": "Seated_Side_Lateral_Raise",
@@ -58188,74 +58208,6 @@
         ],
         "license": "CC BY-SA 3.0",
         "url": "https://wger.de/exercise/31/view"
-      }
-    },
-    {
-      "slug": "Barbell_Reverse_Wrist_Curl",
-      "name": "Barbell Reverse Wrist Curl",
-      "aliases": [
-        "Reverse Wrist Curl"
-      ],
-      "kind": "strength",
-      "region": "arms",
-      "muscles": {
-        "primary": [
-          "forearms"
-        ],
-        "secondary": []
-      },
-      "equipment": [
-        "barbell",
-        "bench"
-      ],
-      "level": "beginner",
-      "force": "pull",
-      "mechanic": "isolation",
-      "instructions": [
-        "Sitting on a bench, grab a barbell with your palms facing down and your hands shoulder-width apart. Rest your forearms on your thighs and allow your wrists to hang over your knees.",
-        "Curl your knuckles towards your face, lifting the barbell. Pause for a moment in the top position, then slowly return the barbell to the starting position."
-      ],
-      "tracking": {
-        "measure": "reps",
-        "laterality": "bilateral",
-        "load": "absolute"
-      },
-      "variationGroup": "34e4c8b8-bafb-4f00-8c0a-bd16da450ddc",
-      "sources": [
-        {
-          "dataset": "wger",
-          "id": "48",
-          "license": "CC BY-SA 4.0",
-          "authors": [
-            "burenl"
-          ],
-          "url": "https://wger.de/exercise/48/view"
-        }
-      ],
-      "provenance": {
-        "name": "wger",
-        "kind": "rule",
-        "muscles.primary": "curated",
-        "muscles.secondary": "rule",
-        "equipment": "wger",
-        "instructions": "wger",
-        "region": "rule",
-        "force": "curated",
-        "aliases": "curated",
-        "tracking.measure": "rule",
-        "tracking.laterality": "rule",
-        "tracking.load": "rule",
-        "level": "curated",
-        "mechanic": "curated"
-      },
-      "license": "CC BY-SA 4.0",
-      "credit": {
-        "dataset": "wger",
-        "authors": [
-          "burenl"
-        ],
-        "license": "CC BY-SA 4.0",
-        "url": "https://wger.de/exercise/48/view"
       }
     },
     {
@@ -105629,6 +105581,7 @@
     "Benchpress_Dumbbells": "Dumbbell_Bench_Press",
     "Bent_Over_Rowing": "Bent_Over_Barbell_Row",
     "Squats_On_Multipress": "Smith_Machine_Squat",
-    "Skullcrusher_Dumbbells": "Lying_Dumbbell_Tricep_Extension"
+    "Skullcrusher_Dumbbells": "Lying_Dumbbell_Tricep_Extension",
+    "Barbell_Reverse_Wrist_Curl": "Seated_Palms-Down_Barbell_Wrist_Curl"
   }
 }
