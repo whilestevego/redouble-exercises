@@ -37,6 +37,18 @@ make ci      # run it before you push
   records.
 - **An alias names the same exercise in the same form.** A family name, such
   as "Loaded Carry", is not an alias.
+- **Force, mechanic and level follow fixed rules.** Force is `push`, `pull`
+  or `static`, by the direction of the work. Mechanic counts the joints that
+  move: one joint is `isolation`, two or more are `compound`, and a hold or a
+  stretch has none. Level is `beginner` for a guided load, a move of one
+  joint, a stretch or a basic bodyweight move. It is `intermediate` for a
+  free-weight lift of two or more joints, a full bodyweight pull or a move
+  that needs balance or power. It is `expert` for a gymnastic skill or an
+  Olympic lift. State the rule in the evidence.
+- **A field that changes the tracking needs a check.** A curated force of
+  `static` makes the measure `time`. Equipment with no `bodyweight` makes the
+  load `absolute`. Curate `tracking.load` as `added` when the body is the
+  load.
 - **A slug never changes, never goes away and never moves to another
   exercise** after a release lists it in `releases/slugs.json`. Before that,
   a record whose steps contradict its name gets a new slug.
