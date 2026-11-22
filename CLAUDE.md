@@ -37,6 +37,11 @@ make ci      # run it before you push
   records.
 - **An alias names the same exercise in the same form.** A family name, such
   as "Loaded Carry", is not an alias.
+- **A copy name never becomes an alias.** `isCopyName` in `lib/merge.dart`
+  drops a source name that marks a user's copy, one side of the body or a
+  video, and a name with accented letters. Add a pattern there, and do not
+  reject each name. A name in another language with no accent still needs a
+  curated reject.
 - **Force, mechanic and level follow fixed rules.** Force is `push`, `pull`
   or `static`, by the direction of the work. Mechanic counts the joints that
   move: one joint is `isolation`, two or more are `compound`, and a hold or a

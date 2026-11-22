@@ -237,4 +237,13 @@ void main() {
     expect(isUrlEvidence({'url': 'exrx', 'note': 'n'}), isFalse);
     expect(isUrlEvidence({'url': 'https://exrx.net/x'}), isFalse);
   });
+
+  test('a copy name never becomes an alias', () {
+    expect(isCopyName('Pull-ups (Custom)'), isTrue);
+    expect(isCopyName('Triceps stretch left'), isTrue);
+    expect(isCopyName('Jumping Jack HD'), isTrue);
+    expect(isCopyName('Jalón al pecho'), isTrue);
+    expect(isCopyName('Military Press with Barbell'), isFalse);
+    expect(isCopyName('Shrug'), isFalse);
+  });
 }

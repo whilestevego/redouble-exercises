@@ -202,10 +202,12 @@ Json _record(
   ];
   final allAliases = <String>[
     for (final a in kept) a['name'] as String,
-    for (final (i, (_, r)) in members.indexed) ...[
-      if (i > 0 || !curated.containsKey('name')) r['name'] as String,
-      ...?strings(r['aliases']),
-    ],
+    for (final (i, (_, r)) in members.indexed)
+      for (final a in [
+        if (i > 0 || !curated.containsKey('name')) r['name'] as String,
+        ...?strings(r['aliases']),
+      ])
+        if (!isCopyName(a)) a.replaceAll('\u200b', '').trim(),
   ];
   final seen = {_key(name), ...rejected};
   final named = [
@@ -358,6 +360,16 @@ String lateralityOf(String name) {
   ];
   return unilateral.any(n.contains) ? 'unilateral' : 'bilateral';
 }
+
+/// A source name that marks a copy of an exercise, not another name for it:
+/// a user's copy, one side of the body, a video, or a name with accented
+/// letters, which is not English.
+bool isCopyName(String name) =>
+    RegExp(
+      r'\(custom\)|\b(left|right)\b|\bHD$',
+      caseSensitive: false,
+    ).hasMatch(name) ||
+    RegExp('[\u00C0-\u024F]').hasMatch(name);
 
 String _key(String name) =>
     name.toLowerCase().replaceAll(RegExp('[^a-z0-9]'), '');

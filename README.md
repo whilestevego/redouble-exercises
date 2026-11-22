@@ -97,7 +97,9 @@ dist/         the release
 
 A form word names a different exercise. "Seated Barbell Shoulder Press" and
 "Barbell Shoulder Press" are two records, and a name with no form word means
-the default form. An alias names the same exercise in the same form.
+the default form. An alias names the same exercise in the same form, in
+English. A source name that marks a copy, such as "Pull-ups (Custom)" or
+"Triceps stretch left", never becomes an alias.
 
 ## Build and check
 
