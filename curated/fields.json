@@ -3308,6 +3308,24 @@
           "rule": "One joint moves in a stable position. The dataset marks this as beginner."
         }
       ]
+    },
+    "instructions": {
+      "value": [
+        "Sit at a preacher bench with a dumbbell in each hand. Put the backs of the upper arms on the pad.",
+        "Start with the arms almost straight and the palms up.",
+        "Curl the dumbbells toward the shoulders. The upper arms stay on the pad.",
+        "Lower slowly until the arms are almost straight again."
+      ],
+      "evidence": [
+        {
+          "url": "https://catalystathletics.com/exercise/829/Dumbbell-Preacher-Curl/",
+          "note": "The page shows a preacher bench exercise with a dumbbell in each hand and names the biceps."
+        },
+        {
+          "url": "https://www.exercise.com/exercises/two-handed-dumbbell-preacher-curl",
+          "note": "The page shows a two-handed exercise with dumbbells and a preacher curl bench and names the biceps."
+        }
+      ]
     }
   },
   "Front_Pull_Wide": {
@@ -3520,6 +3538,24 @@
       "evidence": [
         {
           "rule": "A free-weight lift that moves two or more joints needs practice of the technique. The dataset marks this as intermediate."
+        }
+      ]
+    },
+    "instructions": {
+      "value": [
+        "Put one end of a barbell in a landmine attachment or in a corner. Load the other end.",
+        "Stand or kneel on one knee and hold the loaded end at the shoulder with one hand.",
+        "Press the bar up and forward until the arm is straight. Keep the ribs down.",
+        "Lower the bar to the shoulder under control. Do all repetitions, then change arms."
+      ],
+      "evidence": [
+        {
+          "url": "https://www.strengthlog.com/landmine-press/",
+          "note": "The page shows a barbell landmine exercise and names the front deltoid, with the triceps and chest as secondary."
+        },
+        {
+          "url": "https://legionathletics.com/landmine-press",
+          "note": "The page shows a barbell in a landmine attachment and names the deltoids, triceps, pecs and traps, with abs and obliques."
         }
       ]
     }
@@ -3998,6 +4034,24 @@
       "evidence": [
         {
           "rule": "A machine, a cable or a band guides or scales the load. The dataset marks this as beginner."
+        }
+      ]
+    },
+    "instructions": {
+      "value": [
+        "Set the weight of the assisted pull-up machine. More weight gives more help.",
+        "Hold the upper handles with an overhand grip and put the knees on the pad.",
+        "Pull the elbows down and back until the chin is above the handles.",
+        "Lower under control until the arms are straight."
+      ],
+      "evidence": [
+        {
+          "url": "https://www.puregym.com/exercises/back/pull-up/assisted-pull-ups",
+          "note": "The page shows an assisted pull-up machine exercise and names the latissimus dorsi, rear shoulders and biceps."
+        },
+        {
+          "url": "https://www.exercise.com/exercises/machine-assisted-pull-up",
+          "note": "The page shows a dip/chin-up assist machine exercise and names the middle back, with biceps, forearms, shoulders and traps."
         }
       ]
     }

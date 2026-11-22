@@ -1181,5 +1181,15 @@
         }
       ]
     }
+  ],
+  "Dumbbells_On_Scott_Machine": [
+    {
+      "name": "Dumbbell Preacher Curl",
+      "evidence": [
+        {
+          "rule": "A Scott machine is a preacher bench. This is the common English name."
+        }
+      ]
+    }
   ]
 }

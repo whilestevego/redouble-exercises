@@ -27,7 +27,7 @@
       "recordUrl": "https://wger.de/exercise/{id}/view"
     }
   ],
-  "count": 1553,
+  "count": 1596,
   "exercises": [
     {
       "slug": "3_4_Sit-Up",
@@ -59822,7 +59822,9 @@
     {
       "slug": "Dumbbells_On_Scott_Machine",
       "name": "Dumbbells On Scott Machine",
-      "aliases": [],
+      "aliases": [
+        "Dumbbell Preacher Curl"
+      ],
       "kind": "strength",
       "region": "arms",
       "muscles": {
@@ -59837,7 +59839,12 @@
       "level": "beginner",
       "force": "pull",
       "mechanic": "isolation",
-      "instructions": [],
+      "instructions": [
+        "Sit at a preacher bench with a dumbbell in each hand. Put the backs of the upper arms on the pad.",
+        "Start with the arms almost straight and the palms up.",
+        "Curl the dumbbells toward the shoulders. The upper arms stay on the pad.",
+        "Lower slowly until the arms are almost straight again."
+      ],
       "tracking": {
         "measure": "reps",
         "laterality": "bilateral",
@@ -59861,9 +59868,10 @@
         "muscles.primary": "wger",
         "muscles.secondary": "rule",
         "equipment": "wger",
-        "instructions": "rule",
+        "instructions": "curated",
         "region": "rule",
         "force": "curated",
+        "aliases": "curated",
         "tracking.measure": "rule",
         "tracking.laterality": "rule",
         "tracking.load": "rule",
@@ -61191,7 +61199,12 @@
       "level": "intermediate",
       "force": "push",
       "mechanic": "compound",
-      "instructions": [],
+      "instructions": [
+        "Put one end of a barbell in a landmine attachment or in a corner. Load the other end.",
+        "Stand or kneel on one knee and hold the loaded end at the shoulder with one hand.",
+        "Press the bar up and forward until the arm is straight. Keep the ribs down.",
+        "Lower the bar to the shoulder under control. Do all repetitions, then change arms."
+      ],
       "tracking": {
         "measure": "reps",
         "laterality": "bilateral",
@@ -61216,7 +61229,7 @@
         "muscles.primary": "wger",
         "muscles.secondary": "wger",
         "equipment": "wger",
-        "instructions": "rule",
+        "instructions": "curated",
         "region": "rule",
         "force": "curated",
         "tracking.measure": "rule",
@@ -62813,7 +62826,12 @@
       "level": "beginner",
       "force": "pull",
       "mechanic": "compound",
-      "instructions": [],
+      "instructions": [
+        "Set the weight of the assisted pull-up machine. More weight gives more help.",
+        "Hold the upper handles with an overhand grip and put the knees on the pad.",
+        "Pull the elbows down and back until the chin is above the handles.",
+        "Lower under control until the arms are straight."
+      ],
       "tracking": {
         "measure": "reps",
         "laterality": "bilateral",
@@ -62837,7 +62855,7 @@
         "muscles.primary": "wger",
         "muscles.secondary": "wger",
         "equipment": "curated",
-        "instructions": "rule",
+        "instructions": "curated",
         "region": "rule",
         "force": "curated",
         "aliases": "curated",
@@ -102760,6 +102778,2774 @@
         "license": "CC BY-SA 4.0",
         "url": "https://wger.de/exercise/2773/view"
       }
+    },
+    {
+      "slug": "Skin_the_Cat",
+      "name": "Skin the Cat",
+      "aliases": [],
+      "kind": "strength",
+      "region": "back",
+      "muscles": {
+        "primary": [
+          "lats",
+          "shoulders"
+        ],
+        "secondary": [
+          "abdominals",
+          "biceps",
+          "forearms"
+        ]
+      },
+      "equipment": [
+        "rings"
+      ],
+      "level": "intermediate",
+      "force": "pull",
+      "mechanic": "compound",
+      "instructions": [
+        "Hang from the rings with straight arms and an overhand grip.",
+        "Tuck the knees to the chest and lift the hips until the legs pass between the arms.",
+        "Lower the feet behind you under control. Stop when the shoulders reach the end of their comfortable range.",
+        "Pull the hips back up and pass the legs between the arms again to return to the hang."
+      ],
+      "tracking": {
+        "measure": "reps",
+        "laterality": "bilateral",
+        "load": "added"
+      },
+      "variationGroup": null,
+      "sources": [
+        {
+          "dataset": "redouble-exercises",
+          "id": "Skin_the_Cat",
+          "license": "CC0",
+          "authors": [
+            "redouble-exercises contributors"
+          ],
+          "url": "https://github.com/whilestevego/redouble-exercises/blob/main/curated/records.json"
+        }
+      ],
+      "provenance": {
+        "name": "redouble-exercises",
+        "kind": "redouble-exercises",
+        "muscles.primary": "redouble-exercises",
+        "muscles.secondary": "redouble-exercises",
+        "equipment": "redouble-exercises",
+        "instructions": "redouble-exercises",
+        "region": "rule",
+        "force": "redouble-exercises",
+        "tracking.measure": "rule",
+        "tracking.laterality": "rule",
+        "tracking.load": "redouble-exercises",
+        "level": "redouble-exercises",
+        "mechanic": "redouble-exercises"
+      },
+      "license": "CC0",
+      "credit": null
+    },
+    {
+      "slug": "Hollow_Rock",
+      "name": "Hollow Rock",
+      "aliases": [
+        "Hollow Body Rock"
+      ],
+      "kind": "strength",
+      "region": "core",
+      "muscles": {
+        "primary": [
+          "abdominals"
+        ],
+        "secondary": []
+      },
+      "equipment": [
+        "bodyweight"
+      ],
+      "level": "beginner",
+      "force": "static",
+      "mechanic": null,
+      "instructions": [
+        "Lie on your back. Press the lower back into the floor.",
+        "Lift the shoulders and the straight legs a short distance off the floor, with the arms by the ears.",
+        "Rock forward and back along the curve of the spine. Keep the body in the same shape.",
+        "Stop the set when the lower back comes off the floor."
+      ],
+      "tracking": {
+        "measure": "reps",
+        "laterality": "bilateral",
+        "load": "added"
+      },
+      "variationGroup": null,
+      "sources": [
+        {
+          "dataset": "redouble-exercises",
+          "id": "Hollow_Rock",
+          "license": "CC0",
+          "authors": [
+            "redouble-exercises contributors"
+          ],
+          "url": "https://github.com/whilestevego/redouble-exercises/blob/main/curated/records.json"
+        }
+      ],
+      "provenance": {
+        "name": "redouble-exercises",
+        "kind": "redouble-exercises",
+        "muscles.primary": "redouble-exercises",
+        "muscles.secondary": "rule",
+        "equipment": "redouble-exercises",
+        "instructions": "redouble-exercises",
+        "region": "rule",
+        "force": "redouble-exercises",
+        "aliases": "redouble-exercises",
+        "tracking.measure": "redouble-exercises",
+        "tracking.laterality": "rule",
+        "tracking.load": "rule",
+        "level": "redouble-exercises"
+      },
+      "license": "CC0",
+      "credit": null
+    },
+    {
+      "slug": "Wall_Walk",
+      "name": "Wall Walk",
+      "aliases": [],
+      "kind": "strength",
+      "region": "shoulders",
+      "muscles": {
+        "primary": [
+          "shoulders"
+        ],
+        "secondary": [
+          "triceps",
+          "abdominals",
+          "chest"
+        ]
+      },
+      "equipment": [
+        "bodyweight"
+      ],
+      "level": "intermediate",
+      "force": "push",
+      "mechanic": "compound",
+      "instructions": [
+        "Lie face down with the feet against the base of a wall and the hands under the shoulders.",
+        "Push up to a plank. Walk the feet up the wall while the hands walk back toward the wall.",
+        "Stop when the chest is close to the wall and the body is in a handstand line.",
+        "Walk the hands forward and the feet down until the chest is on the floor again."
+      ],
+      "tracking": {
+        "measure": "reps",
+        "laterality": "bilateral",
+        "load": "added"
+      },
+      "variationGroup": null,
+      "sources": [
+        {
+          "dataset": "redouble-exercises",
+          "id": "Wall_Walk",
+          "license": "CC0",
+          "authors": [
+            "redouble-exercises contributors"
+          ],
+          "url": "https://github.com/whilestevego/redouble-exercises/blob/main/curated/records.json"
+        }
+      ],
+      "provenance": {
+        "name": "redouble-exercises",
+        "kind": "redouble-exercises",
+        "muscles.primary": "redouble-exercises",
+        "muscles.secondary": "redouble-exercises",
+        "equipment": "redouble-exercises",
+        "instructions": "redouble-exercises",
+        "region": "rule",
+        "force": "redouble-exercises",
+        "tracking.measure": "rule",
+        "tracking.laterality": "rule",
+        "tracking.load": "rule",
+        "level": "redouble-exercises",
+        "mechanic": "redouble-exercises"
+      },
+      "license": "CC0",
+      "credit": null
+    },
+    {
+      "slug": "Double_Under",
+      "name": "Double Under",
+      "aliases": [
+        "Skip (Double Under)",
+        "Double Unders"
+      ],
+      "kind": "plyometrics",
+      "region": "legs",
+      "muscles": {
+        "primary": [
+          "calves"
+        ],
+        "secondary": [
+          "quadriceps",
+          "shoulders",
+          "forearms"
+        ]
+      },
+      "equipment": [
+        "jump rope"
+      ],
+      "level": "intermediate",
+      "force": "push",
+      "mechanic": "compound",
+      "instructions": [
+        "Hold a handle of the rope in each hand, with the elbows close to the sides.",
+        "Jump a little higher than for a single jump, with the legs almost straight.",
+        "Turn the wrists fast, so that the rope passes under the feet two times before you land.",
+        "Land on the balls of the feet and go directly into the next jump."
+      ],
+      "tracking": {
+        "measure": "reps",
+        "laterality": "bilateral",
+        "load": "none"
+      },
+      "variationGroup": null,
+      "sources": [
+        {
+          "dataset": "redouble-exercises",
+          "id": "Double_Under",
+          "license": "CC0",
+          "authors": [
+            "redouble-exercises contributors"
+          ],
+          "url": "https://github.com/whilestevego/redouble-exercises/blob/main/curated/records.json"
+        }
+      ],
+      "provenance": {
+        "name": "redouble-exercises",
+        "kind": "redouble-exercises",
+        "muscles.primary": "redouble-exercises",
+        "muscles.secondary": "redouble-exercises",
+        "equipment": "redouble-exercises",
+        "instructions": "redouble-exercises",
+        "region": "rule",
+        "force": "redouble-exercises",
+        "aliases": "redouble-exercises",
+        "tracking.measure": "rule",
+        "tracking.laterality": "rule",
+        "tracking.load": "redouble-exercises",
+        "level": "redouble-exercises",
+        "mechanic": "redouble-exercises"
+      },
+      "license": "CC0",
+      "credit": null
+    },
+    {
+      "slug": "Tuck_Up",
+      "name": "Tuck Up",
+      "aliases": [],
+      "kind": "strength",
+      "region": "core",
+      "muscles": {
+        "primary": [
+          "abdominals"
+        ],
+        "secondary": []
+      },
+      "equipment": [
+        "bodyweight"
+      ],
+      "level": "beginner",
+      "force": "pull",
+      "mechanic": "isolation",
+      "instructions": [
+        "Lie on your back with the legs straight and the arms overhead, just off the floor.",
+        "Sit up and pull the knees to the chest at the same time. Reach the hands past the shins.",
+        "Balance for a moment on the hips.",
+        "Open the body again under control until the shoulders and the heels are just off the floor."
+      ],
+      "tracking": {
+        "measure": "reps",
+        "laterality": "bilateral",
+        "load": "added"
+      },
+      "variationGroup": null,
+      "sources": [
+        {
+          "dataset": "redouble-exercises",
+          "id": "Tuck_Up",
+          "license": "CC0",
+          "authors": [
+            "redouble-exercises contributors"
+          ],
+          "url": "https://github.com/whilestevego/redouble-exercises/blob/main/curated/records.json"
+        }
+      ],
+      "provenance": {
+        "name": "redouble-exercises",
+        "kind": "redouble-exercises",
+        "muscles.primary": "redouble-exercises",
+        "muscles.secondary": "rule",
+        "equipment": "redouble-exercises",
+        "instructions": "redouble-exercises",
+        "region": "rule",
+        "force": "redouble-exercises",
+        "tracking.measure": "rule",
+        "tracking.laterality": "rule",
+        "tracking.load": "rule",
+        "level": "redouble-exercises",
+        "mechanic": "redouble-exercises"
+      },
+      "license": "CC0",
+      "credit": null
+    },
+    {
+      "slug": "Stability_Ball_Pass",
+      "name": "Stability Ball Pass",
+      "aliases": [
+        "Ball Pass",
+        "V-Pass",
+        "Stability Ball V-Pass"
+      ],
+      "kind": "strength",
+      "region": "core",
+      "muscles": {
+        "primary": [
+          "abdominals"
+        ],
+        "secondary": []
+      },
+      "equipment": [
+        "exercise ball"
+      ],
+      "level": "intermediate",
+      "force": "pull",
+      "mechanic": "isolation",
+      "instructions": [
+        "Lie on your back with the legs straight. Hold an exercise ball overhead in both hands.",
+        "Lift the arms and the legs together and put the ball between the ankles.",
+        "Lower the arms and the legs toward the floor. The legs now hold the ball.",
+        "Lift again and pass the ball back to the hands. One pass each way is one repetition."
+      ],
+      "tracking": {
+        "measure": "reps",
+        "laterality": "bilateral",
+        "load": "added"
+      },
+      "variationGroup": null,
+      "sources": [
+        {
+          "dataset": "redouble-exercises",
+          "id": "Stability_Ball_Pass",
+          "license": "CC0",
+          "authors": [
+            "redouble-exercises contributors"
+          ],
+          "url": "https://github.com/whilestevego/redouble-exercises/blob/main/curated/records.json"
+        }
+      ],
+      "provenance": {
+        "name": "redouble-exercises",
+        "kind": "redouble-exercises",
+        "muscles.primary": "redouble-exercises",
+        "muscles.secondary": "rule",
+        "equipment": "redouble-exercises",
+        "instructions": "redouble-exercises",
+        "region": "rule",
+        "force": "redouble-exercises",
+        "aliases": "redouble-exercises",
+        "tracking.measure": "rule",
+        "tracking.laterality": "rule",
+        "tracking.load": "redouble-exercises",
+        "level": "redouble-exercises",
+        "mechanic": "redouble-exercises"
+      },
+      "license": "CC0",
+      "credit": null
+    },
+    {
+      "slug": "Assisted_Chest_Dip",
+      "name": "Assisted Chest Dip",
+      "aliases": [
+        "Chest Dip (Assisted)",
+        "Machine Assisted Chest Dip"
+      ],
+      "kind": "strength",
+      "region": "chest",
+      "muscles": {
+        "primary": [
+          "chest"
+        ],
+        "secondary": [
+          "triceps",
+          "shoulders"
+        ]
+      },
+      "equipment": [
+        "machine"
+      ],
+      "level": "beginner",
+      "force": "push",
+      "mechanic": "compound",
+      "instructions": [
+        "Set the weight of the assisted dip machine. More weight gives more help.",
+        "Hold the handles and put the knees on the pad or the feet on the platform.",
+        "Lean the chest forward. Bend the elbows and lower the body until the upper arms are parallel to the floor.",
+        "Push down on the handles until the arms are straight."
+      ],
+      "tracking": {
+        "measure": "reps",
+        "laterality": "bilateral",
+        "load": "absolute"
+      },
+      "variationGroup": null,
+      "sources": [
+        {
+          "dataset": "redouble-exercises",
+          "id": "Assisted_Chest_Dip",
+          "license": "CC0",
+          "authors": [
+            "redouble-exercises contributors"
+          ],
+          "url": "https://github.com/whilestevego/redouble-exercises/blob/main/curated/records.json"
+        }
+      ],
+      "provenance": {
+        "name": "redouble-exercises",
+        "kind": "redouble-exercises",
+        "muscles.primary": "redouble-exercises",
+        "muscles.secondary": "redouble-exercises",
+        "equipment": "redouble-exercises",
+        "instructions": "redouble-exercises",
+        "region": "rule",
+        "force": "redouble-exercises",
+        "aliases": "redouble-exercises",
+        "tracking.measure": "rule",
+        "tracking.laterality": "rule",
+        "tracking.load": "rule",
+        "level": "redouble-exercises",
+        "mechanic": "redouble-exercises"
+      },
+      "license": "CC0",
+      "credit": null
+    },
+    {
+      "slug": "Assisted_Ring_Dip",
+      "name": "Assisted Ring Dip",
+      "aliases": [
+        "Ring Dip (Assisted)",
+        "Band-Assisted Ring Dip"
+      ],
+      "kind": "strength",
+      "region": "arms",
+      "muscles": {
+        "primary": [
+          "triceps",
+          "chest"
+        ],
+        "secondary": [
+          "shoulders"
+        ]
+      },
+      "equipment": [
+        "rings",
+        "bands"
+      ],
+      "level": "intermediate",
+      "force": "push",
+      "mechanic": "compound",
+      "instructions": [
+        "Loop a band across the two rings, or set the rings low enough to keep the feet on the floor.",
+        "Hold the rings with straight arms. Put the knees or the shins on the band.",
+        "Bend the elbows and lower the body until the shoulders are below the elbows. Keep the rings close to the body.",
+        "Push up until the arms are straight."
+      ],
+      "tracking": {
+        "measure": "reps",
+        "laterality": "bilateral",
+        "load": "added"
+      },
+      "variationGroup": null,
+      "sources": [
+        {
+          "dataset": "redouble-exercises",
+          "id": "Assisted_Ring_Dip",
+          "license": "CC0",
+          "authors": [
+            "redouble-exercises contributors"
+          ],
+          "url": "https://github.com/whilestevego/redouble-exercises/blob/main/curated/records.json"
+        }
+      ],
+      "provenance": {
+        "name": "redouble-exercises",
+        "kind": "redouble-exercises",
+        "muscles.primary": "redouble-exercises",
+        "muscles.secondary": "redouble-exercises",
+        "equipment": "redouble-exercises",
+        "instructions": "redouble-exercises",
+        "region": "rule",
+        "force": "redouble-exercises",
+        "aliases": "redouble-exercises",
+        "tracking.measure": "rule",
+        "tracking.laterality": "rule",
+        "tracking.load": "redouble-exercises",
+        "level": "redouble-exercises",
+        "mechanic": "redouble-exercises"
+      },
+      "license": "CC0",
+      "credit": null
+    },
+    {
+      "slug": "Straight_Bar_Dip",
+      "name": "Straight Bar Dip",
+      "aliases": [],
+      "kind": "strength",
+      "region": "arms",
+      "muscles": {
+        "primary": [
+          "triceps",
+          "chest"
+        ],
+        "secondary": [
+          "shoulders"
+        ]
+      },
+      "equipment": [
+        "pull-up bar"
+      ],
+      "level": "intermediate",
+      "force": "push",
+      "mechanic": "compound",
+      "instructions": [
+        "Hold the body above a single horizontal bar, with straight arms and the bar at the hips.",
+        "Bend the elbows and lean the chest forward over the bar. Let the legs move forward to keep balance.",
+        "Lower until the chest is close to the bar.",
+        "Push down on the bar until the arms are straight."
+      ],
+      "tracking": {
+        "measure": "reps",
+        "laterality": "bilateral",
+        "load": "added"
+      },
+      "variationGroup": null,
+      "sources": [
+        {
+          "dataset": "redouble-exercises",
+          "id": "Straight_Bar_Dip",
+          "license": "CC0",
+          "authors": [
+            "redouble-exercises contributors"
+          ],
+          "url": "https://github.com/whilestevego/redouble-exercises/blob/main/curated/records.json"
+        }
+      ],
+      "provenance": {
+        "name": "redouble-exercises",
+        "kind": "redouble-exercises",
+        "muscles.primary": "redouble-exercises",
+        "muscles.secondary": "redouble-exercises",
+        "equipment": "redouble-exercises",
+        "instructions": "redouble-exercises",
+        "region": "rule",
+        "force": "redouble-exercises",
+        "tracking.measure": "rule",
+        "tracking.laterality": "rule",
+        "tracking.load": "redouble-exercises",
+        "level": "redouble-exercises",
+        "mechanic": "redouble-exercises"
+      },
+      "license": "CC0",
+      "credit": null
+    },
+    {
+      "slug": "Jumping_Muscle_Up",
+      "name": "Jumping Muscle Up",
+      "aliases": [],
+      "kind": "strength",
+      "region": "back",
+      "muscles": {
+        "primary": [
+          "lats"
+        ],
+        "secondary": [
+          "biceps",
+          "triceps",
+          "chest"
+        ]
+      },
+      "equipment": [
+        "pull-up bar"
+      ],
+      "level": "intermediate",
+      "force": "pull",
+      "mechanic": "compound",
+      "instructions": [
+        "Stand under a bar that you can reach with bent arms, or stand on a box.",
+        "Hold the bar and jump. Pull the bar to the lower chest while the jump lifts the body.",
+        "Turn the wrists and the elbows over the bar and lean the chest forward.",
+        "Push down until the arms are straight. Lower under control to the start."
+      ],
+      "tracking": {
+        "measure": "reps",
+        "laterality": "bilateral",
+        "load": "added"
+      },
+      "variationGroup": null,
+      "sources": [
+        {
+          "dataset": "redouble-exercises",
+          "id": "Jumping_Muscle_Up",
+          "license": "CC0",
+          "authors": [
+            "redouble-exercises contributors"
+          ],
+          "url": "https://github.com/whilestevego/redouble-exercises/blob/main/curated/records.json"
+        }
+      ],
+      "provenance": {
+        "name": "redouble-exercises",
+        "kind": "redouble-exercises",
+        "muscles.primary": "redouble-exercises",
+        "muscles.secondary": "redouble-exercises",
+        "equipment": "redouble-exercises",
+        "instructions": "redouble-exercises",
+        "region": "rule",
+        "force": "redouble-exercises",
+        "tracking.measure": "rule",
+        "tracking.laterality": "rule",
+        "tracking.load": "redouble-exercises",
+        "level": "redouble-exercises",
+        "mechanic": "redouble-exercises"
+      },
+      "license": "CC0",
+      "credit": null
+    },
+    {
+      "slug": "Kipping_Handstand_Push-Up",
+      "name": "Kipping Handstand Push-Up",
+      "aliases": [
+        "Handstand Push Up (Kipping)"
+      ],
+      "kind": "strength",
+      "region": "shoulders",
+      "muscles": {
+        "primary": [
+          "shoulders"
+        ],
+        "secondary": [
+          "triceps",
+          "quadriceps",
+          "glutes"
+        ]
+      },
+      "equipment": [
+        "bodyweight"
+      ],
+      "level": "expert",
+      "force": "push",
+      "mechanic": "compound",
+      "instructions": [
+        "Kick up to a handstand with the heels against a wall.",
+        "Lower the head to the floor or a mat. The head and the hands make a triangle.",
+        "Bend the knees and bring them toward the chest.",
+        "Drive the legs up along the wall and push with the arms at the same time until the arms are straight."
+      ],
+      "tracking": {
+        "measure": "reps",
+        "laterality": "bilateral",
+        "load": "added"
+      },
+      "variationGroup": null,
+      "sources": [
+        {
+          "dataset": "redouble-exercises",
+          "id": "Kipping_Handstand_Push-Up",
+          "license": "CC0",
+          "authors": [
+            "redouble-exercises contributors"
+          ],
+          "url": "https://github.com/whilestevego/redouble-exercises/blob/main/curated/records.json"
+        }
+      ],
+      "provenance": {
+        "name": "redouble-exercises",
+        "kind": "redouble-exercises",
+        "muscles.primary": "redouble-exercises",
+        "muscles.secondary": "redouble-exercises",
+        "equipment": "redouble-exercises",
+        "instructions": "redouble-exercises",
+        "region": "rule",
+        "force": "redouble-exercises",
+        "aliases": "redouble-exercises",
+        "tracking.measure": "rule",
+        "tracking.laterality": "rule",
+        "tracking.load": "rule",
+        "level": "redouble-exercises",
+        "mechanic": "redouble-exercises"
+      },
+      "license": "CC0",
+      "credit": null
+    },
+    {
+      "slug": "Band-Assisted_Handstand_Push-Up",
+      "name": "Band-Assisted Handstand Push-Up",
+      "aliases": [
+        "Handstand Push Up (Band Assisted)"
+      ],
+      "kind": "strength",
+      "region": "shoulders",
+      "muscles": {
+        "primary": [
+          "shoulders"
+        ],
+        "secondary": [
+          "triceps",
+          "traps"
+        ]
+      },
+      "equipment": [
+        "bands"
+      ],
+      "level": "intermediate",
+      "force": "push",
+      "mechanic": "compound",
+      "instructions": [
+        "Attach a strong band across a rack at about shoulder height.",
+        "Put the hands on the floor under the band and kick up, so that the band supports the shoulders or the hips.",
+        "Bend the elbows and lower the head toward the floor. The band takes part of the bodyweight.",
+        "Push up until the arms are straight."
+      ],
+      "tracking": {
+        "measure": "reps",
+        "laterality": "bilateral",
+        "load": "added"
+      },
+      "variationGroup": null,
+      "sources": [
+        {
+          "dataset": "redouble-exercises",
+          "id": "Band-Assisted_Handstand_Push-Up",
+          "license": "CC0",
+          "authors": [
+            "redouble-exercises contributors"
+          ],
+          "url": "https://github.com/whilestevego/redouble-exercises/blob/main/curated/records.json"
+        }
+      ],
+      "provenance": {
+        "name": "redouble-exercises",
+        "kind": "redouble-exercises",
+        "muscles.primary": "redouble-exercises",
+        "muscles.secondary": "redouble-exercises",
+        "equipment": "redouble-exercises",
+        "instructions": "redouble-exercises",
+        "region": "rule",
+        "force": "redouble-exercises",
+        "aliases": "redouble-exercises",
+        "tracking.measure": "rule",
+        "tracking.laterality": "rule",
+        "tracking.load": "redouble-exercises",
+        "level": "redouble-exercises",
+        "mechanic": "redouble-exercises"
+      },
+      "license": "CC0",
+      "credit": null
+    },
+    {
+      "slug": "Burpee_Pull-Up",
+      "name": "Burpee Pull-Up",
+      "aliases": [
+        "Burpee To Pull-up"
+      ],
+      "kind": "strength",
+      "region": "back",
+      "muscles": {
+        "primary": [
+          "lats",
+          "quadriceps"
+        ],
+        "secondary": [
+          "chest",
+          "shoulders",
+          "biceps"
+        ]
+      },
+      "equipment": [
+        "pull-up bar"
+      ],
+      "level": "intermediate",
+      "force": null,
+      "mechanic": "compound",
+      "instructions": [
+        "Stand under a pull-up bar that you can reach with a jump.",
+        "Put the hands on the floor, jump the feet back and lower the chest to the floor.",
+        "Push up and jump the feet back to the hands.",
+        "Jump to the bar and pull until the chin is above it. Drop down and start the next repetition."
+      ],
+      "tracking": {
+        "measure": "reps",
+        "laterality": "bilateral",
+        "load": "added"
+      },
+      "variationGroup": null,
+      "sources": [
+        {
+          "dataset": "redouble-exercises",
+          "id": "Burpee_Pull-Up",
+          "license": "CC0",
+          "authors": [
+            "redouble-exercises contributors"
+          ],
+          "url": "https://github.com/whilestevego/redouble-exercises/blob/main/curated/records.json"
+        }
+      ],
+      "provenance": {
+        "name": "redouble-exercises",
+        "kind": "redouble-exercises",
+        "muscles.primary": "redouble-exercises",
+        "muscles.secondary": "redouble-exercises",
+        "equipment": "redouble-exercises",
+        "instructions": "redouble-exercises",
+        "region": "rule",
+        "aliases": "redouble-exercises",
+        "tracking.measure": "rule",
+        "tracking.laterality": "rule",
+        "tracking.load": "redouble-exercises",
+        "level": "redouble-exercises",
+        "mechanic": "redouble-exercises"
+      },
+      "license": "CC0",
+      "credit": null
+    },
+    {
+      "slug": "Cluster",
+      "name": "Cluster",
+      "aliases": [
+        "Squat Clean Thruster"
+      ],
+      "kind": "strength",
+      "region": "legs",
+      "muscles": {
+        "primary": [
+          "quadriceps",
+          "shoulders"
+        ],
+        "secondary": [
+          "glutes",
+          "hamstrings",
+          "traps",
+          "triceps"
+        ]
+      },
+      "equipment": [
+        "barbell"
+      ],
+      "level": "intermediate",
+      "force": "push",
+      "mechanic": "compound",
+      "instructions": [
+        "Stand over the barbell with a grip just outside the legs, as for a clean.",
+        "Pull the bar from the floor and drop under it into a full front squat, with the bar on the shoulders.",
+        "Stand up fast and use the drive of the legs to press the bar overhead in one movement.",
+        "Lower the bar to the shoulders and then to the floor."
+      ],
+      "tracking": {
+        "measure": "reps",
+        "laterality": "bilateral",
+        "load": "absolute"
+      },
+      "variationGroup": null,
+      "sources": [
+        {
+          "dataset": "redouble-exercises",
+          "id": "Cluster",
+          "license": "CC0",
+          "authors": [
+            "redouble-exercises contributors"
+          ],
+          "url": "https://github.com/whilestevego/redouble-exercises/blob/main/curated/records.json"
+        }
+      ],
+      "provenance": {
+        "name": "redouble-exercises",
+        "kind": "redouble-exercises",
+        "muscles.primary": "redouble-exercises",
+        "muscles.secondary": "redouble-exercises",
+        "equipment": "redouble-exercises",
+        "instructions": "redouble-exercises",
+        "region": "rule",
+        "force": "redouble-exercises",
+        "aliases": "redouble-exercises",
+        "tracking.measure": "rule",
+        "tracking.laterality": "rule",
+        "tracking.load": "rule",
+        "level": "redouble-exercises",
+        "mechanic": "redouble-exercises"
+      },
+      "license": "CC0",
+      "credit": null
+    },
+    {
+      "slug": "Bodyweight_Hip_Thrust",
+      "name": "Bodyweight Hip Thrust",
+      "aliases": [
+        "Hip Thrust (Bodyweight)"
+      ],
+      "kind": "strength",
+      "region": "legs",
+      "muscles": {
+        "primary": [
+          "glutes"
+        ],
+        "secondary": [
+          "hamstrings"
+        ]
+      },
+      "equipment": [
+        "bodyweight",
+        "bench"
+      ],
+      "level": "beginner",
+      "force": "push",
+      "mechanic": "isolation",
+      "instructions": [
+        "Sit on the floor with the upper back against the long side of a bench. Bend the knees and put the feet flat on the floor.",
+        "Push through the heels and lift the hips until the trunk and the thighs are in one line.",
+        "Squeeze the glutes for a moment at the top. Keep the chin down and the ribs low.",
+        "Lower the hips under control."
+      ],
+      "tracking": {
+        "measure": "reps",
+        "laterality": "bilateral",
+        "load": "added"
+      },
+      "variationGroup": null,
+      "sources": [
+        {
+          "dataset": "redouble-exercises",
+          "id": "Bodyweight_Hip_Thrust",
+          "license": "CC0",
+          "authors": [
+            "redouble-exercises contributors"
+          ],
+          "url": "https://github.com/whilestevego/redouble-exercises/blob/main/curated/records.json"
+        }
+      ],
+      "provenance": {
+        "name": "redouble-exercises",
+        "kind": "redouble-exercises",
+        "muscles.primary": "redouble-exercises",
+        "muscles.secondary": "redouble-exercises",
+        "equipment": "redouble-exercises",
+        "instructions": "redouble-exercises",
+        "region": "rule",
+        "force": "redouble-exercises",
+        "aliases": "redouble-exercises",
+        "tracking.measure": "rule",
+        "tracking.laterality": "rule",
+        "tracking.load": "rule",
+        "level": "redouble-exercises",
+        "mechanic": "redouble-exercises"
+      },
+      "license": "CC0",
+      "credit": null
+    },
+    {
+      "slug": "Lateral_Lunge",
+      "name": "Lateral Lunge",
+      "aliases": [
+        "Side Lunge"
+      ],
+      "kind": "strength",
+      "region": "legs",
+      "muscles": {
+        "primary": [
+          "quadriceps",
+          "glutes"
+        ],
+        "secondary": [
+          "adductors",
+          "hamstrings"
+        ]
+      },
+      "equipment": [
+        "bodyweight"
+      ],
+      "level": "beginner",
+      "force": "push",
+      "mechanic": "compound",
+      "instructions": [
+        "Stand with the feet together.",
+        "Take a wide step to one side. Bend the knee of that leg and push the hips back. Keep the other leg straight.",
+        "Lower until the thigh of the bent leg is near parallel to the floor, with both feet flat.",
+        "Push off the bent leg to return to the start. Do the other side."
+      ],
+      "tracking": {
+        "measure": "reps",
+        "laterality": "bilateral",
+        "load": "added"
+      },
+      "variationGroup": null,
+      "sources": [
+        {
+          "dataset": "redouble-exercises",
+          "id": "Lateral_Lunge",
+          "license": "CC0",
+          "authors": [
+            "redouble-exercises contributors"
+          ],
+          "url": "https://github.com/whilestevego/redouble-exercises/blob/main/curated/records.json"
+        }
+      ],
+      "provenance": {
+        "name": "redouble-exercises",
+        "kind": "redouble-exercises",
+        "muscles.primary": "redouble-exercises",
+        "muscles.secondary": "redouble-exercises",
+        "equipment": "redouble-exercises",
+        "instructions": "redouble-exercises",
+        "region": "rule",
+        "force": "redouble-exercises",
+        "aliases": "redouble-exercises",
+        "tracking.measure": "rule",
+        "tracking.laterality": "rule",
+        "tracking.load": "rule",
+        "level": "redouble-exercises",
+        "mechanic": "redouble-exercises"
+      },
+      "license": "CC0",
+      "credit": null
+    },
+    {
+      "slug": "Side_Plank_Hip_Abduction",
+      "name": "Side Plank Hip Abduction",
+      "aliases": [
+        "Side Plank Leg Lift",
+        "Side Plank Leg Raise"
+      ],
+      "kind": "strength",
+      "region": "legs",
+      "muscles": {
+        "primary": [
+          "abductors",
+          "abdominals"
+        ],
+        "secondary": [
+          "glutes"
+        ]
+      },
+      "equipment": [
+        "bodyweight"
+      ],
+      "level": "intermediate",
+      "force": "push",
+      "mechanic": "isolation",
+      "instructions": [
+        "Lie on one side and lift the hips into a side plank on the forearm.",
+        "Keep the body in a straight line from the head to the feet.",
+        "Lift the top leg as high as you can without a turn of the hips.",
+        "Lower the leg under control. Do all repetitions, then change sides."
+      ],
+      "tracking": {
+        "measure": "reps",
+        "laterality": "unilateral",
+        "load": "added"
+      },
+      "variationGroup": null,
+      "sources": [
+        {
+          "dataset": "redouble-exercises",
+          "id": "Side_Plank_Hip_Abduction",
+          "license": "CC0",
+          "authors": [
+            "redouble-exercises contributors"
+          ],
+          "url": "https://github.com/whilestevego/redouble-exercises/blob/main/curated/records.json"
+        }
+      ],
+      "provenance": {
+        "name": "redouble-exercises",
+        "kind": "redouble-exercises",
+        "muscles.primary": "redouble-exercises",
+        "muscles.secondary": "redouble-exercises",
+        "equipment": "redouble-exercises",
+        "instructions": "redouble-exercises",
+        "region": "rule",
+        "force": "redouble-exercises",
+        "aliases": "redouble-exercises",
+        "tracking.measure": "rule",
+        "tracking.laterality": "rule",
+        "tracking.load": "rule",
+        "level": "redouble-exercises",
+        "mechanic": "redouble-exercises"
+      },
+      "license": "CC0",
+      "credit": null
+    },
+    {
+      "slug": "Side_Plank_Reach_Through",
+      "name": "Side Plank Reach Through",
+      "aliases": [
+        "Side Plank Reach",
+        "Side Plank Rotation"
+      ],
+      "kind": "strength",
+      "region": "core",
+      "muscles": {
+        "primary": [
+          "abdominals"
+        ],
+        "secondary": [
+          "shoulders"
+        ]
+      },
+      "equipment": [
+        "bodyweight"
+      ],
+      "level": "beginner",
+      "force": "pull",
+      "mechanic": null,
+      "instructions": [
+        "Lift the hips into a side plank on the forearm or the hand. Point the top arm at the ceiling.",
+        "Turn the chest toward the floor and reach the top arm through the space under the trunk.",
+        "Keep the hips high during the turn.",
+        "Turn back and point the arm at the ceiling again. Do all repetitions, then change sides."
+      ],
+      "tracking": {
+        "measure": "reps",
+        "laterality": "unilateral",
+        "load": "added"
+      },
+      "variationGroup": null,
+      "sources": [
+        {
+          "dataset": "redouble-exercises",
+          "id": "Side_Plank_Reach_Through",
+          "license": "CC0",
+          "authors": [
+            "redouble-exercises contributors"
+          ],
+          "url": "https://github.com/whilestevego/redouble-exercises/blob/main/curated/records.json"
+        }
+      ],
+      "provenance": {
+        "name": "redouble-exercises",
+        "kind": "redouble-exercises",
+        "muscles.primary": "redouble-exercises",
+        "muscles.secondary": "redouble-exercises",
+        "equipment": "redouble-exercises",
+        "instructions": "redouble-exercises",
+        "region": "rule",
+        "force": "redouble-exercises",
+        "aliases": "redouble-exercises",
+        "tracking.measure": "rule",
+        "tracking.laterality": "rule",
+        "tracking.load": "rule",
+        "level": "redouble-exercises"
+      },
+      "license": "CC0",
+      "credit": null
+    },
+    {
+      "slug": "Band_No_Money",
+      "name": "Band No Money",
+      "aliases": [
+        "No Money",
+        "No Moneys"
+      ],
+      "kind": "strength",
+      "region": "shoulders",
+      "muscles": {
+        "primary": [
+          "shoulders"
+        ],
+        "secondary": [
+          "middle back",
+          "traps"
+        ]
+      },
+      "equipment": [
+        "bands"
+      ],
+      "level": "beginner",
+      "force": "pull",
+      "mechanic": "isolation",
+      "instructions": [
+        "Stand tall and hold a light band in both hands with the palms up.",
+        "Bend the elbows to 90 degrees and keep them against the sides.",
+        "Turn the forearms out and pull the band apart. Squeeze the shoulder blades together.",
+        "Return slowly until the hands are in front of the elbows."
+      ],
+      "tracking": {
+        "measure": "reps",
+        "laterality": "bilateral",
+        "load": "absolute"
+      },
+      "variationGroup": null,
+      "sources": [
+        {
+          "dataset": "redouble-exercises",
+          "id": "Band_No_Money",
+          "license": "CC0",
+          "authors": [
+            "redouble-exercises contributors"
+          ],
+          "url": "https://github.com/whilestevego/redouble-exercises/blob/main/curated/records.json"
+        }
+      ],
+      "provenance": {
+        "name": "redouble-exercises",
+        "kind": "redouble-exercises",
+        "muscles.primary": "redouble-exercises",
+        "muscles.secondary": "redouble-exercises",
+        "equipment": "redouble-exercises",
+        "instructions": "redouble-exercises",
+        "region": "rule",
+        "force": "redouble-exercises",
+        "aliases": "redouble-exercises",
+        "tracking.measure": "rule",
+        "tracking.laterality": "rule",
+        "tracking.load": "rule",
+        "level": "redouble-exercises",
+        "mechanic": "redouble-exercises"
+      },
+      "license": "CC0",
+      "credit": null
+    },
+    {
+      "slug": "Z_Press",
+      "name": "Z Press",
+      "aliases": [],
+      "kind": "strength",
+      "region": "shoulders",
+      "muscles": {
+        "primary": [
+          "shoulders"
+        ],
+        "secondary": [
+          "triceps",
+          "abdominals",
+          "traps"
+        ]
+      },
+      "equipment": [
+        "barbell"
+      ],
+      "level": "intermediate",
+      "force": "push",
+      "mechanic": "compound",
+      "instructions": [
+        "Sit on the floor with the legs straight in front of you. Hold the barbell at the shoulders, from pins or from a partner.",
+        "Sit tall with the trunk vertical. Do not lean back.",
+        "Press the bar overhead until the arms are straight and the bar is above the shoulders.",
+        "Lower the bar to the shoulders under control."
+      ],
+      "tracking": {
+        "measure": "reps",
+        "laterality": "bilateral",
+        "load": "absolute"
+      },
+      "variationGroup": null,
+      "sources": [
+        {
+          "dataset": "redouble-exercises",
+          "id": "Z_Press",
+          "license": "CC0",
+          "authors": [
+            "redouble-exercises contributors"
+          ],
+          "url": "https://github.com/whilestevego/redouble-exercises/blob/main/curated/records.json"
+        }
+      ],
+      "provenance": {
+        "name": "redouble-exercises",
+        "kind": "redouble-exercises",
+        "muscles.primary": "redouble-exercises",
+        "muscles.secondary": "redouble-exercises",
+        "equipment": "redouble-exercises",
+        "instructions": "redouble-exercises",
+        "region": "rule",
+        "force": "redouble-exercises",
+        "tracking.measure": "rule",
+        "tracking.laterality": "rule",
+        "tracking.load": "rule",
+        "level": "redouble-exercises",
+        "mechanic": "redouble-exercises"
+      },
+      "license": "CC0",
+      "credit": null
+    },
+    {
+      "slug": "Spanish_Squat",
+      "name": "Spanish Squat",
+      "aliases": [],
+      "kind": "strength",
+      "region": "legs",
+      "muscles": {
+        "primary": [
+          "quadriceps"
+        ],
+        "secondary": [
+          "glutes"
+        ]
+      },
+      "equipment": [
+        "bands"
+      ],
+      "level": "beginner",
+      "force": "push",
+      "mechanic": "compound",
+      "instructions": [
+        "Attach a heavy band around a post at knee height. Step into the loop, with the band behind both knees.",
+        "Walk back until the band is tight. Stand with the feet at shoulder width.",
+        "Sit back and down against the pull of the band. Keep the shins vertical and the trunk upright.",
+        "Stand up, or hold the low position for time."
+      ],
+      "tracking": {
+        "measure": "reps",
+        "laterality": "bilateral",
+        "load": "absolute"
+      },
+      "variationGroup": null,
+      "sources": [
+        {
+          "dataset": "redouble-exercises",
+          "id": "Spanish_Squat",
+          "license": "CC0",
+          "authors": [
+            "redouble-exercises contributors"
+          ],
+          "url": "https://github.com/whilestevego/redouble-exercises/blob/main/curated/records.json"
+        }
+      ],
+      "provenance": {
+        "name": "redouble-exercises",
+        "kind": "redouble-exercises",
+        "muscles.primary": "redouble-exercises",
+        "muscles.secondary": "redouble-exercises",
+        "equipment": "redouble-exercises",
+        "instructions": "redouble-exercises",
+        "region": "rule",
+        "force": "redouble-exercises",
+        "tracking.measure": "rule",
+        "tracking.laterality": "rule",
+        "tracking.load": "rule",
+        "level": "redouble-exercises",
+        "mechanic": "redouble-exercises"
+      },
+      "license": "CC0",
+      "credit": null
+    },
+    {
+      "slug": "Seal_Row",
+      "name": "Seal Row",
+      "aliases": [
+        "Bench Pull"
+      ],
+      "kind": "strength",
+      "region": "back",
+      "muscles": {
+        "primary": [
+          "middle back",
+          "lats"
+        ],
+        "secondary": [
+          "biceps",
+          "shoulders",
+          "traps"
+        ]
+      },
+      "equipment": [
+        "barbell",
+        "bench"
+      ],
+      "level": "intermediate",
+      "force": "pull",
+      "mechanic": "compound",
+      "instructions": [
+        "Lie face down on a bench that is high enough for the arms to hang straight. Hold the barbell under the bench.",
+        "Keep the chest and the hips on the bench.",
+        "Pull the bar up until it touches the underside of the bench. Squeeze the shoulder blades together.",
+        "Lower the bar until the arms are straight."
+      ],
+      "tracking": {
+        "measure": "reps",
+        "laterality": "bilateral",
+        "load": "absolute"
+      },
+      "variationGroup": null,
+      "sources": [
+        {
+          "dataset": "redouble-exercises",
+          "id": "Seal_Row",
+          "license": "CC0",
+          "authors": [
+            "redouble-exercises contributors"
+          ],
+          "url": "https://github.com/whilestevego/redouble-exercises/blob/main/curated/records.json"
+        }
+      ],
+      "provenance": {
+        "name": "redouble-exercises",
+        "kind": "redouble-exercises",
+        "muscles.primary": "redouble-exercises",
+        "muscles.secondary": "redouble-exercises",
+        "equipment": "redouble-exercises",
+        "instructions": "redouble-exercises",
+        "region": "rule",
+        "force": "redouble-exercises",
+        "aliases": "redouble-exercises",
+        "tracking.measure": "rule",
+        "tracking.laterality": "rule",
+        "tracking.load": "rule",
+        "level": "redouble-exercises",
+        "mechanic": "redouble-exercises"
+      },
+      "license": "CC0",
+      "credit": null
+    },
+    {
+      "slug": "Kettlebell_Halo",
+      "name": "Kettlebell Halo",
+      "aliases": [],
+      "kind": "strength",
+      "region": "shoulders",
+      "muscles": {
+        "primary": [
+          "shoulders"
+        ],
+        "secondary": [
+          "abdominals",
+          "traps",
+          "triceps"
+        ]
+      },
+      "equipment": [
+        "kettlebell"
+      ],
+      "level": "beginner",
+      "force": null,
+      "mechanic": "compound",
+      "instructions": [
+        "Stand tall and hold a kettlebell by the horns, upside down, in front of the chest.",
+        "Move the kettlebell around the head in a close circle. Keep the ribs down and the head still.",
+        "Return to the chest. This is one repetition.",
+        "Change direction on each repetition."
+      ],
+      "tracking": {
+        "measure": "reps",
+        "laterality": "bilateral",
+        "load": "absolute"
+      },
+      "variationGroup": null,
+      "sources": [
+        {
+          "dataset": "redouble-exercises",
+          "id": "Kettlebell_Halo",
+          "license": "CC0",
+          "authors": [
+            "redouble-exercises contributors"
+          ],
+          "url": "https://github.com/whilestevego/redouble-exercises/blob/main/curated/records.json"
+        }
+      ],
+      "provenance": {
+        "name": "redouble-exercises",
+        "kind": "redouble-exercises",
+        "muscles.primary": "redouble-exercises",
+        "muscles.secondary": "redouble-exercises",
+        "equipment": "redouble-exercises",
+        "instructions": "redouble-exercises",
+        "region": "rule",
+        "tracking.measure": "rule",
+        "tracking.laterality": "rule",
+        "tracking.load": "rule",
+        "level": "redouble-exercises",
+        "mechanic": "redouble-exercises"
+      },
+      "license": "CC0",
+      "credit": null
+    },
+    {
+      "slug": "Archer_Push-Up",
+      "name": "Archer Push-Up",
+      "aliases": [],
+      "kind": "strength",
+      "region": "chest",
+      "muscles": {
+        "primary": [
+          "chest"
+        ],
+        "secondary": [
+          "triceps",
+          "shoulders",
+          "abdominals"
+        ]
+      },
+      "equipment": [
+        "bodyweight"
+      ],
+      "level": "intermediate",
+      "force": "push",
+      "mechanic": "compound",
+      "instructions": [
+        "Start in a push-up position with the hands much wider than the shoulders.",
+        "Bend one elbow and lower the chest toward that hand. Keep the other arm straight.",
+        "Push back up to the middle.",
+        "Do the other side."
+      ],
+      "tracking": {
+        "measure": "reps",
+        "laterality": "bilateral",
+        "load": "added"
+      },
+      "variationGroup": null,
+      "sources": [
+        {
+          "dataset": "redouble-exercises",
+          "id": "Archer_Push-Up",
+          "license": "CC0",
+          "authors": [
+            "redouble-exercises contributors"
+          ],
+          "url": "https://github.com/whilestevego/redouble-exercises/blob/main/curated/records.json"
+        }
+      ],
+      "provenance": {
+        "name": "redouble-exercises",
+        "kind": "redouble-exercises",
+        "muscles.primary": "redouble-exercises",
+        "muscles.secondary": "redouble-exercises",
+        "equipment": "redouble-exercises",
+        "instructions": "redouble-exercises",
+        "region": "rule",
+        "force": "redouble-exercises",
+        "tracking.measure": "rule",
+        "tracking.laterality": "rule",
+        "tracking.load": "rule",
+        "level": "redouble-exercises",
+        "mechanic": "redouble-exercises"
+      },
+      "license": "CC0",
+      "credit": null
+    },
+    {
+      "slug": "Chest-to-Bar_Pull-Up",
+      "name": "Chest-to-Bar Pull-Up",
+      "aliases": [],
+      "kind": "strength",
+      "region": "back",
+      "muscles": {
+        "primary": [
+          "lats"
+        ],
+        "secondary": [
+          "biceps",
+          "middle back",
+          "traps"
+        ]
+      },
+      "equipment": [
+        "pull-up bar"
+      ],
+      "level": "intermediate",
+      "force": "pull",
+      "mechanic": "compound",
+      "instructions": [
+        "Hang from the bar with an overhand grip, a little wider than the shoulders.",
+        "Pull the elbows down and back.",
+        "Continue until the chest touches the bar below the collarbones.",
+        "Lower under control until the arms are straight."
+      ],
+      "tracking": {
+        "measure": "reps",
+        "laterality": "bilateral",
+        "load": "added"
+      },
+      "variationGroup": null,
+      "sources": [
+        {
+          "dataset": "redouble-exercises",
+          "id": "Chest-to-Bar_Pull-Up",
+          "license": "CC0",
+          "authors": [
+            "redouble-exercises contributors"
+          ],
+          "url": "https://github.com/whilestevego/redouble-exercises/blob/main/curated/records.json"
+        }
+      ],
+      "provenance": {
+        "name": "redouble-exercises",
+        "kind": "redouble-exercises",
+        "muscles.primary": "redouble-exercises",
+        "muscles.secondary": "redouble-exercises",
+        "equipment": "redouble-exercises",
+        "instructions": "redouble-exercises",
+        "region": "rule",
+        "force": "redouble-exercises",
+        "tracking.measure": "rule",
+        "tracking.laterality": "rule",
+        "tracking.load": "redouble-exercises",
+        "level": "redouble-exercises",
+        "mechanic": "redouble-exercises"
+      },
+      "license": "CC0",
+      "credit": null
+    },
+    {
+      "slug": "Kipping_Pull-Up",
+      "name": "Kipping Pull-Up",
+      "aliases": [],
+      "kind": "strength",
+      "region": "back",
+      "muscles": {
+        "primary": [
+          "lats"
+        ],
+        "secondary": [
+          "biceps",
+          "shoulders",
+          "abdominals"
+        ]
+      },
+      "equipment": [
+        "pull-up bar"
+      ],
+      "level": "intermediate",
+      "force": "pull",
+      "mechanic": "compound",
+      "instructions": [
+        "Hang from the bar with an overhand grip.",
+        "Swing between an arch position and a hollow position. The shoulders start the swing.",
+        "From the hollow position, drive the hips up and pull until the chin is above the bar.",
+        "Push away from the bar and go back into the swing for the next repetition."
+      ],
+      "tracking": {
+        "measure": "reps",
+        "laterality": "bilateral",
+        "load": "added"
+      },
+      "variationGroup": null,
+      "sources": [
+        {
+          "dataset": "redouble-exercises",
+          "id": "Kipping_Pull-Up",
+          "license": "CC0",
+          "authors": [
+            "redouble-exercises contributors"
+          ],
+          "url": "https://github.com/whilestevego/redouble-exercises/blob/main/curated/records.json"
+        }
+      ],
+      "provenance": {
+        "name": "redouble-exercises",
+        "kind": "redouble-exercises",
+        "muscles.primary": "redouble-exercises",
+        "muscles.secondary": "redouble-exercises",
+        "equipment": "redouble-exercises",
+        "instructions": "redouble-exercises",
+        "region": "rule",
+        "force": "redouble-exercises",
+        "tracking.measure": "rule",
+        "tracking.laterality": "rule",
+        "tracking.load": "redouble-exercises",
+        "level": "redouble-exercises",
+        "mechanic": "redouble-exercises"
+      },
+      "license": "CC0",
+      "credit": null
+    },
+    {
+      "slug": "GHD_Sit-Up",
+      "name": "GHD Sit-Up",
+      "aliases": [
+        "Glute-Ham Developer Sit-Up"
+      ],
+      "kind": "strength",
+      "region": "core",
+      "muscles": {
+        "primary": [
+          "abdominals"
+        ],
+        "secondary": [
+          "quadriceps"
+        ]
+      },
+      "equipment": [
+        "bodyweight"
+      ],
+      "level": "intermediate",
+      "force": "pull",
+      "mechanic": "isolation",
+      "instructions": [
+        "Sit on the glute-ham developer with the feet locked in and the hips just past the pad.",
+        "Lean back with the knees a little bent, until the trunk is parallel to the floor or lower.",
+        "Straighten the knees hard and sit up.",
+        "Touch the foot pads with the hands."
+      ],
+      "tracking": {
+        "measure": "reps",
+        "laterality": "bilateral",
+        "load": "added"
+      },
+      "variationGroup": null,
+      "sources": [
+        {
+          "dataset": "redouble-exercises",
+          "id": "GHD_Sit-Up",
+          "license": "CC0",
+          "authors": [
+            "redouble-exercises contributors"
+          ],
+          "url": "https://github.com/whilestevego/redouble-exercises/blob/main/curated/records.json"
+        }
+      ],
+      "provenance": {
+        "name": "redouble-exercises",
+        "kind": "redouble-exercises",
+        "muscles.primary": "redouble-exercises",
+        "muscles.secondary": "redouble-exercises",
+        "equipment": "redouble-exercises",
+        "instructions": "redouble-exercises",
+        "region": "rule",
+        "force": "redouble-exercises",
+        "aliases": "redouble-exercises",
+        "tracking.measure": "rule",
+        "tracking.laterality": "rule",
+        "tracking.load": "rule",
+        "level": "redouble-exercises",
+        "mechanic": "redouble-exercises"
+      },
+      "license": "CC0",
+      "credit": null
+    },
+    {
+      "slug": "Step_Down",
+      "name": "Step Down",
+      "aliases": [
+        "Lateral Step Down",
+        "Box Step Down"
+      ],
+      "kind": "strength",
+      "region": "legs",
+      "muscles": {
+        "primary": [
+          "quadriceps"
+        ],
+        "secondary": [
+          "glutes"
+        ]
+      },
+      "equipment": [
+        "bodyweight",
+        "box"
+      ],
+      "level": "beginner",
+      "force": "push",
+      "mechanic": "compound",
+      "instructions": [
+        "Stand on one leg at the edge of a low box. The other foot is in the air beside or in front of the box.",
+        "Bend the knee of the standing leg and lower the free heel slowly toward the floor.",
+        "Keep the knee in line with the toes and the hips level.",
+        "Touch the floor lightly with the heel. Push up through the standing leg."
+      ],
+      "tracking": {
+        "measure": "reps",
+        "laterality": "unilateral",
+        "load": "added"
+      },
+      "variationGroup": null,
+      "sources": [
+        {
+          "dataset": "redouble-exercises",
+          "id": "Step_Down",
+          "license": "CC0",
+          "authors": [
+            "redouble-exercises contributors"
+          ],
+          "url": "https://github.com/whilestevego/redouble-exercises/blob/main/curated/records.json"
+        }
+      ],
+      "provenance": {
+        "name": "redouble-exercises",
+        "kind": "redouble-exercises",
+        "muscles.primary": "redouble-exercises",
+        "muscles.secondary": "redouble-exercises",
+        "equipment": "redouble-exercises",
+        "instructions": "redouble-exercises",
+        "region": "rule",
+        "force": "redouble-exercises",
+        "aliases": "redouble-exercises",
+        "tracking.measure": "rule",
+        "tracking.laterality": "redouble-exercises",
+        "tracking.load": "rule",
+        "level": "redouble-exercises",
+        "mechanic": "redouble-exercises"
+      },
+      "license": "CC0",
+      "credit": null
+    },
+    {
+      "slug": "Curtsy_Lunge",
+      "name": "Curtsy Lunge",
+      "aliases": [
+        "Curtsy Squat"
+      ],
+      "kind": "strength",
+      "region": "legs",
+      "muscles": {
+        "primary": [
+          "glutes",
+          "quadriceps"
+        ],
+        "secondary": [
+          "adductors",
+          "hamstrings"
+        ]
+      },
+      "equipment": [
+        "bodyweight"
+      ],
+      "level": "beginner",
+      "force": "push",
+      "mechanic": "compound",
+      "instructions": [
+        "Stand with the feet at hip width.",
+        "Step one leg back and across behind the other leg.",
+        "Bend both knees until the front thigh is near parallel to the floor. Keep the hips and the chest to the front.",
+        "Push through the front foot to return. Do the other side."
+      ],
+      "tracking": {
+        "measure": "reps",
+        "laterality": "bilateral",
+        "load": "added"
+      },
+      "variationGroup": null,
+      "sources": [
+        {
+          "dataset": "redouble-exercises",
+          "id": "Curtsy_Lunge",
+          "license": "CC0",
+          "authors": [
+            "redouble-exercises contributors"
+          ],
+          "url": "https://github.com/whilestevego/redouble-exercises/blob/main/curated/records.json"
+        }
+      ],
+      "provenance": {
+        "name": "redouble-exercises",
+        "kind": "redouble-exercises",
+        "muscles.primary": "redouble-exercises",
+        "muscles.secondary": "redouble-exercises",
+        "equipment": "redouble-exercises",
+        "instructions": "redouble-exercises",
+        "region": "rule",
+        "force": "redouble-exercises",
+        "aliases": "redouble-exercises",
+        "tracking.measure": "rule",
+        "tracking.laterality": "rule",
+        "tracking.load": "rule",
+        "level": "redouble-exercises",
+        "mechanic": "redouble-exercises"
+      },
+      "license": "CC0",
+      "credit": null
+    },
+    {
+      "slug": "Overhead_Carry",
+      "name": "Overhead Carry",
+      "aliases": [
+        "Waiter's Walk",
+        "Overhead Walk"
+      ],
+      "kind": "strength",
+      "region": "shoulders",
+      "muscles": {
+        "primary": [
+          "shoulders"
+        ],
+        "secondary": [
+          "abdominals",
+          "traps",
+          "triceps"
+        ]
+      },
+      "equipment": [
+        "kettlebell",
+        "dumbbell"
+      ],
+      "level": "intermediate",
+      "force": null,
+      "mechanic": "compound",
+      "instructions": [
+        "Press a kettlebell or a dumbbell overhead with one arm and lock the elbow.",
+        "Keep the upper arm close to the ear and the ribs down.",
+        "Walk the set distance with short, even steps.",
+        "Lower the weight, change arms and walk back."
+      ],
+      "tracking": {
+        "measure": "distance",
+        "laterality": "bilateral",
+        "load": "absolute"
+      },
+      "variationGroup": null,
+      "sources": [
+        {
+          "dataset": "redouble-exercises",
+          "id": "Overhead_Carry",
+          "license": "CC0",
+          "authors": [
+            "redouble-exercises contributors"
+          ],
+          "url": "https://github.com/whilestevego/redouble-exercises/blob/main/curated/records.json"
+        }
+      ],
+      "provenance": {
+        "name": "redouble-exercises",
+        "kind": "redouble-exercises",
+        "muscles.primary": "redouble-exercises",
+        "muscles.secondary": "redouble-exercises",
+        "equipment": "redouble-exercises",
+        "instructions": "redouble-exercises",
+        "region": "rule",
+        "aliases": "redouble-exercises",
+        "tracking.measure": "rule",
+        "tracking.laterality": "rule",
+        "tracking.load": "rule",
+        "level": "redouble-exercises",
+        "mechanic": "redouble-exercises"
+      },
+      "license": "CC0",
+      "credit": null
+    },
+    {
+      "slug": "Snatch-Grip_Deadlift",
+      "name": "Snatch-Grip Deadlift",
+      "aliases": [],
+      "kind": "strength",
+      "region": "legs",
+      "muscles": {
+        "primary": [
+          "hamstrings",
+          "glutes",
+          "lower back"
+        ],
+        "secondary": [
+          "traps",
+          "middle back",
+          "quadriceps",
+          "forearms"
+        ]
+      },
+      "equipment": [
+        "barbell"
+      ],
+      "level": "intermediate",
+      "force": "pull",
+      "mechanic": "compound",
+      "instructions": [
+        "Stand with the feet at hip width and the bar over the middle of the feet.",
+        "Take a wide overhand grip, as for a snatch. The hips are lower than in a normal deadlift.",
+        "Keep the back flat and push the floor away until you stand tall.",
+        "Lower the bar along the legs to the floor."
+      ],
+      "tracking": {
+        "measure": "reps",
+        "laterality": "bilateral",
+        "load": "absolute"
+      },
+      "variationGroup": null,
+      "sources": [
+        {
+          "dataset": "redouble-exercises",
+          "id": "Snatch-Grip_Deadlift",
+          "license": "CC0",
+          "authors": [
+            "redouble-exercises contributors"
+          ],
+          "url": "https://github.com/whilestevego/redouble-exercises/blob/main/curated/records.json"
+        }
+      ],
+      "provenance": {
+        "name": "redouble-exercises",
+        "kind": "redouble-exercises",
+        "muscles.primary": "redouble-exercises",
+        "muscles.secondary": "redouble-exercises",
+        "equipment": "redouble-exercises",
+        "instructions": "redouble-exercises",
+        "region": "rule",
+        "force": "redouble-exercises",
+        "tracking.measure": "rule",
+        "tracking.laterality": "rule",
+        "tracking.load": "rule",
+        "level": "redouble-exercises",
+        "mechanic": "redouble-exercises"
+      },
+      "license": "CC0",
+      "credit": null
+    },
+    {
+      "slug": "Spoto_Press",
+      "name": "Spoto Press",
+      "aliases": [],
+      "kind": "strength",
+      "region": "chest",
+      "muscles": {
+        "primary": [
+          "chest"
+        ],
+        "secondary": [
+          "triceps",
+          "shoulders"
+        ]
+      },
+      "equipment": [
+        "barbell",
+        "bench"
+      ],
+      "level": "intermediate",
+      "force": "push",
+      "mechanic": "compound",
+      "instructions": [
+        "Set up as for a bench press and take the bar out of the rack.",
+        "Lower the bar under control and stop it a few centimetres above the chest.",
+        "Hold the bar still for about one second. Do not rest it on the chest.",
+        "Press the bar up until the arms are straight."
+      ],
+      "tracking": {
+        "measure": "reps",
+        "laterality": "bilateral",
+        "load": "absolute"
+      },
+      "variationGroup": null,
+      "sources": [
+        {
+          "dataset": "redouble-exercises",
+          "id": "Spoto_Press",
+          "license": "CC0",
+          "authors": [
+            "redouble-exercises contributors"
+          ],
+          "url": "https://github.com/whilestevego/redouble-exercises/blob/main/curated/records.json"
+        }
+      ],
+      "provenance": {
+        "name": "redouble-exercises",
+        "kind": "redouble-exercises",
+        "muscles.primary": "redouble-exercises",
+        "muscles.secondary": "redouble-exercises",
+        "equipment": "redouble-exercises",
+        "instructions": "redouble-exercises",
+        "region": "rule",
+        "force": "redouble-exercises",
+        "tracking.measure": "rule",
+        "tracking.laterality": "rule",
+        "tracking.load": "rule",
+        "level": "redouble-exercises",
+        "mechanic": "redouble-exercises"
+      },
+      "license": "CC0",
+      "credit": null
+    },
+    {
+      "slug": "B-Stance_Hip_Thrust",
+      "name": "B-Stance Hip Thrust",
+      "aliases": [
+        "Staggered-Stance Hip Thrust",
+        "Kickstand Hip Thrust"
+      ],
+      "kind": "strength",
+      "region": "legs",
+      "muscles": {
+        "primary": [
+          "glutes"
+        ],
+        "secondary": [
+          "hamstrings",
+          "quadriceps"
+        ]
+      },
+      "equipment": [
+        "barbell",
+        "bench"
+      ],
+      "level": "intermediate",
+      "force": "push",
+      "mechanic": "isolation",
+      "instructions": [
+        "Sit with the upper back against a bench and a barbell across the hips.",
+        "Put one foot flat on the floor. Put the other foot a little forward on its heel, only for balance.",
+        "Push through the flat foot and lift the hips until the trunk is parallel to the floor.",
+        "Lower under control. Do all repetitions, then change legs."
+      ],
+      "tracking": {
+        "measure": "reps",
+        "laterality": "bilateral",
+        "load": "absolute"
+      },
+      "variationGroup": null,
+      "sources": [
+        {
+          "dataset": "redouble-exercises",
+          "id": "B-Stance_Hip_Thrust",
+          "license": "CC0",
+          "authors": [
+            "redouble-exercises contributors"
+          ],
+          "url": "https://github.com/whilestevego/redouble-exercises/blob/main/curated/records.json"
+        }
+      ],
+      "provenance": {
+        "name": "redouble-exercises",
+        "kind": "redouble-exercises",
+        "muscles.primary": "redouble-exercises",
+        "muscles.secondary": "redouble-exercises",
+        "equipment": "redouble-exercises",
+        "instructions": "redouble-exercises",
+        "region": "rule",
+        "force": "redouble-exercises",
+        "aliases": "redouble-exercises",
+        "tracking.measure": "rule",
+        "tracking.laterality": "rule",
+        "tracking.load": "rule",
+        "level": "redouble-exercises",
+        "mechanic": "redouble-exercises"
+      },
+      "license": "CC0",
+      "credit": null
+    },
+    {
+      "slug": "Kas_Glute_Bridge",
+      "name": "Kas Glute Bridge",
+      "aliases": [],
+      "kind": "strength",
+      "region": "legs",
+      "muscles": {
+        "primary": [
+          "glutes"
+        ],
+        "secondary": [
+          "hamstrings"
+        ]
+      },
+      "equipment": [
+        "barbell",
+        "bench"
+      ],
+      "level": "beginner",
+      "force": "push",
+      "mechanic": "isolation",
+      "instructions": [
+        "Sit with the upper back against a bench and a barbell across the hips. Put the feet flat on the floor.",
+        "Lift the hips until the trunk is parallel to the floor.",
+        "Lower the hips only a short distance. The shoulders do not move on the bench.",
+        "Lift the hips again and squeeze the glutes. Keep each repetition short and slow."
+      ],
+      "tracking": {
+        "measure": "reps",
+        "laterality": "bilateral",
+        "load": "absolute"
+      },
+      "variationGroup": null,
+      "sources": [
+        {
+          "dataset": "redouble-exercises",
+          "id": "Kas_Glute_Bridge",
+          "license": "CC0",
+          "authors": [
+            "redouble-exercises contributors"
+          ],
+          "url": "https://github.com/whilestevego/redouble-exercises/blob/main/curated/records.json"
+        }
+      ],
+      "provenance": {
+        "name": "redouble-exercises",
+        "kind": "redouble-exercises",
+        "muscles.primary": "redouble-exercises",
+        "muscles.secondary": "redouble-exercises",
+        "equipment": "redouble-exercises",
+        "instructions": "redouble-exercises",
+        "region": "rule",
+        "force": "redouble-exercises",
+        "tracking.measure": "rule",
+        "tracking.laterality": "rule",
+        "tracking.load": "rule",
+        "level": "redouble-exercises",
+        "mechanic": "redouble-exercises"
+      },
+      "license": "CC0",
+      "credit": null
+    },
+    {
+      "slug": "Frog_Pump",
+      "name": "Frog Pump",
+      "aliases": [],
+      "kind": "strength",
+      "region": "legs",
+      "muscles": {
+        "primary": [
+          "glutes"
+        ],
+        "secondary": [
+          "adductors"
+        ]
+      },
+      "equipment": [
+        "bodyweight"
+      ],
+      "level": "beginner",
+      "force": "push",
+      "mechanic": "isolation",
+      "instructions": [
+        "Lie on your back. Put the soles of the feet together and let the knees fall out to the sides.",
+        "Pull the heels close to the hips.",
+        "Push through the outer edges of the feet and lift the hips. Squeeze the glutes at the top.",
+        "Lower the hips to the floor."
+      ],
+      "tracking": {
+        "measure": "reps",
+        "laterality": "bilateral",
+        "load": "added"
+      },
+      "variationGroup": null,
+      "sources": [
+        {
+          "dataset": "redouble-exercises",
+          "id": "Frog_Pump",
+          "license": "CC0",
+          "authors": [
+            "redouble-exercises contributors"
+          ],
+          "url": "https://github.com/whilestevego/redouble-exercises/blob/main/curated/records.json"
+        }
+      ],
+      "provenance": {
+        "name": "redouble-exercises",
+        "kind": "redouble-exercises",
+        "muscles.primary": "redouble-exercises",
+        "muscles.secondary": "redouble-exercises",
+        "equipment": "redouble-exercises",
+        "instructions": "redouble-exercises",
+        "region": "rule",
+        "force": "redouble-exercises",
+        "tracking.measure": "rule",
+        "tracking.laterality": "rule",
+        "tracking.load": "rule",
+        "level": "redouble-exercises",
+        "mechanic": "redouble-exercises"
+      },
+      "license": "CC0",
+      "credit": null
+    },
+    {
+      "slug": "Crab_Walk",
+      "name": "Crab Walk",
+      "aliases": [],
+      "kind": "strength",
+      "region": "arms",
+      "muscles": {
+        "primary": [
+          "triceps",
+          "shoulders"
+        ],
+        "secondary": [
+          "glutes",
+          "hamstrings",
+          "abdominals"
+        ]
+      },
+      "equipment": [
+        "bodyweight"
+      ],
+      "level": "beginner",
+      "force": null,
+      "mechanic": "compound",
+      "instructions": [
+        "Sit on the floor with the feet flat and the hands behind the hips.",
+        "Lift the hips off the floor.",
+        "Move one hand and the opposite foot at the same time. Then move the other hand and foot.",
+        "Walk forward or back for the set distance. Keep the hips up."
+      ],
+      "tracking": {
+        "measure": "reps",
+        "laterality": "bilateral",
+        "load": "added"
+      },
+      "variationGroup": null,
+      "sources": [
+        {
+          "dataset": "redouble-exercises",
+          "id": "Crab_Walk",
+          "license": "CC0",
+          "authors": [
+            "redouble-exercises contributors"
+          ],
+          "url": "https://github.com/whilestevego/redouble-exercises/blob/main/curated/records.json"
+        }
+      ],
+      "provenance": {
+        "name": "redouble-exercises",
+        "kind": "redouble-exercises",
+        "muscles.primary": "redouble-exercises",
+        "muscles.secondary": "redouble-exercises",
+        "equipment": "redouble-exercises",
+        "instructions": "redouble-exercises",
+        "region": "rule",
+        "tracking.measure": "rule",
+        "tracking.laterality": "rule",
+        "tracking.load": "rule",
+        "level": "redouble-exercises",
+        "mechanic": "redouble-exercises"
+      },
+      "license": "CC0",
+      "credit": null
+    },
+    {
+      "slug": "Man_Maker",
+      "name": "Man Maker",
+      "aliases": [
+        "Man Makers"
+      ],
+      "kind": "strength",
+      "region": "legs",
+      "muscles": {
+        "primary": [
+          "quadriceps",
+          "shoulders",
+          "chest"
+        ],
+        "secondary": [
+          "lats",
+          "glutes",
+          "triceps",
+          "abdominals"
+        ]
+      },
+      "equipment": [
+        "dumbbell"
+      ],
+      "level": "intermediate",
+      "force": null,
+      "mechanic": "compound",
+      "instructions": [
+        "Stand with a dumbbell in each hand. Put the dumbbells on the floor and jump or step back to a plank on them.",
+        "Do a push-up. Then row one dumbbell and the other.",
+        "Jump or step the feet to the hands and clean the dumbbells to the shoulders in a squat.",
+        "Stand up and press the dumbbells overhead. Lower them to the sides."
+      ],
+      "tracking": {
+        "measure": "reps",
+        "laterality": "bilateral",
+        "load": "absolute"
+      },
+      "variationGroup": null,
+      "sources": [
+        {
+          "dataset": "redouble-exercises",
+          "id": "Man_Maker",
+          "license": "CC0",
+          "authors": [
+            "redouble-exercises contributors"
+          ],
+          "url": "https://github.com/whilestevego/redouble-exercises/blob/main/curated/records.json"
+        }
+      ],
+      "provenance": {
+        "name": "redouble-exercises",
+        "kind": "redouble-exercises",
+        "muscles.primary": "redouble-exercises",
+        "muscles.secondary": "redouble-exercises",
+        "equipment": "redouble-exercises",
+        "instructions": "redouble-exercises",
+        "region": "rule",
+        "aliases": "redouble-exercises",
+        "tracking.measure": "rule",
+        "tracking.laterality": "rule",
+        "tracking.load": "rule",
+        "level": "redouble-exercises",
+        "mechanic": "redouble-exercises"
+      },
+      "license": "CC0",
+      "credit": null
+    },
+    {
+      "slug": "Knees_to_Elbows",
+      "name": "Knees to Elbows",
+      "aliases": [
+        "Knees to Elbow",
+        "Hanging Knees to Elbows"
+      ],
+      "kind": "strength",
+      "region": "core",
+      "muscles": {
+        "primary": [
+          "abdominals"
+        ],
+        "secondary": [
+          "lats",
+          "forearms"
+        ]
+      },
+      "equipment": [
+        "pull-up bar"
+      ],
+      "level": "intermediate",
+      "force": "pull",
+      "mechanic": "isolation",
+      "instructions": [
+        "Hang from the bar with an overhand grip and straight arms.",
+        "Pull down on the bar with the lats and lift the knees.",
+        "Curl the hips up until the knees touch the elbows.",
+        "Lower the legs under control. Stop the swing before the next repetition."
+      ],
+      "tracking": {
+        "measure": "reps",
+        "laterality": "bilateral",
+        "load": "added"
+      },
+      "variationGroup": null,
+      "sources": [
+        {
+          "dataset": "redouble-exercises",
+          "id": "Knees_to_Elbows",
+          "license": "CC0",
+          "authors": [
+            "redouble-exercises contributors"
+          ],
+          "url": "https://github.com/whilestevego/redouble-exercises/blob/main/curated/records.json"
+        }
+      ],
+      "provenance": {
+        "name": "redouble-exercises",
+        "kind": "redouble-exercises",
+        "muscles.primary": "redouble-exercises",
+        "muscles.secondary": "redouble-exercises",
+        "equipment": "redouble-exercises",
+        "instructions": "redouble-exercises",
+        "region": "rule",
+        "force": "redouble-exercises",
+        "aliases": "redouble-exercises",
+        "tracking.measure": "rule",
+        "tracking.laterality": "rule",
+        "tracking.load": "redouble-exercises",
+        "level": "redouble-exercises",
+        "mechanic": "redouble-exercises"
+      },
+      "license": "CC0",
+      "credit": null
+    },
+    {
+      "slug": "Lu_Raise",
+      "name": "Lu Raise",
+      "aliases": [],
+      "kind": "strength",
+      "region": "shoulders",
+      "muscles": {
+        "primary": [
+          "shoulders"
+        ],
+        "secondary": [
+          "traps"
+        ]
+      },
+      "equipment": [
+        "plate",
+        "dumbbell"
+      ],
+      "level": "beginner",
+      "force": "push",
+      "mechanic": "isolation",
+      "instructions": [
+        "Stand tall with a light plate or dumbbell in each hand at the sides.",
+        "Lift the straight arms out to the sides.",
+        "Continue the same arc past shoulder height until the hands are overhead.",
+        "Lower along the same path under control."
+      ],
+      "tracking": {
+        "measure": "reps",
+        "laterality": "bilateral",
+        "load": "absolute"
+      },
+      "variationGroup": null,
+      "sources": [
+        {
+          "dataset": "redouble-exercises",
+          "id": "Lu_Raise",
+          "license": "CC0",
+          "authors": [
+            "redouble-exercises contributors"
+          ],
+          "url": "https://github.com/whilestevego/redouble-exercises/blob/main/curated/records.json"
+        }
+      ],
+      "provenance": {
+        "name": "redouble-exercises",
+        "kind": "redouble-exercises",
+        "muscles.primary": "redouble-exercises",
+        "muscles.secondary": "redouble-exercises",
+        "equipment": "redouble-exercises",
+        "instructions": "redouble-exercises",
+        "region": "rule",
+        "force": "redouble-exercises",
+        "tracking.measure": "rule",
+        "tracking.laterality": "rule",
+        "tracking.load": "rule",
+        "level": "redouble-exercises",
+        "mechanic": "redouble-exercises"
+      },
+      "license": "CC0",
+      "credit": null
+    },
+    {
+      "slug": "Powell_Raise",
+      "name": "Powell Raise",
+      "aliases": [
+        "Side-Lying Lateral Raise"
+      ],
+      "kind": "strength",
+      "region": "shoulders",
+      "muscles": {
+        "primary": [
+          "shoulders"
+        ],
+        "secondary": [
+          "traps"
+        ]
+      },
+      "equipment": [
+        "dumbbell",
+        "bench"
+      ],
+      "level": "beginner",
+      "force": "push",
+      "mechanic": "isolation",
+      "instructions": [
+        "Lie on one side on a flat or low incline bench. Hold a light dumbbell in the top hand.",
+        "Let the straight arm hang across the body toward the floor.",
+        "Lift the arm in an arc until it points at the ceiling.",
+        "Lower slowly. Do all repetitions, then change sides."
+      ],
+      "tracking": {
+        "measure": "reps",
+        "laterality": "unilateral",
+        "load": "absolute"
+      },
+      "variationGroup": null,
+      "sources": [
+        {
+          "dataset": "redouble-exercises",
+          "id": "Powell_Raise",
+          "license": "CC0",
+          "authors": [
+            "redouble-exercises contributors"
+          ],
+          "url": "https://github.com/whilestevego/redouble-exercises/blob/main/curated/records.json"
+        }
+      ],
+      "provenance": {
+        "name": "redouble-exercises",
+        "kind": "redouble-exercises",
+        "muscles.primary": "redouble-exercises",
+        "muscles.secondary": "redouble-exercises",
+        "equipment": "redouble-exercises",
+        "instructions": "redouble-exercises",
+        "region": "rule",
+        "force": "redouble-exercises",
+        "aliases": "redouble-exercises",
+        "tracking.measure": "rule",
+        "tracking.laterality": "redouble-exercises",
+        "tracking.load": "rule",
+        "level": "redouble-exercises",
+        "mechanic": "redouble-exercises"
+      },
+      "license": "CC0",
+      "credit": null
+    },
+    {
+      "slug": "Cable_Hip_Abduction",
+      "name": "Cable Hip Abduction",
+      "aliases": [
+        "Standing Cable Hip Abduction"
+      ],
+      "kind": "strength",
+      "region": "legs",
+      "muscles": {
+        "primary": [
+          "abductors"
+        ],
+        "secondary": [
+          "glutes"
+        ]
+      },
+      "equipment": [
+        "cable"
+      ],
+      "level": "beginner",
+      "force": "push",
+      "mechanic": "isolation",
+      "instructions": [
+        "Attach an ankle strap to a low pulley. Put the strap on the leg that is away from the machine.",
+        "Stand side-on to the machine and hold it for balance.",
+        "Move the leg with the strap out to the side. Keep the trunk upright and the toes to the front.",
+        "Return slowly. Do all repetitions, then change legs."
+      ],
+      "tracking": {
+        "measure": "reps",
+        "laterality": "unilateral",
+        "load": "absolute"
+      },
+      "variationGroup": null,
+      "sources": [
+        {
+          "dataset": "redouble-exercises",
+          "id": "Cable_Hip_Abduction",
+          "license": "CC0",
+          "authors": [
+            "redouble-exercises contributors"
+          ],
+          "url": "https://github.com/whilestevego/redouble-exercises/blob/main/curated/records.json"
+        }
+      ],
+      "provenance": {
+        "name": "redouble-exercises",
+        "kind": "redouble-exercises",
+        "muscles.primary": "redouble-exercises",
+        "muscles.secondary": "redouble-exercises",
+        "equipment": "redouble-exercises",
+        "instructions": "redouble-exercises",
+        "region": "rule",
+        "force": "redouble-exercises",
+        "aliases": "redouble-exercises",
+        "tracking.measure": "rule",
+        "tracking.laterality": "redouble-exercises",
+        "tracking.load": "rule",
+        "level": "redouble-exercises",
+        "mechanic": "redouble-exercises"
+      },
+      "license": "CC0",
+      "credit": null
+    },
+    {
+      "slug": "Human_Flag",
+      "name": "Human Flag",
+      "aliases": [],
+      "kind": "strength",
+      "region": "core",
+      "muscles": {
+        "primary": [
+          "abdominals",
+          "shoulders",
+          "lats"
+        ],
+        "secondary": [
+          "forearms"
+        ]
+      },
+      "equipment": [
+        "bodyweight"
+      ],
+      "level": "expert",
+      "force": "static",
+      "mechanic": null,
+      "instructions": [
+        "Hold a vertical pole with one hand low and one hand high, wider than the shoulders.",
+        "Push with the bottom arm and pull with the top arm. Both arms stay straight.",
+        "Lift the legs until the body is horizontal and side-on to the floor.",
+        "Hold the position. Lower under control."
+      ],
+      "tracking": {
+        "measure": "time",
+        "laterality": "bilateral",
+        "load": "added"
+      },
+      "variationGroup": null,
+      "sources": [
+        {
+          "dataset": "redouble-exercises",
+          "id": "Human_Flag",
+          "license": "CC0",
+          "authors": [
+            "redouble-exercises contributors"
+          ],
+          "url": "https://github.com/whilestevego/redouble-exercises/blob/main/curated/records.json"
+        }
+      ],
+      "provenance": {
+        "name": "redouble-exercises",
+        "kind": "redouble-exercises",
+        "muscles.primary": "redouble-exercises",
+        "muscles.secondary": "redouble-exercises",
+        "equipment": "redouble-exercises",
+        "instructions": "redouble-exercises",
+        "region": "rule",
+        "force": "redouble-exercises",
+        "tracking.measure": "rule",
+        "tracking.laterality": "rule",
+        "tracking.load": "rule",
+        "level": "redouble-exercises"
+      },
+      "license": "CC0",
+      "credit": null
+    },
+    {
+      "slug": "Planche",
+      "name": "Planche",
+      "aliases": [
+        "Full Planche"
+      ],
+      "kind": "strength",
+      "region": "shoulders",
+      "muscles": {
+        "primary": [
+          "shoulders"
+        ],
+        "secondary": [
+          "chest",
+          "abdominals",
+          "biceps"
+        ]
+      },
+      "equipment": [
+        "bodyweight"
+      ],
+      "level": "expert",
+      "force": "static",
+      "mechanic": null,
+      "instructions": [
+        "Put the hands on the floor or on parallettes at hip level, with straight arms.",
+        "Lean the shoulders far forward over the hands and push the shoulder blades apart.",
+        "Lift the feet until the straight body is parallel to the floor.",
+        "Hold the position with the arms locked."
+      ],
+      "tracking": {
+        "measure": "time",
+        "laterality": "bilateral",
+        "load": "added"
+      },
+      "variationGroup": null,
+      "sources": [
+        {
+          "dataset": "redouble-exercises",
+          "id": "Planche",
+          "license": "CC0",
+          "authors": [
+            "redouble-exercises contributors"
+          ],
+          "url": "https://github.com/whilestevego/redouble-exercises/blob/main/curated/records.json"
+        }
+      ],
+      "provenance": {
+        "name": "redouble-exercises",
+        "kind": "redouble-exercises",
+        "muscles.primary": "redouble-exercises",
+        "muscles.secondary": "redouble-exercises",
+        "equipment": "redouble-exercises",
+        "instructions": "redouble-exercises",
+        "region": "rule",
+        "force": "redouble-exercises",
+        "aliases": "redouble-exercises",
+        "tracking.measure": "rule",
+        "tracking.laterality": "rule",
+        "tracking.load": "rule",
+        "level": "redouble-exercises"
+      },
+      "license": "CC0",
+      "credit": null
     }
   ],
   "notStrength": [
